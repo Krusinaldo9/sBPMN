@@ -70,7 +70,7 @@
     "id" : "58",
     "type" : "owl:Class"
   }, {
-    "id" : "59",
+    "id" : "60",
     "type" : "owl:Class"
   }, {
     "id" : "64",
@@ -157,10 +157,10 @@
     "id" : "111",
     "type" : "owl:Class"
   }, {
-    "id" : "156",
+    "id" : "153",
     "type" : "owl:Class"
   }, {
-    "id" : "158",
+    "id" : "155",
     "type" : "owl:intersectionOf"
   }, {
     "id" : "172",
@@ -193,7 +193,7 @@
     "id" : "244",
     "type" : "owl:Class"
   }, {
-    "id" : "263",
+    "id" : "259",
     "type" : "owl:intersectionOf"
   }, {
     "id" : "86",
@@ -202,7 +202,7 @@
     "id" : "265",
     "type" : "owl:Class"
   }, {
-    "id" : "267",
+    "id" : "268",
     "type" : "owl:Class"
   }, {
     "id" : "271",
@@ -304,7 +304,7 @@
     "id" : "297",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "60",
+    "id" : "59",
     "type" : "owl:Class"
   }, {
     "id" : "363",
@@ -517,10 +517,10 @@
     "id" : "15",
     "type" : "owl:Class"
   }, {
-    "id" : "435",
+    "id" : "149",
     "type" : "owl:Thing"
   }, {
-    "id" : "149",
+    "id" : "435",
     "type" : "owl:Thing"
   }, {
     "id" : "437",
@@ -529,14 +529,14 @@
     "id" : "440",
     "type" : "owl:Thing"
   }, {
+    "id" : "174",
+    "type" : "owl:intersectionOf"
+  }, {
     "id" : "338",
     "type" : "owl:Class"
   }, {
     "id" : "144",
     "type" : "owl:Class"
-  }, {
-    "id" : "174",
-    "type" : "owl:intersectionOf"
   }, {
     "id" : "78",
     "type" : "owl:Class"
@@ -556,7 +556,7 @@
     "id" : "254",
     "type" : "owl:Thing"
   }, {
-    "id" : "155",
+    "id" : "158",
     "type" : "owl:Thing"
   }, {
     "id" : "383",
@@ -631,7 +631,7 @@
     "id" : "161",
     "type" : "owl:intersectionOf"
   }, {
-    "id" : "154",
+    "id" : "157",
     "type" : "owl:Class"
   }, {
     "id" : "136",
@@ -661,13 +661,13 @@
     "id" : "83",
     "type" : "owl:Class"
   }, {
-    "id" : "260",
+    "id" : "261",
     "type" : "owl:Class"
   }, {
     "id" : "128",
     "type" : "owl:Class"
   }, {
-    "id" : "261",
+    "id" : "262",
     "type" : "owl:Class"
   }, {
     "id" : "332",
@@ -676,11 +676,11 @@
     "id" : "12",
     "type" : "owl:Class"
   }, {
-    "id" : "217",
-    "type" : "owl:Class"
-  }, {
     "id" : "486",
     "type" : "owl:intersectionOf"
+  }, {
+    "id" : "217",
+    "type" : "owl:Class"
   }, {
     "id" : "7",
     "type" : "owl:Class"
@@ -814,7 +814,7 @@
     "id" : "240",
     "type" : "owl:Class"
   }, {
-    "id" : "268",
+    "id" : "266",
     "type" : "owl:Class"
   }, {
     "id" : "38",
@@ -910,7 +910,7 @@
     "id" : "516",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "157",
+    "id" : "154",
     "type" : "owl:intersectionOf"
   }, {
     "id" : "460",
@@ -928,13 +928,13 @@
     "id" : "223",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "582",
+    "id" : "581",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "313",
     "type" : "owl:Class"
   }, {
-    "id" : "512",
+    "id" : "511",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "393",
@@ -1037,16 +1037,6 @@
     "attributes" : [ "anonymous", "union" ],
     "id" : "50"
   }, {
-    "iri" : "https://krusinaldo9.github.io/sBPMN/classes#correlationSubscription",
-    "baseIri" : "https://krusinaldo9.github.io/sBPMN/classes",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "correlationSubscription"
-    },
-    "attributes" : [ "external" ],
-    "id" : "58",
-    "superClasses" : [ "38" ]
-  }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#callChoreography",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/classes",
     "instances" : 0,
@@ -1054,8 +1044,18 @@
       "IRI-based" : "callChoreography"
     },
     "attributes" : [ "external" ],
-    "id" : "59",
-    "superClasses" : [ "60" ]
+    "id" : "58",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "https://krusinaldo9.github.io/sBPMN/classes#correlationSubscription",
+    "baseIri" : "https://krusinaldo9.github.io/sBPMN/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "correlationSubscription"
+    },
+    "attributes" : [ "external" ],
+    "id" : "60",
+    "superClasses" : [ "38" ]
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#noneDirectionRelationship",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/classes",
@@ -1085,10 +1085,10 @@
     "label" : {
       "IRI-based" : "noneLoopChoreographyActivity"
     },
-    "intersection" : [ "60" ],
+    "intersection" : [ "59" ],
     "attributes" : [ "intersection", "external" ],
     "id" : "68",
-    "superClasses" : [ "60" ]
+    "superClasses" : [ "59" ]
   }, {
     "instances" : 0,
     "union" : [ "14", "22" ],
@@ -1131,7 +1131,7 @@
     "superClasses" : [ "38" ]
   }, {
     "instances" : 0,
-    "union" : [ "96", "78", "59" ],
+    "union" : [ "96", "58", "78" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "95"
   }, {
@@ -1146,12 +1146,12 @@
     "superClasses" : [ "12" ]
   }, {
     "instances" : 0,
-    "union" : [ "60", "101" ],
+    "union" : [ "59", "101" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "100"
   }, {
     "instances" : 0,
-    "union" : [ "60", "78", "104" ],
+    "union" : [ "59", "78", "104" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "103"
   }, {
@@ -1287,9 +1287,9 @@
     "label" : {
       "IRI-based" : "eventBasedGateway"
     },
-    "subClasses" : [ "157", "158" ],
+    "subClasses" : [ "154", "155" ],
     "attributes" : [ "external" ],
-    "id" : "156",
+    "id" : "153",
     "superClasses" : [ "146" ]
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#exclusiveEventBasedGateway",
@@ -1298,10 +1298,10 @@
     "label" : {
       "IRI-based" : "exclusiveEventBasedGateway"
     },
-    "intersection" : [ "156" ],
+    "intersection" : [ "153" ],
     "attributes" : [ "intersection", "external" ],
-    "id" : "158",
-    "superClasses" : [ "156" ]
+    "id" : "155",
+    "superClasses" : [ "153" ]
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#multiInstanceParallelLoopChoreographyActivity",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/classes",
@@ -1309,10 +1309,10 @@
     "label" : {
       "IRI-based" : "multiInstanceParallelLoopChoreographyActivity"
     },
-    "intersection" : [ "60" ],
+    "intersection" : [ "59" ],
     "attributes" : [ "intersection", "external" ],
     "id" : "172",
-    "superClasses" : [ "60" ]
+    "superClasses" : [ "59" ]
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#dataObject",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/classes",
@@ -1401,7 +1401,7 @@
     },
     "intersection" : [ "85" ],
     "attributes" : [ "intersection", "external" ],
-    "id" : "263",
+    "id" : "259",
     "superClasses" : [ "85" ]
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#flowElement",
@@ -1416,14 +1416,14 @@
     "superClasses" : [ "38" ]
   }, {
     "instances" : 0,
-    "union" : [ "189", "261" ],
+    "union" : [ "37", "266" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "265"
   }, {
     "instances" : 0,
-    "union" : [ "37", "268" ],
+    "union" : [ "40", "18" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "267"
+    "id" : "268"
   }, {
     "instances" : 0,
     "union" : [ "44", "45", "46", "36", "47" ],
@@ -1431,7 +1431,7 @@
     "id" : "271"
   }, {
     "instances" : 0,
-    "union" : [ "44", "83", "91", "201", "166", "106", "213", "14", "10", "111", "217", "112", "125", "245", "8", "104", "98", "32", "109", "7", "247", "227", "46", "78", "230", "86", "117", "33", "187", "26", "275" ],
+    "union" : [ "44", "83", "91", "201", "166", "106", "213", "14", "111", "10", "217", "112", "125", "245", "8", "98", "104", "32", "109", "7", "247", "46", "227", "78", "230", "86", "117", "33", "26", "275", "187" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "274"
   }, {
@@ -1466,7 +1466,7 @@
     "id" : "296"
   }, {
     "instances" : 0,
-    "union" : [ "40", "18" ],
+    "union" : [ "189", "262" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "300"
   }, {
@@ -1506,7 +1506,7 @@
     "id" : "314"
   }, {
     "instances" : 0,
-    "union" : [ "75", "156" ],
+    "union" : [ "75", "153" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "304"
   }, {
@@ -1540,7 +1540,7 @@
     "id" : "205"
   }, {
     "instances" : 0,
-    "union" : [ "74", "75", "332", "89", "133", "52", "51" ],
+    "union" : [ "74", "75", "89", "332", "133", "52", "51" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "331"
   }, {
@@ -1562,7 +1562,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "189",
-    "superClasses" : [ "261" ]
+    "superClasses" : [ "262" ]
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#subProcess",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/classes",
@@ -1612,7 +1612,7 @@
     "label" : {
       "IRI-based" : "flowNode"
     },
-    "subClasses" : [ "22", "60", "146", "350" ],
+    "subClasses" : [ "22", "59", "146", "350" ],
     "attributes" : [ "external" ],
     "id" : "193",
     "superClasses" : [ "86" ]
@@ -1628,15 +1628,15 @@
     "id" : "356"
   }, {
     "instances" : 0,
-    "union" : [ "125", "60", "98", "104" ],
+    "union" : [ "125", "59", "98", "104" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "198"
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#token",
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "297",
     "label" : {
-      "IRI-based" : "token"
+      "IRI-based" : "anyURI"
     }
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#choreographyActivity",
@@ -1645,9 +1645,9 @@
     "label" : {
       "IRI-based" : "choreographyActivity"
     },
-    "subClasses" : [ "360", "361", "172", "59", "362", "122", "68" ],
+    "subClasses" : [ "360", "361", "172", "58", "362", "122", "68" ],
     "attributes" : [ "external" ],
-    "id" : "60",
+    "id" : "59",
     "superClasses" : [ "193" ]
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#potentialOwner",
@@ -1668,13 +1668,13 @@
     },
     "attributes" : [ "external" ],
     "id" : "360",
-    "superClasses" : [ "60" ]
+    "superClasses" : [ "59" ]
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "iri" : "http://www.w3.org/2001/XMLSchema#token",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "298",
     "label" : {
-      "IRI-based" : "anyURI"
+      "IRI-based" : "token"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
@@ -1800,11 +1800,11 @@
       "IRI-based" : "boolean"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#token",
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "328",
     "label" : {
-      "IRI-based" : "token"
+      "IRI-based" : "anyURI"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -1828,11 +1828,11 @@
       "IRI-based" : "string"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "iri" : "http://www.w3.org/2001/XMLSchema#token",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "329",
     "label" : {
-      "IRI-based" : "anyURI"
+      "IRI-based" : "token"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#ID",
@@ -2197,14 +2197,14 @@
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "435",
+    "id" : "149",
     "label" : {
       "undefined" : "Thing"
     }
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "149",
+    "id" : "435",
     "label" : {
       "undefined" : "Thing"
     }
@@ -2222,6 +2222,17 @@
     "label" : {
       "undefined" : "Thing"
     }
+  }, {
+    "iri" : "https://krusinaldo9.github.io/sBPMN/classes#backwardDirectionRelationship",
+    "baseIri" : "https://krusinaldo9.github.io/sBPMN/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "backwardDirectionRelationship"
+    },
+    "intersection" : [ "65" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "174",
+    "superClasses" : [ "65" ]
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#choreography",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/classes",
@@ -2243,17 +2254,6 @@
     "attributes" : [ "external" ],
     "id" : "144",
     "superClasses" : [ "121" ]
-  }, {
-    "iri" : "https://krusinaldo9.github.io/sBPMN/classes#backwardDirectionRelationship",
-    "baseIri" : "https://krusinaldo9.github.io/sBPMN/classes",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "backwardDirectionRelationship"
-    },
-    "intersection" : [ "65" ],
-    "attributes" : [ "intersection", "external" ],
-    "id" : "174",
-    "superClasses" : [ "65" ]
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#collaboration",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/classes",
@@ -2307,7 +2307,7 @@
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "155",
+    "id" : "158",
     "label" : {
       "undefined" : "Thing"
     }
@@ -2496,7 +2496,7 @@
       "IRI-based" : "messageFlowAssociation"
     },
     "attributes" : [ "external" ],
-    "id" : "154",
+    "id" : "157",
     "superClasses" : [ "38" ]
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#intermediateThrowEvent",
@@ -2583,7 +2583,7 @@
       "IRI-based" : "assignment"
     },
     "attributes" : [ "external" ],
-    "id" : "260",
+    "id" : "261",
     "superClasses" : [ "38" ]
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#manualTask",
@@ -2604,7 +2604,7 @@
     },
     "subClasses" : [ "189" ],
     "attributes" : [ "external" ],
-    "id" : "261",
+    "id" : "262",
     "superClasses" : [ "81" ]
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#globalBusinessRuleTask",
@@ -2623,20 +2623,10 @@
     "label" : {
       "IRI-based" : "eventDefinition"
     },
-    "subClasses" : [ "483", "382", "30", "99", "484", "76", "268", "115", "275", "485" ],
+    "subClasses" : [ "483", "382", "30", "99", "484", "76", "266", "115", "275", "485" ],
     "attributes" : [ "external" ],
     "id" : "12",
     "superClasses" : [ "5" ]
-  }, {
-    "iri" : "https://krusinaldo9.github.io/sBPMN/classes#lane",
-    "baseIri" : "https://krusinaldo9.github.io/sBPMN/classes",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "lane"
-    },
-    "attributes" : [ "external" ],
-    "id" : "217",
-    "superClasses" : [ "38" ]
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#allBehaviorMultiInstanceLoopCharacteristics",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/classes",
@@ -2648,6 +2638,16 @@
     "attributes" : [ "intersection", "external" ],
     "id" : "486",
     "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://krusinaldo9.github.io/sBPMN/classes#lane",
+    "baseIri" : "https://krusinaldo9.github.io/sBPMN/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "lane"
+    },
+    "attributes" : [ "external" ],
+    "id" : "217",
+    "superClasses" : [ "38" ]
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#escalation",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/classes",
@@ -2686,13 +2686,13 @@
     "label" : {
       "IRI-based" : "gateway"
     },
-    "subClasses" : [ "191", "21", "349", "23", "145", "472", "156", "161", "24" ],
+    "subClasses" : [ "191", "21", "349", "23", "145", "472", "153", "161", "24" ],
     "attributes" : [ "external" ],
     "id" : "146",
     "superClasses" : [ "193" ]
   }, {
     "instances" : 0,
-    "union" : [ "40", "18" ],
+    "union" : [ "65", "275" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "493"
   }, {
@@ -2713,7 +2713,7 @@
     "superClasses" : [ "350" ]
   }, {
     "instances" : 0,
-    "union" : [ "65", "275" ],
+    "union" : [ "40", "18" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "494"
   }, {
@@ -3064,10 +3064,10 @@
     "label" : {
       "IRI-based" : "standardLoopChoreographyActivity"
     },
-    "intersection" : [ "60" ],
+    "intersection" : [ "59" ],
     "attributes" : [ "intersection", "external" ],
     "id" : "361",
-    "superClasses" : [ "60" ]
+    "superClasses" : [ "59" ]
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#group",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/classes",
@@ -3096,7 +3096,7 @@
       "IRI-based" : "conditionalEventDefinition"
     },
     "attributes" : [ "external" ],
-    "id" : "268",
+    "id" : "266",
     "superClasses" : [ "12" ]
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#baseElement",
@@ -3105,7 +3105,7 @@
     "label" : {
       "IRI-based" : "baseElement"
     },
-    "subClasses" : [ "44", "359", "129", "322", "37", "201", "260", "166", "213", "45", "313", "65", "317", "58", "111", "288", "112", "217", "73", "245", "94", "273", "277", "63", "104", "247", "154", "5", "46", "227", "230", "121", "86", "238", "117", "33", "187" ],
+    "subClasses" : [ "44", "359", "129", "322", "37", "201", "261", "166", "213", "45", "313", "65", "317", "60", "111", "288", "112", "217", "73", "245", "94", "273", "277", "63", "104", "247", "157", "5", "46", "227", "230", "121", "86", "238", "117", "33", "187" ],
     "attributes" : [ "external" ],
     "id" : "38"
   }, {
@@ -3125,7 +3125,7 @@
     "label" : {
       "IRI-based" : "process"
     },
-    "subClasses" : [ "195", "263", "568" ],
+    "subClasses" : [ "195", "259", "568" ],
     "attributes" : [ "external" ],
     "id" : "85",
     "superClasses" : [ "14" ]
@@ -3216,10 +3216,10 @@
     "label" : {
       "IRI-based" : "multiInstanceSequentialLoopChoreographyActivity"
     },
-    "intersection" : [ "60" ],
+    "intersection" : [ "59" ],
     "attributes" : [ "intersection", "external" ],
     "id" : "362",
-    "superClasses" : [ "60" ]
+    "superClasses" : [ "59" ]
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#dataStoreReference",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/classes",
@@ -3413,10 +3413,10 @@
     "label" : {
       "IRI-based" : "parallelEventBasedGateway"
     },
-    "intersection" : [ "156" ],
+    "intersection" : [ "153" ],
     "attributes" : [ "intersection", "external" ],
-    "id" : "157",
-    "superClasses" : [ "156" ]
+    "id" : "154",
+    "superClasses" : [ "153" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#integer",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -3459,7 +3459,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "582",
+    "id" : "581",
     "label" : {
       "IRI-based" : "string"
     }
@@ -3476,7 +3476,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "512",
+    "id" : "511",
     "label" : {
       "IRI-based" : "string"
     }
@@ -3494,7 +3494,7 @@
     "label" : {
       "IRI-based" : "baseElementWithMixedContent"
     },
-    "subClasses" : [ "261" ],
+    "subClasses" : [ "262" ],
     "attributes" : [ "external" ],
     "id" : "81"
   }, {
@@ -3538,7 +3538,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "122",
-    "superClasses" : [ "60" ]
+    "superClasses" : [ "59" ]
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/classes#bothDirectionRelationship",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/classes",
@@ -3730,7 +3730,7 @@
     "id" : "150",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "153",
+    "id" : "156",
     "type" : "owl:objectProperty"
   }, {
     "id" : "159",
@@ -3898,16 +3898,16 @@
     "id" : "257",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "259",
+    "id" : "260",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "262",
+    "id" : "263",
     "type" : "owl:objectProperty"
   }, {
     "id" : "264",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "266",
+    "id" : "267",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "269",
@@ -4226,10 +4226,10 @@
     "type" : "owl:objectProperty"
   }, {
     "id" : "510",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "511",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "512",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "513",
     "type" : "owl:datatypeProperty"
@@ -4418,10 +4418,10 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "580",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "581",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "582",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "583",
     "type" : "rdfs:SubClassOf"
@@ -4626,7 +4626,7 @@
       "IRI-based" : "type"
     },
     "domain" : "28",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "27"
   }, {
     "range" : "36",
@@ -4661,7 +4661,7 @@
       "IRI-based" : "isForCompensation"
     },
     "domain" : "22",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "56"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#artifact",
@@ -4746,7 +4746,7 @@
       "IRI-based" : "itemKind"
     },
     "domain" : "9",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "118"
   }, {
     "range" : "121",
@@ -4801,7 +4801,7 @@
       "IRI-based" : "value"
     },
     "domain" : "129",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "139"
   }, {
     "range" : "17",
@@ -4836,13 +4836,13 @@
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#outerMessageFlowRef",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "155",
+    "range" : "158",
     "label" : {
       "IRI-based" : "outerMessageFlowRef"
     },
-    "domain" : "154",
+    "domain" : "157",
     "attributes" : [ "external", "object" ],
-    "id" : "153"
+    "id" : "156"
   }, {
     "range" : "114",
     "domain" : "75",
@@ -4946,7 +4946,7 @@
       "IRI-based" : "language"
     },
     "domain" : "189",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "188"
   }, {
     "range" : "193",
@@ -4960,7 +4960,7 @@
     "id" : "194"
   }, {
     "range" : "193",
-    "domain" : "60",
+    "domain" : "59",
     "attributes" : [ "anonymous", "object" ],
     "id" : "196"
   }, {
@@ -5001,7 +5001,7 @@
       "IRI-based" : "gatewayDirection"
     },
     "domain" : "146",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "206"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#isExecutable",
@@ -5011,7 +5011,7 @@
       "IRI-based" : "isExecutable"
     },
     "domain" : "85",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "208"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#triggeredByEvent",
@@ -5021,7 +5021,7 @@
       "IRI-based" : "triggeredByEvent"
     },
     "domain" : "123",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "210"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#processRef",
@@ -5051,7 +5051,7 @@
       "IRI-based" : "mustUnderstand"
     },
     "domain" : "80",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "219"
   }, {
     "range" : "38",
@@ -5066,7 +5066,7 @@
       "IRI-based" : "escalationCode"
     },
     "domain" : "7",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "222"
   }, {
     "range" : "86",
@@ -5139,18 +5139,18 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "246"
   }, {
-    "range" : "156",
-    "domain" : "157",
+    "range" : "153",
+    "domain" : "154",
     "attributes" : [ "anonymous", "object" ],
     "id" : "248"
   }, {
     "range" : "38",
-    "domain" : "154",
+    "domain" : "157",
     "attributes" : [ "anonymous", "object" ],
     "id" : "249"
   }, {
-    "range" : "156",
-    "domain" : "158",
+    "range" : "153",
+    "domain" : "155",
     "attributes" : [ "anonymous", "object" ],
     "id" : "250"
   }, {
@@ -5200,19 +5200,19 @@
     "label" : {
       "IRI-based" : "calledChoreographyRef"
     },
-    "domain" : "59",
+    "domain" : "58",
     "attributes" : [ "external", "object" ],
     "id" : "257"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#to",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "261",
+    "range" : "262",
     "label" : {
       "IRI-based" : "to"
     },
-    "domain" : "260",
+    "domain" : "261",
     "attributes" : [ "external", "object" ],
-    "id" : "259"
+    "id" : "260"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#partitionElement",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
@@ -5222,7 +5222,7 @@
     },
     "domain" : "217",
     "attributes" : [ "external", "object" ],
-    "id" : "262"
+    "id" : "263"
   }, {
     "range" : "38",
     "domain" : "73",
@@ -5232,7 +5232,7 @@
     "range" : "38",
     "domain" : "245",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "266"
+    "id" : "267"
   }, {
     "range" : "38",
     "domain" : "94",
@@ -5265,7 +5265,7 @@
     "id" : "280"
   }, {
     "range" : "38",
-    "domain" : "58",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "283"
   }, {
@@ -5296,7 +5296,7 @@
       "IRI-based" : "maximum"
     },
     "domain" : "238",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "292"
   }, {
     "range" : "38",
@@ -5336,7 +5336,7 @@
       "IRI-based" : "instantiate"
     },
     "domain" : "304",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "303"
   }, {
     "range" : "38",
@@ -5415,7 +5415,7 @@
     "id" : "330"
   }, {
     "range" : "38",
-    "domain" : "260",
+    "domain" : "261",
     "attributes" : [ "anonymous", "object" ],
     "id" : "333"
   }, {
@@ -5456,7 +5456,7 @@
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#activationCondition",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "261",
+    "range" : "262",
     "label" : {
       "IRI-based" : "activationCondition"
     },
@@ -5470,7 +5470,7 @@
     "label" : {
       "IRI-based" : "dataOutput"
     },
-    "domain" : "300",
+    "domain" : "268",
     "attributes" : [ "external", "object" ],
     "id" : "346"
   }, {
@@ -5481,7 +5481,7 @@
       "IRI-based" : "name"
     },
     "domain" : "274",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "347"
   }, {
     "range" : "9",
@@ -5511,7 +5511,7 @@
       "IRI-based" : "scriptFormat"
     },
     "domain" : "131",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "365"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#contains",
@@ -5535,6 +5535,16 @@
     "attributes" : [ "external", "object" ],
     "id" : "374"
   }, {
+    "iri" : "https://krusinaldo9.github.io/sBPMN/properties#loopCondition",
+    "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
+    "range" : "262",
+    "label" : {
+      "IRI-based" : "loopCondition"
+    },
+    "domain" : "144",
+    "attributes" : [ "external", "object" ],
+    "id" : "377"
+  }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#noneBehaviorEventRef",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
     "range" : "254",
@@ -5542,16 +5552,6 @@
       "IRI-based" : "noneBehaviorEventRef"
     },
     "domain" : "2",
-    "attributes" : [ "external", "object" ],
-    "id" : "377"
-  }, {
-    "iri" : "https://krusinaldo9.github.io/sBPMN/properties#loopCondition",
-    "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "261",
-    "label" : {
-      "IRI-based" : "loopCondition"
-    },
-    "domain" : "144",
     "attributes" : [ "external", "object" ],
     "id" : "378"
   }, {
@@ -5602,7 +5602,7 @@
       "IRI-based" : "behavior"
     },
     "domain" : "2",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "392"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#ordering",
@@ -5612,7 +5612,7 @@
       "IRI-based" : "ordering"
     },
     "domain" : "1",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "394"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#loopDataInputRef",
@@ -5662,7 +5662,7 @@
       "IRI-based" : "cancelRemainingInstances"
     },
     "domain" : "1",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "408"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#conversationLink",
@@ -5702,7 +5702,7 @@
       "IRI-based" : "isRequired"
     },
     "domain" : "187",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "416"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#dataOutputAssociation",
@@ -5727,11 +5727,11 @@
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#from",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "261",
+    "range" : "262",
     "label" : {
       "IRI-based" : "from"
     },
-    "domain" : "260",
+    "domain" : "261",
     "attributes" : [ "external", "object" ],
     "id" : "429"
   }, {
@@ -5742,12 +5742,12 @@
       "IRI-based" : "testBefore"
     },
     "domain" : "144",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "432"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#expression",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "261",
+    "range" : "262",
     "label" : {
       "IRI-based" : "expression"
     },
@@ -5792,12 +5792,12 @@
       "IRI-based" : "implementation"
     },
     "domain" : "331",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "442"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#conditionExpression",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "261",
+    "range" : "262",
     "label" : {
       "IRI-based" : "conditionExpression"
     },
@@ -5822,12 +5822,12 @@
       "IRI-based" : "textFormat"
     },
     "domain" : "334",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "446"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#correlationSubscription",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "58",
+    "range" : "60",
     "label" : {
       "IRI-based" : "correlationSubscription"
     },
@@ -5842,7 +5842,7 @@
       "IRI-based" : "minimum"
     },
     "domain" : "238",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "448"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#flowElement",
@@ -5857,7 +5857,7 @@
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#assignment",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "260",
+    "range" : "261",
     "label" : {
       "IRI-based" : "assignment"
     },
@@ -5872,7 +5872,7 @@
       "IRI-based" : "completionQuantity"
     },
     "domain" : "22",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "459"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#childLaneSet",
@@ -5892,18 +5892,8 @@
       "IRI-based" : "errorCode"
     },
     "domain" : "8",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "468"
-  }, {
-    "iri" : "https://krusinaldo9.github.io/sBPMN/properties#inputSetRefs",
-    "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "167",
-    "label" : {
-      "IRI-based" : "inputSetRefs"
-    },
-    "domain" : "166",
-    "attributes" : [ "external", "object" ],
-    "id" : "470"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#laneSet",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
@@ -5912,6 +5902,16 @@
       "IRI-based" : "laneSet"
     },
     "domain" : "242",
+    "attributes" : [ "external", "object" ],
+    "id" : "470"
+  }, {
+    "iri" : "https://krusinaldo9.github.io/sBPMN/properties#inputSetRefs",
+    "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
+    "range" : "167",
+    "label" : {
+      "IRI-based" : "inputSetRefs"
+    },
+    "domain" : "166",
     "attributes" : [ "external", "object" ],
     "id" : "471"
   }, {
@@ -5952,7 +5952,7 @@
       "IRI-based" : "isInterrupting"
     },
     "domain" : "164",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "477"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#text",
@@ -5972,7 +5972,7 @@
       "IRI-based" : "id"
     },
     "domain" : "481",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "480"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#waitForCompletion",
@@ -5982,7 +5982,7 @@
       "IRI-based" : "waitForCompletion"
     },
     "domain" : "99",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "482"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#loopCharacteristics",
@@ -6037,7 +6037,7 @@
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#completionCondition",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "261",
+    "range" : "262",
     "label" : {
       "IRI-based" : "completionCondition"
     },
@@ -6072,7 +6072,7 @@
       "IRI-based" : "direction"
     },
     "domain" : "65",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "499"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#inputDataRef",
@@ -6101,7 +6101,7 @@
     "label" : {
       "IRI-based" : "correlationKeyRef"
     },
-    "domain" : "58",
+    "domain" : "60",
     "attributes" : [ "external", "object" ],
     "id" : "503"
   }, {
@@ -6117,7 +6117,7 @@
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#messageFlowAssociation",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "154",
+    "range" : "157",
     "label" : {
       "IRI-based" : "messageFlowAssociation"
     },
@@ -6132,7 +6132,7 @@
       "IRI-based" : "isImmediate"
     },
     "domain" : "47",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "507"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#loopType",
@@ -6141,8 +6141,8 @@
     "label" : {
       "IRI-based" : "loopType"
     },
-    "domain" : "60",
-    "attributes" : [ "datatype", "external" ],
+    "domain" : "59",
+    "attributes" : [ "external", "datatype" ],
     "id" : "508"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#participantMultiplicity",
@@ -6155,6 +6155,16 @@
     "attributes" : [ "external", "object" ],
     "id" : "509"
   }, {
+    "iri" : "https://krusinaldo9.github.io/sBPMN/properties#associationDirection",
+    "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
+    "range" : "511",
+    "label" : {
+      "IRI-based" : "associationDirection"
+    },
+    "domain" : "36",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "510"
+  }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#participant",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
     "range" : "213",
@@ -6163,17 +6173,7 @@
     },
     "domain" : "78",
     "attributes" : [ "external", "object" ],
-    "id" : "510"
-  }, {
-    "iri" : "https://krusinaldo9.github.io/sBPMN/properties#associationDirection",
-    "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "512",
-    "label" : {
-      "IRI-based" : "associationDirection"
-    },
-    "domain" : "36",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "511"
+    "id" : "512"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#loopMaximum",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
@@ -6182,7 +6182,7 @@
       "IRI-based" : "loopMaximum"
     },
     "domain" : "144",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "513"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#correlationPropertyBinding",
@@ -6191,7 +6191,7 @@
     "label" : {
       "IRI-based" : "correlationPropertyBinding"
     },
-    "domain" : "58",
+    "domain" : "60",
     "attributes" : [ "external", "object" ],
     "id" : "514"
   }, {
@@ -6202,7 +6202,7 @@
       "IRI-based" : "capacity"
     },
     "domain" : "83",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "515"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#definition",
@@ -6245,16 +6245,6 @@
     "attributes" : [ "external", "object" ],
     "id" : "520"
   }, {
-    "iri" : "https://krusinaldo9.github.io/sBPMN/properties#monitoring",
-    "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "322",
-    "label" : {
-      "IRI-based" : "monitoring"
-    },
-    "domain" : "284",
-    "attributes" : [ "external", "object" ],
-    "id" : "521"
-  }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#innerConversationNodeRef",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
     "range" : "437",
@@ -6262,6 +6252,16 @@
       "IRI-based" : "innerConversationNodeRef"
     },
     "domain" : "273",
+    "attributes" : [ "external", "object" ],
+    "id" : "521"
+  }, {
+    "iri" : "https://krusinaldo9.github.io/sBPMN/properties#monitoring",
+    "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
+    "range" : "322",
+    "label" : {
+      "IRI-based" : "monitoring"
+    },
+    "domain" : "284",
     "attributes" : [ "external", "object" ],
     "id" : "522"
   }, {
@@ -6272,7 +6272,7 @@
       "IRI-based" : "method"
     },
     "domain" : "67",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "524"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#targetRef",
@@ -6332,7 +6332,7 @@
       "IRI-based" : "startQuantity"
     },
     "domain" : "22",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "531"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#conversationNode",
@@ -6345,21 +6345,21 @@
     "attributes" : [ "external", "object" ],
     "id" : "532"
   }, {
-    "iri" : "https://krusinaldo9.github.io/sBPMN/properties#outputSet",
-    "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "166",
-    "label" : {
-      "IRI-based" : "outputSet"
-    },
-    "domain" : "493",
-    "attributes" : [ "external", "object" ],
-    "id" : "533"
-  }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#target",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
     "range" : "368",
     "label" : {
       "IRI-based" : "target"
+    },
+    "domain" : "493",
+    "attributes" : [ "external", "object" ],
+    "id" : "533"
+  }, {
+    "iri" : "https://krusinaldo9.github.io/sBPMN/properties#outputSet",
+    "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
+    "range" : "166",
+    "label" : {
+      "IRI-based" : "outputSet"
     },
     "domain" : "494",
     "attributes" : [ "external", "object" ],
@@ -6372,7 +6372,7 @@
       "IRI-based" : "isUnlimited"
     },
     "domain" : "83",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "535"
   }, {
     "range" : "12",
@@ -6441,22 +6441,22 @@
     "id" : "546"
   }, {
     "range" : "146",
-    "domain" : "156",
+    "domain" : "153",
     "attributes" : [ "anonymous", "object" ],
     "id" : "547"
   }, {
     "range" : "12",
-    "domain" : "268",
+    "domain" : "266",
     "attributes" : [ "anonymous", "object" ],
     "id" : "548"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#innerMessageFlowRef",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "155",
+    "range" : "158",
     "label" : {
       "IRI-based" : "innerMessageFlowRef"
     },
-    "domain" : "154",
+    "domain" : "157",
     "attributes" : [ "external", "object" ],
     "id" : "549"
   }, {
@@ -6467,7 +6467,7 @@
       "IRI-based" : "isSequential"
     },
     "domain" : "2",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "550"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#resourceParameter",
@@ -6500,7 +6500,7 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "554"
   }, {
-    "range" : "261",
+    "range" : "262",
     "domain" : "189",
     "attributes" : [ "anonymous", "object" ],
     "id" : "555"
@@ -6517,7 +6517,7 @@
       "IRI-based" : "isClosed"
     },
     "domain" : "107",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "557"
   }, {
     "range" : "12",
@@ -6552,7 +6552,7 @@
       "IRI-based" : "isCollection"
     },
     "domain" : "110",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "563"
   }, {
     "range" : "67",
@@ -6627,7 +6627,7 @@
       "IRI-based" : "processType"
     },
     "domain" : "85",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "573"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#scriptLanguage",
@@ -6637,7 +6637,7 @@
       "IRI-based" : "scriptLanguage"
     },
     "domain" : "282",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "574"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#lane",
@@ -6665,6 +6665,16 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "579"
   }, {
+    "iri" : "https://krusinaldo9.github.io/sBPMN/properties#eventGatewayType",
+    "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
+    "range" : "581",
+    "label" : {
+      "IRI-based" : "eventGatewayType"
+    },
+    "domain" : "153",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "580"
+  }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#eventDefinition",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
     "range" : "12",
@@ -6673,17 +6683,7 @@
     },
     "domain" : "16",
     "attributes" : [ "external", "object" ],
-    "id" : "580"
-  }, {
-    "iri" : "https://krusinaldo9.github.io/sBPMN/properties#eventGatewayType",
-    "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "582",
-    "label" : {
-      "IRI-based" : "eventGatewayType"
-    },
-    "domain" : "156",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "581"
+    "id" : "582"
   }, {
     "range" : "230",
     "domain" : "413",
@@ -6717,7 +6717,7 @@
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#loopCardinality",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "261",
+    "range" : "262",
     "label" : {
       "IRI-based" : "loopCardinality"
     },
@@ -6741,7 +6741,7 @@
     "id" : "592"
   }, {
     "range" : "81",
-    "domain" : "261",
+    "domain" : "262",
     "attributes" : [ "anonymous", "object" ],
     "id" : "593"
   }, {
@@ -6785,7 +6785,7 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "599"
   }, {
-    "range" : "60",
+    "range" : "59",
     "domain" : "122",
     "attributes" : [ "anonymous", "object" ],
     "id" : "600"
@@ -6805,7 +6805,7 @@
     "attributes" : [ "external", "object" ],
     "id" : "602"
   }, {
-    "range" : "60",
+    "range" : "59",
     "domain" : "68",
     "attributes" : [ "anonymous", "object" ],
     "id" : "603"
@@ -6851,7 +6851,7 @@
     "id" : "608"
   }, {
     "range" : "85",
-    "domain" : "263",
+    "domain" : "259",
     "attributes" : [ "anonymous", "object" ],
     "id" : "609"
   }, {
@@ -6875,7 +6875,7 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "613"
   }, {
-    "range" : "60",
+    "range" : "59",
     "domain" : "360",
     "attributes" : [ "anonymous", "object" ],
     "id" : "614"
@@ -6885,7 +6885,7 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "615"
   }, {
-    "range" : "60",
+    "range" : "59",
     "domain" : "361",
     "attributes" : [ "anonymous", "object" ],
     "id" : "616"
@@ -6895,7 +6895,7 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "617"
   }, {
-    "range" : "60",
+    "range" : "59",
     "domain" : "172",
     "attributes" : [ "anonymous", "object" ],
     "id" : "618"
@@ -6905,8 +6905,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "619"
   }, {
-    "range" : "60",
-    "domain" : "59",
+    "range" : "59",
+    "domain" : "58",
     "attributes" : [ "anonymous", "object" ],
     "id" : "620"
   }, {
@@ -6915,7 +6915,7 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "621"
   }, {
-    "range" : "60",
+    "range" : "59",
     "domain" : "362",
     "attributes" : [ "anonymous", "object" ],
     "id" : "622"
@@ -6942,7 +6942,7 @@
       "IRI-based" : "cancelActivity"
     },
     "domain" : "169",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "625"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#dataInputAssociation",
@@ -6993,7 +6993,7 @@
       "IRI-based" : "parallelMultiple"
     },
     "domain" : "18",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "630"
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#loopDataOutputRef",
@@ -7038,11 +7038,11 @@
   }, {
     "iri" : "https://krusinaldo9.github.io/sBPMN/properties#condition",
     "baseIri" : "https://krusinaldo9.github.io/sBPMN/properties",
-    "range" : "265",
+    "range" : "300",
     "label" : {
       "IRI-based" : "condition"
     },
-    "domain" : "267",
+    "domain" : "265",
     "attributes" : [ "external", "object" ],
     "id" : "635"
   }, {
