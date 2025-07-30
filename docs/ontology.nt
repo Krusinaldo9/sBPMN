@@ -1,11 +1,11 @@
-<https://krusinaldo9.github.io/sBPMN/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://krusinaldo9.github.io/sBPMN/> <http://www.w3.org/2002/07/owl#versionIRI> <https://krusinaldo9.github.io/sBPMN/1.0.0> .
-<https://krusinaldo9.github.io/sBPMN/> <http://purl.org/dc/terms/creator> "Franz Krause" .
-<https://krusinaldo9.github.io/sBPMN/> <http://purl.org/dc/terms/description> "1.0.0" .
-<https://krusinaldo9.github.io/sBPMN/> <http://purl.org/dc/terms/description> "An OWL formalization of BPMN 2.0 core constructs." .
-<https://krusinaldo9.github.io/sBPMN/> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" .
-<https://krusinaldo9.github.io/sBPMN/> <http://purl.org/dc/terms/title> "sBPMN Ontology" .
-<https://krusinaldo9.github.io/sBPMN/> <http://www.w3.org/2000/01/rdf-schema#label> "sBPMN Ontology" .
+<https://krusinaldo9.github.io/sBPMN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://krusinaldo9.github.io/sBPMN> <http://www.w3.org/2002/07/owl#versionIRI> <https://krusinaldo9.github.io/sBPMN/1.0.0> .
+<https://krusinaldo9.github.io/sBPMN> <http://purl.org/dc/terms/creator> "Franz Krause" .
+<https://krusinaldo9.github.io/sBPMN> <http://purl.org/dc/terms/description> "1.0.0" .
+<https://krusinaldo9.github.io/sBPMN> <http://purl.org/dc/terms/description> "An OWL formalization of BPMN 2.0 core constructs." .
+<https://krusinaldo9.github.io/sBPMN> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" .
+<https://krusinaldo9.github.io/sBPMN> <http://purl.org/dc/terms/title> "sBPMN Ontology" .
+<https://krusinaldo9.github.io/sBPMN> <http://www.w3.org/2000/01/rdf-schema#label> "sBPMN Ontology" .
 # 
 # 
 # #################################################################

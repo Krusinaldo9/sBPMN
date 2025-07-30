@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://krusinaldo9.github.io/sBPMN/"
-     xml:base="https://krusinaldo9.github.io/sBPMN/"
+<rdf:RDF xmlns="https://krusinaldo9.github.io/sBPMN#"
+     xml:base="https://krusinaldo9.github.io/sBPMN"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="https://krusinaldo9.github.io/sBPMN/">
+    <owl:Ontology rdf:about="https://krusinaldo9.github.io/sBPMN">
         <owl:versionIRI rdf:resource="https://krusinaldo9.github.io/sBPMN/1.0.0"/>
         <terms:creator>Franz Krause</terms:creator>
         <terms:description>1.0.0</terms:description>
