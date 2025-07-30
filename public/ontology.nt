@@ -1,0 +1,1973 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#ID
+<http://www.w3.org/2001/XMLSchema#ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://example.org/bpmn/properties#activationCondition
+<http://example.org/bpmn/properties#activationCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#activationCondition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#complexGateway> .
+<http://example.org/bpmn/properties#activationCondition> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#expression> .
+# 
+# http://example.org/bpmn/properties#activityRef
+<http://example.org/bpmn/properties#activityRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#activityRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#compensateEventDefinition> .
+# 
+# http://example.org/bpmn/properties#artifact
+<http://example.org/bpmn/properties#artifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#artifact> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#collaboration> .
+<http://example.org/bpmn/properties#artifact> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#process> .
+<http://example.org/bpmn/properties#artifact> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#subChoreography> .
+<http://example.org/bpmn/properties#artifact> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#subProcess> .
+<http://example.org/bpmn/properties#artifact> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#artifact> .
+# 
+# http://example.org/bpmn/properties#assignment
+<http://example.org/bpmn/properties#assignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#assignment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataAssociation> .
+<http://example.org/bpmn/properties#assignment> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#assignment> .
+# 
+# http://example.org/bpmn/properties#attachedToRef
+<http://example.org/bpmn/properties#attachedToRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#attachedToRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#boundaryEvent> .
+# 
+# http://example.org/bpmn/properties#auditing
+<http://example.org/bpmn/properties#auditing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#auditing> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#flowElement> .
+<http://example.org/bpmn/properties#auditing> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#process> .
+<http://example.org/bpmn/properties#auditing> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#auditing> .
+# 
+# http://example.org/bpmn/properties#calledChoreographyRef
+<http://example.org/bpmn/properties#calledChoreographyRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#calledChoreographyRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#callChoreography> .
+# 
+# http://example.org/bpmn/properties#calledCollaborationRef
+<http://example.org/bpmn/properties#calledCollaborationRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#calledCollaborationRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#callConversation> .
+# 
+# http://example.org/bpmn/properties#calledElement
+<http://example.org/bpmn/properties#calledElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#calledElement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#callActivity> .
+# 
+# http://example.org/bpmn/properties#categoryValue
+<http://example.org/bpmn/properties#categoryValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#categoryValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#category> .
+<http://example.org/bpmn/properties#categoryValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#categoryValue> .
+# 
+# http://example.org/bpmn/properties#categoryValueRef
+<http://example.org/bpmn/properties#categoryValueRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#categoryValueRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#flowElement> .
+<http://example.org/bpmn/properties#categoryValueRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#group> .
+# 
+# http://example.org/bpmn/properties#childLaneSet
+<http://example.org/bpmn/properties#childLaneSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#childLaneSet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#lane> .
+<http://example.org/bpmn/properties#childLaneSet> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#laneSet> .
+# 
+# http://example.org/bpmn/properties#choreographyRef
+<http://example.org/bpmn/properties#choreographyRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#choreographyRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#collaboration> .
+# 
+# http://example.org/bpmn/properties#completionCondition
+<http://example.org/bpmn/properties#completionCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#completionCondition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#adHocSubProcess> .
+<http://example.org/bpmn/properties#completionCondition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+<http://example.org/bpmn/properties#completionCondition> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#expression> .
+# 
+# http://example.org/bpmn/properties#complexBehaviorDefinition
+<http://example.org/bpmn/properties#complexBehaviorDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#complexBehaviorDefinition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+<http://example.org/bpmn/properties#complexBehaviorDefinition> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#complexBehaviorDefinition> .
+# 
+# http://example.org/bpmn/properties#condition
+<http://example.org/bpmn/properties#condition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#condition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#complexBehaviorDefinition> .
+<http://example.org/bpmn/properties#condition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#conditionalEventDefinition> .
+<http://example.org/bpmn/properties#condition> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#expression> .
+<http://example.org/bpmn/properties#condition> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#formalExpression> .
+# 
+# http://example.org/bpmn/properties#conditionExpression
+<http://example.org/bpmn/properties#conditionExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#conditionExpression> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#sequenceFlow> .
+<http://example.org/bpmn/properties#conditionExpression> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#expression> .
+# 
+# http://example.org/bpmn/properties#conversationAssociation
+<http://example.org/bpmn/properties#conversationAssociation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#conversationAssociation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#collaboration> .
+<http://example.org/bpmn/properties#conversationAssociation> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#conversationAssociation> .
+# 
+# http://example.org/bpmn/properties#conversationLink
+<http://example.org/bpmn/properties#conversationLink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#conversationLink> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#collaboration> .
+<http://example.org/bpmn/properties#conversationLink> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#conversationLink> .
+# 
+# http://example.org/bpmn/properties#conversationNode
+<http://example.org/bpmn/properties#conversationNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#conversationNode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#collaboration> .
+<http://example.org/bpmn/properties#conversationNode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#subConversation> .
+<http://example.org/bpmn/properties#conversationNode> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#conversationNode> .
+# 
+# http://example.org/bpmn/properties#correlationKey
+<http://example.org/bpmn/properties#correlationKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#correlationKey> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#choreographyActivity> .
+<http://example.org/bpmn/properties#correlationKey> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#collaboration> .
+<http://example.org/bpmn/properties#correlationKey> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#conversationNode> .
+<http://example.org/bpmn/properties#correlationKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#correlationKey> .
+# 
+# http://example.org/bpmn/properties#correlationKeyRef
+<http://example.org/bpmn/properties#correlationKeyRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#correlationKeyRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#correlationSubscription> .
+# 
+# http://example.org/bpmn/properties#correlationPropertyBinding
+<http://example.org/bpmn/properties#correlationPropertyBinding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#correlationPropertyBinding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#correlationSubscription> .
+<http://example.org/bpmn/properties#correlationPropertyBinding> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#correlationPropertyBinding> .
+# 
+# http://example.org/bpmn/properties#correlationPropertyRef
+<http://example.org/bpmn/properties#correlationPropertyRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#correlationPropertyRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#correlationKey> .
+<http://example.org/bpmn/properties#correlationPropertyRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#correlationPropertyBinding> .
+# 
+# http://example.org/bpmn/properties#correlationPropertyRetrievalExpression
+<http://example.org/bpmn/properties#correlationPropertyRetrievalExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#correlationPropertyRetrievalExpression> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#correlationProperty> .
+<http://example.org/bpmn/properties#correlationPropertyRetrievalExpression> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#correlationPropertyRetrievalExpression> .
+# 
+# http://example.org/bpmn/properties#correlationSubscription
+<http://example.org/bpmn/properties#correlationSubscription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#correlationSubscription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#process> .
+<http://example.org/bpmn/properties#correlationSubscription> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#correlationSubscription> .
+# 
+# http://example.org/bpmn/properties#dataInput
+<http://example.org/bpmn/properties#dataInput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#dataInput> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#inputOutputSpecification> .
+<http://example.org/bpmn/properties#dataInput> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#throwEvent> .
+<http://example.org/bpmn/properties#dataInput> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#dataInput> .
+# 
+# http://example.org/bpmn/properties#dataInputAssociation
+<http://example.org/bpmn/properties#dataInputAssociation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#dataInputAssociation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#activity> .
+<http://example.org/bpmn/properties#dataInputAssociation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#throwEvent> .
+<http://example.org/bpmn/properties#dataInputAssociation> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#dataInputAssociation> .
+# 
+# http://example.org/bpmn/properties#dataInputRefs
+<http://example.org/bpmn/properties#dataInputRefs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#dataInputRefs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#inputSet> .
+# 
+# http://example.org/bpmn/properties#dataObjectRef
+<http://example.org/bpmn/properties#dataObjectRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#dataObjectRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataObjectReference> .
+# 
+# http://example.org/bpmn/properties#dataOutput
+<http://example.org/bpmn/properties#dataOutput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#dataOutput> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#catchEvent> .
+<http://example.org/bpmn/properties#dataOutput> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#inputOutputSpecification> .
+<http://example.org/bpmn/properties#dataOutput> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#dataOutput> .
+# 
+# http://example.org/bpmn/properties#dataOutputAssociation
+<http://example.org/bpmn/properties#dataOutputAssociation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#dataOutputAssociation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#activity> .
+<http://example.org/bpmn/properties#dataOutputAssociation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#catchEvent> .
+<http://example.org/bpmn/properties#dataOutputAssociation> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#dataOutputAssociation> .
+# 
+# http://example.org/bpmn/properties#dataOutputRefs
+<http://example.org/bpmn/properties#dataOutputRefs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#dataOutputRefs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#outputSet> .
+# 
+# http://example.org/bpmn/properties#dataPath
+<http://example.org/bpmn/properties#dataPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#dataPath> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#correlationPropertyBinding> .
+<http://example.org/bpmn/properties#dataPath> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#formalExpression> .
+# 
+# http://example.org/bpmn/properties#dataState
+<http://example.org/bpmn/properties#dataState> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#dataState> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataInput> .
+<http://example.org/bpmn/properties#dataState> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataObject> .
+<http://example.org/bpmn/properties#dataState> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataObjectReference> .
+<http://example.org/bpmn/properties#dataState> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataOutput> .
+<http://example.org/bpmn/properties#dataState> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataStore> .
+<http://example.org/bpmn/properties#dataState> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataStoreReference> .
+<http://example.org/bpmn/properties#dataState> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#property> .
+<http://example.org/bpmn/properties#dataState> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#dataState> .
+# 
+# http://example.org/bpmn/properties#dataStoreRef
+<http://example.org/bpmn/properties#dataStoreRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#dataStoreRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataStoreReference> .
+# 
+# http://example.org/bpmn/properties#default
+<http://example.org/bpmn/properties#default> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#default> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#activity> .
+<http://example.org/bpmn/properties#default> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#complexGateway> .
+<http://example.org/bpmn/properties#default> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#exclusiveGateway> .
+<http://example.org/bpmn/properties#default> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#inclusiveGateway> .
+# 
+# http://example.org/bpmn/properties#definition
+<http://example.org/bpmn/properties#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#definition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#extension> .
+# 
+# http://example.org/bpmn/properties#definitionalCollaborationRef
+<http://example.org/bpmn/properties#definitionalCollaborationRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#definitionalCollaborationRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#process> .
+# 
+# http://example.org/bpmn/properties#documentation
+<http://example.org/bpmn/properties#documentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#documentation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#baseElement> .
+<http://example.org/bpmn/properties#documentation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#baseElementWithMixedContent> .
+<http://example.org/bpmn/properties#documentation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#extension> .
+<http://example.org/bpmn/properties#documentation> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#documentation> .
+# 
+# http://example.org/bpmn/properties#endPointRef
+<http://example.org/bpmn/properties#endPointRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#endPointRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#participant> .
+# 
+# http://example.org/bpmn/properties#errorRef
+<http://example.org/bpmn/properties#errorRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#errorRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#errorEventDefinition> .
+<http://example.org/bpmn/properties#errorRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#operation> .
+# 
+# http://example.org/bpmn/properties#escalationRef
+<http://example.org/bpmn/properties#escalationRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#escalationRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#escalationEventDefinition> .
+# 
+# http://example.org/bpmn/properties#evaluatesToTypeRef
+<http://example.org/bpmn/properties#evaluatesToTypeRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#evaluatesToTypeRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#formalExpression> .
+# 
+# http://example.org/bpmn/properties#event
+<http://example.org/bpmn/properties#event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#event> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#complexBehaviorDefinition> .
+<http://example.org/bpmn/properties#event> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#implicitThrowEvent> .
+# 
+# http://example.org/bpmn/properties#eventDefinition
+<http://example.org/bpmn/properties#eventDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#eventDefinition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#catchEvent> .
+<http://example.org/bpmn/properties#eventDefinition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#throwEvent> .
+<http://example.org/bpmn/properties#eventDefinition> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#eventDefinition> .
+# 
+# http://example.org/bpmn/properties#eventDefinitionRef
+<http://example.org/bpmn/properties#eventDefinitionRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#eventDefinitionRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#catchEvent> .
+<http://example.org/bpmn/properties#eventDefinitionRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#throwEvent> .
+# 
+# http://example.org/bpmn/properties#expression
+<http://example.org/bpmn/properties#expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#expression> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#resourceAssignmentExpression> .
+<http://example.org/bpmn/properties#expression> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#resourceParameterBinding> .
+<http://example.org/bpmn/properties#expression> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#expression> .
+# 
+# http://example.org/bpmn/properties#extensionElements
+<http://example.org/bpmn/properties#extensionElements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#extensionElements> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#baseElement> .
+<http://example.org/bpmn/properties#extensionElements> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#baseElementWithMixedContent> .
+<http://example.org/bpmn/properties#extensionElements> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#extensionElements> .
+# 
+# http://example.org/bpmn/properties#flowElement
+<http://example.org/bpmn/properties#flowElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#flowElement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#choreography> .
+<http://example.org/bpmn/properties#flowElement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#process> .
+<http://example.org/bpmn/properties#flowElement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#subChoreography> .
+<http://example.org/bpmn/properties#flowElement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#subProcess> .
+<http://example.org/bpmn/properties#flowElement> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#flowElement> .
+# 
+# http://example.org/bpmn/properties#flowNodeRef
+<http://example.org/bpmn/properties#flowNodeRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#flowNodeRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#lane> .
+# 
+# http://example.org/bpmn/properties#from
+<http://example.org/bpmn/properties#from> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#from> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#assignment> .
+<http://example.org/bpmn/properties#from> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#expression> .
+# 
+# http://example.org/bpmn/properties#implementationRef
+<http://example.org/bpmn/properties#implementationRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#implementationRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#interface> .
+<http://example.org/bpmn/properties#implementationRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#operation> .
+# 
+# http://example.org/bpmn/properties#inMessageRef
+<http://example.org/bpmn/properties#inMessageRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#inMessageRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#operation> .
+# 
+# http://example.org/bpmn/properties#incoming
+<http://example.org/bpmn/properties#incoming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#incoming> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#flowNode> .
+# 
+# http://example.org/bpmn/properties#initiatingParticipantRef
+<http://example.org/bpmn/properties#initiatingParticipantRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#initiatingParticipantRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#choreographyActivity> .
+<http://example.org/bpmn/properties#initiatingParticipantRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#globalChoreographyTask> .
+# 
+# http://example.org/bpmn/properties#innerConversationNodeRef
+<http://example.org/bpmn/properties#innerConversationNodeRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#innerConversationNodeRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#conversationAssociation> .
+# 
+# http://example.org/bpmn/properties#innerMessageFlowRef
+<http://example.org/bpmn/properties#innerMessageFlowRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#innerMessageFlowRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#messageFlowAssociation> .
+# 
+# http://example.org/bpmn/properties#innerParticipantRef
+<http://example.org/bpmn/properties#innerParticipantRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#innerParticipantRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#participantAssociation> .
+# 
+# http://example.org/bpmn/properties#inputDataItem
+<http://example.org/bpmn/properties#inputDataItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#inputDataItem> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+<http://example.org/bpmn/properties#inputDataItem> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#dataInput> .
+# 
+# http://example.org/bpmn/properties#inputDataRef
+<http://example.org/bpmn/properties#inputDataRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#inputDataRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#inputOutputBinding> .
+# 
+# http://example.org/bpmn/properties#inputSet
+<http://example.org/bpmn/properties#inputSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#inputSet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#inputOutputSpecification> .
+<http://example.org/bpmn/properties#inputSet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#throwEvent> .
+<http://example.org/bpmn/properties#inputSet> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#inputSet> .
+# 
+# http://example.org/bpmn/properties#inputSetRefs
+<http://example.org/bpmn/properties#inputSetRefs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#inputSetRefs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#outputSet> .
+# 
+# http://example.org/bpmn/properties#interfaceRef
+<http://example.org/bpmn/properties#interfaceRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#interfaceRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#participant> .
+# 
+# http://example.org/bpmn/properties#ioBinding
+<http://example.org/bpmn/properties#ioBinding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#ioBinding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#callableElement> .
+<http://example.org/bpmn/properties#ioBinding> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#ioBinding> .
+# 
+# http://example.org/bpmn/properties#ioSpecification
+<http://example.org/bpmn/properties#ioSpecification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#ioSpecification> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#activity> .
+<http://example.org/bpmn/properties#ioSpecification> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#callableElement> .
+<http://example.org/bpmn/properties#ioSpecification> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#ioSpecification> .
+# 
+# http://example.org/bpmn/properties#itemRef
+<http://example.org/bpmn/properties#itemRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#itemRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#message> .
+# 
+# http://example.org/bpmn/properties#itemSubjectRef
+<http://example.org/bpmn/properties#itemSubjectRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#itemSubjectRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataInput> .
+<http://example.org/bpmn/properties#itemSubjectRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataObject> .
+<http://example.org/bpmn/properties#itemSubjectRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataObjectReference> .
+<http://example.org/bpmn/properties#itemSubjectRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataOutput> .
+<http://example.org/bpmn/properties#itemSubjectRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataStore> .
+<http://example.org/bpmn/properties#itemSubjectRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataStoreReference> .
+<http://example.org/bpmn/properties#itemSubjectRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#property> .
+# 
+# http://example.org/bpmn/properties#lane
+<http://example.org/bpmn/properties#lane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#lane> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#laneSet> .
+<http://example.org/bpmn/properties#lane> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#lane> .
+# 
+# http://example.org/bpmn/properties#laneSet
+<http://example.org/bpmn/properties#laneSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#laneSet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#process> .
+<http://example.org/bpmn/properties#laneSet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#subProcess> .
+<http://example.org/bpmn/properties#laneSet> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#laneSet> .
+# 
+# http://example.org/bpmn/properties#loopCardinality
+<http://example.org/bpmn/properties#loopCardinality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#loopCardinality> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+<http://example.org/bpmn/properties#loopCardinality> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#expression> .
+# 
+# http://example.org/bpmn/properties#loopCharacteristics
+<http://example.org/bpmn/properties#loopCharacteristics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#loopCharacteristics> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#activity> .
+<http://example.org/bpmn/properties#loopCharacteristics> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#loopCharacteristics> .
+# 
+# http://example.org/bpmn/properties#loopCondition
+<http://example.org/bpmn/properties#loopCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#loopCondition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#standardLoopCharacteristics> .
+<http://example.org/bpmn/properties#loopCondition> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#expression> .
+# 
+# http://example.org/bpmn/properties#loopDataInputRef
+<http://example.org/bpmn/properties#loopDataInputRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#loopDataInputRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+# 
+# http://example.org/bpmn/properties#loopDataOutputRef
+<http://example.org/bpmn/properties#loopDataOutputRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#loopDataOutputRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+# 
+# http://example.org/bpmn/properties#messageFlow
+<http://example.org/bpmn/properties#messageFlow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#messageFlow> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#collaboration> .
+<http://example.org/bpmn/properties#messageFlow> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#messageFlow> .
+# 
+# http://example.org/bpmn/properties#messageFlowAssociation
+<http://example.org/bpmn/properties#messageFlowAssociation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#messageFlowAssociation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#collaboration> .
+<http://example.org/bpmn/properties#messageFlowAssociation> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#messageFlowAssociation> .
+# 
+# http://example.org/bpmn/properties#messageFlowRef
+<http://example.org/bpmn/properties#messageFlowRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#messageFlowRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#choreographyTask> .
+<http://example.org/bpmn/properties#messageFlowRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#conversationNode> .
+# 
+# http://example.org/bpmn/properties#messagePath
+<http://example.org/bpmn/properties#messagePath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#messagePath> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#correlationPropertyRetrievalExpression> .
+<http://example.org/bpmn/properties#messagePath> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#formalExpression> .
+# 
+# http://example.org/bpmn/properties#messageRef
+<http://example.org/bpmn/properties#messageRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#messageRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#correlationPropertyRetrievalExpression> .
+<http://example.org/bpmn/properties#messageRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#messageEventDefinition> .
+<http://example.org/bpmn/properties#messageRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#messageFlow> .
+<http://example.org/bpmn/properties#messageRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#receiveTask> .
+<http://example.org/bpmn/properties#messageRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#sendTask> .
+# 
+# http://example.org/bpmn/properties#monitoring
+<http://example.org/bpmn/properties#monitoring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#monitoring> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#flowElement> .
+<http://example.org/bpmn/properties#monitoring> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#process> .
+<http://example.org/bpmn/properties#monitoring> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#monitoring> .
+# 
+# http://example.org/bpmn/properties#noneBehaviorEventRef
+<http://example.org/bpmn/properties#noneBehaviorEventRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#noneBehaviorEventRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+# 
+# http://example.org/bpmn/properties#oneBehaviorEventRef
+<http://example.org/bpmn/properties#oneBehaviorEventRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#oneBehaviorEventRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+# 
+# http://example.org/bpmn/properties#operation
+<http://example.org/bpmn/properties#operation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#operation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#interface> .
+<http://example.org/bpmn/properties#operation> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#operation> .
+# 
+# http://example.org/bpmn/properties#operationRef
+<http://example.org/bpmn/properties#operationRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#operationRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#inputOutputBinding> .
+<http://example.org/bpmn/properties#operationRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#messageEventDefinition> .
+<http://example.org/bpmn/properties#operationRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#receiveTask> .
+<http://example.org/bpmn/properties#operationRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#sendTask> .
+<http://example.org/bpmn/properties#operationRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#serviceTask> .
+# 
+# http://example.org/bpmn/properties#optionalInputRefs
+<http://example.org/bpmn/properties#optionalInputRefs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#optionalInputRefs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#inputSet> .
+# 
+# http://example.org/bpmn/properties#optionalOutputRefs
+<http://example.org/bpmn/properties#optionalOutputRefs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#optionalOutputRefs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#outputSet> .
+# 
+# http://example.org/bpmn/properties#outMessageRef
+<http://example.org/bpmn/properties#outMessageRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#outMessageRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#operation> .
+# 
+# http://example.org/bpmn/properties#outerConversationNodeRef
+<http://example.org/bpmn/properties#outerConversationNodeRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#outerConversationNodeRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#conversationAssociation> .
+# 
+# http://example.org/bpmn/properties#outerMessageFlowRef
+<http://example.org/bpmn/properties#outerMessageFlowRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#outerMessageFlowRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#messageFlowAssociation> .
+# 
+# http://example.org/bpmn/properties#outerParticipantRef
+<http://example.org/bpmn/properties#outerParticipantRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#outerParticipantRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#participantAssociation> .
+# 
+# http://example.org/bpmn/properties#outgoing
+<http://example.org/bpmn/properties#outgoing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#outgoing> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#flowNode> .
+# 
+# http://example.org/bpmn/properties#outputDataItem
+<http://example.org/bpmn/properties#outputDataItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#outputDataItem> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+<http://example.org/bpmn/properties#outputDataItem> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#dataOutput> .
+# 
+# http://example.org/bpmn/properties#outputDataRef
+<http://example.org/bpmn/properties#outputDataRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#outputDataRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#inputOutputBinding> .
+# 
+# http://example.org/bpmn/properties#outputSet
+<http://example.org/bpmn/properties#outputSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#outputSet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#catchEvent> .
+<http://example.org/bpmn/properties#outputSet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#inputOutputSpecification> .
+<http://example.org/bpmn/properties#outputSet> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#outputSet> .
+# 
+# http://example.org/bpmn/properties#outputSetRefs
+<http://example.org/bpmn/properties#outputSetRefs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#outputSetRefs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#inputSet> .
+# 
+# http://example.org/bpmn/properties#parameterRef
+<http://example.org/bpmn/properties#parameterRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#parameterRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#resourceParameterBinding> .
+# 
+# http://example.org/bpmn/properties#participant
+<http://example.org/bpmn/properties#participant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#participant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#collaboration> .
+<http://example.org/bpmn/properties#participant> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#participant> .
+# 
+# http://example.org/bpmn/properties#participantAssociation
+<http://example.org/bpmn/properties#participantAssociation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#participantAssociation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#callChoreography> .
+<http://example.org/bpmn/properties#participantAssociation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#callConversation> .
+<http://example.org/bpmn/properties#participantAssociation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#collaboration> .
+<http://example.org/bpmn/properties#participantAssociation> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#participantAssociation> .
+# 
+# http://example.org/bpmn/properties#participantMultiplicity
+<http://example.org/bpmn/properties#participantMultiplicity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#participantMultiplicity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#participant> .
+<http://example.org/bpmn/properties#participantMultiplicity> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#participantMultiplicity> .
+# 
+# http://example.org/bpmn/properties#participantRef
+<http://example.org/bpmn/properties#participantRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#participantRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#choreographyActivity> .
+<http://example.org/bpmn/properties#participantRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#conversationNode> .
+<http://example.org/bpmn/properties#participantRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#partnerEntity> .
+<http://example.org/bpmn/properties#participantRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#partnerRole> .
+# 
+# http://example.org/bpmn/properties#partitionElement
+<http://example.org/bpmn/properties#partitionElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#partitionElement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#lane> .
+<http://example.org/bpmn/properties#partitionElement> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/properties#partitionElementRef
+<http://example.org/bpmn/properties#partitionElementRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#partitionElementRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#lane> .
+# 
+# http://example.org/bpmn/properties#processRef
+<http://example.org/bpmn/properties#processRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#processRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#participant> .
+# 
+# http://example.org/bpmn/properties#property
+<http://example.org/bpmn/properties#property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#property> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#activity> .
+<http://example.org/bpmn/properties#property> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#event> .
+<http://example.org/bpmn/properties#property> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#process> .
+<http://example.org/bpmn/properties#property> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#property> .
+# 
+# http://example.org/bpmn/properties#rendering
+<http://example.org/bpmn/properties#rendering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#rendering> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#globalUserTask> .
+<http://example.org/bpmn/properties#rendering> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#userTask> .
+<http://example.org/bpmn/properties#rendering> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#rendering> .
+# 
+# http://example.org/bpmn/properties#resourceParameter
+<http://example.org/bpmn/properties#resourceParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#resourceParameter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#resource> .
+<http://example.org/bpmn/properties#resourceParameter> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#resourceParameter> .
+# 
+# http://example.org/bpmn/properties#resourceParameterBinding
+<http://example.org/bpmn/properties#resourceParameterBinding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#resourceParameterBinding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#resourceRole> .
+<http://example.org/bpmn/properties#resourceParameterBinding> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#resourceParameterBinding> .
+# 
+# http://example.org/bpmn/properties#resourceRef
+<http://example.org/bpmn/properties#resourceRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#resourceRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#resourceRole> .
+# 
+# http://example.org/bpmn/properties#resourceRole
+<http://example.org/bpmn/properties#resourceRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#resourceRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#activity> .
+<http://example.org/bpmn/properties#resourceRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#globalTask> .
+<http://example.org/bpmn/properties#resourceRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#process> .
+<http://example.org/bpmn/properties#resourceRole> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#resourceRole> .
+# 
+# http://example.org/bpmn/properties#script
+<http://example.org/bpmn/properties#script> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#script> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#globalScriptTask> .
+<http://example.org/bpmn/properties#script> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#scriptTask> .
+<http://example.org/bpmn/properties#script> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#script> .
+# 
+# http://example.org/bpmn/properties#signalRef
+<http://example.org/bpmn/properties#signalRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#signalRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#signalEventDefinition> .
+# 
+# http://example.org/bpmn/properties#source
+<http://example.org/bpmn/properties#source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#source> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#linkEventDefinition> .
+<http://example.org/bpmn/properties#source> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#relationship> .
+# 
+# http://example.org/bpmn/properties#sourceRef
+<http://example.org/bpmn/properties#sourceRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#sourceRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#association> .
+<http://example.org/bpmn/properties#sourceRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#conversationLink> .
+<http://example.org/bpmn/properties#sourceRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataAssociation> .
+<http://example.org/bpmn/properties#sourceRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#messageFlow> .
+<http://example.org/bpmn/properties#sourceRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#sequenceFlow> .
+# 
+# http://example.org/bpmn/properties#structureRef
+<http://example.org/bpmn/properties#structureRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#structureRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#error> .
+<http://example.org/bpmn/properties#structureRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#escalation> .
+<http://example.org/bpmn/properties#structureRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#itemDefinition> .
+<http://example.org/bpmn/properties#structureRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#signal> .
+# 
+# http://example.org/bpmn/properties#supportedInterfaceRef
+<http://example.org/bpmn/properties#supportedInterfaceRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#supportedInterfaceRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#callableElement> .
+# 
+# http://example.org/bpmn/properties#supports
+<http://example.org/bpmn/properties#supports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#supports> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#process> .
+# 
+# http://example.org/bpmn/properties#target
+<http://example.org/bpmn/properties#target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#target> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#linkEventDefinition> .
+<http://example.org/bpmn/properties#target> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#relationship> .
+# 
+# http://example.org/bpmn/properties#targetRef
+<http://example.org/bpmn/properties#targetRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#targetRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#association> .
+<http://example.org/bpmn/properties#targetRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#conversationLink> .
+<http://example.org/bpmn/properties#targetRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataAssociation> .
+<http://example.org/bpmn/properties#targetRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#messageFlow> .
+<http://example.org/bpmn/properties#targetRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#sequenceFlow> .
+# 
+# http://example.org/bpmn/properties#text
+<http://example.org/bpmn/properties#text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#text> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#textAnnotation> .
+<http://example.org/bpmn/properties#text> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#text> .
+# 
+# http://example.org/bpmn/properties#to
+<http://example.org/bpmn/properties#to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#assignment> .
+<http://example.org/bpmn/properties#to> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#expression> .
+# 
+# http://example.org/bpmn/properties#transformation
+<http://example.org/bpmn/properties#transformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#transformation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataAssociation> .
+<http://example.org/bpmn/properties#transformation> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/bpmn/classes#formalExpression> .
+# 
+# http://example.org/bpmn/properties#type
+<http://example.org/bpmn/properties#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#correlationProperty> .
+<http://example.org/bpmn/properties#type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#relationship> .
+<http://example.org/bpmn/properties#type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#resourceParameter> .
+# 
+# http://example.org/bpmn/properties#whileExecutingInputRefs
+<http://example.org/bpmn/properties#whileExecutingInputRefs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#whileExecutingInputRefs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#inputSet> .
+# 
+# http://example.org/bpmn/properties#whileExecutingOutputRefs
+<http://example.org/bpmn/properties#whileExecutingOutputRefs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/bpmn/properties#whileExecutingOutputRefs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#outputSet> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://example.org/bpmn/properties#associationDirection
+<http://example.org/bpmn/properties#associationDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#associationDirection> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#association> .
+<http://example.org/bpmn/properties#associationDirection> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://example.org/bpmn/properties#behavior
+<http://example.org/bpmn/properties#behavior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#behavior> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+<http://example.org/bpmn/properties#behavior> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://example.org/bpmn/properties#cancelActivity
+<http://example.org/bpmn/properties#cancelActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#cancelActivity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#boundaryEvent> .
+<http://example.org/bpmn/properties#cancelActivity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://example.org/bpmn/properties#cancelRemainingInstances
+<http://example.org/bpmn/properties#cancelRemainingInstances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#cancelRemainingInstances> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#adHocSubProcess> .
+<http://example.org/bpmn/properties#cancelRemainingInstances> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://example.org/bpmn/properties#capacity
+<http://example.org/bpmn/properties#capacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#capacity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataStore> .
+<http://example.org/bpmn/properties#capacity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://example.org/bpmn/properties#completionQuantity
+<http://example.org/bpmn/properties#completionQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#completionQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#activity> .
+<http://example.org/bpmn/properties#completionQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://example.org/bpmn/properties#direction
+<http://example.org/bpmn/properties#direction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#direction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#relationship> .
+<http://example.org/bpmn/properties#direction> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://example.org/bpmn/properties#errorCode
+<http://example.org/bpmn/properties#errorCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#errorCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#error> .
+<http://example.org/bpmn/properties#errorCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://example.org/bpmn/properties#escalationCode
+<http://example.org/bpmn/properties#escalationCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#escalationCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#escalation> .
+<http://example.org/bpmn/properties#escalationCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://example.org/bpmn/properties#eventGatewayType
+<http://example.org/bpmn/properties#eventGatewayType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#eventGatewayType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#eventBasedGateway> .
+<http://example.org/bpmn/properties#eventGatewayType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://example.org/bpmn/properties#gatewayDirection
+<http://example.org/bpmn/properties#gatewayDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#gatewayDirection> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#gateway> .
+<http://example.org/bpmn/properties#gatewayDirection> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://example.org/bpmn/properties#id
+<http://example.org/bpmn/properties#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#baseElement> .
+<http://example.org/bpmn/properties#id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#baseElementWithMixedContent> .
+<http://example.org/bpmn/properties#id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#documentation> .
+<http://example.org/bpmn/properties#id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#ID> .
+# 
+# http://example.org/bpmn/properties#implementation
+<http://example.org/bpmn/properties#implementation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#implementation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#businessRuleTask> .
+<http://example.org/bpmn/properties#implementation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#globalBusinessRuleTask> .
+<http://example.org/bpmn/properties#implementation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#globalUserTask> .
+<http://example.org/bpmn/properties#implementation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#receiveTask> .
+<http://example.org/bpmn/properties#implementation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#sendTask> .
+<http://example.org/bpmn/properties#implementation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#serviceTask> .
+<http://example.org/bpmn/properties#implementation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#userTask> .
+<http://example.org/bpmn/properties#implementation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://example.org/bpmn/properties#implementation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#token> .
+# 
+# http://example.org/bpmn/properties#instantiate
+<http://example.org/bpmn/properties#instantiate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#instantiate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#eventBasedGateway> .
+<http://example.org/bpmn/properties#instantiate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#receiveTask> .
+<http://example.org/bpmn/properties#instantiate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://example.org/bpmn/properties#isClosed
+<http://example.org/bpmn/properties#isClosed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#isClosed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#collaboration> .
+<http://example.org/bpmn/properties#isClosed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#process> .
+<http://example.org/bpmn/properties#isClosed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://example.org/bpmn/properties#isCollection
+<http://example.org/bpmn/properties#isCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#isCollection> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataInput> .
+<http://example.org/bpmn/properties#isCollection> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataObject> .
+<http://example.org/bpmn/properties#isCollection> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataOutput> .
+<http://example.org/bpmn/properties#isCollection> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#itemDefinition> .
+<http://example.org/bpmn/properties#isCollection> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://example.org/bpmn/properties#isExecutable
+<http://example.org/bpmn/properties#isExecutable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#isExecutable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#process> .
+<http://example.org/bpmn/properties#isExecutable> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://example.org/bpmn/properties#isForCompensation
+<http://example.org/bpmn/properties#isForCompensation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#isForCompensation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#activity> .
+<http://example.org/bpmn/properties#isForCompensation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://example.org/bpmn/properties#isImmediate
+<http://example.org/bpmn/properties#isImmediate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#isImmediate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#sequenceFlow> .
+<http://example.org/bpmn/properties#isImmediate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://example.org/bpmn/properties#isInterrupting
+<http://example.org/bpmn/properties#isInterrupting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#isInterrupting> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#startEvent> .
+<http://example.org/bpmn/properties#isInterrupting> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://example.org/bpmn/properties#isRequired
+<http://example.org/bpmn/properties#isRequired> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#isRequired> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#resourceParameter> .
+<http://example.org/bpmn/properties#isRequired> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://example.org/bpmn/properties#isSequential
+<http://example.org/bpmn/properties#isSequential> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#isSequential> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+<http://example.org/bpmn/properties#isSequential> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://example.org/bpmn/properties#isUnlimited
+<http://example.org/bpmn/properties#isUnlimited> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#isUnlimited> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataStore> .
+<http://example.org/bpmn/properties#isUnlimited> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://example.org/bpmn/properties#itemKind
+<http://example.org/bpmn/properties#itemKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#itemKind> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#itemDefinition> .
+<http://example.org/bpmn/properties#itemKind> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://example.org/bpmn/properties#language
+<http://example.org/bpmn/properties#language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#language> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#formalExpression> .
+<http://example.org/bpmn/properties#language> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://example.org/bpmn/properties#loopMaximum
+<http://example.org/bpmn/properties#loopMaximum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#loopMaximum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#standardLoopCharacteristics> .
+<http://example.org/bpmn/properties#loopMaximum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://example.org/bpmn/properties#loopType
+<http://example.org/bpmn/properties#loopType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#loopType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#choreographyActivity> .
+<http://example.org/bpmn/properties#loopType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://example.org/bpmn/properties#maximum
+<http://example.org/bpmn/properties#maximum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#maximum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#participantMultiplicity> .
+<http://example.org/bpmn/properties#maximum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://example.org/bpmn/properties#method
+<http://example.org/bpmn/properties#method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#method> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#transaction> .
+<http://example.org/bpmn/properties#method> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://example.org/bpmn/properties#method> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#token> .
+# 
+# http://example.org/bpmn/properties#minimum
+<http://example.org/bpmn/properties#minimum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#minimum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#participantMultiplicity> .
+<http://example.org/bpmn/properties#minimum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://example.org/bpmn/properties#mustUnderstand
+<http://example.org/bpmn/properties#mustUnderstand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#mustUnderstand> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#extension> .
+<http://example.org/bpmn/properties#mustUnderstand> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://example.org/bpmn/properties#name
+<http://example.org/bpmn/properties#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#callableElement> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#category> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#collaboration> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#conversationLink> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#conversationNode> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#correlationKey> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#correlationProperty> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataInput> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataOutput> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataState> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#dataStore> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#error> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#escalation> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#flowElement> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#inputSet> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#interface> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#lane> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#laneSet> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#linkEventDefinition> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#message> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#messageFlow> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#operation> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#outputSet> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#participant> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#partnerEntity> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#partnerRole> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#property> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#resource> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#resourceParameter> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#resourceRole> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#signal> .
+<http://example.org/bpmn/properties#name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://example.org/bpmn/properties#ordering
+<http://example.org/bpmn/properties#ordering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#ordering> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#adHocSubProcess> .
+<http://example.org/bpmn/properties#ordering> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://example.org/bpmn/properties#parallelMultiple
+<http://example.org/bpmn/properties#parallelMultiple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#parallelMultiple> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#catchEvent> .
+<http://example.org/bpmn/properties#parallelMultiple> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://example.org/bpmn/properties#processType
+<http://example.org/bpmn/properties#processType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#processType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#process> .
+<http://example.org/bpmn/properties#processType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://example.org/bpmn/properties#scriptFormat
+<http://example.org/bpmn/properties#scriptFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#scriptFormat> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#scriptTask> .
+<http://example.org/bpmn/properties#scriptFormat> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://example.org/bpmn/properties#scriptLanguage
+<http://example.org/bpmn/properties#scriptLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#scriptLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#globalScriptTask> .
+<http://example.org/bpmn/properties#scriptLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://example.org/bpmn/properties#startQuantity
+<http://example.org/bpmn/properties#startQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#startQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#activity> .
+<http://example.org/bpmn/properties#startQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://example.org/bpmn/properties#testBefore
+<http://example.org/bpmn/properties#testBefore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#testBefore> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#standardLoopCharacteristics> .
+<http://example.org/bpmn/properties#testBefore> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://example.org/bpmn/properties#textFormat
+<http://example.org/bpmn/properties#textFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#textFormat> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#documentation> .
+<http://example.org/bpmn/properties#textFormat> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#textAnnotation> .
+<http://example.org/bpmn/properties#textFormat> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://example.org/bpmn/properties#triggeredByEvent
+<http://example.org/bpmn/properties#triggeredByEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#triggeredByEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#subProcess> .
+<http://example.org/bpmn/properties#triggeredByEvent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://example.org/bpmn/properties#type
+<http://example.org/bpmn/properties#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://example.org/bpmn/properties#value
+<http://example.org/bpmn/properties#value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#categoryValue> .
+<http://example.org/bpmn/properties#value> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://example.org/bpmn/properties#waitForCompletion
+<http://example.org/bpmn/properties#waitForCompletion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/bpmn/properties#waitForCompletion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/bpmn/classes#compensateEventDefinition> .
+<http://example.org/bpmn/properties#waitForCompletion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://example.org/bpmn/classes#activity
+<http://example.org/bpmn/classes#activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#activity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#flowNode> .
+# 
+# http://example.org/bpmn/classes#adHocSubProcess
+<http://example.org/bpmn/classes#adHocSubProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#adHocSubProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#subProcess> .
+# 
+# http://example.org/bpmn/classes#allBehaviorMultiInstanceLoopCharacteristics
+<http://example.org/bpmn/classes#allBehaviorMultiInstanceLoopCharacteristics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#allBehaviorMultiInstanceLoopCharacteristics> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid2 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#hasValue> "All" .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#behavior> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#allBehaviorMultiInstanceLoopCharacteristics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+# 
+# http://example.org/bpmn/classes#artifact
+<http://example.org/bpmn/classes#artifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#artifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#assignment
+<http://example.org/bpmn/classes#assignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#assignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#association
+<http://example.org/bpmn/classes#association> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#association> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#artifact> .
+# 
+# http://example.org/bpmn/classes#auditing
+<http://example.org/bpmn/classes#auditing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#auditing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#backwardDirectionRelationship
+<http://example.org/bpmn/classes#backwardDirectionRelationship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#backwardDirectionRelationship> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid6 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#hasValue> "Backward" .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#direction> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#relationship> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#backwardDirectionRelationship> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#relationship> .
+# 
+# http://example.org/bpmn/classes#baseElement
+<http://example.org/bpmn/classes#baseElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://example.org/bpmn/classes#baseElementWithMixedContent
+<http://example.org/bpmn/classes#baseElementWithMixedContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://example.org/bpmn/classes#bidirectionalAssociation
+<http://example.org/bpmn/classes#bidirectionalAssociation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#bidirectionalAssociation> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid10 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#hasValue> "Both" .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#associationDirection> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#association> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#bidirectionalAssociation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#association> .
+# 
+# http://example.org/bpmn/classes#bothDirectionRelationship
+<http://example.org/bpmn/classes#bothDirectionRelationship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#bothDirectionRelationship> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid14 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#hasValue> "Both" .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#direction> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#relationship> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#bothDirectionRelationship> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#relationship> .
+# 
+# http://example.org/bpmn/classes#boundaryEvent
+<http://example.org/bpmn/classes#boundaryEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#boundaryEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#catchEvent> .
+# 
+# http://example.org/bpmn/classes#businessRuleTask
+<http://example.org/bpmn/classes#businessRuleTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#businessRuleTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#task> .
+# 
+# http://example.org/bpmn/classes#callActivity
+<http://example.org/bpmn/classes#callActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#callActivity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#activity> .
+# 
+# http://example.org/bpmn/classes#callChoreography
+<http://example.org/bpmn/classes#callChoreography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#callChoreography> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#choreographyActivity> .
+# 
+# http://example.org/bpmn/classes#callConversation
+<http://example.org/bpmn/classes#callConversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#callConversation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#conversationNode> .
+# 
+# http://example.org/bpmn/classes#callableElement
+<http://example.org/bpmn/classes#callableElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#callableElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#rootElement> .
+# 
+# http://example.org/bpmn/classes#cancelEventDefinition
+<http://example.org/bpmn/classes#cancelEventDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#cancelEventDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#eventDefinition> .
+# 
+# http://example.org/bpmn/classes#catchEvent
+<http://example.org/bpmn/classes#catchEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#catchEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#event> .
+# 
+# http://example.org/bpmn/classes#category
+<http://example.org/bpmn/classes#category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#category> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#rootElement> .
+# 
+# http://example.org/bpmn/classes#categoryValue
+<http://example.org/bpmn/classes#categoryValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#categoryValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#choreography
+<http://example.org/bpmn/classes#choreography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#choreography> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#collaboration> .
+# 
+# http://example.org/bpmn/classes#choreographyActivity
+<http://example.org/bpmn/classes#choreographyActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#choreographyActivity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#flowNode> .
+# 
+# http://example.org/bpmn/classes#choreographyTask
+<http://example.org/bpmn/classes#choreographyTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#choreographyTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#choreographyActivity> .
+# 
+# http://example.org/bpmn/classes#collaboration
+<http://example.org/bpmn/classes#collaboration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#collaboration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#rootElement> .
+# 
+# http://example.org/bpmn/classes#compensateEventDefinition
+<http://example.org/bpmn/classes#compensateEventDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#compensateEventDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#eventDefinition> .
+# 
+# http://example.org/bpmn/classes#compensateTransaction
+<http://example.org/bpmn/classes#compensateTransaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#compensateTransaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid18 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#hasValue> "##Compensate" .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#method> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#transaction> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#compensateTransaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#transaction> .
+# 
+# http://example.org/bpmn/classes#complexBehaviorDefinition
+<http://example.org/bpmn/classes#complexBehaviorDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#complexBehaviorDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#complexBehaviorMultiInstanceLoopCharacteristics
+<http://example.org/bpmn/classes#complexBehaviorMultiInstanceLoopCharacteristics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#complexBehaviorMultiInstanceLoopCharacteristics> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid22 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#hasValue> "Complex" .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#behavior> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#complexBehaviorMultiInstanceLoopCharacteristics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+# 
+# http://example.org/bpmn/classes#complexGateway
+<http://example.org/bpmn/classes#complexGateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#complexGateway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#gateway> .
+# 
+# http://example.org/bpmn/classes#conditionalEventDefinition
+<http://example.org/bpmn/classes#conditionalEventDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#conditionalEventDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#eventDefinition> .
+# 
+# http://example.org/bpmn/classes#convergingDirectionGateway
+<http://example.org/bpmn/classes#convergingDirectionGateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#convergingDirectionGateway> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid26 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid28 .
+_:genid28 <http://www.w3.org/2002/07/owl#hasValue> "Converging" .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#gatewayDirection> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#gateway> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#convergingDirectionGateway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#gateway> .
+# 
+# http://example.org/bpmn/classes#conversation
+<http://example.org/bpmn/classes#conversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#conversation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#conversationNode> .
+# 
+# http://example.org/bpmn/classes#conversationAssociation
+<http://example.org/bpmn/classes#conversationAssociation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#conversationAssociation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#conversationLink
+<http://example.org/bpmn/classes#conversationLink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#conversationLink> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#conversationNode
+<http://example.org/bpmn/classes#conversationNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#conversationNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#correlationKey
+<http://example.org/bpmn/classes#correlationKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#correlationKey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#correlationProperty
+<http://example.org/bpmn/classes#correlationProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#correlationProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#rootElement> .
+# 
+# http://example.org/bpmn/classes#correlationPropertyBinding
+<http://example.org/bpmn/classes#correlationPropertyBinding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#correlationPropertyBinding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#correlationPropertyRetrievalExpression
+<http://example.org/bpmn/classes#correlationPropertyRetrievalExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#correlationPropertyRetrievalExpression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#correlationSubscription
+<http://example.org/bpmn/classes#correlationSubscription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#correlationSubscription> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#dataAssociation
+<http://example.org/bpmn/classes#dataAssociation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#dataAssociation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#dataInput
+<http://example.org/bpmn/classes#dataInput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#dataInput> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#dataInputAssociation
+<http://example.org/bpmn/classes#dataInputAssociation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#dataInputAssociation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#dataAssociation> .
+# 
+# http://example.org/bpmn/classes#dataObject
+<http://example.org/bpmn/classes#dataObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#dataObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#flowElement> .
+# 
+# http://example.org/bpmn/classes#dataObjectReference
+<http://example.org/bpmn/classes#dataObjectReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#dataObjectReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#flowElement> .
+# 
+# http://example.org/bpmn/classes#dataOutput
+<http://example.org/bpmn/classes#dataOutput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#dataOutput> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#dataOutputAssociation
+<http://example.org/bpmn/classes#dataOutputAssociation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#dataOutputAssociation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#dataAssociation> .
+# 
+# http://example.org/bpmn/classes#dataState
+<http://example.org/bpmn/classes#dataState> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#dataState> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#dataStore
+<http://example.org/bpmn/classes#dataStore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#dataStore> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#rootElement> .
+# 
+# http://example.org/bpmn/classes#dataStoreReference
+<http://example.org/bpmn/classes#dataStoreReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#dataStoreReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#flowElement> .
+# 
+# http://example.org/bpmn/classes#divergingDirectionGateway
+<http://example.org/bpmn/classes#divergingDirectionGateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#divergingDirectionGateway> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid30 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid32 .
+_:genid32 <http://www.w3.org/2002/07/owl#hasValue> "Diverging" .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#gatewayDirection> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#gateway> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#divergingDirectionGateway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#gateway> .
+# 
+# http://example.org/bpmn/classes#documentation
+<http://example.org/bpmn/classes#documentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://example.org/bpmn/classes#endEvent
+<http://example.org/bpmn/classes#endEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#endEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#throwEvent> .
+# 
+# http://example.org/bpmn/classes#endPoint
+<http://example.org/bpmn/classes#endPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#endPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#rootElement> .
+# 
+# http://example.org/bpmn/classes#error
+<http://example.org/bpmn/classes#error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#error> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#rootElement> .
+# 
+# http://example.org/bpmn/classes#errorEventDefinition
+<http://example.org/bpmn/classes#errorEventDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#errorEventDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#eventDefinition> .
+# 
+# http://example.org/bpmn/classes#escalation
+<http://example.org/bpmn/classes#escalation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#escalation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#rootElement> .
+# 
+# http://example.org/bpmn/classes#escalationEventDefinition
+<http://example.org/bpmn/classes#escalationEventDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#escalationEventDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#eventDefinition> .
+# 
+# http://example.org/bpmn/classes#event
+<http://example.org/bpmn/classes#event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#flowNode> .
+# 
+# http://example.org/bpmn/classes#eventBasedGateway
+<http://example.org/bpmn/classes#eventBasedGateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#eventBasedGateway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#gateway> .
+# 
+# http://example.org/bpmn/classes#eventDefinition
+<http://example.org/bpmn/classes#eventDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#eventDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#rootElement> .
+# 
+# http://example.org/bpmn/classes#exclusiveEventBasedGateway
+<http://example.org/bpmn/classes#exclusiveEventBasedGateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#exclusiveEventBasedGateway> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid34 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid36 .
+_:genid36 <http://www.w3.org/2002/07/owl#hasValue> "Exclusive" .
+_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#eventGatewayType> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#eventBasedGateway> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#exclusiveEventBasedGateway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#eventBasedGateway> .
+# 
+# http://example.org/bpmn/classes#exclusiveGateway
+<http://example.org/bpmn/classes#exclusiveGateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#exclusiveGateway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#gateway> .
+# 
+# http://example.org/bpmn/classes#expression
+<http://example.org/bpmn/classes#expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#expression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElementWithMixedContent> .
+# 
+# http://example.org/bpmn/classes#extension
+<http://example.org/bpmn/classes#extension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://example.org/bpmn/classes#extensionElements
+<http://example.org/bpmn/classes#extensionElements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://example.org/bpmn/classes#flowElement
+<http://example.org/bpmn/classes#flowElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#flowElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#flowNode
+<http://example.org/bpmn/classes#flowNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#flowNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#flowElement> .
+# 
+# http://example.org/bpmn/classes#formalExpression
+<http://example.org/bpmn/classes#formalExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#formalExpression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#expression> .
+# 
+# http://example.org/bpmn/classes#forwardDirectionRelationship
+<http://example.org/bpmn/classes#forwardDirectionRelationship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#forwardDirectionRelationship> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid38 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid40 .
+_:genid40 <http://www.w3.org/2002/07/owl#hasValue> "Forward" .
+_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#direction> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#relationship> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#forwardDirectionRelationship> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#relationship> .
+# 
+# http://example.org/bpmn/classes#gateway
+<http://example.org/bpmn/classes#gateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#gateway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#flowNode> .
+# 
+# http://example.org/bpmn/classes#globalBusinessRuleTask
+<http://example.org/bpmn/classes#globalBusinessRuleTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#globalBusinessRuleTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#globalTask> .
+# 
+# http://example.org/bpmn/classes#globalChoreographyTask
+<http://example.org/bpmn/classes#globalChoreographyTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#globalChoreographyTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#choreography> .
+# 
+# http://example.org/bpmn/classes#globalConversation
+<http://example.org/bpmn/classes#globalConversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#globalConversation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#collaboration> .
+# 
+# http://example.org/bpmn/classes#globalManualTask
+<http://example.org/bpmn/classes#globalManualTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#globalManualTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#globalTask> .
+# 
+# http://example.org/bpmn/classes#globalScriptTask
+<http://example.org/bpmn/classes#globalScriptTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#globalScriptTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#globalTask> .
+# 
+# http://example.org/bpmn/classes#globalTask
+<http://example.org/bpmn/classes#globalTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#globalTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#callableElement> .
+# 
+# http://example.org/bpmn/classes#globalUserTask
+<http://example.org/bpmn/classes#globalUserTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#globalUserTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#globalTask> .
+# 
+# http://example.org/bpmn/classes#group
+<http://example.org/bpmn/classes#group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#artifact> .
+# 
+# http://example.org/bpmn/classes#humanPerformer
+<http://example.org/bpmn/classes#humanPerformer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#humanPerformer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#performer> .
+# 
+# http://example.org/bpmn/classes#imageTransaction
+<http://example.org/bpmn/classes#imageTransaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#imageTransaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid42 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid44 .
+_:genid44 <http://www.w3.org/2002/07/owl#hasValue> "##Image" .
+_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#method> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#transaction> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#imageTransaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#transaction> .
+# 
+# http://example.org/bpmn/classes#implicitThrowEvent
+<http://example.org/bpmn/classes#implicitThrowEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#implicitThrowEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#throwEvent> .
+# 
+# http://example.org/bpmn/classes#inclusiveGateway
+<http://example.org/bpmn/classes#inclusiveGateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#inclusiveGateway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#gateway> .
+# 
+# http://example.org/bpmn/classes#informationItemDefinition
+<http://example.org/bpmn/classes#informationItemDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#informationItemDefinition> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid46 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48 .
+_:genid48 <http://www.w3.org/2002/07/owl#hasValue> "Information" .
+_:genid48 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#itemKind> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#itemDefinition> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#informationItemDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#itemDefinition> .
+# 
+# http://example.org/bpmn/classes#inputOutputBinding
+<http://example.org/bpmn/classes#inputOutputBinding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://example.org/bpmn/classes#inputOutputSpecification
+<http://example.org/bpmn/classes#inputOutputSpecification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://example.org/bpmn/classes#inputSet
+<http://example.org/bpmn/classes#inputSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#inputSet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#interface
+<http://example.org/bpmn/classes#interface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#interface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#rootElement> .
+# 
+# http://example.org/bpmn/classes#intermediateCatchEvent
+<http://example.org/bpmn/classes#intermediateCatchEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#intermediateCatchEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#catchEvent> .
+# 
+# http://example.org/bpmn/classes#intermediateThrowEvent
+<http://example.org/bpmn/classes#intermediateThrowEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#intermediateThrowEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#throwEvent> .
+# 
+# http://example.org/bpmn/classes#ioBinding
+<http://example.org/bpmn/classes#ioBinding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://example.org/bpmn/classes#ioSpecification
+<http://example.org/bpmn/classes#ioSpecification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://example.org/bpmn/classes#itemDefinition
+<http://example.org/bpmn/classes#itemDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#itemDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#rootElement> .
+# 
+# http://example.org/bpmn/classes#lane
+<http://example.org/bpmn/classes#lane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#lane> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#laneSet
+<http://example.org/bpmn/classes#laneSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#laneSet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#linkEventDefinition
+<http://example.org/bpmn/classes#linkEventDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#linkEventDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#eventDefinition> .
+# 
+# http://example.org/bpmn/classes#loopCharacteristics
+<http://example.org/bpmn/classes#loopCharacteristics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#loopCharacteristics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#manualTask
+<http://example.org/bpmn/classes#manualTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#manualTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#task> .
+# 
+# http://example.org/bpmn/classes#message
+<http://example.org/bpmn/classes#message> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#message> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#rootElement> .
+# 
+# http://example.org/bpmn/classes#messageEventDefinition
+<http://example.org/bpmn/classes#messageEventDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#messageEventDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#eventDefinition> .
+# 
+# http://example.org/bpmn/classes#messageFlow
+<http://example.org/bpmn/classes#messageFlow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#messageFlow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#messageFlowAssociation
+<http://example.org/bpmn/classes#messageFlowAssociation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#messageFlowAssociation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#mixedDirectionGateway
+<http://example.org/bpmn/classes#mixedDirectionGateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#mixedDirectionGateway> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid50 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid52 .
+_:genid52 <http://www.w3.org/2002/07/owl#hasValue> "Mixed" .
+_:genid52 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#gatewayDirection> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#gateway> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#mixedDirectionGateway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#gateway> .
+# 
+# http://example.org/bpmn/classes#monitoring
+<http://example.org/bpmn/classes#monitoring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#monitoring> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#multiInstanceLoopCharacteristics
+<http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#loopCharacteristics> .
+# 
+# http://example.org/bpmn/classes#multiInstanceParallelLoopChoreographyActivity
+<http://example.org/bpmn/classes#multiInstanceParallelLoopChoreographyActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#multiInstanceParallelLoopChoreographyActivity> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid54 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid56 .
+_:genid56 <http://www.w3.org/2002/07/owl#hasValue> "MultiInstanceParallel" .
+_:genid56 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#loopType> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#choreographyActivity> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#multiInstanceParallelLoopChoreographyActivity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#choreographyActivity> .
+# 
+# http://example.org/bpmn/classes#multiInstanceSequentialLoopChoreographyActivity
+<http://example.org/bpmn/classes#multiInstanceSequentialLoopChoreographyActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#multiInstanceSequentialLoopChoreographyActivity> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid58 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid60 .
+_:genid60 <http://www.w3.org/2002/07/owl#hasValue> "MultiInstanceSequential" .
+_:genid60 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#loopType> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#choreographyActivity> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#multiInstanceSequentialLoopChoreographyActivity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#choreographyActivity> .
+# 
+# http://example.org/bpmn/classes#noneBehaviorMultiInstanceLoopCharacteristics
+<http://example.org/bpmn/classes#noneBehaviorMultiInstanceLoopCharacteristics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#noneBehaviorMultiInstanceLoopCharacteristics> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid62 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64 .
+_:genid64 <http://www.w3.org/2002/07/owl#hasValue> "None" .
+_:genid64 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#behavior> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#noneBehaviorMultiInstanceLoopCharacteristics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+# 
+# http://example.org/bpmn/classes#noneDirectionRelationship
+<http://example.org/bpmn/classes#noneDirectionRelationship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#noneDirectionRelationship> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid66 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid68 .
+_:genid68 <http://www.w3.org/2002/07/owl#hasValue> "None" .
+_:genid68 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#direction> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#relationship> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#noneDirectionRelationship> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#relationship> .
+# 
+# http://example.org/bpmn/classes#noneLoopChoreographyActivity
+<http://example.org/bpmn/classes#noneLoopChoreographyActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#noneLoopChoreographyActivity> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid70 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid72 .
+_:genid72 <http://www.w3.org/2002/07/owl#hasValue> "None" .
+_:genid72 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#loopType> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#choreographyActivity> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#noneLoopChoreographyActivity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#choreographyActivity> .
+# 
+# http://example.org/bpmn/classes#noneProcess
+<http://example.org/bpmn/classes#noneProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#noneProcess> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid74 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid76 .
+_:genid76 <http://www.w3.org/2002/07/owl#hasValue> "None" .
+_:genid76 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#processType> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#process> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#noneProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#process> .
+# 
+# http://example.org/bpmn/classes#oneBehaviorMultiInstanceLoopCharacteristics
+<http://example.org/bpmn/classes#oneBehaviorMultiInstanceLoopCharacteristics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#oneBehaviorMultiInstanceLoopCharacteristics> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid78 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid80 .
+_:genid80 <http://www.w3.org/2002/07/owl#hasValue> "One" .
+_:genid80 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#behavior> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#oneBehaviorMultiInstanceLoopCharacteristics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#multiInstanceLoopCharacteristics> .
+# 
+# http://example.org/bpmn/classes#oneWayAssociation
+<http://example.org/bpmn/classes#oneWayAssociation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#oneWayAssociation> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid82 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid84 .
+_:genid84 <http://www.w3.org/2002/07/owl#hasValue> "One" .
+_:genid84 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#associationDirection> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#association> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#oneWayAssociation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#association> .
+# 
+# http://example.org/bpmn/classes#operation
+<http://example.org/bpmn/classes#operation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#operation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#outputSet
+<http://example.org/bpmn/classes#outputSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#outputSet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#parallelAdHocSubProcess
+<http://example.org/bpmn/classes#parallelAdHocSubProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#parallelAdHocSubProcess> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid86 .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid86 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid89 .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid88 .
+_:genid88 <http://www.w3.org/2002/07/owl#hasValue> "Parallel" .
+_:genid88 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#ordering> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#adHocSubProcess> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#parallelAdHocSubProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#adHocSubProcess> .
+# 
+# http://example.org/bpmn/classes#parallelEventBasedGateway
+<http://example.org/bpmn/classes#parallelEventBasedGateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#parallelEventBasedGateway> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid90 .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid90 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid93 .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid91 .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid92 .
+_:genid92 <http://www.w3.org/2002/07/owl#hasValue> "Parallel" .
+_:genid92 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#eventGatewayType> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#eventBasedGateway> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#parallelEventBasedGateway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#eventBasedGateway> .
+# 
+# http://example.org/bpmn/classes#parallelGateway
+<http://example.org/bpmn/classes#parallelGateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#parallelGateway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#gateway> .
+# 
+# http://example.org/bpmn/classes#participant
+<http://example.org/bpmn/classes#participant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#participant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#participantAssociation
+<http://example.org/bpmn/classes#participantAssociation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#participantAssociation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#participantMultiplicity
+<http://example.org/bpmn/classes#participantMultiplicity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#participantMultiplicity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#partnerEntity
+<http://example.org/bpmn/classes#partnerEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#partnerEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#rootElement> .
+# 
+# http://example.org/bpmn/classes#partnerRole
+<http://example.org/bpmn/classes#partnerRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#partnerRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#rootElement> .
+# 
+# http://example.org/bpmn/classes#performer
+<http://example.org/bpmn/classes#performer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#performer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#resourceRole> .
+# 
+# http://example.org/bpmn/classes#physicalItemDefinition
+<http://example.org/bpmn/classes#physicalItemDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#physicalItemDefinition> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid94 .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid94 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid97 .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid95 .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid96 .
+_:genid96 <http://www.w3.org/2002/07/owl#hasValue> "Physical" .
+_:genid96 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#itemKind> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#itemDefinition> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#physicalItemDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#itemDefinition> .
+# 
+# http://example.org/bpmn/classes#potentialOwner
+<http://example.org/bpmn/classes#potentialOwner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#potentialOwner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#humanPerformer> .
+# 
+# http://example.org/bpmn/classes#privateProcess
+<http://example.org/bpmn/classes#privateProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#privateProcess> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid98 .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid98 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101 .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid99 .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid100 .
+_:genid100 <http://www.w3.org/2002/07/owl#hasValue> "Private" .
+_:genid100 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#processType> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#process> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#privateProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#process> .
+# 
+# http://example.org/bpmn/classes#process
+<http://example.org/bpmn/classes#process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#process> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#callableElement> .
+# 
+# http://example.org/bpmn/classes#property
+<http://example.org/bpmn/classes#property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#publicProcess
+<http://example.org/bpmn/classes#publicProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#publicProcess> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid102 .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid102 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid105 .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid103 .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid104 .
+_:genid104 <http://www.w3.org/2002/07/owl#hasValue> "Public" .
+_:genid104 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#processType> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#process> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#publicProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#process> .
+# 
+# http://example.org/bpmn/classes#receiveTask
+<http://example.org/bpmn/classes#receiveTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#receiveTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#task> .
+# 
+# http://example.org/bpmn/classes#relationship
+<http://example.org/bpmn/classes#relationship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#relationship> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#rendering
+<http://example.org/bpmn/classes#rendering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#rendering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#resource
+<http://example.org/bpmn/classes#resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#rootElement> .
+# 
+# http://example.org/bpmn/classes#resourceAssignmentExpression
+<http://example.org/bpmn/classes#resourceAssignmentExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#resourceAssignmentExpression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#resourceParameter
+<http://example.org/bpmn/classes#resourceParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#resourceParameter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#resourceParameterBinding
+<http://example.org/bpmn/classes#resourceParameterBinding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#resourceParameterBinding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#resourceRole
+<http://example.org/bpmn/classes#resourceRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#resourceRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#rootElement
+<http://example.org/bpmn/classes#rootElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#rootElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#baseElement> .
+# 
+# http://example.org/bpmn/classes#script
+<http://example.org/bpmn/classes#script> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://example.org/bpmn/classes#scriptTask
+<http://example.org/bpmn/classes#scriptTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#scriptTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#task> .
+# 
+# http://example.org/bpmn/classes#sendTask
+<http://example.org/bpmn/classes#sendTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#sendTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#task> .
+# 
+# http://example.org/bpmn/classes#sequenceFlow
+<http://example.org/bpmn/classes#sequenceFlow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#sequenceFlow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#flowElement> .
+# 
+# http://example.org/bpmn/classes#sequentialAdHocSubProcess
+<http://example.org/bpmn/classes#sequentialAdHocSubProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#sequentialAdHocSubProcess> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid106 .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid106 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid109 .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid107 .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid108 .
+_:genid108 <http://www.w3.org/2002/07/owl#hasValue> "Sequential" .
+_:genid108 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#ordering> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#adHocSubProcess> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#sequentialAdHocSubProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#adHocSubProcess> .
+# 
+# http://example.org/bpmn/classes#serviceTask
+<http://example.org/bpmn/classes#serviceTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#serviceTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#task> .
+# 
+# http://example.org/bpmn/classes#signal
+<http://example.org/bpmn/classes#signal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#signal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#rootElement> .
+# 
+# http://example.org/bpmn/classes#signalEventDefinition
+<http://example.org/bpmn/classes#signalEventDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#signalEventDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#eventDefinition> .
+# 
+# http://example.org/bpmn/classes#standardLoopCharacteristics
+<http://example.org/bpmn/classes#standardLoopCharacteristics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#standardLoopCharacteristics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#loopCharacteristics> .
+# 
+# http://example.org/bpmn/classes#standardLoopChoreographyActivity
+<http://example.org/bpmn/classes#standardLoopChoreographyActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#standardLoopChoreographyActivity> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid110 .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid110 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid113 .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid111 .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid112 .
+_:genid112 <http://www.w3.org/2002/07/owl#hasValue> "Standard" .
+_:genid112 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#loopType> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#choreographyActivity> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#standardLoopChoreographyActivity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#choreographyActivity> .
+# 
+# http://example.org/bpmn/classes#startEvent
+<http://example.org/bpmn/classes#startEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#startEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#catchEvent> .
+# 
+# http://example.org/bpmn/classes#storeTransaction
+<http://example.org/bpmn/classes#storeTransaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#storeTransaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid114 .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid114 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid117 .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid115 .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid116 .
+_:genid116 <http://www.w3.org/2002/07/owl#hasValue> "##Store" .
+_:genid116 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#method> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#transaction> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#storeTransaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#transaction> .
+# 
+# http://example.org/bpmn/classes#subChoreography
+<http://example.org/bpmn/classes#subChoreography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#subChoreography> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#choreographyActivity> .
+# 
+# http://example.org/bpmn/classes#subConversation
+<http://example.org/bpmn/classes#subConversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#subConversation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#conversationNode> .
+# 
+# http://example.org/bpmn/classes#subProcess
+<http://example.org/bpmn/classes#subProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#subProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#activity> .
+# 
+# http://example.org/bpmn/classes#task
+<http://example.org/bpmn/classes#task> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#task> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#activity> .
+# 
+# http://example.org/bpmn/classes#terminateEventDefinition
+<http://example.org/bpmn/classes#terminateEventDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#terminateEventDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#eventDefinition> .
+# 
+# http://example.org/bpmn/classes#text
+<http://example.org/bpmn/classes#text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://example.org/bpmn/classes#textAnnotation
+<http://example.org/bpmn/classes#textAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#textAnnotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#artifact> .
+# 
+# http://example.org/bpmn/classes#throwEvent
+<http://example.org/bpmn/classes#throwEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#throwEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#event> .
+# 
+# http://example.org/bpmn/classes#timerEventDefinition
+<http://example.org/bpmn/classes#timerEventDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#timerEventDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#eventDefinition> .
+# 
+# http://example.org/bpmn/classes#transaction
+<http://example.org/bpmn/classes#transaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#transaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#subProcess> .
+# 
+# http://example.org/bpmn/classes#undirectedAssociation
+<http://example.org/bpmn/classes#undirectedAssociation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#undirectedAssociation> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid118 .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid118 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid121 .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid119 .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid120 .
+_:genid120 <http://www.w3.org/2002/07/owl#hasValue> "None" .
+_:genid120 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#associationDirection> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#association> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#undirectedAssociation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#association> .
+# 
+# http://example.org/bpmn/classes#unspecifiedDirectionGateway
+<http://example.org/bpmn/classes#unspecifiedDirectionGateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#unspecifiedDirectionGateway> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid122 .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid122 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid125 .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid123 .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid124 .
+_:genid124 <http://www.w3.org/2002/07/owl#hasValue> "Unspecified" .
+_:genid124 <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/bpmn/properties#gatewayDirection> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.org/bpmn/classes#gateway> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.org/bpmn/classes#unspecifiedDirectionGateway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#gateway> .
+# 
+# http://example.org/bpmn/classes#userTask
+<http://example.org/bpmn/classes#userTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/bpmn/classes#userTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/bpmn/classes#task> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

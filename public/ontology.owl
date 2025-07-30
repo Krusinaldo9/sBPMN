@@ -1,0 +1,3636 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#ID -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#ID"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.org/bpmn/properties#activationCondition -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#activationCondition">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#complexGateway"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#expression"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#activityRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#activityRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#compensateEventDefinition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#artifact -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#artifact">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#collaboration"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#process"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#subChoreography"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#subProcess"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#artifact"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#assignment -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#assignment">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataAssociation"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#assignment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#attachedToRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#attachedToRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#boundaryEvent"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#auditing -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#auditing">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#flowElement"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#process"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#auditing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#calledChoreographyRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#calledChoreographyRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#callChoreography"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#calledCollaborationRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#calledCollaborationRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#callConversation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#calledElement -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#calledElement">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#callActivity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#categoryValue -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#categoryValue">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#category"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#categoryValue"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#categoryValueRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#categoryValueRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#flowElement"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#group"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#childLaneSet -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#childLaneSet">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#lane"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#laneSet"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#choreographyRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#choreographyRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#collaboration"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#completionCondition -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#completionCondition">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#adHocSubProcess"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#expression"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#complexBehaviorDefinition -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#complexBehaviorDefinition">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#complexBehaviorDefinition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#condition -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#condition">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#complexBehaviorDefinition"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#conditionalEventDefinition"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#expression"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#formalExpression"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#conditionExpression -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#conditionExpression">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#sequenceFlow"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#expression"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#conversationAssociation -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#conversationAssociation">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#collaboration"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#conversationAssociation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#conversationLink -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#conversationLink">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#collaboration"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#conversationLink"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#conversationNode -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#conversationNode">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#collaboration"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#subConversation"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#conversationNode"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#correlationKey -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#correlationKey">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#choreographyActivity"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#collaboration"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#conversationNode"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#correlationKey"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#correlationKeyRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#correlationKeyRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#correlationSubscription"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#correlationPropertyBinding -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#correlationPropertyBinding">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#correlationSubscription"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#correlationPropertyBinding"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#correlationPropertyRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#correlationPropertyRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#correlationKey"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#correlationPropertyBinding"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#correlationPropertyRetrievalExpression -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#correlationPropertyRetrievalExpression">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#correlationProperty"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#correlationPropertyRetrievalExpression"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#correlationSubscription -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#correlationSubscription">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#process"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#correlationSubscription"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#dataInput -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#dataInput">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#inputOutputSpecification"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#throwEvent"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#dataInput"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#dataInputAssociation -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#dataInputAssociation">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#activity"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#throwEvent"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#dataInputAssociation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#dataInputRefs -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#dataInputRefs">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#inputSet"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#dataObjectRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#dataObjectRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataObjectReference"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#dataOutput -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#dataOutput">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#catchEvent"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#inputOutputSpecification"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#dataOutput"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#dataOutputAssociation -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#dataOutputAssociation">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#activity"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#catchEvent"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#dataOutputAssociation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#dataOutputRefs -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#dataOutputRefs">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#outputSet"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#dataPath -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#dataPath">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#correlationPropertyBinding"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#formalExpression"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#dataState -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#dataState">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataInput"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataObject"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataObjectReference"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataOutput"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataStore"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataStoreReference"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#property"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#dataState"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#dataStoreRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#dataStoreRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataStoreReference"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#default -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#default">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#activity"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#complexGateway"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#exclusiveGateway"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#inclusiveGateway"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#definition -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#definition">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#extension"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#definitionalCollaborationRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#definitionalCollaborationRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#process"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#documentation -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#documentation">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#baseElementWithMixedContent"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#extension"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#documentation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#endPointRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#endPointRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#participant"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#errorRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#errorRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#errorEventDefinition"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#operation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#escalationRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#escalationRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#escalationEventDefinition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#evaluatesToTypeRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#evaluatesToTypeRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#formalExpression"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#event -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#event">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#complexBehaviorDefinition"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#implicitThrowEvent"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#eventDefinition -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#eventDefinition">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#catchEvent"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#throwEvent"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#eventDefinition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#eventDefinitionRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#eventDefinitionRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#catchEvent"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#throwEvent"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#expression -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#expression">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#resourceAssignmentExpression"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#resourceParameterBinding"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#expression"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#extensionElements -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#extensionElements">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#baseElementWithMixedContent"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#extensionElements"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#flowElement -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#flowElement">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#choreography"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#process"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#subChoreography"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#subProcess"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#flowElement"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#flowNodeRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#flowNodeRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#lane"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#from -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#from">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#assignment"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#expression"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#implementationRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#implementationRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#interface"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#operation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#inMessageRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#inMessageRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#operation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#incoming -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#incoming">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#flowNode"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#initiatingParticipantRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#initiatingParticipantRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#choreographyActivity"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#globalChoreographyTask"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#innerConversationNodeRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#innerConversationNodeRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#conversationAssociation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#innerMessageFlowRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#innerMessageFlowRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#messageFlowAssociation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#innerParticipantRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#innerParticipantRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#participantAssociation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#inputDataItem -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#inputDataItem">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#dataInput"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#inputDataRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#inputDataRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#inputOutputBinding"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#inputSet -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#inputSet">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#inputOutputSpecification"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#throwEvent"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#inputSet"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#inputSetRefs -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#inputSetRefs">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#outputSet"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#interfaceRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#interfaceRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#participant"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#ioBinding -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#ioBinding">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#callableElement"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#ioBinding"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#ioSpecification -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#ioSpecification">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#activity"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#callableElement"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#ioSpecification"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#itemRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#itemRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#message"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#itemSubjectRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#itemSubjectRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataInput"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataObject"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataObjectReference"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataOutput"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataStore"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataStoreReference"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#property"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#lane -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#lane">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#laneSet"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#lane"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#laneSet -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#laneSet">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#process"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#subProcess"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#laneSet"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#loopCardinality -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#loopCardinality">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#expression"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#loopCharacteristics -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#loopCharacteristics">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#activity"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#loopCharacteristics"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#loopCondition -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#loopCondition">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#standardLoopCharacteristics"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#expression"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#loopDataInputRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#loopDataInputRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#loopDataOutputRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#loopDataOutputRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#messageFlow -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#messageFlow">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#collaboration"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#messageFlow"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#messageFlowAssociation -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#messageFlowAssociation">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#collaboration"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#messageFlowAssociation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#messageFlowRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#messageFlowRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#choreographyTask"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#conversationNode"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#messagePath -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#messagePath">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#correlationPropertyRetrievalExpression"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#formalExpression"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#messageRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#messageRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#correlationPropertyRetrievalExpression"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#messageEventDefinition"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#messageFlow"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#receiveTask"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#sendTask"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#monitoring -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#monitoring">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#flowElement"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#process"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#monitoring"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#noneBehaviorEventRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#noneBehaviorEventRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#oneBehaviorEventRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#oneBehaviorEventRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#operation -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#operation">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#interface"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#operation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#operationRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#operationRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#inputOutputBinding"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#messageEventDefinition"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#receiveTask"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#sendTask"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#serviceTask"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#optionalInputRefs -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#optionalInputRefs">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#inputSet"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#optionalOutputRefs -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#optionalOutputRefs">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#outputSet"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#outMessageRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#outMessageRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#operation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#outerConversationNodeRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#outerConversationNodeRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#conversationAssociation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#outerMessageFlowRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#outerMessageFlowRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#messageFlowAssociation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#outerParticipantRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#outerParticipantRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#participantAssociation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#outgoing -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#outgoing">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#flowNode"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#outputDataItem -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#outputDataItem">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#dataOutput"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#outputDataRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#outputDataRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#inputOutputBinding"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#outputSet -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#outputSet">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#catchEvent"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#inputOutputSpecification"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#outputSet"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#outputSetRefs -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#outputSetRefs">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#inputSet"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#parameterRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#parameterRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#resourceParameterBinding"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#participant -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#participant">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#collaboration"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#participant"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#participantAssociation -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#participantAssociation">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#callChoreography"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#callConversation"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#collaboration"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#participantAssociation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#participantMultiplicity -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#participantMultiplicity">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#participant"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#participantMultiplicity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#participantRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#participantRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#choreographyActivity"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#conversationNode"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#partnerEntity"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#partnerRole"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#partitionElement -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#partitionElement">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#lane"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#partitionElementRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#partitionElementRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#lane"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#processRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#processRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#participant"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#property -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#property">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#activity"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#event"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#process"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#property"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#rendering -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#rendering">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#globalUserTask"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#userTask"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#rendering"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#resourceParameter -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#resourceParameter">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#resource"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#resourceParameter"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#resourceParameterBinding -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#resourceParameterBinding">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#resourceRole"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#resourceParameterBinding"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#resourceRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#resourceRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#resourceRole"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#resourceRole -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#resourceRole">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#activity"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#globalTask"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#process"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#resourceRole"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#script -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#script">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#globalScriptTask"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#scriptTask"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#script"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#signalRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#signalRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#signalEventDefinition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#source -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#source">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#linkEventDefinition"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#relationship"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#sourceRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#sourceRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#association"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#conversationLink"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataAssociation"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#messageFlow"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#sequenceFlow"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#structureRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#structureRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#error"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#escalation"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#itemDefinition"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#signal"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#supportedInterfaceRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#supportedInterfaceRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#callableElement"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#supports -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#supports">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#process"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#target -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#target">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#linkEventDefinition"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#relationship"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#targetRef -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#targetRef">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#association"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#conversationLink"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataAssociation"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#messageFlow"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#sequenceFlow"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#text -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#text">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#textAnnotation"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#text"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#to -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#to">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#assignment"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#expression"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#transformation -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#transformation">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataAssociation"/>
+        <rdfs:range rdf:resource="http://example.org/bpmn/classes#formalExpression"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#type -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#type">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#correlationProperty"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#relationship"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#resourceParameter"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#whileExecutingInputRefs -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#whileExecutingInputRefs">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#inputSet"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#whileExecutingOutputRefs -->
+
+
+    <ObjectProperty rdf:about="http://example.org/bpmn/properties#whileExecutingOutputRefs">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#outputSet"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.org/bpmn/properties#associationDirection -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#associationDirection">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#association"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#behavior -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#behavior">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#cancelActivity -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#cancelActivity">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#boundaryEvent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#cancelRemainingInstances -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#cancelRemainingInstances">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#adHocSubProcess"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#capacity -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#capacity">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataStore"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#completionQuantity -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#completionQuantity">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#activity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#direction -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#direction">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#relationship"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#errorCode -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#errorCode">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#error"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#escalationCode -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#escalationCode">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#escalation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#eventGatewayType -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#eventGatewayType">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#eventBasedGateway"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#gatewayDirection -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#gatewayDirection">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#gateway"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#id -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#id">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#baseElementWithMixedContent"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#documentation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#ID"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#implementation -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#implementation">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#businessRuleTask"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#globalBusinessRuleTask"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#globalUserTask"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#receiveTask"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#sendTask"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#serviceTask"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#userTask"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#instantiate -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#instantiate">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#eventBasedGateway"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#receiveTask"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#isClosed -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#isClosed">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#collaboration"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#process"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#isCollection -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#isCollection">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataInput"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataObject"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataOutput"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#itemDefinition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#isExecutable -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#isExecutable">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#process"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#isForCompensation -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#isForCompensation">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#activity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#isImmediate -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#isImmediate">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#sequenceFlow"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#isInterrupting -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#isInterrupting">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#startEvent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#isRequired -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#isRequired">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#resourceParameter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#isSequential -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#isSequential">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#isUnlimited -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#isUnlimited">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataStore"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#itemKind -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#itemKind">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#itemDefinition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#language -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#language">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#formalExpression"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#loopMaximum -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#loopMaximum">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#standardLoopCharacteristics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#loopType -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#loopType">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#choreographyActivity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#maximum -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#maximum">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#participantMultiplicity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#method -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#method">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#transaction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#minimum -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#minimum">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#participantMultiplicity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#mustUnderstand -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#mustUnderstand">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#extension"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#name -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#name">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#callableElement"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#category"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#collaboration"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#conversationLink"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#conversationNode"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#correlationKey"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#correlationProperty"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataInput"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataOutput"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataState"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#dataStore"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#error"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#escalation"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#flowElement"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#inputSet"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#interface"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#lane"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#laneSet"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#linkEventDefinition"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#message"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#messageFlow"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#operation"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#outputSet"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#participant"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#partnerEntity"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#partnerRole"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#property"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#resource"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#resourceParameter"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#resourceRole"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#signal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#ordering -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#ordering">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#adHocSubProcess"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#parallelMultiple -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#parallelMultiple">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#catchEvent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#processType -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#processType">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#process"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#scriptFormat -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#scriptFormat">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#scriptTask"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#scriptLanguage -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#scriptLanguage">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#globalScriptTask"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#startQuantity -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#startQuantity">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#activity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#testBefore -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#testBefore">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#standardLoopCharacteristics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#textFormat -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#textFormat">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#documentation"/>
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#textAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#triggeredByEvent -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#triggeredByEvent">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#subProcess"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#type -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#type">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#value -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#value">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#categoryValue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://example.org/bpmn/properties#waitForCompletion -->
+
+
+    <DatatypeProperty rdf:about="http://example.org/bpmn/properties#waitForCompletion">
+        <rdfs:domain rdf:resource="http://example.org/bpmn/classes#compensateEventDefinition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.org/bpmn/classes#activity -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#activity">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#flowNode"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#adHocSubProcess -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#adHocSubProcess">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#subProcess"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#allBehaviorMultiInstanceLoopCharacteristics -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#allBehaviorMultiInstanceLoopCharacteristics">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#behavior"/>
+                        <hasValue>All</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#artifact -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#artifact">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#assignment -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#assignment">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#association -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#association">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#artifact"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#auditing -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#auditing">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#backwardDirectionRelationship -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#backwardDirectionRelationship">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#relationship"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#direction"/>
+                        <hasValue>Backward</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#relationship"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#baseElement -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#baseElement"/>
+    
+
+
+    <!-- http://example.org/bpmn/classes#baseElementWithMixedContent -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#baseElementWithMixedContent"/>
+    
+
+
+    <!-- http://example.org/bpmn/classes#bidirectionalAssociation -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#bidirectionalAssociation">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#association"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#associationDirection"/>
+                        <hasValue>Both</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#association"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#bothDirectionRelationship -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#bothDirectionRelationship">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#relationship"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#direction"/>
+                        <hasValue>Both</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#relationship"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#boundaryEvent -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#boundaryEvent">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#catchEvent"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#businessRuleTask -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#businessRuleTask">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#task"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#callActivity -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#callActivity">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#activity"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#callChoreography -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#callChoreography">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#choreographyActivity"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#callConversation -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#callConversation">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#conversationNode"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#callableElement -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#callableElement">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#rootElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#cancelEventDefinition -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#cancelEventDefinition">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#eventDefinition"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#catchEvent -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#catchEvent">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#event"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#category -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#category">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#rootElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#categoryValue -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#categoryValue">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#choreography -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#choreography">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#collaboration"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#choreographyActivity -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#choreographyActivity">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#flowNode"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#choreographyTask -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#choreographyTask">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#choreographyActivity"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#collaboration -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#collaboration">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#rootElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#compensateEventDefinition -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#compensateEventDefinition">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#eventDefinition"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#compensateTransaction -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#compensateTransaction">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#transaction"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#method"/>
+                        <hasValue>##Compensate</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#transaction"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#complexBehaviorDefinition -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#complexBehaviorDefinition">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#complexBehaviorMultiInstanceLoopCharacteristics -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#complexBehaviorMultiInstanceLoopCharacteristics">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#behavior"/>
+                        <hasValue>Complex</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#complexGateway -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#complexGateway">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#gateway"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#conditionalEventDefinition -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#conditionalEventDefinition">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#eventDefinition"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#convergingDirectionGateway -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#convergingDirectionGateway">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#gateway"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#gatewayDirection"/>
+                        <hasValue>Converging</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#gateway"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#conversation -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#conversation">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#conversationNode"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#conversationAssociation -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#conversationAssociation">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#conversationLink -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#conversationLink">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#conversationNode -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#conversationNode">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#correlationKey -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#correlationKey">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#correlationProperty -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#correlationProperty">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#rootElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#correlationPropertyBinding -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#correlationPropertyBinding">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#correlationPropertyRetrievalExpression -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#correlationPropertyRetrievalExpression">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#correlationSubscription -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#correlationSubscription">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#dataAssociation -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#dataAssociation">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#dataInput -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#dataInput">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#dataInputAssociation -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#dataInputAssociation">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#dataAssociation"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#dataObject -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#dataObject">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#flowElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#dataObjectReference -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#dataObjectReference">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#flowElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#dataOutput -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#dataOutput">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#dataOutputAssociation -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#dataOutputAssociation">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#dataAssociation"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#dataState -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#dataState">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#dataStore -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#dataStore">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#rootElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#dataStoreReference -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#dataStoreReference">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#flowElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#divergingDirectionGateway -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#divergingDirectionGateway">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#gateway"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#gatewayDirection"/>
+                        <hasValue>Diverging</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#gateway"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#documentation -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#documentation"/>
+    
+
+
+    <!-- http://example.org/bpmn/classes#endEvent -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#endEvent">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#throwEvent"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#endPoint -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#endPoint">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#rootElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#error -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#error">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#rootElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#errorEventDefinition -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#errorEventDefinition">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#eventDefinition"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#escalation -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#escalation">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#rootElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#escalationEventDefinition -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#escalationEventDefinition">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#eventDefinition"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#event -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#event">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#flowNode"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#eventBasedGateway -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#eventBasedGateway">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#gateway"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#eventDefinition -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#eventDefinition">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#rootElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#exclusiveEventBasedGateway -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#exclusiveEventBasedGateway">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#eventBasedGateway"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#eventGatewayType"/>
+                        <hasValue>Exclusive</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#eventBasedGateway"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#exclusiveGateway -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#exclusiveGateway">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#gateway"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#expression -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#expression">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElementWithMixedContent"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#extension -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#extension"/>
+    
+
+
+    <!-- http://example.org/bpmn/classes#extensionElements -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#extensionElements"/>
+    
+
+
+    <!-- http://example.org/bpmn/classes#flowElement -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#flowElement">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#flowNode -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#flowNode">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#flowElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#formalExpression -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#formalExpression">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#expression"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#forwardDirectionRelationship -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#forwardDirectionRelationship">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#relationship"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#direction"/>
+                        <hasValue>Forward</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#relationship"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#gateway -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#gateway">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#flowNode"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#globalBusinessRuleTask -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#globalBusinessRuleTask">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#globalTask"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#globalChoreographyTask -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#globalChoreographyTask">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#choreography"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#globalConversation -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#globalConversation">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#collaboration"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#globalManualTask -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#globalManualTask">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#globalTask"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#globalScriptTask -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#globalScriptTask">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#globalTask"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#globalTask -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#globalTask">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#callableElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#globalUserTask -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#globalUserTask">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#globalTask"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#group -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#group">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#artifact"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#humanPerformer -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#humanPerformer">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#performer"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#imageTransaction -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#imageTransaction">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#transaction"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#method"/>
+                        <hasValue>##Image</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#transaction"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#implicitThrowEvent -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#implicitThrowEvent">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#throwEvent"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#inclusiveGateway -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#inclusiveGateway">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#gateway"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#informationItemDefinition -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#informationItemDefinition">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#itemDefinition"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#itemKind"/>
+                        <hasValue>Information</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#itemDefinition"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#inputOutputBinding -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#inputOutputBinding"/>
+    
+
+
+    <!-- http://example.org/bpmn/classes#inputOutputSpecification -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#inputOutputSpecification"/>
+    
+
+
+    <!-- http://example.org/bpmn/classes#inputSet -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#inputSet">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#interface -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#interface">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#rootElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#intermediateCatchEvent -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#intermediateCatchEvent">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#catchEvent"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#intermediateThrowEvent -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#intermediateThrowEvent">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#throwEvent"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#ioBinding -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#ioBinding"/>
+    
+
+
+    <!-- http://example.org/bpmn/classes#ioSpecification -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#ioSpecification"/>
+    
+
+
+    <!-- http://example.org/bpmn/classes#itemDefinition -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#itemDefinition">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#rootElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#lane -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#lane">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#laneSet -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#laneSet">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#linkEventDefinition -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#linkEventDefinition">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#eventDefinition"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#loopCharacteristics -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#loopCharacteristics">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#manualTask -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#manualTask">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#task"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#message -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#message">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#rootElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#messageEventDefinition -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#messageEventDefinition">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#eventDefinition"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#messageFlow -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#messageFlow">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#messageFlowAssociation -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#messageFlowAssociation">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#mixedDirectionGateway -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#mixedDirectionGateway">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#gateway"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#gatewayDirection"/>
+                        <hasValue>Mixed</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#gateway"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#monitoring -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#monitoring">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#multiInstanceLoopCharacteristics -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#loopCharacteristics"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#multiInstanceParallelLoopChoreographyActivity -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#multiInstanceParallelLoopChoreographyActivity">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#choreographyActivity"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#loopType"/>
+                        <hasValue>MultiInstanceParallel</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#choreographyActivity"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#multiInstanceSequentialLoopChoreographyActivity -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#multiInstanceSequentialLoopChoreographyActivity">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#choreographyActivity"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#loopType"/>
+                        <hasValue>MultiInstanceSequential</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#choreographyActivity"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#noneBehaviorMultiInstanceLoopCharacteristics -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#noneBehaviorMultiInstanceLoopCharacteristics">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#behavior"/>
+                        <hasValue>None</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#noneDirectionRelationship -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#noneDirectionRelationship">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#relationship"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#direction"/>
+                        <hasValue>None</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#relationship"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#noneLoopChoreographyActivity -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#noneLoopChoreographyActivity">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#choreographyActivity"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#loopType"/>
+                        <hasValue>None</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#choreographyActivity"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#noneProcess -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#noneProcess">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#process"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#processType"/>
+                        <hasValue>None</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#process"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#oneBehaviorMultiInstanceLoopCharacteristics -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#oneBehaviorMultiInstanceLoopCharacteristics">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#behavior"/>
+                        <hasValue>One</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#oneWayAssociation -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#oneWayAssociation">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#association"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#associationDirection"/>
+                        <hasValue>One</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#association"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#operation -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#operation">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#outputSet -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#outputSet">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#parallelAdHocSubProcess -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#parallelAdHocSubProcess">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#adHocSubProcess"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#ordering"/>
+                        <hasValue>Parallel</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#adHocSubProcess"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#parallelEventBasedGateway -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#parallelEventBasedGateway">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#eventBasedGateway"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#eventGatewayType"/>
+                        <hasValue>Parallel</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#eventBasedGateway"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#parallelGateway -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#parallelGateway">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#gateway"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#participant -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#participant">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#participantAssociation -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#participantAssociation">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#participantMultiplicity -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#participantMultiplicity">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#partnerEntity -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#partnerEntity">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#rootElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#partnerRole -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#partnerRole">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#rootElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#performer -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#performer">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#resourceRole"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#physicalItemDefinition -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#physicalItemDefinition">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#itemDefinition"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#itemKind"/>
+                        <hasValue>Physical</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#itemDefinition"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#potentialOwner -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#potentialOwner">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#humanPerformer"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#privateProcess -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#privateProcess">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#process"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#processType"/>
+                        <hasValue>Private</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#process"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#process -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#process">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#callableElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#property -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#property">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#publicProcess -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#publicProcess">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#process"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#processType"/>
+                        <hasValue>Public</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#process"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#receiveTask -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#receiveTask">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#task"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#relationship -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#relationship">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#rendering -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#rendering">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#resource -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#resource">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#rootElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#resourceAssignmentExpression -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#resourceAssignmentExpression">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#resourceParameter -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#resourceParameter">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#resourceParameterBinding -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#resourceParameterBinding">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#resourceRole -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#resourceRole">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#rootElement -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#rootElement">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#baseElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#script -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#script"/>
+    
+
+
+    <!-- http://example.org/bpmn/classes#scriptTask -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#scriptTask">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#task"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#sendTask -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#sendTask">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#task"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#sequenceFlow -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#sequenceFlow">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#flowElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#sequentialAdHocSubProcess -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#sequentialAdHocSubProcess">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#adHocSubProcess"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#ordering"/>
+                        <hasValue>Sequential</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#adHocSubProcess"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#serviceTask -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#serviceTask">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#task"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#signal -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#signal">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#rootElement"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#signalEventDefinition -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#signalEventDefinition">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#eventDefinition"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#standardLoopCharacteristics -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#standardLoopCharacteristics">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#loopCharacteristics"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#standardLoopChoreographyActivity -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#standardLoopChoreographyActivity">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#choreographyActivity"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#loopType"/>
+                        <hasValue>Standard</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#choreographyActivity"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#startEvent -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#startEvent">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#catchEvent"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#storeTransaction -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#storeTransaction">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#transaction"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#method"/>
+                        <hasValue>##Store</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#transaction"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#subChoreography -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#subChoreography">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#choreographyActivity"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#subConversation -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#subConversation">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#conversationNode"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#subProcess -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#subProcess">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#activity"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#task -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#task">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#activity"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#terminateEventDefinition -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#terminateEventDefinition">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#eventDefinition"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#text -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#text"/>
+    
+
+
+    <!-- http://example.org/bpmn/classes#textAnnotation -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#textAnnotation">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#artifact"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#throwEvent -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#throwEvent">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#event"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#timerEventDefinition -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#timerEventDefinition">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#eventDefinition"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#transaction -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#transaction">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#subProcess"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#undirectedAssociation -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#undirectedAssociation">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#association"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#associationDirection"/>
+                        <hasValue>None</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#association"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#unspecifiedDirectionGateway -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#unspecifiedDirectionGateway">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://example.org/bpmn/classes#gateway"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://example.org/bpmn/properties#gatewayDirection"/>
+                        <hasValue>Unspecified</hasValue>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#gateway"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/bpmn/classes#userTask -->
+
+
+    <Class rdf:about="http://example.org/bpmn/classes#userTask">
+        <rdfs:subClassOf rdf:resource="http://example.org/bpmn/classes#task"/>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

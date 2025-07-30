@@ -1,0 +1,7000 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://example.org/bpmn/properties", "http://www.w3.org/2001/XMLSchema", "http://example.org/bpmn/classes" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "153",
+    "type" : "owl:Class"
+  }, {
+    "id" : "154",
+    "type" : "owl:Class"
+  }, {
+    "id" : "164",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "186",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "208",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "229",
+    "type" : "owl:Class"
+  }, {
+    "id" : "230",
+    "type" : "owl:Class"
+  }, {
+    "id" : "252",
+    "type" : "owl:Class"
+  }, {
+    "id" : "176",
+    "type" : "owl:Class"
+  }, {
+    "id" : "269",
+    "type" : "owl:Class"
+  }, {
+    "id" : "271",
+    "type" : "owl:Class"
+  }, {
+    "id" : "275",
+    "type" : "owl:Class"
+  }, {
+    "id" : "278",
+    "type" : "owl:Class"
+  }, {
+    "id" : "272",
+    "type" : "owl:Class"
+  }, {
+    "id" : "285",
+    "type" : "owl:Class"
+  }, {
+    "id" : "288",
+    "type" : "owl:Class"
+  }, {
+    "id" : "290",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "292",
+    "type" : "owl:Class"
+  }, {
+    "id" : "295",
+    "type" : "owl:Class"
+  }, {
+    "id" : "297",
+    "type" : "owl:Class"
+  }, {
+    "id" : "299",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "302",
+    "type" : "owl:Class"
+  }, {
+    "id" : "303",
+    "type" : "owl:Class"
+  }, {
+    "id" : "304",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "307",
+    "type" : "owl:Class"
+  }, {
+    "id" : "310",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "313",
+    "type" : "owl:Class"
+  }, {
+    "id" : "284",
+    "type" : "owl:Class"
+  }, {
+    "id" : "283",
+    "type" : "owl:Class"
+  }, {
+    "id" : "323",
+    "type" : "owl:Class"
+  }, {
+    "id" : "203",
+    "type" : "owl:Class"
+  }, {
+    "id" : "225",
+    "type" : "owl:Class"
+  }, {
+    "id" : "333",
+    "type" : "owl:Class"
+  }, {
+    "id" : "337",
+    "type" : "owl:Class"
+  }, {
+    "id" : "232",
+    "type" : "owl:Class"
+  }, {
+    "id" : "345",
+    "type" : "owl:Class"
+  }, {
+    "id" : "347",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "197",
+    "type" : "owl:Class"
+  }, {
+    "id" : "356",
+    "type" : "owl:Class"
+  }, {
+    "id" : "358",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "222",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "369",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "370",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "374",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "375",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "379",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "381",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "382",
+    "type" : "owl:Class"
+  }, {
+    "id" : "383",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "327",
+    "type" : "owl:Class"
+  }, {
+    "id" : "385",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "218",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "354",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "393",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "394",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "396",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "397",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "315",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "398",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "399",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "400",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "316",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "364",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "373",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "309",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "378",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "207",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "348",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "409",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "410",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "368",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "411",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "412",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "413",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "407",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "416",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "257",
+    "type" : "owl:Class"
+  }, {
+    "id" : "228",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "136",
+    "type" : "owl:Class"
+  }, {
+    "id" : "417",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "306",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "418",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "419",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "420",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "421",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "223",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "422",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "424",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "395",
+    "type" : "owl:Class"
+  }, {
+    "id" : "193",
+    "type" : "owl:Class"
+  }, {
+    "id" : "425",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "195",
+    "type" : "owl:Class"
+  }, {
+    "id" : "427",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "377",
+    "type" : "owl:Class"
+  }, {
+    "id" : "429",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "180",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "352",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "150",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "432",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "326",
+    "type" : "owl:Class"
+  }, {
+    "id" : "166",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "402",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "434",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "143",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "168",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "330",
+    "type" : "owl:Class"
+  }, {
+    "id" : "294",
+    "type" : "owl:Class"
+  }, {
+    "id" : "439",
+    "type" : "owl:Class"
+  }, {
+    "id" : "392",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "440",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "441",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "105",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "328",
+    "type" : "owl:Class"
+  }, {
+    "id" : "388",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "444",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "119",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "182",
+    "type" : "owl:Class"
+  }, {
+    "id" : "366",
+    "type" : "owl:Class"
+  }, {
+    "id" : "363",
+    "type" : "owl:Class"
+  }, {
+    "id" : "188",
+    "type" : "owl:Class"
+  }, {
+    "id" : "445",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "450",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "451",
+    "type" : "owl:Class"
+  }, {
+    "id" : "452",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "431",
+    "type" : "owl:Class"
+  }, {
+    "id" : "462",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "461",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "344",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "322",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "455",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "447",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "464",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "465",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "437",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "470",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "471",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "476",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "265",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "477",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "236",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "478",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "448",
+    "type" : "owl:Class"
+  }, {
+    "id" : "281",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "481",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "201",
+    "type" : "owl:Class"
+  }, {
+    "id" : "483",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "312",
+    "type" : "owl:Class"
+  }, {
+    "id" : "178",
+    "type" : "owl:Class"
+  }, {
+    "id" : "211",
+    "type" : "owl:Class"
+  }, {
+    "id" : "276",
+    "type" : "owl:Class"
+  }, {
+    "id" : "489",
+    "type" : "owl:Class"
+  }, {
+    "id" : "490",
+    "type" : "owl:Class"
+  }, {
+    "id" : "372",
+    "type" : "owl:Class"
+  }, {
+    "id" : "415",
+    "type" : "owl:Class"
+  }, {
+    "id" : "200",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "156",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "260",
+    "type" : "owl:Class"
+  }, {
+    "id" : "339",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "279",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "251",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "318",
+    "type" : "owl:Class"
+  }, {
+    "id" : "320",
+    "type" : "owl:Class"
+  }, {
+    "id" : "184",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "243",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "518",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "148",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "453",
+    "type" : "owl:Class"
+  }, {
+    "id" : "521",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "522",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "212",
+    "type" : "owl:Class"
+  }, {
+    "id" : "235",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "155",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "owl:Class"
+  }, {
+    "id" : "227",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "335",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "360",
+    "type" : "owl:Class"
+  }, {
+    "id" : "161",
+    "type" : "owl:Class"
+  }, {
+    "id" : "361",
+    "type" : "owl:Class"
+  }, {
+    "id" : "287",
+    "type" : "owl:Class"
+  }, {
+    "id" : "133",
+    "type" : "owl:Class"
+  }, {
+    "id" : "548",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "191",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "426",
+    "type" : "owl:Class"
+  }, {
+    "id" : "404",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "152",
+    "type" : "owl:Class"
+  }, {
+    "id" : "159",
+    "type" : "owl:Class"
+  }, {
+    "id" : "566",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "246",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "267",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
+  }, {
+    "id" : "324",
+    "type" : "owl:Class"
+  }, {
+    "id" : "325",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "254",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "526",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "494",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "458",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "529",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "565",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "342",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "467",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "215",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "617",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "127",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "instances" : 0,
+    "union" : [ "1", "2", "3", "4" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "0"
+  }, {
+    "instances" : 0,
+    "union" : [ "9", "10" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "8"
+  }, {
+    "instances" : 0,
+    "union" : [ "14", "15" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#dataStoreReference",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dataStoreReference"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "22" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "24", "25", "26", "27", "28" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#standardLoopChoreographyActivity",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "standardLoopChoreographyActivity"
+    },
+    "intersection" : [ "32" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "31",
+    "superClasses" : [ "32" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "34", "35" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "33"
+  }, {
+    "instances" : 0,
+    "union" : [ "39", "40" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "38"
+  }, {
+    "instances" : 0,
+    "union" : [ "44", "15", "45", "46" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#divergingDirectionGateway",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "divergingDirectionGateway"
+    },
+    "intersection" : [ "50" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "49",
+    "superClasses" : [ "50" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "52", "34" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#subChoreography",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "subChoreography"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "32" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "62", "63" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "61"
+  }, {
+    "instances" : 0,
+    "union" : [ "24", "67", "62", "68", "69" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "66"
+  }, {
+    "instances" : 0,
+    "union" : [ "75", "76" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "74"
+  }, {
+    "instances" : 0,
+    "union" : [ "80", "81" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "79"
+  }, {
+    "instances" : 0,
+    "union" : [ "85", "65" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "84"
+  }, {
+    "instances" : 0,
+    "union" : [ "92", "93", "94", "95" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#subProcess",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "subProcess"
+    },
+    "subClasses" : [ "97", "80" ],
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "15" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "34", "35" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#choreographyTask",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "choreographyTask"
+    },
+    "attributes" : [ "external" ],
+    "id" : "99",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#noneBehaviorMultiInstanceLoopCharacteristics",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "noneBehaviorMultiInstanceLoopCharacteristics"
+    },
+    "intersection" : [ "81" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "100",
+    "superClasses" : [ "81" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#timerEventDefinition",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "timerEventDefinition"
+    },
+    "attributes" : [ "external" ],
+    "id" : "101",
+    "superClasses" : [ "102" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "39", "32", "48" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "106"
+  }, {
+    "instances" : 0,
+    "union" : [ "110", "65" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "109"
+  }, {
+    "instances" : 0,
+    "union" : [ "2", "39" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "113"
+  }, {
+    "instances" : 0,
+    "union" : [ "32", "116" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#publicProcess",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "publicProcess"
+    },
+    "intersection" : [ "2" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "117",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#subConversation",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "subConversation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "40",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "multiInstanceLoopCharacteristics"
+    },
+    "subClasses" : [ "127", "100", "128", "129" ],
+    "attributes" : [ "external" ],
+    "id" : "81",
+    "superClasses" : [ "126" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "135", "39", "136" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#globalConversation",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "globalConversation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "153",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#globalTask",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "globalTask"
+    },
+    "subClasses" : [ "155", "156", "157", "10" ],
+    "attributes" : [ "external" ],
+    "id" : "154",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#script",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "script"
+    },
+    "attributes" : [ "external" ],
+    "id" : "164"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#globalUserTask",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "globalUserTask"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "154" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#sendTask",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "sendTask"
+    },
+    "attributes" : [ "external" ],
+    "id" : "67",
+    "superClasses" : [ "184" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#multiInstanceSequentialLoopChoreographyActivity",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "multiInstanceSequentialLoopChoreographyActivity"
+    },
+    "intersection" : [ "32" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "186",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#operation",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "operation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "65",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#artifact",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "artifact"
+    },
+    "subClasses" : [ "200", "27", "201" ],
+    "attributes" : [ "external" ],
+    "id" : "42",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#terminateEventDefinition",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "terminateEventDefinition"
+    },
+    "attributes" : [ "external" ],
+    "id" : "208",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#transaction",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "transaction"
+    },
+    "subClasses" : [ "218", "227", "228" ],
+    "attributes" : [ "external" ],
+    "id" : "97",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#signalEventDefinition",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "signalEventDefinition"
+    },
+    "attributes" : [ "external" ],
+    "id" : "229",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#performer",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "performer"
+    },
+    "subClasses" : [ "212" ],
+    "attributes" : [ "external" ],
+    "id" : "230",
+    "superClasses" : [ "54" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "201", "22" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "252"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#dataInputAssociation",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dataInputAssociation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "176",
+    "superClasses" : [ "25" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "52", "34" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "269"
+  }, {
+    "instances" : 0,
+    "union" : [ "235", "21", "19", "112", "90", "60", "272" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "271"
+  }, {
+    "instances" : 0,
+    "union" : [ "267", "276" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "275"
+  }, {
+    "instances" : 0,
+    "union" : [ "6", "279" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "278"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#dataObject",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dataObject"
+    },
+    "attributes" : [ "external" ],
+    "id" : "272",
+    "superClasses" : [ "22" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "2", "1" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "285"
+  }, {
+    "instances" : 0,
+    "union" : [ "235", "19", "21", "112", "90", "60", "272" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "288"
+  }, {
+    "instances" : 0,
+    "union" : [ "254", "157" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "290"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#conversationLink",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "conversationLink"
+    },
+    "attributes" : [ "external" ],
+    "id" : "26",
+    "superClasses" : [ "7" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "2", "22" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "292"
+  }, {
+    "instances" : 0,
+    "union" : [ "52", "15" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "295"
+  }, {
+    "instances" : 0,
+    "union" : [ "30", "139" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "297"
+  }, {
+    "instances" : 0,
+    "union" : [ "24", "26", "25", "27", "28" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "299"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#correlationKey",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "correlationKey"
+    },
+    "attributes" : [ "external" ],
+    "id" : "139",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#category",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "category"
+    },
+    "attributes" : [ "external" ],
+    "id" : "302",
+    "superClasses" : [ "195" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#ioBinding",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ioBinding"
+    },
+    "attributes" : [ "external" ],
+    "id" : "303"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#physicalItemDefinition",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "physicalItemDefinition"
+    },
+    "intersection" : [ "95" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "304",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#startEvent",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "startEvent"
+    },
+    "attributes" : [ "external" ],
+    "id" : "307",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#parallelEventBasedGateway",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "parallelEventBasedGateway"
+    },
+    "intersection" : [ "63" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "310",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#globalScriptTask",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "globalScriptTask"
+    },
+    "attributes" : [ "external" ],
+    "id" : "157",
+    "superClasses" : [ "154" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "95", "112", "90", "272" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "313"
+  }, {
+    "instances" : 0,
+    "union" : [ "315", "316" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "284"
+  }, {
+    "instances" : 0,
+    "union" : [ "9", "67", "62", "155", "281", "257", "10" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "283"
+  }, {
+    "instances" : 0,
+    "union" : [ "182", "73", "188", "26", "94", "93", "191", "14", "139", "141", "90", "302", "324", "325", "110", "72", "326", "327", "87", "39", "54", "22", "112", "60", "65", "24", "92", "19", "12", "48", "328" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "323"
+  }, {
+    "instances" : 0,
+    "union" : [ "52", "35" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "203"
+  }, {
+    "instances" : 0,
+    "union" : [ "200", "58" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "225"
+  }, {
+    "instances" : 0,
+    "union" : [ "17", "146" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "333"
+  }, {
+    "instances" : 0,
+    "union" : [ "2", "15", "154" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "337"
+  }, {
+    "instances" : 0,
+    "union" : [ "15", "34" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "232"
+  }, {
+    "instances" : 0,
+    "union" : [ "325", "83" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "345"
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "348" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "347"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#correlationPropertyRetrievalExpression",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "correlationPropertyRetrievalExpression"
+    },
+    "attributes" : [ "external" ],
+    "id" : "69",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#resourceParameterBinding",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "resourceParameterBinding"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "7" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "2", "22" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "197"
+  }, {
+    "instances" : 0,
+    "union" : [ "62", "67", "222", "281", "68" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "356"
+  }, {
+    "instances" : 0,
+    "union" : [ "324", "32", "48", "328" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "358"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "75",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#complexGateway",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "complexGateway"
+    },
+    "attributes" : [ "external" ],
+    "id" : "44",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#callConversation",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "callConversation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "135",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#inputOutputBinding",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "inputOutputBinding"
+    },
+    "attributes" : [ "external" ],
+    "id" : "222"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#eventDefinition",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "eventDefinition"
+    },
+    "subClasses" : [ "325", "208", "104", "360", "361", "101", "68", "279", "229", "85" ],
+    "attributes" : [ "external" ],
+    "id" : "102",
+    "superClasses" : [ "195" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#token",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "token"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "369",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "370",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "374",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "375",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "379",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "381",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#ioSpecification",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ioSpecification"
+    },
+    "attributes" : [ "external" ],
+    "id" : "382"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "383",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#correlationProperty",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "correlationProperty"
+    },
+    "attributes" : [ "external" ],
+    "id" : "327",
+    "superClasses" : [ "195" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "385",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#messageFlow",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "messageFlow"
+    },
+    "attributes" : [ "external" ],
+    "id" : "24",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#storeTransaction",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "storeTransaction"
+    },
+    "intersection" : [ "97" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "218",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#multiInstanceParallelLoopChoreographyActivity",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "multiInstanceParallelLoopChoreographyActivity"
+    },
+    "intersection" : [ "32" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "354",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "393",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "394",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#activity",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "activity"
+    },
+    "subClasses" : [ "395", "1", "184" ],
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "294" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "396",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "397",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#token",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "315",
+    "label" : {
+      "IRI-based" : "token"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "398",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "399",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#convergingDirectionGateway",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "convergingDirectionGateway"
+    },
+    "intersection" : [ "50" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "400",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "316",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#ID",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "364",
+    "label" : {
+      "IRI-based" : "ID"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "373",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "309",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "378",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#messageEventDefinition",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "messageEventDefinition"
+    },
+    "attributes" : [ "external" ],
+    "id" : "68",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#parallelAdHocSubProcess",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "parallelAdHocSubProcess"
+    },
+    "intersection" : [ "80" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "207",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#baseElementWithMixedContent",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "baseElementWithMixedContent"
+    },
+    "subClasses" : [ "267" ],
+    "attributes" : [ "external" ],
+    "id" : "348"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#eventBasedGateway",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "eventBasedGateway"
+    },
+    "subClasses" : [ "404", "310" ],
+    "attributes" : [ "external" ],
+    "id" : "63",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#escalationEventDefinition",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "escalationEventDefinition"
+    },
+    "attributes" : [ "external" ],
+    "id" : "104",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "55",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "409",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "410",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "368",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "411",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "412",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "413",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "407",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "226",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "416",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#businessRuleTask",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "businessRuleTask"
+    },
+    "attributes" : [ "external" ],
+    "id" : "257",
+    "superClasses" : [ "184" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#imageTransaction",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "imageTransaction"
+    },
+    "intersection" : [ "97" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "228",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#complexBehaviorDefinition",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "complexBehaviorDefinition"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "131",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#callChoreography",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "callChoreography"
+    },
+    "attributes" : [ "external" ],
+    "id" : "136",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "417",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "306",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "199",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "418",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "419",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "220",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "172",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "420",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "421",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "223",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "422",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "424",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#callActivity",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "callActivity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "395",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#participantAssociation",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "participantAssociation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "193",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "425",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#rootElement",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "rootElement"
+    },
+    "subClasses" : [ "93", "94", "14", "39", "426", "102", "302", "324", "92", "110", "19", "72", "95", "328", "327", "326" ],
+    "attributes" : [ "external" ],
+    "id" : "195",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#undirectedAssociation",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "undirectedAssociation"
+    },
+    "intersection" : [ "27" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "427",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#boundaryEvent",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "boundaryEvent"
+    },
+    "attributes" : [ "external" ],
+    "id" : "377",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "429",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "180",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "352",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "150",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "432",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#message",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "message"
+    },
+    "attributes" : [ "external" ],
+    "id" : "326",
+    "superClasses" : [ "195" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "166",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "402",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "434",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "143",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#dataState",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dataState"
+    },
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "168",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#implicitThrowEvent",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "implicitThrowEvent"
+    },
+    "attributes" : [ "external" ],
+    "id" : "330",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#flowNode",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "flowNode"
+    },
+    "subClasses" : [ "32", "15", "50", "312" ],
+    "attributes" : [ "external" ],
+    "id" : "294",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#parallelGateway",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "parallelGateway"
+    },
+    "attributes" : [ "external" ],
+    "id" : "439",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "392",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#documentation",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "documentation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#correlationPropertyBinding",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "correlationPropertyBinding"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "440",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "441",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "105",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#partnerEntity",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "partnerEntity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "328",
+    "superClasses" : [ "195" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "388",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "444",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "119",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#participant",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "participant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "182",
+    "superClasses" : [ "7" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "1", "2", "39", "4" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "366"
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "58", "348" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "363"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#outputSet",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "outputSet"
+    },
+    "attributes" : [ "external" ],
+    "id" : "188",
+    "superClasses" : [ "7" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "2", "15", "312" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "445"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#signal",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "signal"
+    },
+    "attributes" : [ "external" ],
+    "id" : "94",
+    "superClasses" : [ "195" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "448", "7", "348" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "450",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "325", "83" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "451"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "452",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#loopCharacteristics",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "loopCharacteristics"
+    },
+    "subClasses" : [ "453", "81" ],
+    "attributes" : [ "external" ],
+    "id" : "126",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#extensionElements",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "extensionElements"
+    },
+    "attributes" : [ "external" ],
+    "id" : "431"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "462",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "461",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "344",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "322",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "455",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "447",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#dataAssociation",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dataAssociation"
+    },
+    "subClasses" : [ "176", "178" ],
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "464",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "465",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#baseElement",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "baseElement"
+    },
+    "subClasses" : [ "182", "73", "26", "188", "191", "193", "195", "126", "139", "141", "90", "146", "148", "152", "159", "161", "125", "133", "25", "78", "83", "87", "54", "22", "108", "112", "69", "60", "65", "24", "6", "12", "17", "30", "37", "42", "48" ],
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "437",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "470",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#forwardDirectionRelationship",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "forwardDirectionRelationship"
+    },
+    "intersection" : [ "83" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "471",
+    "superClasses" : [ "83" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#dataStore",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dataStore"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "195" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "476",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "265",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "477",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#errorEventDefinition",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "errorEventDefinition"
+    },
+    "attributes" : [ "external" ],
+    "id" : "85",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "236",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "478",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#choreographyActivity",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "choreographyActivity"
+    },
+    "subClasses" : [ "354", "31", "99", "186", "136", "4", "335" ],
+    "attributes" : [ "external" ],
+    "id" : "32",
+    "superClasses" : [ "294" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#extension",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "extension"
+    },
+    "attributes" : [ "external" ],
+    "id" : "448"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#serviceTask",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "serviceTask"
+    },
+    "attributes" : [ "external" ],
+    "id" : "281",
+    "superClasses" : [ "184" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#itemDefinition",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "itemDefinition"
+    },
+    "subClasses" : [ "339", "304" ],
+    "attributes" : [ "external" ],
+    "id" : "95",
+    "superClasses" : [ "195" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#intermediateCatchEvent",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "intermediateCatchEvent"
+    },
+    "attributes" : [ "external" ],
+    "id" : "481",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#messageFlowAssociation",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "messageFlowAssociation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "78",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#resourceRole",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "resourceRole"
+    },
+    "subClasses" : [ "230" ],
+    "attributes" : [ "external" ],
+    "id" : "54",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#group",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "group"
+    },
+    "attributes" : [ "external" ],
+    "id" : "201",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#bidirectionalAssociation",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "bidirectionalAssociation"
+    },
+    "intersection" : [ "27" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "483",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#event",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "event"
+    },
+    "subClasses" : [ "52", "34" ],
+    "attributes" : [ "external" ],
+    "id" : "312",
+    "superClasses" : [ "294" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#dataOutputAssociation",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dataOutputAssociation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "178",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#potentialOwner",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "potentialOwner"
+    },
+    "attributes" : [ "external" ],
+    "id" : "211",
+    "superClasses" : [ "212" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#formalExpression",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "formalExpression"
+    },
+    "attributes" : [ "external" ],
+    "id" : "276",
+    "superClasses" : [ "267" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "73", "83", "327" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "489"
+  }, {
+    "instances" : 0,
+    "union" : [ "52", "35" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "490"
+  }, {
+    "instances" : 0,
+    "union" : [ "99", "48" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "372"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#text",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "text"
+    },
+    "attributes" : [ "external" ],
+    "id" : "415"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#textAnnotation",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "textAnnotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "200",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#receiveTask",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "receiveTask"
+    },
+    "attributes" : [ "external" ],
+    "id" : "62",
+    "superClasses" : [ "184" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#resource",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "resource"
+    },
+    "attributes" : [ "external" ],
+    "id" : "72",
+    "superClasses" : [ "195" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#globalManualTask",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "globalManualTask"
+    },
+    "attributes" : [ "external" ],
+    "id" : "156",
+    "superClasses" : [ "154" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#sequenceFlow",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "sequenceFlow"
+    },
+    "attributes" : [ "external" ],
+    "id" : "28",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#throwEvent",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "throwEvent"
+    },
+    "subClasses" : [ "318", "320", "330" ],
+    "attributes" : [ "external" ],
+    "id" : "52",
+    "superClasses" : [ "312" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#flowElement",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "flowElement"
+    },
+    "subClasses" : [ "235", "21", "294", "28", "272" ],
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#property",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "property"
+    },
+    "attributes" : [ "external" ],
+    "id" : "60",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#conversation",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "conversation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "260",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#informationItemDefinition",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "informationItemDefinition"
+    },
+    "intersection" : [ "95" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "339",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#conditionalEventDefinition",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "conditionalEventDefinition"
+    },
+    "attributes" : [ "external" ],
+    "id" : "279",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#inclusiveGateway",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "inclusiveGateway"
+    },
+    "attributes" : [ "external" ],
+    "id" : "46",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#sequentialAdHocSubProcess",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "sequentialAdHocSubProcess"
+    },
+    "intersection" : [ "80" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "251",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#choreography",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "choreography"
+    },
+    "subClasses" : [ "116" ],
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#complexBehaviorMultiInstanceLoopCharacteristics",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "complexBehaviorMultiInstanceLoopCharacteristics"
+    },
+    "intersection" : [ "81" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "128",
+    "superClasses" : [ "81" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#intermediateThrowEvent",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "intermediateThrowEvent"
+    },
+    "attributes" : [ "external" ],
+    "id" : "318",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#endEvent",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "endEvent"
+    },
+    "attributes" : [ "external" ],
+    "id" : "320",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#task",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "task"
+    },
+    "subClasses" : [ "9", "62", "67", "281", "287", "254", "257" ],
+    "attributes" : [ "external" ],
+    "id" : "184",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#error",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "error"
+    },
+    "attributes" : [ "external" ],
+    "id" : "92",
+    "superClasses" : [ "195" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#inputSet",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "inputSet"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#auditing",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "auditing"
+    },
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#conversationNode",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "conversationNode"
+    },
+    "subClasses" : [ "260", "135", "40" ],
+    "attributes" : [ "external" ],
+    "id" : "48",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#noneProcess",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "noneProcess"
+    },
+    "intersection" : [ "2" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "243",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#callableElement",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "callableElement"
+    },
+    "subClasses" : [ "2", "154" ],
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "195" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#unspecifiedDirectionGateway",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "unspecifiedDirectionGateway"
+    },
+    "intersection" : [ "50" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "518",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#rendering",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "rendering"
+    },
+    "attributes" : [ "external" ],
+    "id" : "148",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#process",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "process"
+    },
+    "subClasses" : [ "243", "246", "117" ],
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#conversationAssociation",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "conversationAssociation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "125",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#standardLoopCharacteristics",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "standardLoopCharacteristics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "453",
+    "superClasses" : [ "126" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#bothDirectionRelationship",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "bothDirectionRelationship"
+    },
+    "intersection" : [ "83" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "521",
+    "superClasses" : [ "83" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#adHocSubProcess",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "adHocSubProcess"
+    },
+    "subClasses" : [ "251", "207" ],
+    "attributes" : [ "external" ],
+    "id" : "80",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#mixedDirectionGateway",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "mixedDirectionGateway"
+    },
+    "intersection" : [ "50" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "522",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#userTask",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "userTask"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "184" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#humanPerformer",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "humanPerformer"
+    },
+    "subClasses" : [ "211" ],
+    "attributes" : [ "external" ],
+    "id" : "212",
+    "superClasses" : [ "230" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#dataObjectReference",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dataObjectReference"
+    },
+    "attributes" : [ "external" ],
+    "id" : "235",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#escalation",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "escalation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "93",
+    "superClasses" : [ "195" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#globalBusinessRuleTask",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "globalBusinessRuleTask"
+    },
+    "attributes" : [ "external" ],
+    "id" : "155",
+    "superClasses" : [ "154" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#association",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "association"
+    },
+    "subClasses" : [ "215", "427", "483" ],
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#catchEvent",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "catchEvent"
+    },
+    "subClasses" : [ "307", "377", "481" ],
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "312" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#lane",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "lane"
+    },
+    "attributes" : [ "external" ],
+    "id" : "141",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#compensateTransaction",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "compensateTransaction"
+    },
+    "intersection" : [ "97" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "227",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#noneLoopChoreographyActivity",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "noneLoopChoreographyActivity"
+    },
+    "intersection" : [ "32" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "335",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#compensateEventDefinition",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "compensateEventDefinition"
+    },
+    "attributes" : [ "external" ],
+    "id" : "360",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#assignment",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "assignment"
+    },
+    "attributes" : [ "external" ],
+    "id" : "161",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#cancelEventDefinition",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "cancelEventDefinition"
+    },
+    "attributes" : [ "external" ],
+    "id" : "361",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#manualTask",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "manualTask"
+    },
+    "attributes" : [ "external" ],
+    "id" : "287",
+    "superClasses" : [ "184" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#correlationSubscription",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "correlationSubscription"
+    },
+    "attributes" : [ "external" ],
+    "id" : "133",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#noneDirectionRelationship",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "noneDirectionRelationship"
+    },
+    "intersection" : [ "83" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "548",
+    "superClasses" : [ "83" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#resourceParameter",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "resourceParameter"
+    },
+    "attributes" : [ "external" ],
+    "id" : "73",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#laneSet",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "laneSet"
+    },
+    "attributes" : [ "external" ],
+    "id" : "191",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#exclusiveGateway",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "exclusiveGateway"
+    },
+    "attributes" : [ "external" ],
+    "id" : "45",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#endPoint",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "endPoint"
+    },
+    "attributes" : [ "external" ],
+    "id" : "426",
+    "superClasses" : [ "195" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#exclusiveEventBasedGateway",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "exclusiveEventBasedGateway"
+    },
+    "intersection" : [ "63" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "404",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#dataOutput",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dataOutput"
+    },
+    "attributes" : [ "external" ],
+    "id" : "90",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#categoryValue",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "categoryValue"
+    },
+    "attributes" : [ "external" ],
+    "id" : "152",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#monitoring",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "monitoring"
+    },
+    "attributes" : [ "external" ],
+    "id" : "159",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#backwardDirectionRelationship",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "backwardDirectionRelationship"
+    },
+    "intersection" : [ "83" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "566",
+    "superClasses" : [ "83" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#relationship",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "relationship"
+    },
+    "subClasses" : [ "566", "521", "548", "471" ],
+    "attributes" : [ "external" ],
+    "id" : "83",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#collaboration",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "collaboration"
+    },
+    "subClasses" : [ "153", "3" ],
+    "attributes" : [ "external" ],
+    "id" : "39",
+    "superClasses" : [ "195" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#privateProcess",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "privateProcess"
+    },
+    "intersection" : [ "2" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "246",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#expression",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "expression"
+    },
+    "subClasses" : [ "276" ],
+    "attributes" : [ "external" ],
+    "id" : "267",
+    "superClasses" : [ "348" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#resourceAssignmentExpression",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "resourceAssignmentExpression"
+    },
+    "attributes" : [ "external" ],
+    "id" : "146",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#partnerRole",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "partnerRole"
+    },
+    "attributes" : [ "external" ],
+    "id" : "324",
+    "superClasses" : [ "195" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#linkEventDefinition",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "linkEventDefinition"
+    },
+    "attributes" : [ "external" ],
+    "id" : "325",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#interface",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "interface"
+    },
+    "attributes" : [ "external" ],
+    "id" : "110",
+    "superClasses" : [ "195" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#scriptTask",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "scriptTask"
+    },
+    "attributes" : [ "external" ],
+    "id" : "254",
+    "superClasses" : [ "184" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#inputOutputSpecification",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "inputOutputSpecification"
+    },
+    "attributes" : [ "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://example.org/bpmn/classes#dataInput",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dataInput"
+    },
+    "attributes" : [ "external" ],
+    "id" : "112",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#oneBehaviorMultiInstanceLoopCharacteristics",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "oneBehaviorMultiInstanceLoopCharacteristics"
+    },
+    "intersection" : [ "81" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "129",
+    "superClasses" : [ "81" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "526",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "494",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#globalChoreographyTask",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "globalChoreographyTask"
+    },
+    "attributes" : [ "external" ],
+    "id" : "116",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "458",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "529",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "565",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "342",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "467",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "121",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#oneWayAssociation",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "oneWayAssociation"
+    },
+    "intersection" : [ "27" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "215",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "617",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "170",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://example.org/bpmn/classes#allBehaviorMultiInstanceLoopCharacteristics",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "allBehaviorMultiInstanceLoopCharacteristics"
+    },
+    "intersection" : [ "81" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "127",
+    "superClasses" : [ "81" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#participantMultiplicity",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "participantMultiplicity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "108",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://example.org/bpmn/classes#gateway",
+    "baseIri" : "http://example.org/bpmn/classes",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "gateway"
+    },
+    "subClasses" : [ "439", "44", "45", "49", "518", "522", "400", "63", "46" ],
+    "attributes" : [ "external" ],
+    "id" : "50",
+    "superClasses" : [ "294" ]
+  } ],
+  "property" : [ {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "118",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "142",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "167",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "169",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "171",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "179",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "196",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "198",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "202",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "204",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "214",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "216",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "217",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "219",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "221",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "224",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "231",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "245",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "249",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "253",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "255",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "256",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "258",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "261",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "263",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "264",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "266",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "268",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "270",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "273",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "274",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "277",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "280",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "282",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "286",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "289",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "291",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "293",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "296",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "298",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "300",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "301",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "305",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "308",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "311",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "314",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "317",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "319",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "321",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "329",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "331",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "332",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "334",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "336",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "338",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "340",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "341",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "343",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "346",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "349",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "350",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "351",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "353",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "355",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "357",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "359",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "362",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "365",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "367",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "371",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "376",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "380",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "384",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "386",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "387",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "389",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "390",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "391",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "401",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "403",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "405",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "406",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "408",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "414",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "423",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "428",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "430",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "433",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "435",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "436",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "438",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "442",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "443",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "446",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "449",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "454",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "456",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "457",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "459",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "460",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "463",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "466",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "468",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "469",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "472",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "473",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "474",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "475",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "479",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "480",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "482",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "484",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "485",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "486",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "487",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "488",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "491",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "492",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "493",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "495",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "496",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "497",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "498",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "499",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "500",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "501",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "502",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "503",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "504",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "505",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "506",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "507",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "508",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "509",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "510",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "511",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "512",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "513",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "514",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "515",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "516",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "517",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "519",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "520",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "523",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "524",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "525",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "527",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "528",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "530",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "531",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "532",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "533",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "534",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "535",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "536",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "537",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "538",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "539",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "540",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "541",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "542",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "543",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "544",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "545",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "546",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "547",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "549",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "550",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "551",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "552",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "553",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "554",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "555",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "556",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "557",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "558",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "559",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "560",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "561",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "562",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "563",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "564",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "567",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "568",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "569",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "570",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "571",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "572",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "573",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "574",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "575",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "576",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "577",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "578",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "579",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "580",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "581",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "582",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "583",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "584",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "585",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "586",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "587",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "588",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "589",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "590",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "591",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "592",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "593",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "594",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "595",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "596",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "597",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "598",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "599",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "600",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "601",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "602",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "603",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "604",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "605",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "606",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "607",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "608",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "609",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "610",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "611",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "612",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "613",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "614",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "615",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "616",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "618",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "619",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "620",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "621",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "622",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "623",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "624",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "625",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "626",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "627",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "628",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "629",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "630",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "631",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "632",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "633",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "634",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "5"
+  }, {
+    "range" : "7",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "11"
+  }, {
+    "range" : "7",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#isUnlimited",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "isUnlimited"
+    },
+    "domain" : "19",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "18"
+  }, {
+    "range" : "7",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "29"
+  }, {
+    "range" : "7",
+    "domain" : "37",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "36"
+  }, {
+    "range" : "7",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "41"
+  }, {
+    "range" : "7",
+    "domain" : "48",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#resourceRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "resourceRef"
+    },
+    "domain" : "54",
+    "attributes" : [ "object", "external" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#documentation",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "documentation"
+    },
+    "domain" : "57",
+    "attributes" : [ "object", "external" ],
+    "id" : "56"
+  }, {
+    "range" : "7",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "59"
+  }, {
+    "range" : "7",
+    "domain" : "65",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
+  }, {
+    "range" : "7",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#resourceParameter",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "resourceParameter"
+    },
+    "domain" : "72",
+    "attributes" : [ "object", "external" ],
+    "id" : "71"
+  }, {
+    "range" : "7",
+    "domain" : "78",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "77"
+  }, {
+    "range" : "7",
+    "domain" : "83",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "82"
+  }, {
+    "range" : "7",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#dataOutput",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "dataOutput"
+    },
+    "domain" : "89",
+    "attributes" : [ "object", "external" ],
+    "id" : "88"
+  }, {
+    "range" : "7",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "96"
+  }, {
+    "range" : "7",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#escalationRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "escalationRef"
+    },
+    "domain" : "104",
+    "attributes" : [ "object", "external" ],
+    "id" : "103"
+  }, {
+    "range" : "7",
+    "domain" : "108",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "107"
+  }, {
+    "range" : "7",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "111"
+  }, {
+    "range" : "7",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#innerMessageFlowRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "119",
+    "label" : {
+      "IRI-based" : "innerMessageFlowRef"
+    },
+    "domain" : "78",
+    "attributes" : [ "object", "external" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#eventGatewayType",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "eventGatewayType"
+    },
+    "domain" : "63",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "120"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#isClosed",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "123",
+    "label" : {
+      "IRI-based" : "isClosed"
+    },
+    "domain" : "113",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "122"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#conversationAssociation",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "125",
+    "label" : {
+      "IRI-based" : "conversationAssociation"
+    },
+    "domain" : "39",
+    "attributes" : [ "object", "external" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#startQuantity",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "131",
+    "label" : {
+      "IRI-based" : "startQuantity"
+    },
+    "domain" : "15",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "130"
+  }, {
+    "range" : "7",
+    "domain" : "133",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "132"
+  }, {
+    "range" : "7",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "137"
+  }, {
+    "range" : "7",
+    "domain" : "139",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "138"
+  }, {
+    "range" : "7",
+    "domain" : "141",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#messageRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "143",
+    "label" : {
+      "IRI-based" : "messageRef"
+    },
+    "domain" : "66",
+    "attributes" : [ "object", "external" ],
+    "id" : "142"
+  }, {
+    "range" : "7",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "144"
+  }, {
+    "range" : "7",
+    "domain" : "146",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "145"
+  }, {
+    "range" : "7",
+    "domain" : "148",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#outerConversationNodeRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "150",
+    "label" : {
+      "IRI-based" : "outerConversationNodeRef"
+    },
+    "domain" : "125",
+    "attributes" : [ "object", "external" ],
+    "id" : "149"
+  }, {
+    "range" : "7",
+    "domain" : "152",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "151"
+  }, {
+    "range" : "7",
+    "domain" : "159",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "158"
+  }, {
+    "range" : "7",
+    "domain" : "161",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "160"
+  }, {
+    "range" : "7",
+    "domain" : "125",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "162"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#flowElement",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "flowElement"
+    },
+    "domain" : "0",
+    "attributes" : [ "object", "external" ],
+    "id" : "163"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#dataStoreRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "166",
+    "label" : {
+      "IRI-based" : "dataStoreRef"
+    },
+    "domain" : "21",
+    "attributes" : [ "object", "external" ],
+    "id" : "165"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#outputSetRefs",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "168",
+    "label" : {
+      "IRI-based" : "outputSetRefs"
+    },
+    "domain" : "12",
+    "attributes" : [ "object", "external" ],
+    "id" : "167"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#behavior",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "170",
+    "label" : {
+      "IRI-based" : "behavior"
+    },
+    "domain" : "81",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "169"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#ordering",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "172",
+    "label" : {
+      "IRI-based" : "ordering"
+    },
+    "domain" : "80",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "171"
+  }, {
+    "range" : "7",
+    "domain" : "126",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "173"
+  }, {
+    "range" : "126",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "174"
+  }, {
+    "range" : "25",
+    "domain" : "176",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "175"
+  }, {
+    "range" : "25",
+    "domain" : "178",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "177"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#sourceRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "180",
+    "label" : {
+      "IRI-based" : "sourceRef"
+    },
+    "domain" : "23",
+    "attributes" : [ "object", "external" ],
+    "id" : "179"
+  }, {
+    "range" : "7",
+    "domain" : "182",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "181"
+  }, {
+    "range" : "7",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "183"
+  }, {
+    "range" : "7",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "185"
+  }, {
+    "range" : "7",
+    "domain" : "188",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "187"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#conversationNode",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "conversationNode"
+    },
+    "domain" : "38",
+    "attributes" : [ "object", "external" ],
+    "id" : "189"
+  }, {
+    "range" : "7",
+    "domain" : "191",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "190"
+  }, {
+    "range" : "7",
+    "domain" : "193",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "192"
+  }, {
+    "range" : "7",
+    "domain" : "195",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "194"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#auditing",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "auditing"
+    },
+    "domain" : "197",
+    "attributes" : [ "object", "external" ],
+    "id" : "196"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#scriptLanguage",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "199",
+    "label" : {
+      "IRI-based" : "scriptLanguage"
+    },
+    "domain" : "157",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "198"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#inputSet",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "inputSet"
+    },
+    "domain" : "203",
+    "attributes" : [ "object", "external" ],
+    "id" : "202"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#correlationSubscription",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "133",
+    "label" : {
+      "IRI-based" : "correlationSubscription"
+    },
+    "domain" : "2",
+    "attributes" : [ "object", "external" ],
+    "id" : "204"
+  }, {
+    "range" : "42",
+    "domain" : "200",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "205"
+  }, {
+    "range" : "80",
+    "domain" : "207",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "206"
+  }, {
+    "range" : "42",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "209"
+  }, {
+    "range" : "212",
+    "domain" : "211",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "210"
+  }, {
+    "range" : "42",
+    "domain" : "201",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "213"
+  }, {
+    "range" : "27",
+    "domain" : "215",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "214"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#messageFlowAssociation",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "78",
+    "label" : {
+      "IRI-based" : "messageFlowAssociation"
+    },
+    "domain" : "39",
+    "attributes" : [ "object", "external" ],
+    "id" : "216"
+  }, {
+    "range" : "97",
+    "domain" : "218",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "217"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#minimum",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "220",
+    "label" : {
+      "IRI-based" : "minimum"
+    },
+    "domain" : "108",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "219"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#inputDataRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "223",
+    "label" : {
+      "IRI-based" : "inputDataRef"
+    },
+    "domain" : "222",
+    "attributes" : [ "object", "external" ],
+    "id" : "221"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#textFormat",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "226",
+    "label" : {
+      "IRI-based" : "textFormat"
+    },
+    "domain" : "225",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "224"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#dataOutputAssociation",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "178",
+    "label" : {
+      "IRI-based" : "dataOutputAssociation"
+    },
+    "domain" : "232",
+    "attributes" : [ "object", "external" ],
+    "id" : "231"
+  }, {
+    "range" : "48",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "233"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#dataObjectRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "236",
+    "label" : {
+      "IRI-based" : "dataObjectRef"
+    },
+    "domain" : "235",
+    "attributes" : [ "object", "external" ],
+    "id" : "234"
+  }, {
+    "range" : "81",
+    "domain" : "128",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "237"
+  }, {
+    "range" : "14",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "238"
+  }, {
+    "range" : "81",
+    "domain" : "129",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "239"
+  }, {
+    "range" : "14",
+    "domain" : "154",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "240"
+  }, {
+    "range" : "154",
+    "domain" : "155",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "241"
+  }, {
+    "range" : "2",
+    "domain" : "243",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "242"
+  }, {
+    "range" : "154",
+    "domain" : "156",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "244"
+  }, {
+    "range" : "2",
+    "domain" : "246",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "245"
+  }, {
+    "range" : "154",
+    "domain" : "157",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "247"
+  }, {
+    "range" : "2",
+    "domain" : "117",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "248"
+  }, {
+    "range" : "154",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "249"
+  }, {
+    "range" : "80",
+    "domain" : "251",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "250"
+  }, {
+    "range" : "184",
+    "domain" : "254",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "253"
+  }, {
+    "range" : "1",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "255"
+  }, {
+    "range" : "184",
+    "domain" : "257",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "256"
+  }, {
+    "range" : "1",
+    "domain" : "80",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "258"
+  }, {
+    "range" : "48",
+    "domain" : "260",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "259"
+  }, {
+    "range" : "81",
+    "domain" : "127",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "261"
+  }, {
+    "range" : "48",
+    "domain" : "135",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "262"
+  }, {
+    "range" : "81",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "263"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#definitionalCollaborationRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "265",
+    "label" : {
+      "IRI-based" : "definitionalCollaborationRef"
+    },
+    "domain" : "2",
+    "attributes" : [ "object", "external" ],
+    "id" : "264"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#conditionExpression",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "267",
+    "label" : {
+      "IRI-based" : "conditionExpression"
+    },
+    "domain" : "28",
+    "attributes" : [ "object", "external" ],
+    "id" : "266"
+  }, {
+    "range" : "3",
+    "domain" : "116",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "268"
+  }, {
+    "range" : "184",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "270"
+  }, {
+    "range" : "184",
+    "domain" : "62",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "273"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#resourceParameterBinding",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "resourceParameterBinding"
+    },
+    "domain" : "54",
+    "attributes" : [ "object", "external" ],
+    "id" : "274"
+  }, {
+    "range" : "184",
+    "domain" : "67",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "277"
+  }, {
+    "range" : "184",
+    "domain" : "281",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "280"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#implementation",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "284",
+    "label" : {
+      "IRI-based" : "implementation"
+    },
+    "domain" : "283",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "282"
+  }, {
+    "range" : "184",
+    "domain" : "287",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "286"
+  }, {
+    "range" : "22",
+    "domain" : "235",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "289"
+  }, {
+    "range" : "22",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "291"
+  }, {
+    "range" : "22",
+    "domain" : "294",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "293"
+  }, {
+    "range" : "22",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "296"
+  }, {
+    "range" : "22",
+    "domain" : "272",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "298"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#dataPath",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "276",
+    "label" : {
+      "IRI-based" : "dataPath"
+    },
+    "domain" : "30",
+    "attributes" : [ "object", "external" ],
+    "id" : "300"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#whileExecutingInputRefs",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "168",
+    "label" : {
+      "IRI-based" : "whileExecutingInputRefs"
+    },
+    "domain" : "12",
+    "attributes" : [ "object", "external" ],
+    "id" : "301"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#parallelMultiple",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "306",
+    "label" : {
+      "IRI-based" : "parallelMultiple"
+    },
+    "domain" : "34",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "305"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#outMessageRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "309",
+    "label" : {
+      "IRI-based" : "outMessageRef"
+    },
+    "domain" : "65",
+    "attributes" : [ "object", "external" ],
+    "id" : "308"
+  }, {
+    "range" : "312",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "311"
+  }, {
+    "range" : "312",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "314"
+  }, {
+    "range" : "52",
+    "domain" : "318",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "317"
+  }, {
+    "range" : "52",
+    "domain" : "320",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "319"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#itemSubjectRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "322",
+    "label" : {
+      "IRI-based" : "itemSubjectRef"
+    },
+    "domain" : "271",
+    "attributes" : [ "object", "external" ],
+    "id" : "321"
+  }, {
+    "range" : "52",
+    "domain" : "330",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "329"
+  }, {
+    "range" : "32",
+    "domain" : "136",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "331"
+  }, {
+    "range" : "32",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "332"
+  }, {
+    "range" : "32",
+    "domain" : "335",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "334"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#condition",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "275",
+    "label" : {
+      "IRI-based" : "condition"
+    },
+    "domain" : "278",
+    "attributes" : [ "object", "external" ],
+    "id" : "336"
+  }, {
+    "range" : "95",
+    "domain" : "339",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "338"
+  }, {
+    "range" : "95",
+    "domain" : "304",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "340"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#errorCode",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "342",
+    "label" : {
+      "IRI-based" : "errorCode"
+    },
+    "domain" : "92",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "341"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#calledCollaborationRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "344",
+    "label" : {
+      "IRI-based" : "calledCollaborationRef"
+    },
+    "domain" : "135",
+    "attributes" : [ "object", "external" ],
+    "id" : "343"
+  }, {
+    "range" : "54",
+    "domain" : "230",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "346"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#from",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "267",
+    "label" : {
+      "IRI-based" : "from"
+    },
+    "domain" : "161",
+    "attributes" : [ "object", "external" ],
+    "id" : "349"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#childLaneSet",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "191",
+    "label" : {
+      "IRI-based" : "childLaneSet"
+    },
+    "domain" : "141",
+    "attributes" : [ "object", "external" ],
+    "id" : "350"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#loopDataOutputRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "352",
+    "label" : {
+      "IRI-based" : "loopDataOutputRef"
+    },
+    "domain" : "81",
+    "attributes" : [ "object", "external" ],
+    "id" : "351"
+  }, {
+    "range" : "32",
+    "domain" : "354",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "353"
+  }, {
+    "range" : "32",
+    "domain" : "31",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "355"
+  }, {
+    "range" : "32",
+    "domain" : "99",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "357"
+  }, {
+    "range" : "32",
+    "domain" : "186",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "359"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#id",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "364",
+    "label" : {
+      "IRI-based" : "id"
+    },
+    "domain" : "363",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "362"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#artifact",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "artifact"
+    },
+    "domain" : "366",
+    "attributes" : [ "object", "external" ],
+    "id" : "365"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#interfaceRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "368",
+    "label" : {
+      "IRI-based" : "interfaceRef"
+    },
+    "domain" : "182",
+    "attributes" : [ "object", "external" ],
+    "id" : "367"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#messageFlowRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "373",
+    "label" : {
+      "IRI-based" : "messageFlowRef"
+    },
+    "domain" : "372",
+    "attributes" : [ "object", "external" ],
+    "id" : "371"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#attachedToRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "378",
+    "label" : {
+      "IRI-based" : "attachedToRef"
+    },
+    "domain" : "377",
+    "attributes" : [ "object", "external" ],
+    "id" : "376"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#participantAssociation",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "193",
+    "label" : {
+      "IRI-based" : "participantAssociation"
+    },
+    "domain" : "134",
+    "attributes" : [ "object", "external" ],
+    "id" : "380"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#method",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "method"
+    },
+    "domain" : "97",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "384"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#completionCondition",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "267",
+    "label" : {
+      "IRI-based" : "completionCondition"
+    },
+    "domain" : "79",
+    "attributes" : [ "object", "external" ],
+    "id" : "386"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#structureRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "388",
+    "label" : {
+      "IRI-based" : "structureRef"
+    },
+    "domain" : "91",
+    "attributes" : [ "object", "external" ],
+    "id" : "387"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#correlationKey",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "139",
+    "label" : {
+      "IRI-based" : "correlationKey"
+    },
+    "domain" : "106",
+    "attributes" : [ "object", "external" ],
+    "id" : "389"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#loopCharacteristics",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "126",
+    "label" : {
+      "IRI-based" : "loopCharacteristics"
+    },
+    "domain" : "15",
+    "attributes" : [ "object", "external" ],
+    "id" : "390"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#outputDataRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "392",
+    "label" : {
+      "IRI-based" : "outputDataRef"
+    },
+    "domain" : "222",
+    "attributes" : [ "object", "external" ],
+    "id" : "391"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#supportedInterfaceRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "402",
+    "label" : {
+      "IRI-based" : "supportedInterfaceRef"
+    },
+    "domain" : "14",
+    "attributes" : [ "object", "external" ],
+    "id" : "401"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#event",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "330",
+    "label" : {
+      "IRI-based" : "event"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "external" ],
+    "id" : "403"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#outerMessageFlowRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "119",
+    "label" : {
+      "IRI-based" : "outerMessageFlowRef"
+    },
+    "domain" : "78",
+    "attributes" : [ "object", "external" ],
+    "id" : "405"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#value",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "407",
+    "label" : {
+      "IRI-based" : "value"
+    },
+    "domain" : "152",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "406"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#rendering",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "148",
+    "label" : {
+      "IRI-based" : "rendering"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "external" ],
+    "id" : "408"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#text",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "415",
+    "label" : {
+      "IRI-based" : "text"
+    },
+    "domain" : "200",
+    "attributes" : [ "object", "external" ],
+    "id" : "414"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#gatewayDirection",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "399",
+    "label" : {
+      "IRI-based" : "gatewayDirection"
+    },
+    "domain" : "50",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "423"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#inputDataItem",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "inputDataItem"
+    },
+    "domain" : "81",
+    "attributes" : [ "object", "external" ],
+    "id" : "428"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#extensionElements",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "431",
+    "label" : {
+      "IRI-based" : "extensionElements"
+    },
+    "domain" : "347",
+    "attributes" : [ "object", "external" ],
+    "id" : "430"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#participant",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "182",
+    "label" : {
+      "IRI-based" : "participant"
+    },
+    "domain" : "39",
+    "attributes" : [ "object", "external" ],
+    "id" : "433"
+  }, {
+    "range" : "50",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "435"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#parameterRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "437",
+    "label" : {
+      "IRI-based" : "parameterRef"
+    },
+    "domain" : "17",
+    "attributes" : [ "object", "external" ],
+    "id" : "436"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#maximum",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "369",
+    "label" : {
+      "IRI-based" : "maximum"
+    },
+    "domain" : "108",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "438"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#isCollection",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "398",
+    "label" : {
+      "IRI-based" : "isCollection"
+    },
+    "domain" : "313",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "442"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#complexBehaviorDefinition",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "complexBehaviorDefinition"
+    },
+    "domain" : "81",
+    "attributes" : [ "object", "external" ],
+    "id" : "443"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#signalRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "447",
+    "label" : {
+      "IRI-based" : "signalRef"
+    },
+    "domain" : "229",
+    "attributes" : [ "object", "external" ],
+    "id" : "446"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#messagePath",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "276",
+    "label" : {
+      "IRI-based" : "messagePath"
+    },
+    "domain" : "69",
+    "attributes" : [ "object", "external" ],
+    "id" : "449"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#definition",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "455",
+    "label" : {
+      "IRI-based" : "definition"
+    },
+    "domain" : "448",
+    "attributes" : [ "object", "external" ],
+    "id" : "454"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#dataState",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "dataState"
+    },
+    "domain" : "288",
+    "attributes" : [ "object", "external" ],
+    "id" : "456"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#capacity",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "458",
+    "label" : {
+      "IRI-based" : "capacity"
+    },
+    "domain" : "19",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "457"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#loopMaximum",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "379",
+    "label" : {
+      "IRI-based" : "loopMaximum"
+    },
+    "domain" : "453",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "459"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#targetRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "461",
+    "label" : {
+      "IRI-based" : "targetRef"
+    },
+    "domain" : "299",
+    "attributes" : [ "object", "external" ],
+    "id" : "460"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#eventDefinitionRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "462",
+    "label" : {
+      "IRI-based" : "eventDefinitionRef"
+    },
+    "domain" : "269",
+    "attributes" : [ "object", "external" ],
+    "id" : "463"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#escalationCode",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "467",
+    "label" : {
+      "IRI-based" : "escalationCode"
+    },
+    "domain" : "93",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "466"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#processRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "368",
+    "label" : {
+      "IRI-based" : "processRef"
+    },
+    "domain" : "182",
+    "attributes" : [ "object", "external" ],
+    "id" : "468"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#triggeredByEvent",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "412",
+    "label" : {
+      "IRI-based" : "triggeredByEvent"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "469"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#flowNodeRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "450",
+    "label" : {
+      "IRI-based" : "flowNodeRef"
+    },
+    "domain" : "141",
+    "attributes" : [ "object", "external" ],
+    "id" : "472"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#innerConversationNodeRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "150",
+    "label" : {
+      "IRI-based" : "innerConversationNodeRef"
+    },
+    "domain" : "125",
+    "attributes" : [ "object", "external" ],
+    "id" : "473"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#isInterrupting",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "383",
+    "label" : {
+      "IRI-based" : "isInterrupting"
+    },
+    "domain" : "307",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "474"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#correlationPropertyBinding",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "correlationPropertyBinding"
+    },
+    "domain" : "133",
+    "attributes" : [ "object", "external" ],
+    "id" : "475"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#target",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "409",
+    "label" : {
+      "IRI-based" : "target"
+    },
+    "domain" : "451",
+    "attributes" : [ "object", "external" ],
+    "id" : "479"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#isSequential",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "385",
+    "label" : {
+      "IRI-based" : "isSequential"
+    },
+    "domain" : "81",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "480"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#errorRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "309",
+    "label" : {
+      "IRI-based" : "errorRef"
+    },
+    "domain" : "84",
+    "attributes" : [ "object", "external" ],
+    "id" : "482"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#implementationRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "444",
+    "label" : {
+      "IRI-based" : "implementationRef"
+    },
+    "domain" : "109",
+    "attributes" : [ "object", "external" ],
+    "id" : "484"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#loopCondition",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "267",
+    "label" : {
+      "IRI-based" : "loopCondition"
+    },
+    "domain" : "453",
+    "attributes" : [ "object", "external" ],
+    "id" : "485"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#initiatingParticipantRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "441",
+    "label" : {
+      "IRI-based" : "initiatingParticipantRef"
+    },
+    "domain" : "115",
+    "attributes" : [ "object", "external" ],
+    "id" : "486"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#evaluatesToTypeRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "434",
+    "label" : {
+      "IRI-based" : "evaluatesToTypeRef"
+    },
+    "domain" : "276",
+    "attributes" : [ "object", "external" ],
+    "id" : "487"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#operation",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "operation"
+    },
+    "domain" : "110",
+    "attributes" : [ "object", "external" ],
+    "id" : "488"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#dataOutputRefs",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "440",
+    "label" : {
+      "IRI-based" : "dataOutputRefs"
+    },
+    "domain" : "188",
+    "attributes" : [ "object", "external" ],
+    "id" : "491"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#loopDataInputRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "352",
+    "label" : {
+      "IRI-based" : "loopDataInputRef"
+    },
+    "domain" : "81",
+    "attributes" : [ "object", "external" ],
+    "id" : "492"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#cancelRemainingInstances",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "494",
+    "label" : {
+      "IRI-based" : "cancelRemainingInstances"
+    },
+    "domain" : "80",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "493"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#correlationPropertyRetrievalExpression",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "correlationPropertyRetrievalExpression"
+    },
+    "domain" : "327",
+    "attributes" : [ "object", "external" ],
+    "id" : "495"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#ioSpecification",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "382",
+    "label" : {
+      "IRI-based" : "ioSpecification"
+    },
+    "domain" : "13",
+    "attributes" : [ "object", "external" ],
+    "id" : "496"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#processType",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "417",
+    "label" : {
+      "IRI-based" : "processType"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "497"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#outputSet",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "188",
+    "label" : {
+      "IRI-based" : "outputSet"
+    },
+    "domain" : "33",
+    "attributes" : [ "object", "external" ],
+    "id" : "498"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#default",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "429",
+    "label" : {
+      "IRI-based" : "default"
+    },
+    "domain" : "43",
+    "attributes" : [ "object", "external" ],
+    "id" : "499"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#eventDefinition",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "eventDefinition"
+    },
+    "domain" : "51",
+    "attributes" : [ "object", "external" ],
+    "id" : "500"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#activityRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "425",
+    "label" : {
+      "IRI-based" : "activityRef"
+    },
+    "domain" : "360",
+    "attributes" : [ "object", "external" ],
+    "id" : "501"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#loopCardinality",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "267",
+    "label" : {
+      "IRI-based" : "loopCardinality"
+    },
+    "domain" : "81",
+    "attributes" : [ "object", "external" ],
+    "id" : "502"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#inMessageRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "309",
+    "label" : {
+      "IRI-based" : "inMessageRef"
+    },
+    "domain" : "65",
+    "attributes" : [ "object", "external" ],
+    "id" : "503"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#operationRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "223",
+    "label" : {
+      "IRI-based" : "operationRef"
+    },
+    "domain" : "356",
+    "attributes" : [ "object", "external" ],
+    "id" : "504"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#choreographyRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "421",
+    "label" : {
+      "IRI-based" : "choreographyRef"
+    },
+    "domain" : "39",
+    "attributes" : [ "object", "external" ],
+    "id" : "505"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#scriptFormat",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "418",
+    "label" : {
+      "IRI-based" : "scriptFormat"
+    },
+    "domain" : "254",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "506"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#participantRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "424",
+    "label" : {
+      "IRI-based" : "participantRef"
+    },
+    "domain" : "358",
+    "attributes" : [ "object", "external" ],
+    "id" : "507"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#conversationLink",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "conversationLink"
+    },
+    "domain" : "39",
+    "attributes" : [ "object", "external" ],
+    "id" : "508"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#testBefore",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "416",
+    "label" : {
+      "IRI-based" : "testBefore"
+    },
+    "domain" : "453",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "509"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#optionalOutputRefs",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "440",
+    "label" : {
+      "IRI-based" : "optionalOutputRefs"
+    },
+    "domain" : "188",
+    "attributes" : [ "object", "external" ],
+    "id" : "510"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#expression",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "267",
+    "label" : {
+      "IRI-based" : "expression"
+    },
+    "domain" : "333",
+    "attributes" : [ "object", "external" ],
+    "id" : "511"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#assignment",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "161",
+    "label" : {
+      "IRI-based" : "assignment"
+    },
+    "domain" : "25",
+    "attributes" : [ "object", "external" ],
+    "id" : "512"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#transformation",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "276",
+    "label" : {
+      "IRI-based" : "transformation"
+    },
+    "domain" : "25",
+    "attributes" : [ "object", "external" ],
+    "id" : "513"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#isRequired",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "381",
+    "label" : {
+      "IRI-based" : "isRequired"
+    },
+    "domain" : "73",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "514"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#supports",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "265",
+    "label" : {
+      "IRI-based" : "supports"
+    },
+    "domain" : "2",
+    "attributes" : [ "object", "external" ],
+    "id" : "515"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#incoming",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "478",
+    "label" : {
+      "IRI-based" : "incoming"
+    },
+    "domain" : "294",
+    "attributes" : [ "object", "external" ],
+    "id" : "516"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#lane",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "lane"
+    },
+    "domain" : "191",
+    "attributes" : [ "object", "external" ],
+    "id" : "517"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#dataInputAssociation",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "176",
+    "label" : {
+      "IRI-based" : "dataInputAssociation"
+    },
+    "domain" : "295",
+    "attributes" : [ "object", "external" ],
+    "id" : "519"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#correlationPropertyRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "465",
+    "label" : {
+      "IRI-based" : "correlationPropertyRef"
+    },
+    "domain" : "297",
+    "attributes" : [ "object", "external" ],
+    "id" : "520"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#inputSetRefs",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "440",
+    "label" : {
+      "IRI-based" : "inputSetRefs"
+    },
+    "domain" : "188",
+    "attributes" : [ "object", "external" ],
+    "id" : "523"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#laneSet",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "191",
+    "label" : {
+      "IRI-based" : "laneSet"
+    },
+    "domain" : "285",
+    "attributes" : [ "object", "external" ],
+    "id" : "524"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#cancelActivity",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "526",
+    "label" : {
+      "IRI-based" : "cancelActivity"
+    },
+    "domain" : "377",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "525"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#messageFlow",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "messageFlow"
+    },
+    "domain" : "39",
+    "attributes" : [ "object", "external" ],
+    "id" : "527"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#completionQuantity",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "529",
+    "label" : {
+      "IRI-based" : "completionQuantity"
+    },
+    "domain" : "15",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "528"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#waitForCompletion",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "413",
+    "label" : {
+      "IRI-based" : "waitForCompletion"
+    },
+    "domain" : "360",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "530"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#itemKind",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "374",
+    "label" : {
+      "IRI-based" : "itemKind"
+    },
+    "domain" : "95",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "531"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#isForCompensation",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "393",
+    "label" : {
+      "IRI-based" : "isForCompensation"
+    },
+    "domain" : "15",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "532"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#ioBinding",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "303",
+    "label" : {
+      "IRI-based" : "ioBinding"
+    },
+    "domain" : "14",
+    "attributes" : [ "object", "external" ],
+    "id" : "533"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#property",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "property"
+    },
+    "domain" : "445",
+    "attributes" : [ "object", "external" ],
+    "id" : "534"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#dataInput",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "dataInput"
+    },
+    "domain" : "490",
+    "attributes" : [ "object", "external" ],
+    "id" : "535"
+  }, {
+    "range" : "195",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "536"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#type",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "410",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "domain" : "489",
+    "attributes" : [ "object", "external" ],
+    "id" : "537"
+  }, {
+    "range" : "195",
+    "domain" : "95",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "538"
+  }, {
+    "range" : "195",
+    "domain" : "328",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "539"
+  }, {
+    "range" : "195",
+    "domain" : "327",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "540"
+  }, {
+    "range" : "195",
+    "domain" : "326",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "541"
+  }, {
+    "range" : "294",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "542"
+  }, {
+    "range" : "294",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "543"
+  }, {
+    "range" : "294",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "544"
+  }, {
+    "range" : "294",
+    "domain" : "312",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "545"
+  }, {
+    "range" : "126",
+    "domain" : "453",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "546"
+  }, {
+    "range" : "195",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "547"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#whileExecutingOutputRefs",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "440",
+    "label" : {
+      "IRI-based" : "whileExecutingOutputRefs"
+    },
+    "domain" : "188",
+    "attributes" : [ "object", "external" ],
+    "id" : "549"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#instantiate",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "397",
+    "label" : {
+      "IRI-based" : "instantiate"
+    },
+    "domain" : "61",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "550"
+  }, {
+    "range" : "195",
+    "domain" : "94",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "551"
+  }, {
+    "range" : "195",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "552"
+  }, {
+    "range" : "195",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "553"
+  }, {
+    "range" : "195",
+    "domain" : "426",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "554"
+  }, {
+    "range" : "195",
+    "domain" : "102",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "555"
+  }, {
+    "range" : "195",
+    "domain" : "302",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "556"
+  }, {
+    "range" : "195",
+    "domain" : "324",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "557"
+  }, {
+    "range" : "195",
+    "domain" : "92",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "558"
+  }, {
+    "range" : "195",
+    "domain" : "110",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "559"
+  }, {
+    "range" : "63",
+    "domain" : "310",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "560"
+  }, {
+    "range" : "50",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "561"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#optionalInputRefs",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "168",
+    "label" : {
+      "IRI-based" : "optionalInputRefs"
+    },
+    "domain" : "12",
+    "attributes" : [ "object", "external" ],
+    "id" : "562"
+  }, {
+    "range" : "195",
+    "domain" : "93",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "563"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#direction",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "565",
+    "label" : {
+      "IRI-based" : "direction"
+    },
+    "domain" : "83",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "564"
+  }, {
+    "range" : "39",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "567"
+  }, {
+    "range" : "102",
+    "domain" : "279",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "568"
+  }, {
+    "range" : "267",
+    "domain" : "276",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "569"
+  }, {
+    "range" : "102",
+    "domain" : "229",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "570"
+  }, {
+    "range" : "50",
+    "domain" : "439",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "571"
+  }, {
+    "range" : "102",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "572"
+  }, {
+    "range" : "50",
+    "domain" : "44",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "573"
+  }, {
+    "range" : "15",
+    "domain" : "395",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "574"
+  }, {
+    "range" : "50",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "575"
+  }, {
+    "range" : "15",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "576"
+  }, {
+    "range" : "50",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "577"
+  }, {
+    "range" : "15",
+    "domain" : "184",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "578"
+  }, {
+    "range" : "50",
+    "domain" : "518",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "579"
+  }, {
+    "range" : "348",
+    "domain" : "267",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "580"
+  }, {
+    "range" : "50",
+    "domain" : "522",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "581"
+  }, {
+    "range" : "63",
+    "domain" : "404",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "582"
+  }, {
+    "range" : "50",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "583"
+  }, {
+    "range" : "102",
+    "domain" : "361",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "584"
+  }, {
+    "range" : "83",
+    "domain" : "471",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "585"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#correlationKeyRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "432",
+    "label" : {
+      "IRI-based" : "correlationKeyRef"
+    },
+    "domain" : "133",
+    "attributes" : [ "object", "external" ],
+    "id" : "586"
+  }, {
+    "range" : "102",
+    "domain" : "101",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "587"
+  }, {
+    "range" : "39",
+    "domain" : "153",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "588"
+  }, {
+    "range" : "102",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "589"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#mustUnderstand",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "419",
+    "label" : {
+      "IRI-based" : "mustUnderstand"
+    },
+    "domain" : "448",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "590"
+  }, {
+    "range" : "27",
+    "domain" : "427",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "591"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#calledElement",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "422",
+    "label" : {
+      "IRI-based" : "calledElement"
+    },
+    "domain" : "395",
+    "attributes" : [ "object", "external" ],
+    "id" : "592"
+  }, {
+    "range" : "97",
+    "domain" : "227",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "593"
+  }, {
+    "range" : "27",
+    "domain" : "483",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "594"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#innerParticipantRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "477",
+    "label" : {
+      "IRI-based" : "innerParticipantRef"
+    },
+    "domain" : "193",
+    "attributes" : [ "object", "external" ],
+    "id" : "595"
+  }, {
+    "range" : "97",
+    "domain" : "228",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "596"
+  }, {
+    "range" : "34",
+    "domain" : "307",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "597"
+  }, {
+    "range" : "230",
+    "domain" : "212",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "598"
+  }, {
+    "range" : "34",
+    "domain" : "377",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "599"
+  }, {
+    "range" : "102",
+    "domain" : "325",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "600"
+  }, {
+    "range" : "34",
+    "domain" : "481",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "601"
+  }, {
+    "range" : "102",
+    "domain" : "208",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "602"
+  }, {
+    "range" : "83",
+    "domain" : "566",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "603"
+  }, {
+    "range" : "102",
+    "domain" : "104",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "604"
+  }, {
+    "range" : "83",
+    "domain" : "521",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "605"
+  }, {
+    "range" : "102",
+    "domain" : "360",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "606"
+  }, {
+    "range" : "83",
+    "domain" : "548",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "607"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#resourceRole",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "resourceRole"
+    },
+    "domain" : "337",
+    "attributes" : [ "object", "external" ],
+    "id" : "608"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#isExecutable",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "394",
+    "label" : {
+      "IRI-based" : "isExecutable"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "609"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#language",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "370",
+    "label" : {
+      "IRI-based" : "language"
+    },
+    "domain" : "276",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "610"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#source",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "476",
+    "label" : {
+      "IRI-based" : "source"
+    },
+    "domain" : "345",
+    "attributes" : [ "object", "external" ],
+    "id" : "611"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#activationCondition",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "267",
+    "label" : {
+      "IRI-based" : "activationCondition"
+    },
+    "domain" : "44",
+    "attributes" : [ "object", "external" ],
+    "id" : "612"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#partitionElement",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "partitionElement"
+    },
+    "domain" : "141",
+    "attributes" : [ "object", "external" ],
+    "id" : "613"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#calledChoreographyRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "470",
+    "label" : {
+      "IRI-based" : "calledChoreographyRef"
+    },
+    "domain" : "136",
+    "attributes" : [ "object", "external" ],
+    "id" : "614"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#endPointRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "368",
+    "label" : {
+      "IRI-based" : "endPointRef"
+    },
+    "domain" : "182",
+    "attributes" : [ "object", "external" ],
+    "id" : "615"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#associationDirection",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "617",
+    "label" : {
+      "IRI-based" : "associationDirection"
+    },
+    "domain" : "27",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "616"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#to",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "267",
+    "label" : {
+      "IRI-based" : "to"
+    },
+    "domain" : "161",
+    "attributes" : [ "object", "external" ],
+    "id" : "618"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#outgoing",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "478",
+    "label" : {
+      "IRI-based" : "outgoing"
+    },
+    "domain" : "294",
+    "attributes" : [ "object", "external" ],
+    "id" : "619"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#oneBehaviorEventRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "352",
+    "label" : {
+      "IRI-based" : "oneBehaviorEventRef"
+    },
+    "domain" : "81",
+    "attributes" : [ "object", "external" ],
+    "id" : "620"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#loopType",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "375",
+    "label" : {
+      "IRI-based" : "loopType"
+    },
+    "domain" : "32",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "621"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#participantMultiplicity",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "108",
+    "label" : {
+      "IRI-based" : "participantMultiplicity"
+    },
+    "domain" : "182",
+    "attributes" : [ "object", "external" ],
+    "id" : "622"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#outputDataItem",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "outputDataItem"
+    },
+    "domain" : "81",
+    "attributes" : [ "object", "external" ],
+    "id" : "623"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#name",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "420",
+    "label" : {
+      "IRI-based" : "name"
+    },
+    "domain" : "323",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "624"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#isImmediate",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "396",
+    "label" : {
+      "IRI-based" : "isImmediate"
+    },
+    "domain" : "28",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "625"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#script",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "164",
+    "label" : {
+      "IRI-based" : "script"
+    },
+    "domain" : "290",
+    "attributes" : [ "object", "external" ],
+    "id" : "626"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#monitoring",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "159",
+    "label" : {
+      "IRI-based" : "monitoring"
+    },
+    "domain" : "292",
+    "attributes" : [ "object", "external" ],
+    "id" : "627"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#outerParticipantRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "477",
+    "label" : {
+      "IRI-based" : "outerParticipantRef"
+    },
+    "domain" : "193",
+    "attributes" : [ "object", "external" ],
+    "id" : "628"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#itemRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "464",
+    "label" : {
+      "IRI-based" : "itemRef"
+    },
+    "domain" : "326",
+    "attributes" : [ "object", "external" ],
+    "id" : "629"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#noneBehaviorEventRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "352",
+    "label" : {
+      "IRI-based" : "noneBehaviorEventRef"
+    },
+    "domain" : "81",
+    "attributes" : [ "object", "external" ],
+    "id" : "630"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#partitionElementRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "450",
+    "label" : {
+      "IRI-based" : "partitionElementRef"
+    },
+    "domain" : "141",
+    "attributes" : [ "object", "external" ],
+    "id" : "631"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#categoryValueRef",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "452",
+    "label" : {
+      "IRI-based" : "categoryValueRef"
+    },
+    "domain" : "252",
+    "attributes" : [ "object", "external" ],
+    "id" : "632"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#categoryValue",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "152",
+    "label" : {
+      "IRI-based" : "categoryValue"
+    },
+    "domain" : "302",
+    "attributes" : [ "object", "external" ],
+    "id" : "633"
+  }, {
+    "iri" : "http://example.org/bpmn/properties#dataInputRefs",
+    "baseIri" : "http://example.org/bpmn/properties",
+    "range" : "168",
+    "label" : {
+      "IRI-based" : "dataInputRefs"
+    },
+    "domain" : "12",
+    "attributes" : [ "object", "external" ],
+    "id" : "634"
+  } ]
+}

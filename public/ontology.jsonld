@@ -1,0 +1,3227 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#association"
+    }, {
+      "@id" : "_:genid12"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Private"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#processType"
+  } ]
+}, {
+  "@id" : "_:genid102",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#process"
+    }, {
+      "@id" : "_:genid104"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid104",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Public"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#processType"
+  } ]
+}, {
+  "@id" : "_:genid106",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#adHocSubProcess"
+    }, {
+      "@id" : "_:genid108"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid108",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Sequential"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#ordering"
+  } ]
+}, {
+  "@id" : "_:genid110",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#choreographyActivity"
+    }, {
+      "@id" : "_:genid112"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid112",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Standard"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#loopType"
+  } ]
+}, {
+  "@id" : "_:genid114",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#transaction"
+    }, {
+      "@id" : "_:genid116"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid116",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "##Store"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#method"
+  } ]
+}, {
+  "@id" : "_:genid118",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#association"
+    }, {
+      "@id" : "_:genid120"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Both"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#associationDirection"
+  } ]
+}, {
+  "@id" : "_:genid120",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "None"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#associationDirection"
+  } ]
+}, {
+  "@id" : "_:genid122",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#gateway"
+    }, {
+      "@id" : "_:genid124"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid124",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Unspecified"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#gatewayDirection"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#relationship"
+    }, {
+      "@id" : "_:genid16"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Both"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#direction"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#transaction"
+    }, {
+      "@id" : "_:genid20"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+    }, {
+      "@id" : "_:genid4"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "##Compensate"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#method"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+    }, {
+      "@id" : "_:genid24"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Complex"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#behavior"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#gateway"
+    }, {
+      "@id" : "_:genid28"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Converging"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#gatewayDirection"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#gateway"
+    }, {
+      "@id" : "_:genid32"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Diverging"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#gatewayDirection"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#eventBasedGateway"
+    }, {
+      "@id" : "_:genid36"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Exclusive"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#eventGatewayType"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#relationship"
+    }, {
+      "@id" : "_:genid40"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "All"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#behavior"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Forward"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#direction"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#transaction"
+    }, {
+      "@id" : "_:genid44"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "##Image"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#method"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#itemDefinition"
+    }, {
+      "@id" : "_:genid48"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Information"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#itemKind"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#gateway"
+    }, {
+      "@id" : "_:genid52"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Mixed"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#gatewayDirection"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#choreographyActivity"
+    }, {
+      "@id" : "_:genid56"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "MultiInstanceParallel"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#loopType"
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#choreographyActivity"
+    }, {
+      "@id" : "_:genid60"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#relationship"
+    }, {
+      "@id" : "_:genid8"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "MultiInstanceSequential"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#loopType"
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+    }, {
+      "@id" : "_:genid64"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "None"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#behavior"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#relationship"
+    }, {
+      "@id" : "_:genid68"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid68",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "None"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#direction"
+  } ]
+}, {
+  "@id" : "_:genid70",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#choreographyActivity"
+    }, {
+      "@id" : "_:genid72"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "None"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#loopType"
+  } ]
+}, {
+  "@id" : "_:genid74",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#process"
+    }, {
+      "@id" : "_:genid76"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid76",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "None"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#processType"
+  } ]
+}, {
+  "@id" : "_:genid78",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+    }, {
+      "@id" : "_:genid80"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Backward"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#direction"
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "One"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#behavior"
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#association"
+    }, {
+      "@id" : "_:genid84"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "One"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#associationDirection"
+  } ]
+}, {
+  "@id" : "_:genid86",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#adHocSubProcess"
+    }, {
+      "@id" : "_:genid88"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid88",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Parallel"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#ordering"
+  } ]
+}, {
+  "@id" : "_:genid90",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#eventBasedGateway"
+    }, {
+      "@id" : "_:genid92"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid92",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Parallel"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#eventGatewayType"
+  } ]
+}, {
+  "@id" : "_:genid94",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#itemDefinition"
+    }, {
+      "@id" : "_:genid96"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid96",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@value" : "Physical"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/bpmn/properties#itemKind"
+  } ]
+}, {
+  "@id" : "_:genid98",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/bpmn/classes#process"
+    }, {
+      "@id" : "_:genid100"
+    } ]
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#flowNode"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#adHocSubProcess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#subProcess"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#allBehaviorMultiInstanceLoopCharacteristics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#artifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#assignment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#association",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#artifact"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#auditing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#backwardDirectionRelationship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#relationship"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#baseElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#baseElementWithMixedContent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#bidirectionalAssociation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#association"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#bothDirectionRelationship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#relationship"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#boundaryEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#catchEvent"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#businessRuleTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#task"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#callActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#activity"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#callChoreography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#choreographyActivity"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#callConversation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#conversationNode"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#callableElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#rootElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#cancelEventDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#eventDefinition"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#catchEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#event"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#category",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#rootElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#categoryValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#choreography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#collaboration"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#choreographyActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#flowNode"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#choreographyTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#choreographyActivity"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#collaboration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#rootElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#compensateEventDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#eventDefinition"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#compensateTransaction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#transaction"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#complexBehaviorDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#complexBehaviorMultiInstanceLoopCharacteristics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid22"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#complexGateway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#gateway"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#conditionalEventDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#eventDefinition"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#convergingDirectionGateway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#gateway"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid26"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#conversation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#conversationNode"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#conversationAssociation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#conversationLink",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#conversationNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#correlationKey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#correlationProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#rootElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#correlationPropertyBinding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#correlationPropertyRetrievalExpression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#correlationSubscription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#dataAssociation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#dataInput",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#dataInputAssociation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#dataAssociation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#dataObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#flowElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#dataObjectReference",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#flowElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#dataOutput",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#dataOutputAssociation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#dataAssociation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#dataState",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#dataStore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#rootElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#dataStoreReference",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#flowElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#divergingDirectionGateway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#gateway"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid30"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#documentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#endEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#throwEvent"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#endPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#rootElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#error",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#rootElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#errorEventDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#eventDefinition"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#escalation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#rootElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#escalationEventDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#eventDefinition"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#flowNode"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#eventBasedGateway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#gateway"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#eventDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#rootElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#exclusiveEventBasedGateway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#eventBasedGateway"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid34"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#exclusiveGateway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#gateway"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#expression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElementWithMixedContent"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#extension",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#extensionElements",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#flowElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#flowNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#flowElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#formalExpression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#expression"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#forwardDirectionRelationship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#relationship"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid38"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#gateway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#flowNode"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#globalBusinessRuleTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#globalTask"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#globalChoreographyTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#choreography"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#globalConversation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#collaboration"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#globalManualTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#globalTask"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#globalScriptTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#globalTask"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#globalTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#callableElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#globalUserTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#globalTask"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#group",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#artifact"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#humanPerformer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#performer"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#imageTransaction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#transaction"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid42"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#implicitThrowEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#throwEvent"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#inclusiveGateway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#gateway"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#informationItemDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#itemDefinition"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid46"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#inputOutputBinding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#inputOutputSpecification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#inputSet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#interface",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#rootElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#intermediateCatchEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#catchEvent"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#intermediateThrowEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#throwEvent"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#ioBinding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#ioSpecification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#itemDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#rootElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#lane",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#laneSet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#linkEventDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#eventDefinition"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#loopCharacteristics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#manualTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#task"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#message",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#rootElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#messageEventDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#eventDefinition"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#messageFlow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#messageFlowAssociation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#mixedDirectionGateway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#gateway"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid50"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#monitoring",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#loopCharacteristics"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#multiInstanceParallelLoopChoreographyActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#choreographyActivity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid54"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#multiInstanceSequentialLoopChoreographyActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#choreographyActivity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid58"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#noneBehaviorMultiInstanceLoopCharacteristics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid62"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#noneDirectionRelationship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#relationship"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid66"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#noneLoopChoreographyActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#choreographyActivity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid70"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#noneProcess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#process"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid74"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#oneBehaviorMultiInstanceLoopCharacteristics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid78"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#oneWayAssociation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#association"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid82"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#operation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#outputSet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#parallelAdHocSubProcess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#adHocSubProcess"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid86"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#parallelEventBasedGateway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#eventBasedGateway"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid90"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#parallelGateway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#gateway"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#participant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#participantAssociation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#participantMultiplicity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#partnerEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#rootElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#partnerRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#rootElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#performer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#resourceRole"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#physicalItemDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#itemDefinition"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid94"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#potentialOwner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#humanPerformer"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#privateProcess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#process"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid98"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#process",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#callableElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#property",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#publicProcess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#process"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid102"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#receiveTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#task"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#relationship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#rendering",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#resource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#rootElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#resourceAssignmentExpression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#resourceParameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#resourceParameterBinding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#resourceRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#rootElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#script",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#scriptTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#task"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#sendTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#task"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#sequenceFlow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#flowElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#sequentialAdHocSubProcess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#adHocSubProcess"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid106"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#serviceTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#task"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#signal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#rootElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#signalEventDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#eventDefinition"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#standardLoopCharacteristics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#loopCharacteristics"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#standardLoopChoreographyActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#choreographyActivity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid110"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#startEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#catchEvent"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#storeTransaction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#transaction"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid114"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#subChoreography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#choreographyActivity"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#subConversation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#conversationNode"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#subProcess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#activity"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#task",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#activity"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#terminateEventDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#eventDefinition"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#text",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#textAnnotation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#artifact"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#throwEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#event"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#timerEventDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#eventDefinition"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#transaction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#subProcess"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#undirectedAssociation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#association"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid118"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#unspecifiedDirectionGateway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#gateway"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid122"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/classes#userTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/bpmn/classes#task"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#activationCondition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#complexGateway"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#expression"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#activityRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#compensateEventDefinition"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#artifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#collaboration"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#process"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#subChoreography"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#subProcess"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#artifact"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#assignment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#dataAssociation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#assignment"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#associationDirection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#association"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#attachedToRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#boundaryEvent"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#auditing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#flowElement"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#auditing"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#behavior",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#calledChoreographyRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#callChoreography"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#calledCollaborationRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#callConversation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#calledElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#callActivity"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#cancelActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#boundaryEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#cancelRemainingInstances",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#adHocSubProcess"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#capacity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#dataStore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#categoryValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#category"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#categoryValue"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#categoryValueRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#flowElement"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#group"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#childLaneSet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#lane"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#laneSet"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#choreographyRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#collaboration"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#completionCondition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#adHocSubProcess"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#expression"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#completionQuantity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#complexBehaviorDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#complexBehaviorDefinition"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#condition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#complexBehaviorDefinition"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#conditionalEventDefinition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#expression"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#formalExpression"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#conditionExpression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#sequenceFlow"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#expression"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#conversationAssociation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#collaboration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#conversationAssociation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#conversationLink",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#collaboration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#conversationLink"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#conversationNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#collaboration"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#subConversation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#conversationNode"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#correlationKey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#choreographyActivity"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#collaboration"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#conversationNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#correlationKey"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#correlationKeyRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#correlationSubscription"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#correlationPropertyBinding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#correlationSubscription"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#correlationPropertyBinding"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#correlationPropertyRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#correlationKey"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#correlationPropertyBinding"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#correlationPropertyRetrievalExpression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#correlationProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#correlationPropertyRetrievalExpression"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#correlationSubscription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#correlationSubscription"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#dataInput",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#inputOutputSpecification"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#throwEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#dataInput"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#dataInputAssociation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#activity"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#throwEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#dataInputAssociation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#dataInputRefs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#inputSet"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#dataObjectRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#dataObjectReference"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#dataOutput",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#catchEvent"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#inputOutputSpecification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#dataOutput"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#dataOutputAssociation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#activity"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#catchEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#dataOutputAssociation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#dataOutputRefs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#outputSet"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#dataPath",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#correlationPropertyBinding"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#formalExpression"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#dataState",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#dataInput"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#dataObject"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#dataObjectReference"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#dataOutput"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#dataStore"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#dataStoreReference"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#dataState"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#dataStoreRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#dataStoreReference"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#default",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#activity"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#complexGateway"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#exclusiveGateway"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#inclusiveGateway"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#extension"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#definitionalCollaborationRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#process"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#direction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#relationship"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#documentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#baseElementWithMixedContent"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#extension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#documentation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#endPointRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#participant"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#errorCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#error"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#errorRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#errorEventDefinition"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#operation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#escalationCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#escalation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#escalationRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#escalationEventDefinition"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#evaluatesToTypeRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#formalExpression"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#complexBehaviorDefinition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#implicitThrowEvent"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#eventDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#catchEvent"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#throwEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#eventDefinition"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#eventDefinitionRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#catchEvent"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#throwEvent"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#eventGatewayType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#eventBasedGateway"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#expression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#resourceAssignmentExpression"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#resourceParameterBinding"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#expression"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#extensionElements",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#baseElementWithMixedContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#extensionElements"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#flowElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#choreography"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#process"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#subChoreography"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#subProcess"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#flowElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#flowNodeRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#lane"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#from",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#assignment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#expression"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#gatewayDirection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#gateway"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#baseElementWithMixedContent"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#documentation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#ID"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#implementation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#businessRuleTask"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#globalBusinessRuleTask"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#globalUserTask"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#receiveTask"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#sendTask"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#serviceTask"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#userTask"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  }, {
+    "@id" : "http://www.w3.org/2001/XMLSchema#token"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#implementationRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#interface"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#operation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#inMessageRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#operation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#incoming",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#flowNode"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#initiatingParticipantRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#choreographyActivity"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#globalChoreographyTask"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#innerConversationNodeRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#conversationAssociation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#innerMessageFlowRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#messageFlowAssociation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#innerParticipantRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#participantAssociation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#inputDataItem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#dataInput"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#inputDataRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#inputOutputBinding"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#inputSet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#inputOutputSpecification"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#throwEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#inputSet"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#inputSetRefs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#outputSet"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#instantiate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#eventBasedGateway"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#receiveTask"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#interfaceRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#participant"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#ioBinding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#callableElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#ioBinding"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#ioSpecification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#activity"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#callableElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#ioSpecification"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#isClosed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#collaboration"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#isCollection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#dataInput"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#dataObject"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#dataOutput"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#itemDefinition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#isExecutable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#isForCompensation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#isImmediate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#sequenceFlow"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#isInterrupting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#startEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#isRequired",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#resourceParameter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#isSequential",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#isUnlimited",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#dataStore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#itemKind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#itemDefinition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#itemRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#message"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#itemSubjectRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#dataInput"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#dataObject"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#dataObjectReference"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#dataOutput"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#dataStore"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#dataStoreReference"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#property"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#lane",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#laneSet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#lane"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#laneSet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#process"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#subProcess"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#laneSet"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#formalExpression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#loopCardinality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#expression"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#loopCharacteristics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#loopCharacteristics"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#loopCondition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#standardLoopCharacteristics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#expression"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#loopDataInputRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#loopDataOutputRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#loopMaximum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#standardLoopCharacteristics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#loopType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#choreographyActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#maximum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#participantMultiplicity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#messageFlow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#collaboration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#messageFlow"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#messageFlowAssociation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#collaboration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#messageFlowAssociation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#messageFlowRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#choreographyTask"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#conversationNode"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#messagePath",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#correlationPropertyRetrievalExpression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#formalExpression"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#messageRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#correlationPropertyRetrievalExpression"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#messageEventDefinition"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#messageFlow"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#receiveTask"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#sendTask"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#method",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#transaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  }, {
+    "@id" : "http://www.w3.org/2001/XMLSchema#token"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#minimum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#participantMultiplicity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#monitoring",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#flowElement"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#monitoring"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#mustUnderstand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#extension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#callableElement"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#category"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#collaboration"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#conversationLink"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#conversationNode"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#correlationKey"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#correlationProperty"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#dataInput"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#dataOutput"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#dataState"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#dataStore"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#error"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#escalation"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#flowElement"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#inputSet"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#interface"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#lane"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#laneSet"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#linkEventDefinition"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#message"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#messageFlow"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#operation"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#outputSet"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#participant"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#partnerEntity"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#partnerRole"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#property"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#resource"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#resourceParameter"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#resourceRole"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#signal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#noneBehaviorEventRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#oneBehaviorEventRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#operation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#interface"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#operation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#operationRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#inputOutputBinding"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#messageEventDefinition"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#receiveTask"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#sendTask"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#serviceTask"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#optionalInputRefs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#inputSet"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#optionalOutputRefs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#outputSet"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#ordering",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#adHocSubProcess"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#outMessageRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#operation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#outerConversationNodeRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#conversationAssociation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#outerMessageFlowRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#messageFlowAssociation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#outerParticipantRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#participantAssociation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#outgoing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#flowNode"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#outputDataItem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#multiInstanceLoopCharacteristics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#dataOutput"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#outputDataRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#inputOutputBinding"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#outputSet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#catchEvent"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#inputOutputSpecification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#outputSet"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#outputSetRefs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#inputSet"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#parallelMultiple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#catchEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#parameterRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#resourceParameterBinding"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#participant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#collaboration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#participant"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#participantAssociation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#callChoreography"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#callConversation"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#collaboration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#participantAssociation"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#participantMultiplicity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#participant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#participantMultiplicity"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#participantRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#choreographyActivity"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#conversationNode"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#partnerEntity"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#partnerRole"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#partitionElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#lane"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#baseElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#partitionElementRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#lane"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#processRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#participant"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#processType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#property",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#activity"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#event"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#property"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#rendering",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#globalUserTask"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#userTask"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#rendering"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#resourceParameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#resourceParameter"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#resourceParameterBinding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#resourceRole"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#resourceParameterBinding"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#resourceRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#resourceRole"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#resourceRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#activity"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#globalTask"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#resourceRole"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#script",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#globalScriptTask"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#scriptTask"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#script"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#scriptFormat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#scriptTask"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#scriptLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#globalScriptTask"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#signalRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#signalEventDefinition"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#linkEventDefinition"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#relationship"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#sourceRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#association"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#conversationLink"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#dataAssociation"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#messageFlow"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#sequenceFlow"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#startQuantity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#structureRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#error"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#escalation"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#itemDefinition"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#signal"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#supportedInterfaceRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#callableElement"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#supports",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#process"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#target",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#linkEventDefinition"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#relationship"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#targetRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#association"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#conversationLink"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#dataAssociation"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#messageFlow"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#sequenceFlow"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#testBefore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#standardLoopCharacteristics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#text",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#textAnnotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#text"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#textFormat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#documentation"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#textAnnotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#assignment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#expression"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#transformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#dataAssociation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/bpmn/classes#formalExpression"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#triggeredByEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#subProcess"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#correlationProperty"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#relationship"
+  }, {
+    "@id" : "http://example.org/bpmn/classes#resourceParameter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#categoryValue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#waitForCompletion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#compensateEventDefinition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#whileExecutingInputRefs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#inputSet"
+  } ]
+}, {
+  "@id" : "http://example.org/bpmn/properties#whileExecutingOutputRefs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/bpmn/classes#outputSet"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#ID",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+} ]
