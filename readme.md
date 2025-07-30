@@ -2,38 +2,9 @@
 
 This repository provides a modular Docker-based environment for exploring **semantic extensions of BPMN (sBPMN)**, dynamic process execution via **Camunda**, and **virtual SPARQL integration** using **Ontop** and **Comunica**. It demonstrates how BPMN process logs from Camunda can be made queryable in RDF, combined with ontology-driven reasoning, and federated with a background knowledge graph via SPARQL.
 
-## 🚀 Architecture Overview
+## Architecture Overview
 
 The architecture consists of five main services connected through shared volumes and Docker networking:
-
-```
-                    +--------------------+
-                    |      Camunda       |
-                    |   BPM Engine + UI  |
-                    +---------+----------+
-                              |
-                              v
-                    +---------+----------+
-                    |         H2         |
-                    |     SQL Backend    |
-                    +---------+----------+
-                              |
-                              v
-                    +---------+----------+
-                    |        Ontop       |
-                    |  Virtual RDF View  |
-                    +---------+----------+
-                              |
-               +--------------+--------------+
-               |                             |
-               v                             v
-         +-----------+               +---------------+
-         |  Fuseki   |               |    Comunica    |
-         |  KG store |<------------- |  Federation    |
-         +-----------+               +---------------+
-```
-
-### Components
 
 | Service   | Description |
 |-----------|-------------|
@@ -45,7 +16,7 @@ The architecture consists of five main services connected through shared volumes
 
 ---
 
-## 🐳 Deployment
+## Deployment
 
 Ensure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/) installed.
 
@@ -70,7 +41,7 @@ docker-compose up --build
 
 ---
 
-## 🧠 Ontop Semantic Layer
+## Ontop Semantic Layer
 
 The **Ontop** service exposes a *virtual RDF knowledge graph* over the Camunda process logs stored in H2.
 
@@ -82,13 +53,13 @@ The **Ontop** service exposes a *virtual RDF knowledge graph* over the Camunda p
 | `ontop/mapping.obda` | OBDA mappings from H2 tables to OWL terms. |
 | `ontop/database.properties` | JDBC connection details for the H2 database. |
 
-> ⚠️ If the OWL file is updated (e.g., new BPMN process concepts), you must restart the Ontop service to reload reasoning.
+> If the OWL file is updated (e.g., new BPMN process concepts), you must restart the Ontop service to reload reasoning.
 
 ---
 
-## ⚠️ Known Issues and Best Practices
+## Known Issues and Best Practices
 
-### 🧠 Comunica Caching Issue
+### Comunica Caching Issue
 
 If Comunica is used before the data sources (Ontop or Fuseki) return results, it may cache an **empty response**. This leads to seemingly persistent missing data.
 
@@ -100,13 +71,13 @@ If Comunica is used before the data sources (Ontop or Fuseki) return results, it
 docker-compose restart comunica
 ```
 
-### 🚨 Ontop Initial Metadata Error
+### Ontop Initial Metadata Error
 
 The first SPARQL call from Comunica to Ontop triggers a metadata fetch, which may produce a **non-fatal error** in the logs. This can be ignored.
 
 ---
 
-## 🧩 Extending the Ontology
+## Extending the Ontology
 
 You may replace `ontology.owl` with:
 
@@ -123,9 +94,9 @@ docker-compose restart ontop
 
 ---
 
-## 📚 References and Frameworks
+## References and Frameworks
 
-- [Camunda BPM Platform](https://camunda.com/platform/legacy/bpm/)
+- [Camunda BPM Platform](https://camunda.com/de/platform-7/)
 - [H2 Database](https://www.h2database.com/)
 - [Ontop OBDA Platform](https://ontop-vkg.org/)
 - [Apache Jena Fuseki](https://jena.apache.org/documentation/fuseki2/)
@@ -133,19 +104,7 @@ docker-compose restart ontop
 
 ---
 
-## 💡 Use Case
 
-This architecture is developed as part of the **Teaming.AI** project’s Use Case 2:  
-*Human-AI teaming in the injection moulding industry.*
-
-It enables semantic modeling and querying of human-executed business processes through:
-
-- Dynamic logging via Camunda
-- Ontological enrichment and reasoning via OWL + OBDA
-- Unified access to hybrid data sources via federated SPARQL (Comunica)
-
----
-
-## 📬 Contact
+## Contact
 
 For academic inquiries, suggestions, or contributions, please open a GitHub issue or submit a pull request.
