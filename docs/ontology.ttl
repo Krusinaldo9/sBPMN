@@ -1,19 +1,19 @@
-@prefix : <https://krusinaldo9.github.io/sBPMN#> .
+@prefix : <https://krusinaldo9.github.io/sBPMN/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://krusinaldo9.github.io/sBPMN#> .
+@base <https://krusinaldo9.github.io/sBPMN/> .
 
-<https://krusinaldo9.github.io/sBPMN> rdf:type owl:Ontology ;
-                                       owl:versionIRI <https://krusinaldo9.github.io/sBPMN/1.0.0> ;
-                                       <http://purl.org/dc/terms/creator> "Franz Krause" ;
-                                       <http://purl.org/dc/terms/description> "1.0.0" ,
-                                                                              "An OWL formalization of BPMN 2.0 core constructs." ;
-                                       <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" ;
-                                       <http://purl.org/dc/terms/title> "sBPMN Ontology" ;
-                                       rdfs:label "sBPMN Ontology" .
+<https://krusinaldo9.github.io/sBPMN/> rdf:type owl:Ontology ;
+                                        owl:versionIRI <https://krusinaldo9.github.io/sBPMN/1.0.0> ;
+                                        <http://purl.org/dc/terms/creator> "Franz Krause" ;
+                                        <http://purl.org/dc/terms/description> "1.0.0" ,
+                                                                               "An OWL formalization of BPMN 2.0 core constructs." ;
+                                        <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" ;
+                                        <http://purl.org/dc/terms/title> "sBPMN Ontology" ;
+                                        rdfs:label "sBPMN Ontology" .
 
 #################################################################
 #    Annotation properties
