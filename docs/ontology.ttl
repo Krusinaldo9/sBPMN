@@ -10,8 +10,8 @@
                                         owl:versionIRI <https://krusinaldo9.github.io/sBPMN/1.0.0> ;
                                         <http://purl.org/dc/terms/creator> "Franz Krause" ;
                                         <http://purl.org/dc/terms/description> "1.0.0" ,
-                                                                               "An OWL formalization of BPMN 2.0 core constructs." ,
-                                                                               "https://creativecommons.org/licenses/by/4.0/" ;
+                                                                               "An OWL formalization of BPMN 2.0 core constructs." ;
+                                        <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" ;
                                         <http://purl.org/dc/terms/title> "sBPMN Ontology" ;
                                         rdfs:label "sBPMN Ontology" .
 

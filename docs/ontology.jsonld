@@ -618,7 +618,8 @@
     "@value" : "1.0.0"
   }, {
     "@value" : "An OWL formalization of BPMN 2.0 core constructs."
-  }, {
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
     "@value" : "https://creativecommons.org/licenses/by/4.0/"
   } ],
   "http://purl.org/dc/terms/title" : [ {

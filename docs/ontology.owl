@@ -12,7 +12,7 @@
         <terms:creator>Franz Krause</terms:creator>
         <terms:description>1.0.0</terms:description>
         <terms:description>An OWL formalization of BPMN 2.0 core constructs.</terms:description>
-        <terms:description>https://creativecommons.org/licenses/by/4.0/</terms:description>
+        <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
         <terms:title>sBPMN Ontology</terms:title>
         <rdfs:label>sBPMN Ontology</rdfs:label>
     </owl:Ontology>
