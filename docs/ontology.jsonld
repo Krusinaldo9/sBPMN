@@ -3,7 +3,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
     }, {
       "@id" : "_:genid3"
     } ]
@@ -13,7 +13,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
     }, {
       "@id" : "_:genid103"
     } ]
@@ -25,14 +25,14 @@
     "@value" : "Public"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#PprocessType"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-processType"
   } ]
 }, {
   "@id" : "_:genid105",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#CadHocSubProcess"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-adHocSubProcess"
     }, {
       "@id" : "_:genid107"
     } ]
@@ -44,14 +44,14 @@
     "@value" : "Sequential"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Pordering"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-ordering"
   } ]
 }, {
   "@id" : "_:genid109",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#CchoreographyActivity"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreographyActivity"
     }, {
       "@id" : "_:genid111"
     } ]
@@ -63,7 +63,7 @@
     "@value" : "Both"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#PassociationDirection"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-associationDirection"
   } ]
 }, {
   "@id" : "_:genid111",
@@ -72,14 +72,14 @@
     "@value" : "Standard"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#PloopType"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-loopType"
   } ]
 }, {
   "@id" : "_:genid113",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#Ctransaction"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-transaction"
     }, {
       "@id" : "_:genid115"
     } ]
@@ -91,14 +91,14 @@
     "@value" : "##Store"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Pmethod"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-method"
   } ]
 }, {
   "@id" : "_:genid117",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#Cassociation"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-association"
     }, {
       "@id" : "_:genid119"
     } ]
@@ -110,14 +110,14 @@
     "@value" : "None"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#PassociationDirection"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-associationDirection"
   } ]
 }, {
   "@id" : "_:genid121",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#Cgateway"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-gateway"
     }, {
       "@id" : "_:genid123"
     } ]
@@ -129,14 +129,14 @@
     "@value" : "Unspecified"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#PgatewayDirection"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-gatewayDirection"
   } ]
 }, {
   "@id" : "_:genid13",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#Crelationship"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-relationship"
     }, {
       "@id" : "_:genid15"
     } ]
@@ -148,14 +148,14 @@
     "@value" : "Both"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Pdirection"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-direction"
   } ]
 }, {
   "@id" : "_:genid17",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#Ctransaction"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-transaction"
     }, {
       "@id" : "_:genid19"
     } ]
@@ -167,14 +167,14 @@
     "@value" : "##Compensate"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Pmethod"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-method"
   } ]
 }, {
   "@id" : "_:genid21",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
     }, {
       "@id" : "_:genid23"
     } ]
@@ -186,14 +186,14 @@
     "@value" : "Complex"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Pbehavior"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-behavior"
   } ]
 }, {
   "@id" : "_:genid25",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#Cgateway"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-gateway"
     }, {
       "@id" : "_:genid27"
     } ]
@@ -205,14 +205,14 @@
     "@value" : "Converging"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#PgatewayDirection"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-gatewayDirection"
   } ]
 }, {
   "@id" : "_:genid29",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#Cgateway"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-gateway"
     }, {
       "@id" : "_:genid31"
     } ]
@@ -224,7 +224,7 @@
     "@value" : "All"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Pbehavior"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-behavior"
   } ]
 }, {
   "@id" : "_:genid31",
@@ -233,14 +233,14 @@
     "@value" : "Diverging"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#PgatewayDirection"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-gatewayDirection"
   } ]
 }, {
   "@id" : "_:genid33",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#CeventBasedGateway"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventBasedGateway"
     }, {
       "@id" : "_:genid35"
     } ]
@@ -252,14 +252,14 @@
     "@value" : "Exclusive"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#PeventGatewayType"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-eventGatewayType"
   } ]
 }, {
   "@id" : "_:genid37",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#Crelationship"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-relationship"
     }, {
       "@id" : "_:genid39"
     } ]
@@ -271,14 +271,14 @@
     "@value" : "Forward"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Pdirection"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-direction"
   } ]
 }, {
   "@id" : "_:genid41",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#Ctransaction"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-transaction"
     }, {
       "@id" : "_:genid43"
     } ]
@@ -290,14 +290,14 @@
     "@value" : "##Image"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Pmethod"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-method"
   } ]
 }, {
   "@id" : "_:genid45",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#CitemDefinition"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-itemDefinition"
     }, {
       "@id" : "_:genid47"
     } ]
@@ -309,14 +309,14 @@
     "@value" : "Information"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#PitemKind"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-itemKind"
   } ]
 }, {
   "@id" : "_:genid49",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#Cgateway"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-gateway"
     }, {
       "@id" : "_:genid51"
     } ]
@@ -326,7 +326,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#Crelationship"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-relationship"
     }, {
       "@id" : "_:genid7"
     } ]
@@ -338,14 +338,14 @@
     "@value" : "Mixed"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#PgatewayDirection"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-gatewayDirection"
   } ]
 }, {
   "@id" : "_:genid53",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#CchoreographyActivity"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreographyActivity"
     }, {
       "@id" : "_:genid55"
     } ]
@@ -357,14 +357,14 @@
     "@value" : "MultiInstanceParallel"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#PloopType"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-loopType"
   } ]
 }, {
   "@id" : "_:genid57",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#CchoreographyActivity"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreographyActivity"
     }, {
       "@id" : "_:genid59"
     } ]
@@ -376,14 +376,14 @@
     "@value" : "MultiInstanceSequential"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#PloopType"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-loopType"
   } ]
 }, {
   "@id" : "_:genid61",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
     }, {
       "@id" : "_:genid63"
     } ]
@@ -395,14 +395,14 @@
     "@value" : "None"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Pbehavior"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-behavior"
   } ]
 }, {
   "@id" : "_:genid65",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#Crelationship"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-relationship"
     }, {
       "@id" : "_:genid67"
     } ]
@@ -414,14 +414,14 @@
     "@value" : "None"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Pdirection"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-direction"
   } ]
 }, {
   "@id" : "_:genid69",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#CchoreographyActivity"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreographyActivity"
     }, {
       "@id" : "_:genid71"
     } ]
@@ -433,7 +433,7 @@
     "@value" : "Backward"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Pdirection"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-direction"
   } ]
 }, {
   "@id" : "_:genid71",
@@ -442,14 +442,14 @@
     "@value" : "None"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#PloopType"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-loopType"
   } ]
 }, {
   "@id" : "_:genid73",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
     }, {
       "@id" : "_:genid75"
     } ]
@@ -461,14 +461,14 @@
     "@value" : "None"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#PprocessType"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-processType"
   } ]
 }, {
   "@id" : "_:genid77",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
     }, {
       "@id" : "_:genid79"
     } ]
@@ -480,14 +480,14 @@
     "@value" : "One"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Pbehavior"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-behavior"
   } ]
 }, {
   "@id" : "_:genid81",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#Cassociation"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-association"
     }, {
       "@id" : "_:genid83"
     } ]
@@ -499,14 +499,14 @@
     "@value" : "One"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#PassociationDirection"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-associationDirection"
   } ]
 }, {
   "@id" : "_:genid85",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#CadHocSubProcess"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-adHocSubProcess"
     }, {
       "@id" : "_:genid87"
     } ]
@@ -518,14 +518,14 @@
     "@value" : "Parallel"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Pordering"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-ordering"
   } ]
 }, {
   "@id" : "_:genid89",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#CeventBasedGateway"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventBasedGateway"
     }, {
       "@id" : "_:genid91"
     } ]
@@ -535,7 +535,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#Cassociation"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-association"
     }, {
       "@id" : "_:genid11"
     } ]
@@ -547,14 +547,14 @@
     "@value" : "Parallel"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#PeventGatewayType"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-eventGatewayType"
   } ]
 }, {
   "@id" : "_:genid93",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#CitemDefinition"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-itemDefinition"
     }, {
       "@id" : "_:genid95"
     } ]
@@ -566,14 +566,14 @@
     "@value" : "Physical"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#PitemKind"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-itemKind"
   } ]
 }, {
   "@id" : "_:genid97",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+      "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
     }, {
       "@id" : "_:genid99"
     } ]
@@ -585,7 +585,7 @@
     "@value" : "Private"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#PprocessType"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#p-processType"
   } ]
 }, {
   "@id" : "http://purl.org/dc/terms/creator",
@@ -632,1668 +632,1668 @@
     "@id" : "https://krusinaldo9.github.io/sBPMN/1.0.0"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cactivity",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-activity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CflowNode"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-flowNode"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CadHocSubProcess",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-adHocSubProcess",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CsubProcess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-subProcess"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CallBehaviorMultiInstanceLoopCharacteristics",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-allBehaviorMultiInstanceLoopCharacteristics",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid1"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cartifact",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-artifact",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cassignment",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-assignment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cassociation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-association",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cartifact"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-artifact"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cauditing",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-auditing",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CbackwardDirectionRelationship",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-backwardDirectionRelationship",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Crelationship"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-relationship"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid5"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElementWithMixedContent",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElementWithMixedContent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CbidirectionalAssociation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-bidirectionalAssociation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cassociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-association"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid9"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CbothDirectionRelationship",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-bothDirectionRelationship",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Crelationship"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-relationship"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid13"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CboundaryEvent",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-boundaryEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcatchEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-catchEvent"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CbusinessRuleTask",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-businessRuleTask",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ctask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-task"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CcallActivity",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-callActivity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cactivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-activity"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CcallChoreography",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-callChoreography",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CchoreographyActivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreographyActivity"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CcallConversation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-callConversation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CconversationNode"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversationNode"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CcallableElement",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-callableElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CrootElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-rootElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CcancelEventDefinition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-cancelEventDefinition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CeventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventDefinition"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CcatchEvent",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-catchEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cevent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-event"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Ccategory",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-category",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CrootElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-rootElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CcategoryValue",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-categoryValue",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cchoreography",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreography",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ccollaboration"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-collaboration"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CchoreographyActivity",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreographyActivity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CflowNode"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-flowNode"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CchoreographyTask",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreographyTask",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CchoreographyActivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreographyActivity"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Ccollaboration",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-collaboration",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CrootElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-rootElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CcompensateEventDefinition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-compensateEventDefinition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CeventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventDefinition"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CcompensateTransaction",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-compensateTransaction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ctransaction"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-transaction"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid17"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CcomplexBehaviorDefinition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-complexBehaviorDefinition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CcomplexBehaviorMultiInstanceLoopCharacteristics",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-complexBehaviorMultiInstanceLoopCharacteristics",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid21"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CcomplexGateway",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-complexGateway",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cgateway"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-gateway"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CconditionalEventDefinition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-conditionalEventDefinition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CeventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventDefinition"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CconvergingDirectionGateway",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-convergingDirectionGateway",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cgateway"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-gateway"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid25"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cconversation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CconversationNode"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversationNode"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CconversationAssociation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversationAssociation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CconversationLink",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversationLink",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CconversationNode",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversationNode",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationKey",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationKey",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationProperty",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationProperty",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CrootElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-rootElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationPropertyBinding",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationPropertyBinding",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationPropertyRetrievalExpression",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationPropertyRetrievalExpression",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationSubscription",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationSubscription",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CdataAssociation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataAssociation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CdataInput",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataInput",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CdataInputAssociation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataInputAssociation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataAssociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataAssociation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CdataObject",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataObject",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CflowElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-flowElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CdataObjectReference",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataObjectReference",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CflowElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-flowElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CdataOutput",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataOutput",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CdataOutputAssociation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataOutputAssociation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataAssociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataAssociation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CdataState",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataState",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CdataStore",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataStore",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CrootElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-rootElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CdataStoreReference",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataStoreReference",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CflowElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-flowElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CdivergingDirectionGateway",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-divergingDirectionGateway",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cgateway"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-gateway"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid29"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cdocumentation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-documentation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CendEvent",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-endEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CthrowEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-throwEvent"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CendPoint",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-endPoint",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CrootElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-rootElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cerror",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-error",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CrootElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-rootElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CerrorEventDefinition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-errorEventDefinition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CeventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventDefinition"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cescalation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-escalation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CrootElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-rootElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CescalationEventDefinition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-escalationEventDefinition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CeventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventDefinition"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cevent",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-event",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CflowNode"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-flowNode"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CeventBasedGateway",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventBasedGateway",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cgateway"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-gateway"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CeventDefinition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventDefinition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CrootElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-rootElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CexclusiveEventBasedGateway",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-exclusiveEventBasedGateway",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CeventBasedGateway"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventBasedGateway"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid33"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CexclusiveGateway",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-exclusiveGateway",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cgateway"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-gateway"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cexpression",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-expression",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElementWithMixedContent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElementWithMixedContent"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cextension",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-extension",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CextensionElements",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-extensionElements",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CflowElement",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-flowElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CflowNode",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-flowNode",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CflowElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-flowElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CformalExpression",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-formalExpression",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cexpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-expression"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CforwardDirectionRelationship",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-forwardDirectionRelationship",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Crelationship"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-relationship"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid37"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cgateway",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-gateway",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CflowNode"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-flowNode"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CglobalBusinessRuleTask",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-globalBusinessRuleTask",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CglobalTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-globalTask"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CglobalChoreographyTask",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-globalChoreographyTask",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cchoreography"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreography"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CglobalConversation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-globalConversation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ccollaboration"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-collaboration"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CglobalManualTask",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-globalManualTask",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CglobalTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-globalTask"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CglobalScriptTask",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-globalScriptTask",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CglobalTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-globalTask"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CglobalTask",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-globalTask",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcallableElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-callableElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CglobalUserTask",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-globalUserTask",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CglobalTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-globalTask"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cgroup",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-group",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cartifact"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-artifact"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#ChumanPerformer",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-humanPerformer",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cperformer"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-performer"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CimageTransaction",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-imageTransaction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ctransaction"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-transaction"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid41"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CimplicitThrowEvent",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-implicitThrowEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CthrowEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-throwEvent"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CinclusiveGateway",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-inclusiveGateway",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cgateway"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-gateway"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CinformationItemDefinition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-informationItemDefinition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CitemDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-itemDefinition"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid45"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CinputOutputBinding",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-inputOutputBinding",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CinputOutputSpecification",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-inputOutputSpecification",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CinputSet",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-inputSet",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cinterface",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-interface",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CrootElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-rootElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CintermediateCatchEvent",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-intermediateCatchEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcatchEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-catchEvent"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CintermediateThrowEvent",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-intermediateThrowEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CthrowEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-throwEvent"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CioBinding",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-ioBinding",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CioSpecification",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-ioSpecification",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CitemDefinition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-itemDefinition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CrootElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-rootElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Clane",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-lane",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#ClaneSet",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-laneSet",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#ClinkEventDefinition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-linkEventDefinition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CeventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventDefinition"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CloopCharacteristics",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-loopCharacteristics",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CmanualTask",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-manualTask",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ctask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-task"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cmessage",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-message",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CrootElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-rootElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CmessageEventDefinition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-messageEventDefinition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CeventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventDefinition"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CmessageFlow",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-messageFlow",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CmessageFlowAssociation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-messageFlowAssociation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CmixedDirectionGateway",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-mixedDirectionGateway",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cgateway"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-gateway"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid49"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cmonitoring",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-monitoring",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CloopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-loopCharacteristics"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceParallelLoopChoreographyActivity",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceParallelLoopChoreographyActivity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CchoreographyActivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreographyActivity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid53"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceSequentialLoopChoreographyActivity",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceSequentialLoopChoreographyActivity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CchoreographyActivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreographyActivity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid57"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CnoneBehaviorMultiInstanceLoopCharacteristics",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-noneBehaviorMultiInstanceLoopCharacteristics",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid61"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CnoneDirectionRelationship",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-noneDirectionRelationship",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Crelationship"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-relationship"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid65"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CnoneLoopChoreographyActivity",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-noneLoopChoreographyActivity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CchoreographyActivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreographyActivity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid69"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CnoneProcess",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-noneProcess",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid73"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#ConeBehaviorMultiInstanceLoopCharacteristics",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-oneBehaviorMultiInstanceLoopCharacteristics",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid77"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#ConeWayAssociation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-oneWayAssociation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cassociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-association"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid81"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Coperation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-operation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CoutputSet",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-outputSet",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CparallelAdHocSubProcess",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-parallelAdHocSubProcess",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CadHocSubProcess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-adHocSubProcess"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid85"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CparallelEventBasedGateway",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-parallelEventBasedGateway",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CeventBasedGateway"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventBasedGateway"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid89"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CparallelGateway",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-parallelGateway",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cgateway"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-gateway"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cparticipant",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-participant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CparticipantAssociation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-participantAssociation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CparticipantMultiplicity",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-participantMultiplicity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CpartnerEntity",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-partnerEntity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CrootElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-rootElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CpartnerRole",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-partnerRole",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CrootElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-rootElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cperformer",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-performer",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CresourceRole"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-resourceRole"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CphysicalItemDefinition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-physicalItemDefinition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CitemDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-itemDefinition"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid93"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CpotentialOwner",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-potentialOwner",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#ChumanPerformer"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-humanPerformer"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CprivateProcess",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-privateProcess",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid97"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-process",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcallableElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-callableElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cproperty",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-property",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CpublicProcess",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-publicProcess",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid101"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CreceiveTask",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-receiveTask",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ctask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-task"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Crelationship",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-relationship",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Crendering",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-rendering",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cresource",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-resource",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CrootElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-rootElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CresourceAssignmentExpression",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-resourceAssignmentExpression",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CresourceParameter",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-resourceParameter",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CresourceParameterBinding",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-resourceParameterBinding",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CresourceRole",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-resourceRole",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CrootElement",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-rootElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Cscript",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-script",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CscriptTask",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-scriptTask",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ctask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-task"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CsendTask",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-sendTask",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ctask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-task"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CsequenceFlow",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-sequenceFlow",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CflowElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-flowElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CsequentialAdHocSubProcess",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-sequentialAdHocSubProcess",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CadHocSubProcess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-adHocSubProcess"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid105"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CserviceTask",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-serviceTask",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ctask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-task"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Csignal",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-signal",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CrootElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-rootElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CsignalEventDefinition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-signalEventDefinition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CeventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventDefinition"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CstandardLoopCharacteristics",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-standardLoopCharacteristics",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CloopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-loopCharacteristics"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CstandardLoopChoreographyActivity",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-standardLoopChoreographyActivity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CchoreographyActivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreographyActivity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid109"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CstartEvent",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-startEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcatchEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-catchEvent"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CstoreTransaction",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-storeTransaction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ctransaction"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-transaction"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid113"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CsubChoreography",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-subChoreography",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CchoreographyActivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreographyActivity"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CsubConversation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-subConversation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CconversationNode"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversationNode"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CsubProcess",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-subProcess",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cactivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-activity"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Ctask",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-task",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cactivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-activity"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CterminateEventDefinition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-terminateEventDefinition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CeventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventDefinition"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Ctext",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-text",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CtextAnnotation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-textAnnotation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cartifact"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-artifact"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CthrowEvent",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-throwEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cevent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-event"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CtimerEventDefinition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-timerEventDefinition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CeventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventDefinition"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Ctransaction",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-transaction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CsubProcess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-subProcess"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CundirectedAssociation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-undirectedAssociation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cassociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-association"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid117"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CunspecifiedDirectionGateway",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-unspecifiedDirectionGateway",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cgateway"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-gateway"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid121"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#CuserTask",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#c-userTask",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ctask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-task"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PactivationCondition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-activationCondition",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcomplexGateway"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-complexGateway"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cexpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-expression"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PactivityRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-activityRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcompensateEventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-compensateEventDefinition"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Partifact",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-artifact",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ccollaboration"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-collaboration"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CsubChoreography"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-subChoreography"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CsubProcess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-subProcess"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cartifact"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-artifact"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Passignment",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-assignment",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataAssociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataAssociation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cassignment"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-assignment"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PassociationDirection",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-associationDirection",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cassociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-association"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PattachedToRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-attachedToRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CboundaryEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-boundaryEvent"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pauditing",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-auditing",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CflowElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-flowElement"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cauditing"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-auditing"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pbehavior",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-behavior",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PcalledChoreographyRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-calledChoreographyRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcallChoreography"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-callChoreography"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PcalledCollaborationRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-calledCollaborationRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcallConversation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-callConversation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PcalledElement",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-calledElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcallActivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-callActivity"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PcancelActivity",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-cancelActivity",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CboundaryEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-boundaryEvent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PcancelRemainingInstances",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-cancelRemainingInstances",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CadHocSubProcess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-adHocSubProcess"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pcapacity",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-capacity",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataStore"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataStore"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PcategoryValue",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-categoryValue",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ccategory"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-category"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcategoryValue"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-categoryValue"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PcategoryValueRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-categoryValueRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CflowElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-flowElement"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cgroup"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-group"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PchildLaneSet",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-childLaneSet",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Clane"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-lane"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#ClaneSet"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-laneSet"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PchoreographyRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-choreographyRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ccollaboration"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-collaboration"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PcompletionCondition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-completionCondition",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CadHocSubProcess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-adHocSubProcess"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cexpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-expression"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PcompletionQuantity",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-completionQuantity",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cactivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-activity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PcomplexBehaviorDefinition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-complexBehaviorDefinition",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcomplexBehaviorDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-complexBehaviorDefinition"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pcondition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-condition",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcomplexBehaviorDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-complexBehaviorDefinition"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CconditionalEventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-conditionalEventDefinition"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cexpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-expression"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CformalExpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-formalExpression"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PconditionExpression",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-conditionExpression",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CsequenceFlow"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-sequenceFlow"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cexpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-expression"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pcontains",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-contains",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://purl.org/dc/terms/hasPart"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PconversationAssociation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-conversationAssociation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ccollaboration"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-collaboration"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CconversationAssociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversationAssociation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PconversationLink",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-conversationLink",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ccollaboration"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-collaboration"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CconversationLink"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversationLink"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PconversationNode",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-conversationNode",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ccollaboration"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-collaboration"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CsubConversation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-subConversation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CconversationNode"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversationNode"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PcorrelationKey",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-correlationKey",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CchoreographyActivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreographyActivity"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ccollaboration"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-collaboration"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CconversationNode"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversationNode"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationKey"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationKey"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PcorrelationKeyRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-correlationKeyRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationSubscription"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationSubscription"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PcorrelationPropertyBinding",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-correlationPropertyBinding",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationSubscription"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationSubscription"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationPropertyBinding"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationPropertyBinding"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PcorrelationPropertyRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-correlationPropertyRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationKey"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationKey"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationPropertyBinding"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationPropertyBinding"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PcorrelationPropertyRetrievalExpression",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-correlationPropertyRetrievalExpression",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationProperty"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationPropertyRetrievalExpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationPropertyRetrievalExpression"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PcorrelationSubscription",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-correlationSubscription",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationSubscription"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationSubscription"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PdataInput",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-dataInput",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CinputOutputSpecification"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-inputOutputSpecification"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CthrowEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-throwEvent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataInput"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataInput"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PdataInputAssociation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-dataInputAssociation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cactivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-activity"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CthrowEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-throwEvent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataInputAssociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataInputAssociation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PdataInputRefs",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-dataInputRefs",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CinputSet"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-inputSet"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PdataObjectRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-dataObjectRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataObjectReference"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataObjectReference"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PdataOutput",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-dataOutput",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcatchEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-catchEvent"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CinputOutputSpecification"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-inputOutputSpecification"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataOutput"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataOutput"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PdataOutputAssociation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-dataOutputAssociation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cactivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-activity"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcatchEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-catchEvent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataOutputAssociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataOutputAssociation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PdataOutputRefs",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-dataOutputRefs",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CoutputSet"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-outputSet"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PdataPath",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-dataPath",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationPropertyBinding"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationPropertyBinding"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CformalExpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-formalExpression"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PdataState",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-dataState",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataInput"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataInput"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataObject"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataObject"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataObjectReference"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataObjectReference"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataOutput"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataOutput"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataStore"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataStore"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataStoreReference"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataStoreReference"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cproperty"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-property"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataState"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataState"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PdataStoreRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-dataStoreRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataStoreReference"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataStoreReference"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pdefault",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-default",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cactivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-activity"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcomplexGateway"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-complexGateway"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CexclusiveGateway"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-exclusiveGateway"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CinclusiveGateway"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-inclusiveGateway"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pdefinition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-definition",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cextension"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-extension"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PdefinitionalCollaborationRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-definitionalCollaborationRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pdirection",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-direction",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Crelationship"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-relationship"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pdocumentation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-documentation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElementWithMixedContent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElementWithMixedContent"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cextension"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-extension"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cdocumentation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-documentation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PendPointRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-endPointRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cparticipant"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-participant"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PerrorCode",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-errorCode",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cerror"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-error"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PerrorRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-errorRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CerrorEventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-errorEventDefinition"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Coperation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-operation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PescalationCode",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-escalationCode",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cescalation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-escalation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PescalationRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-escalationRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CescalationEventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-escalationEventDefinition"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PevaluatesToTypeRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-evaluatesToTypeRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CformalExpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-formalExpression"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pevent",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-event",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcomplexBehaviorDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-complexBehaviorDefinition"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CimplicitThrowEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-implicitThrowEvent"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PeventDefinition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-eventDefinition",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcatchEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-catchEvent"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CthrowEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-throwEvent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CeventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventDefinition"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PeventDefinitionRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-eventDefinitionRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcatchEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-catchEvent"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CthrowEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-throwEvent"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PeventGatewayType",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-eventGatewayType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CeventBasedGateway"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventBasedGateway"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pexpression",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-expression",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CresourceAssignmentExpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-resourceAssignmentExpression"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CresourceParameterBinding"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-resourceParameterBinding"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cexpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-expression"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PextensionElements",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-extensionElements",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElementWithMixedContent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElementWithMixedContent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CextensionElements"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-extensionElements"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PflowElement",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-flowElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cchoreography"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreography"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CsubChoreography"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-subChoreography"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CsubProcess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-subProcess"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CflowElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-flowElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PflowNodeRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-flowNodeRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Clane"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-lane"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pfrom",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-from",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cassignment"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-assignment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cexpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-expression"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PgatewayDirection",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-gatewayDirection",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cgateway"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-gateway"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pid",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-id",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElementWithMixedContent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElementWithMixedContent"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cdocumentation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-documentation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#ID"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pimplementation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-implementation",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbusinessRuleTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-businessRuleTask"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CglobalBusinessRuleTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-globalBusinessRuleTask"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CglobalUserTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-globalUserTask"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CreceiveTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-receiveTask"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CsendTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-sendTask"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CserviceTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-serviceTask"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CuserTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-userTask"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
@@ -2301,391 +2301,391 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#token"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PimplementationRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-implementationRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cinterface"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-interface"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Coperation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-operation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PinMessageRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-inMessageRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Coperation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-operation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pincoming",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-incoming",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CflowNode"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-flowNode"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PinitiatingParticipantRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-initiatingParticipantRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CchoreographyActivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreographyActivity"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CglobalChoreographyTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-globalChoreographyTask"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PinnerConversationNodeRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-innerConversationNodeRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CconversationAssociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversationAssociation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PinnerMessageFlowRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-innerMessageFlowRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmessageFlowAssociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-messageFlowAssociation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PinnerParticipantRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-innerParticipantRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CparticipantAssociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-participantAssociation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PinputDataItem",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-inputDataItem",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataInput"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataInput"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PinputDataRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-inputDataRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CinputOutputBinding"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-inputOutputBinding"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PinputSet",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-inputSet",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CinputOutputSpecification"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-inputOutputSpecification"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CthrowEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-throwEvent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CinputSet"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-inputSet"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PinputSetRefs",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-inputSetRefs",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CoutputSet"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-outputSet"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pinstantiate",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-instantiate",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CeventBasedGateway"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-eventBasedGateway"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CreceiveTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-receiveTask"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PinterfaceRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-interfaceRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cparticipant"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-participant"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PioBinding",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-ioBinding",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcallableElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-callableElement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CioBinding"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-ioBinding"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PioSpecification",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-ioSpecification",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cactivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-activity"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcallableElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-callableElement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CioSpecification"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-ioSpecification"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PisClosed",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-isClosed",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ccollaboration"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-collaboration"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PisCollection",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-isCollection",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataInput"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataInput"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataObject"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataObject"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataOutput"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataOutput"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CitemDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-itemDefinition"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PisExecutable",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-isExecutable",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PisForCompensation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-isForCompensation",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cactivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-activity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PisImmediate",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-isImmediate",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CsequenceFlow"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-sequenceFlow"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PisInterrupting",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-isInterrupting",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CstartEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-startEvent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PisRequired",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-isRequired",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CresourceParameter"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-resourceParameter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PisSequential",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-isSequential",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PisUnlimited",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-isUnlimited",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataStore"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataStore"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PitemKind",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-itemKind",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CitemDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-itemDefinition"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PitemRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-itemRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cmessage"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-message"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PitemSubjectRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-itemSubjectRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataInput"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataInput"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataObject"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataObject"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataObjectReference"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataObjectReference"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataOutput"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataOutput"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataStore"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataStore"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataStoreReference"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataStoreReference"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cproperty"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-property"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Plane",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-lane",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#ClaneSet"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-laneSet"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Clane"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-lane"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PlaneSet",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-laneSet",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CsubProcess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-subProcess"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#ClaneSet"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-laneSet"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Planguage",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-language",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CformalExpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-formalExpression"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PloopCardinality",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-loopCardinality",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cexpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-expression"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PloopCharacteristics",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-loopCharacteristics",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cactivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-activity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CloopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-loopCharacteristics"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PloopCondition",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-loopCondition",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CstandardLoopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-standardLoopCharacteristics"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cexpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-expression"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PloopDataInputRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-loopDataInputRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PloopDataOutputRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-loopDataOutputRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PloopMaximum",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-loopMaximum",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CstandardLoopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-standardLoopCharacteristics"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PloopType",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-loopType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CchoreographyActivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreographyActivity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pmaximum",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-maximum",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CparticipantMultiplicity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-participantMultiplicity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#int"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PmessageFlow",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-messageFlow",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ccollaboration"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-collaboration"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmessageFlow"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-messageFlow"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PmessageFlowAssociation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-messageFlowAssociation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ccollaboration"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-collaboration"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmessageFlowAssociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-messageFlowAssociation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PmessageFlowRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-messageFlowRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CchoreographyTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreographyTask"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CconversationNode"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversationNode"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PmessagePath",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-messagePath",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationPropertyRetrievalExpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationPropertyRetrievalExpression"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CformalExpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-formalExpression"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PmessageRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-messageRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationPropertyRetrievalExpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationPropertyRetrievalExpression"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmessageEventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-messageEventDefinition"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmessageFlow"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-messageFlow"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CreceiveTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-receiveTask"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CsendTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-sendTask"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pmethod",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-method",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ctransaction"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-transaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
@@ -2693,579 +2693,579 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#token"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pminimum",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-minimum",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CparticipantMultiplicity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-participantMultiplicity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#int"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pmonitoring",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-monitoring",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CflowElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-flowElement"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cmonitoring"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-monitoring"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PmustUnderstand",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-mustUnderstand",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cextension"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-extension"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pname",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-name",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcallableElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-callableElement"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ccategory"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-category"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ccollaboration"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-collaboration"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CconversationLink"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversationLink"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CconversationNode"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversationNode"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationKey"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationKey"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationProperty"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationProperty"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataInput"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataInput"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataOutput"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataOutput"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataState"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataState"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataStore"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataStore"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cerror"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-error"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cescalation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-escalation"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CflowElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-flowElement"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CinputSet"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-inputSet"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cinterface"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-interface"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Clane"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-lane"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#ClaneSet"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-laneSet"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#ClinkEventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-linkEventDefinition"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cmessage"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-message"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmessageFlow"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-messageFlow"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Coperation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-operation"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CoutputSet"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-outputSet"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cparticipant"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-participant"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CpartnerEntity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-partnerEntity"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CpartnerRole"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-partnerRole"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cproperty"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-property"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cresource"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-resource"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CresourceParameter"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-resourceParameter"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CresourceRole"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-resourceRole"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Csignal"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-signal"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PnoneBehaviorEventRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-noneBehaviorEventRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PoneBehaviorEventRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-oneBehaviorEventRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Poperation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-operation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cinterface"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-interface"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Coperation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-operation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PoperationRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-operationRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CinputOutputBinding"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-inputOutputBinding"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmessageEventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-messageEventDefinition"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CreceiveTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-receiveTask"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CsendTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-sendTask"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CserviceTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-serviceTask"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PoptionalInputRefs",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-optionalInputRefs",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CinputSet"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-inputSet"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PoptionalOutputRefs",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-optionalOutputRefs",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CoutputSet"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-outputSet"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pordering",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-ordering",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CadHocSubProcess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-adHocSubProcess"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PoutMessageRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-outMessageRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Coperation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-operation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PouterConversationNodeRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-outerConversationNodeRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CconversationAssociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversationAssociation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PouterMessageFlowRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-outerMessageFlowRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmessageFlowAssociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-messageFlowAssociation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PouterParticipantRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-outerParticipantRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CparticipantAssociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-participantAssociation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Poutgoing",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-outgoing",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CflowNode"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-flowNode"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PoutputDataItem",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-outputDataItem",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataOutput"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataOutput"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PoutputDataRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-outputDataRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CinputOutputBinding"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-inputOutputBinding"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PoutputSet",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-outputSet",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcatchEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-catchEvent"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CinputOutputSpecification"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-inputOutputSpecification"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CoutputSet"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-outputSet"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PoutputSetRefs",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-outputSetRefs",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CinputSet"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-inputSet"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PparallelMultiple",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-parallelMultiple",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcatchEvent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-catchEvent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PparameterRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-parameterRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CresourceParameterBinding"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-resourceParameterBinding"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pparticipant",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-participant",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ccollaboration"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-collaboration"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cparticipant"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-participant"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PparticipantAssociation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-participantAssociation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcallChoreography"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-callChoreography"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcallConversation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-callConversation"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ccollaboration"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-collaboration"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CparticipantAssociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-participantAssociation"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PparticipantMultiplicity",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-participantMultiplicity",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cparticipant"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-participant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CparticipantMultiplicity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-participantMultiplicity"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PparticipantRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-participantRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CchoreographyActivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-choreographyActivity"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CconversationNode"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversationNode"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CpartnerEntity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-partnerEntity"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CpartnerRole"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-partnerRole"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PpartitionElement",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-partitionElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Clane"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-lane"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CbaseElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-baseElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PpartitionElementRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-partitionElementRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Clane"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-lane"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PprocessRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-processRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cparticipant"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-participant"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PprocessType",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-processType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pproperty",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-property",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cactivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-activity"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cevent"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-event"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cproperty"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-property"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Prendering",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-rendering",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CglobalUserTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-globalUserTask"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CuserTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-userTask"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Crendering"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-rendering"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PresourceParameter",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-resourceParameter",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cresource"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-resource"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CresourceParameter"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-resourceParameter"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PresourceParameterBinding",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-resourceParameterBinding",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CresourceRole"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-resourceRole"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CresourceParameterBinding"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-resourceParameterBinding"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PresourceRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-resourceRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CresourceRole"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-resourceRole"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PresourceRole",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-resourceRole",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cactivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-activity"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CglobalTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-globalTask"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CresourceRole"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-resourceRole"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pscript",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-script",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CglobalScriptTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-globalScriptTask"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CscriptTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-scriptTask"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cscript"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-script"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PscriptFormat",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-scriptFormat",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CscriptTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-scriptTask"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PscriptLanguage",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-scriptLanguage",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CglobalScriptTask"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-globalScriptTask"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PsignalRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-signalRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CsignalEventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-signalEventDefinition"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Psource",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-source",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#ClinkEventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-linkEventDefinition"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Crelationship"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-relationship"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PsourceRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-sourceRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cassociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-association"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CconversationLink"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversationLink"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataAssociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataAssociation"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmessageFlow"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-messageFlow"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CsequenceFlow"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-sequenceFlow"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PstartQuantity",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-startQuantity",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cactivity"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-activity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PstructureRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-structureRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cerror"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-error"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cescalation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-escalation"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CitemDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-itemDefinition"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Csignal"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-signal"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PsupportedInterfaceRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-supportedInterfaceRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcallableElement"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-callableElement"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Psupports",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-supports",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cprocess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-process"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Ptarget",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-target",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#ClinkEventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-linkEventDefinition"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Crelationship"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-relationship"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PtargetRef",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-targetRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cassociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-association"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CconversationLink"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-conversationLink"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataAssociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataAssociation"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CmessageFlow"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-messageFlow"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CsequenceFlow"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-sequenceFlow"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PtestBefore",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-testBefore",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CstandardLoopCharacteristics"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-standardLoopCharacteristics"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Ptext",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-text",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CtextAnnotation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-textAnnotation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Ctext"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-text"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PtextFormat",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-textFormat",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cdocumentation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-documentation"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CtextAnnotation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-textAnnotation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pto",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-to",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cassignment"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-assignment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Cexpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-expression"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Ptransformation",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-transformation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CdataAssociation"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-dataAssociation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CformalExpression"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-formalExpression"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PtriggeredByEvent",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-triggeredByEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CsubProcess"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-subProcess"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Ptype",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-type",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcorrelationProperty"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-correlationProperty"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#Crelationship"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-relationship"
   }, {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CresourceParameter"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-resourceParameter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#Pvalue",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-value",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcategoryValue"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-categoryValue"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PwaitForCompletion",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-waitForCompletion",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CcompensateEventDefinition"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-compensateEventDefinition"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PwhileExecutingInputRefs",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-whileExecutingInputRefs",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CinputSet"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-inputSet"
   } ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN#PwhileExecutingOutputRefs",
+  "@id" : "https://krusinaldo9.github.io/sBPMN#p-whileExecutingOutputRefs",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://krusinaldo9.github.io/sBPMN#CoutputSet"
+    "@id" : "https://krusinaldo9.github.io/sBPMN#c-outputSet"
   } ]
 } ]

@@ -55,2160 +55,2160 @@ xsd:ID rdf:type rdfs:Datatype .
 <http://purl.org/dc/terms/hasPart> rdf:type owl:ObjectProperty .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PactivationCondition
-:PactivationCondition rdf:type owl:ObjectProperty ;
-                      rdfs:domain :CcomplexGateway ;
-                      rdfs:range :Cexpression .
+###  https://krusinaldo9.github.io/sBPMN#p-activationCondition
+:p-activationCondition rdf:type owl:ObjectProperty ;
+                       rdfs:domain :c-complexGateway ;
+                       rdfs:range :c-expression .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PactivityRef
-:PactivityRef rdf:type owl:ObjectProperty ;
-              rdfs:domain :CcompensateEventDefinition .
+###  https://krusinaldo9.github.io/sBPMN#p-activityRef
+:p-activityRef rdf:type owl:ObjectProperty ;
+               rdfs:domain :c-compensateEventDefinition .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Partifact
-:Partifact rdf:type owl:ObjectProperty ;
-           rdfs:domain :Ccollaboration ,
-                       :Cprocess ,
-                       :CsubChoreography ,
-                       :CsubProcess ;
-           rdfs:range :Cartifact .
+###  https://krusinaldo9.github.io/sBPMN#p-artifact
+:p-artifact rdf:type owl:ObjectProperty ;
+            rdfs:domain :c-collaboration ,
+                        :c-process ,
+                        :c-subChoreography ,
+                        :c-subProcess ;
+            rdfs:range :c-artifact .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Passignment
-:Passignment rdf:type owl:ObjectProperty ;
-             rdfs:domain :CdataAssociation ;
-             rdfs:range :Cassignment .
+###  https://krusinaldo9.github.io/sBPMN#p-assignment
+:p-assignment rdf:type owl:ObjectProperty ;
+              rdfs:domain :c-dataAssociation ;
+              rdfs:range :c-assignment .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PattachedToRef
-:PattachedToRef rdf:type owl:ObjectProperty ;
-                rdfs:domain :CboundaryEvent .
+###  https://krusinaldo9.github.io/sBPMN#p-attachedToRef
+:p-attachedToRef rdf:type owl:ObjectProperty ;
+                 rdfs:domain :c-boundaryEvent .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Pauditing
-:Pauditing rdf:type owl:ObjectProperty ;
-           rdfs:domain :CflowElement ,
-                       :Cprocess ;
-           rdfs:range :Cauditing .
+###  https://krusinaldo9.github.io/sBPMN#p-auditing
+:p-auditing rdf:type owl:ObjectProperty ;
+            rdfs:domain :c-flowElement ,
+                        :c-process ;
+            rdfs:range :c-auditing .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PcalledChoreographyRef
-:PcalledChoreographyRef rdf:type owl:ObjectProperty ;
-                        rdfs:domain :CcallChoreography .
+###  https://krusinaldo9.github.io/sBPMN#p-calledChoreographyRef
+:p-calledChoreographyRef rdf:type owl:ObjectProperty ;
+                         rdfs:domain :c-callChoreography .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PcalledCollaborationRef
-:PcalledCollaborationRef rdf:type owl:ObjectProperty ;
-                         rdfs:domain :CcallConversation .
+###  https://krusinaldo9.github.io/sBPMN#p-calledCollaborationRef
+:p-calledCollaborationRef rdf:type owl:ObjectProperty ;
+                          rdfs:domain :c-callConversation .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PcalledElement
-:PcalledElement rdf:type owl:ObjectProperty ;
-                rdfs:domain :CcallActivity .
+###  https://krusinaldo9.github.io/sBPMN#p-calledElement
+:p-calledElement rdf:type owl:ObjectProperty ;
+                 rdfs:domain :c-callActivity .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PcategoryValue
-:PcategoryValue rdf:type owl:ObjectProperty ;
-                rdfs:domain :Ccategory ;
-                rdfs:range :CcategoryValue .
+###  https://krusinaldo9.github.io/sBPMN#p-categoryValue
+:p-categoryValue rdf:type owl:ObjectProperty ;
+                 rdfs:domain :c-category ;
+                 rdfs:range :c-categoryValue .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PcategoryValueRef
-:PcategoryValueRef rdf:type owl:ObjectProperty ;
-                   rdfs:domain :CflowElement ,
-                               :Cgroup .
+###  https://krusinaldo9.github.io/sBPMN#p-categoryValueRef
+:p-categoryValueRef rdf:type owl:ObjectProperty ;
+                    rdfs:domain :c-flowElement ,
+                                :c-group .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PchildLaneSet
-:PchildLaneSet rdf:type owl:ObjectProperty ;
-               rdfs:domain :Clane ;
-               rdfs:range :ClaneSet .
+###  https://krusinaldo9.github.io/sBPMN#p-childLaneSet
+:p-childLaneSet rdf:type owl:ObjectProperty ;
+                rdfs:domain :c-lane ;
+                rdfs:range :c-laneSet .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PchoreographyRef
-:PchoreographyRef rdf:type owl:ObjectProperty ;
-                  rdfs:domain :Ccollaboration .
+###  https://krusinaldo9.github.io/sBPMN#p-choreographyRef
+:p-choreographyRef rdf:type owl:ObjectProperty ;
+                   rdfs:domain :c-collaboration .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PcompletionCondition
-:PcompletionCondition rdf:type owl:ObjectProperty ;
-                      rdfs:domain :CadHocSubProcess ,
-                                  :CmultiInstanceLoopCharacteristics ;
-                      rdfs:range :Cexpression .
+###  https://krusinaldo9.github.io/sBPMN#p-completionCondition
+:p-completionCondition rdf:type owl:ObjectProperty ;
+                       rdfs:domain :c-adHocSubProcess ,
+                                   :c-multiInstanceLoopCharacteristics ;
+                       rdfs:range :c-expression .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PcomplexBehaviorDefinition
-:PcomplexBehaviorDefinition rdf:type owl:ObjectProperty ;
-                            rdfs:domain :CmultiInstanceLoopCharacteristics ;
-                            rdfs:range :CcomplexBehaviorDefinition .
+###  https://krusinaldo9.github.io/sBPMN#p-complexBehaviorDefinition
+:p-complexBehaviorDefinition rdf:type owl:ObjectProperty ;
+                             rdfs:domain :c-multiInstanceLoopCharacteristics ;
+                             rdfs:range :c-complexBehaviorDefinition .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Pcondition
-:Pcondition rdf:type owl:ObjectProperty ;
-            rdfs:domain :CcomplexBehaviorDefinition ,
-                        :CconditionalEventDefinition ;
-            rdfs:range :Cexpression ,
-                       :CformalExpression .
+###  https://krusinaldo9.github.io/sBPMN#p-condition
+:p-condition rdf:type owl:ObjectProperty ;
+             rdfs:domain :c-complexBehaviorDefinition ,
+                         :c-conditionalEventDefinition ;
+             rdfs:range :c-expression ,
+                        :c-formalExpression .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PconditionExpression
-:PconditionExpression rdf:type owl:ObjectProperty ;
-                      rdfs:domain :CsequenceFlow ;
-                      rdfs:range :Cexpression .
+###  https://krusinaldo9.github.io/sBPMN#p-conditionExpression
+:p-conditionExpression rdf:type owl:ObjectProperty ;
+                       rdfs:domain :c-sequenceFlow ;
+                       rdfs:range :c-expression .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Pcontains
-:Pcontains rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf <http://purl.org/dc/terms/hasPart> .
+###  https://krusinaldo9.github.io/sBPMN#p-contains
+:p-contains rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf <http://purl.org/dc/terms/hasPart> .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PconversationAssociation
-:PconversationAssociation rdf:type owl:ObjectProperty ;
-                          rdfs:domain :Ccollaboration ;
-                          rdfs:range :CconversationAssociation .
+###  https://krusinaldo9.github.io/sBPMN#p-conversationAssociation
+:p-conversationAssociation rdf:type owl:ObjectProperty ;
+                           rdfs:domain :c-collaboration ;
+                           rdfs:range :c-conversationAssociation .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PconversationLink
-:PconversationLink rdf:type owl:ObjectProperty ;
-                   rdfs:domain :Ccollaboration ;
-                   rdfs:range :CconversationLink .
+###  https://krusinaldo9.github.io/sBPMN#p-conversationLink
+:p-conversationLink rdf:type owl:ObjectProperty ;
+                    rdfs:domain :c-collaboration ;
+                    rdfs:range :c-conversationLink .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PconversationNode
-:PconversationNode rdf:type owl:ObjectProperty ;
-                   rdfs:domain :Ccollaboration ,
-                               :CsubConversation ;
-                   rdfs:range :CconversationNode .
+###  https://krusinaldo9.github.io/sBPMN#p-conversationNode
+:p-conversationNode rdf:type owl:ObjectProperty ;
+                    rdfs:domain :c-collaboration ,
+                                :c-subConversation ;
+                    rdfs:range :c-conversationNode .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PcorrelationKey
-:PcorrelationKey rdf:type owl:ObjectProperty ;
-                 rdfs:domain :CchoreographyActivity ,
-                             :Ccollaboration ,
-                             :CconversationNode ;
-                 rdfs:range :CcorrelationKey .
+###  https://krusinaldo9.github.io/sBPMN#p-correlationKey
+:p-correlationKey rdf:type owl:ObjectProperty ;
+                  rdfs:domain :c-choreographyActivity ,
+                              :c-collaboration ,
+                              :c-conversationNode ;
+                  rdfs:range :c-correlationKey .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PcorrelationKeyRef
-:PcorrelationKeyRef rdf:type owl:ObjectProperty ;
-                    rdfs:domain :CcorrelationSubscription .
+###  https://krusinaldo9.github.io/sBPMN#p-correlationKeyRef
+:p-correlationKeyRef rdf:type owl:ObjectProperty ;
+                     rdfs:domain :c-correlationSubscription .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PcorrelationPropertyBinding
-:PcorrelationPropertyBinding rdf:type owl:ObjectProperty ;
-                             rdfs:domain :CcorrelationSubscription ;
-                             rdfs:range :CcorrelationPropertyBinding .
+###  https://krusinaldo9.github.io/sBPMN#p-correlationPropertyBinding
+:p-correlationPropertyBinding rdf:type owl:ObjectProperty ;
+                              rdfs:domain :c-correlationSubscription ;
+                              rdfs:range :c-correlationPropertyBinding .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PcorrelationPropertyRef
-:PcorrelationPropertyRef rdf:type owl:ObjectProperty ;
-                         rdfs:domain :CcorrelationKey ,
-                                     :CcorrelationPropertyBinding .
+###  https://krusinaldo9.github.io/sBPMN#p-correlationPropertyRef
+:p-correlationPropertyRef rdf:type owl:ObjectProperty ;
+                          rdfs:domain :c-correlationKey ,
+                                      :c-correlationPropertyBinding .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PcorrelationPropertyRetrievalExpression
-:PcorrelationPropertyRetrievalExpression rdf:type owl:ObjectProperty ;
-                                         rdfs:domain :CcorrelationProperty ;
-                                         rdfs:range :CcorrelationPropertyRetrievalExpression .
+###  https://krusinaldo9.github.io/sBPMN#p-correlationPropertyRetrievalExpression
+:p-correlationPropertyRetrievalExpression rdf:type owl:ObjectProperty ;
+                                          rdfs:domain :c-correlationProperty ;
+                                          rdfs:range :c-correlationPropertyRetrievalExpression .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PcorrelationSubscription
-:PcorrelationSubscription rdf:type owl:ObjectProperty ;
-                          rdfs:domain :Cprocess ;
-                          rdfs:range :CcorrelationSubscription .
+###  https://krusinaldo9.github.io/sBPMN#p-correlationSubscription
+:p-correlationSubscription rdf:type owl:ObjectProperty ;
+                           rdfs:domain :c-process ;
+                           rdfs:range :c-correlationSubscription .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PdataInput
-:PdataInput rdf:type owl:ObjectProperty ;
-            rdfs:domain :CinputOutputSpecification ,
-                        :CthrowEvent ;
-            rdfs:range :CdataInput .
+###  https://krusinaldo9.github.io/sBPMN#p-dataInput
+:p-dataInput rdf:type owl:ObjectProperty ;
+             rdfs:domain :c-inputOutputSpecification ,
+                         :c-throwEvent ;
+             rdfs:range :c-dataInput .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PdataInputAssociation
-:PdataInputAssociation rdf:type owl:ObjectProperty ;
-                       rdfs:domain :Cactivity ,
-                                   :CthrowEvent ;
-                       rdfs:range :CdataInputAssociation .
+###  https://krusinaldo9.github.io/sBPMN#p-dataInputAssociation
+:p-dataInputAssociation rdf:type owl:ObjectProperty ;
+                        rdfs:domain :c-activity ,
+                                    :c-throwEvent ;
+                        rdfs:range :c-dataInputAssociation .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PdataInputRefs
-:PdataInputRefs rdf:type owl:ObjectProperty ;
-                rdfs:domain :CinputSet .
+###  https://krusinaldo9.github.io/sBPMN#p-dataInputRefs
+:p-dataInputRefs rdf:type owl:ObjectProperty ;
+                 rdfs:domain :c-inputSet .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PdataObjectRef
-:PdataObjectRef rdf:type owl:ObjectProperty ;
-                rdfs:domain :CdataObjectReference .
+###  https://krusinaldo9.github.io/sBPMN#p-dataObjectRef
+:p-dataObjectRef rdf:type owl:ObjectProperty ;
+                 rdfs:domain :c-dataObjectReference .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PdataOutput
-:PdataOutput rdf:type owl:ObjectProperty ;
-             rdfs:domain :CcatchEvent ,
-                         :CinputOutputSpecification ;
-             rdfs:range :CdataOutput .
+###  https://krusinaldo9.github.io/sBPMN#p-dataOutput
+:p-dataOutput rdf:type owl:ObjectProperty ;
+              rdfs:domain :c-catchEvent ,
+                          :c-inputOutputSpecification ;
+              rdfs:range :c-dataOutput .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PdataOutputAssociation
-:PdataOutputAssociation rdf:type owl:ObjectProperty ;
-                        rdfs:domain :Cactivity ,
-                                    :CcatchEvent ;
-                        rdfs:range :CdataOutputAssociation .
+###  https://krusinaldo9.github.io/sBPMN#p-dataOutputAssociation
+:p-dataOutputAssociation rdf:type owl:ObjectProperty ;
+                         rdfs:domain :c-activity ,
+                                     :c-catchEvent ;
+                         rdfs:range :c-dataOutputAssociation .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PdataOutputRefs
-:PdataOutputRefs rdf:type owl:ObjectProperty ;
-                 rdfs:domain :CoutputSet .
+###  https://krusinaldo9.github.io/sBPMN#p-dataOutputRefs
+:p-dataOutputRefs rdf:type owl:ObjectProperty ;
+                  rdfs:domain :c-outputSet .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PdataPath
-:PdataPath rdf:type owl:ObjectProperty ;
-           rdfs:domain :CcorrelationPropertyBinding ;
-           rdfs:range :CformalExpression .
+###  https://krusinaldo9.github.io/sBPMN#p-dataPath
+:p-dataPath rdf:type owl:ObjectProperty ;
+            rdfs:domain :c-correlationPropertyBinding ;
+            rdfs:range :c-formalExpression .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PdataState
-:PdataState rdf:type owl:ObjectProperty ;
-            rdfs:domain :CdataInput ,
-                        :CdataObject ,
-                        :CdataObjectReference ,
-                        :CdataOutput ,
-                        :CdataStore ,
-                        :CdataStoreReference ,
-                        :Cproperty ;
-            rdfs:range :CdataState .
+###  https://krusinaldo9.github.io/sBPMN#p-dataState
+:p-dataState rdf:type owl:ObjectProperty ;
+             rdfs:domain :c-dataInput ,
+                         :c-dataObject ,
+                         :c-dataObjectReference ,
+                         :c-dataOutput ,
+                         :c-dataStore ,
+                         :c-dataStoreReference ,
+                         :c-property ;
+             rdfs:range :c-dataState .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PdataStoreRef
-:PdataStoreRef rdf:type owl:ObjectProperty ;
-               rdfs:domain :CdataStoreReference .
+###  https://krusinaldo9.github.io/sBPMN#p-dataStoreRef
+:p-dataStoreRef rdf:type owl:ObjectProperty ;
+                rdfs:domain :c-dataStoreReference .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Pdefault
-:Pdefault rdf:type owl:ObjectProperty ;
-          rdfs:domain :Cactivity ,
-                      :CcomplexGateway ,
-                      :CexclusiveGateway ,
-                      :CinclusiveGateway .
+###  https://krusinaldo9.github.io/sBPMN#p-default
+:p-default rdf:type owl:ObjectProperty ;
+           rdfs:domain :c-activity ,
+                       :c-complexGateway ,
+                       :c-exclusiveGateway ,
+                       :c-inclusiveGateway .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Pdefinition
-:Pdefinition rdf:type owl:ObjectProperty ;
-             rdfs:domain :Cextension .
+###  https://krusinaldo9.github.io/sBPMN#p-definition
+:p-definition rdf:type owl:ObjectProperty ;
+              rdfs:domain :c-extension .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PdefinitionalCollaborationRef
-:PdefinitionalCollaborationRef rdf:type owl:ObjectProperty ;
-                               rdfs:domain :Cprocess .
+###  https://krusinaldo9.github.io/sBPMN#p-definitionalCollaborationRef
+:p-definitionalCollaborationRef rdf:type owl:ObjectProperty ;
+                                rdfs:domain :c-process .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Pdocumentation
-:Pdocumentation rdf:type owl:ObjectProperty ;
-                rdfs:domain :CbaseElement ,
-                            :CbaseElementWithMixedContent ,
-                            :Cextension ;
-                rdfs:range :Cdocumentation .
+###  https://krusinaldo9.github.io/sBPMN#p-documentation
+:p-documentation rdf:type owl:ObjectProperty ;
+                 rdfs:domain :c-baseElement ,
+                             :c-baseElementWithMixedContent ,
+                             :c-extension ;
+                 rdfs:range :c-documentation .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PendPointRef
-:PendPointRef rdf:type owl:ObjectProperty ;
-              rdfs:domain :Cparticipant .
+###  https://krusinaldo9.github.io/sBPMN#p-endPointRef
+:p-endPointRef rdf:type owl:ObjectProperty ;
+               rdfs:domain :c-participant .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PerrorRef
-:PerrorRef rdf:type owl:ObjectProperty ;
-           rdfs:domain :CerrorEventDefinition ,
-                       :Coperation .
+###  https://krusinaldo9.github.io/sBPMN#p-errorRef
+:p-errorRef rdf:type owl:ObjectProperty ;
+            rdfs:domain :c-errorEventDefinition ,
+                        :c-operation .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PescalationRef
-:PescalationRef rdf:type owl:ObjectProperty ;
-                rdfs:domain :CescalationEventDefinition .
+###  https://krusinaldo9.github.io/sBPMN#p-escalationRef
+:p-escalationRef rdf:type owl:ObjectProperty ;
+                 rdfs:domain :c-escalationEventDefinition .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PevaluatesToTypeRef
-:PevaluatesToTypeRef rdf:type owl:ObjectProperty ;
-                     rdfs:domain :CformalExpression .
+###  https://krusinaldo9.github.io/sBPMN#p-evaluatesToTypeRef
+:p-evaluatesToTypeRef rdf:type owl:ObjectProperty ;
+                      rdfs:domain :c-formalExpression .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Pevent
-:Pevent rdf:type owl:ObjectProperty ;
-        rdfs:domain :CcomplexBehaviorDefinition ;
-        rdfs:range :CimplicitThrowEvent .
+###  https://krusinaldo9.github.io/sBPMN#p-event
+:p-event rdf:type owl:ObjectProperty ;
+         rdfs:domain :c-complexBehaviorDefinition ;
+         rdfs:range :c-implicitThrowEvent .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PeventDefinition
-:PeventDefinition rdf:type owl:ObjectProperty ;
-                  rdfs:domain :CcatchEvent ,
-                              :CthrowEvent ;
-                  rdfs:range :CeventDefinition .
+###  https://krusinaldo9.github.io/sBPMN#p-eventDefinition
+:p-eventDefinition rdf:type owl:ObjectProperty ;
+                   rdfs:domain :c-catchEvent ,
+                               :c-throwEvent ;
+                   rdfs:range :c-eventDefinition .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PeventDefinitionRef
-:PeventDefinitionRef rdf:type owl:ObjectProperty ;
-                     rdfs:domain :CcatchEvent ,
-                                 :CthrowEvent .
+###  https://krusinaldo9.github.io/sBPMN#p-eventDefinitionRef
+:p-eventDefinitionRef rdf:type owl:ObjectProperty ;
+                      rdfs:domain :c-catchEvent ,
+                                  :c-throwEvent .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Pexpression
-:Pexpression rdf:type owl:ObjectProperty ;
-             rdfs:domain :CresourceAssignmentExpression ,
-                         :CresourceParameterBinding ;
-             rdfs:range :Cexpression .
+###  https://krusinaldo9.github.io/sBPMN#p-expression
+:p-expression rdf:type owl:ObjectProperty ;
+              rdfs:domain :c-resourceAssignmentExpression ,
+                          :c-resourceParameterBinding ;
+              rdfs:range :c-expression .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PextensionElements
-:PextensionElements rdf:type owl:ObjectProperty ;
-                    rdfs:domain :CbaseElement ,
-                                :CbaseElementWithMixedContent ;
-                    rdfs:range :CextensionElements .
+###  https://krusinaldo9.github.io/sBPMN#p-extensionElements
+:p-extensionElements rdf:type owl:ObjectProperty ;
+                     rdfs:domain :c-baseElement ,
+                                 :c-baseElementWithMixedContent ;
+                     rdfs:range :c-extensionElements .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PflowElement
-:PflowElement rdf:type owl:ObjectProperty ;
-              rdfs:domain :Cchoreography ,
-                          :Cprocess ,
-                          :CsubChoreography ,
-                          :CsubProcess ;
-              rdfs:range :CflowElement .
+###  https://krusinaldo9.github.io/sBPMN#p-flowElement
+:p-flowElement rdf:type owl:ObjectProperty ;
+               rdfs:domain :c-choreography ,
+                           :c-process ,
+                           :c-subChoreography ,
+                           :c-subProcess ;
+               rdfs:range :c-flowElement .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PflowNodeRef
-:PflowNodeRef rdf:type owl:ObjectProperty ;
-              rdfs:domain :Clane .
+###  https://krusinaldo9.github.io/sBPMN#p-flowNodeRef
+:p-flowNodeRef rdf:type owl:ObjectProperty ;
+               rdfs:domain :c-lane .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Pfrom
-:Pfrom rdf:type owl:ObjectProperty ;
-       rdfs:domain :Cassignment ;
-       rdfs:range :Cexpression .
+###  https://krusinaldo9.github.io/sBPMN#p-from
+:p-from rdf:type owl:ObjectProperty ;
+        rdfs:domain :c-assignment ;
+        rdfs:range :c-expression .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PimplementationRef
-:PimplementationRef rdf:type owl:ObjectProperty ;
-                    rdfs:domain :Cinterface ,
-                                :Coperation .
+###  https://krusinaldo9.github.io/sBPMN#p-implementationRef
+:p-implementationRef rdf:type owl:ObjectProperty ;
+                     rdfs:domain :c-interface ,
+                                 :c-operation .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PinMessageRef
-:PinMessageRef rdf:type owl:ObjectProperty ;
-               rdfs:domain :Coperation .
+###  https://krusinaldo9.github.io/sBPMN#p-inMessageRef
+:p-inMessageRef rdf:type owl:ObjectProperty ;
+                rdfs:domain :c-operation .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Pincoming
-:Pincoming rdf:type owl:ObjectProperty ;
-           rdfs:domain :CflowNode .
+###  https://krusinaldo9.github.io/sBPMN#p-incoming
+:p-incoming rdf:type owl:ObjectProperty ;
+            rdfs:domain :c-flowNode .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PinitiatingParticipantRef
-:PinitiatingParticipantRef rdf:type owl:ObjectProperty ;
-                           rdfs:domain :CchoreographyActivity ,
-                                       :CglobalChoreographyTask .
+###  https://krusinaldo9.github.io/sBPMN#p-initiatingParticipantRef
+:p-initiatingParticipantRef rdf:type owl:ObjectProperty ;
+                            rdfs:domain :c-choreographyActivity ,
+                                        :c-globalChoreographyTask .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PinnerConversationNodeRef
-:PinnerConversationNodeRef rdf:type owl:ObjectProperty ;
-                           rdfs:domain :CconversationAssociation .
+###  https://krusinaldo9.github.io/sBPMN#p-innerConversationNodeRef
+:p-innerConversationNodeRef rdf:type owl:ObjectProperty ;
+                            rdfs:domain :c-conversationAssociation .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PinnerMessageFlowRef
-:PinnerMessageFlowRef rdf:type owl:ObjectProperty ;
-                      rdfs:domain :CmessageFlowAssociation .
+###  https://krusinaldo9.github.io/sBPMN#p-innerMessageFlowRef
+:p-innerMessageFlowRef rdf:type owl:ObjectProperty ;
+                       rdfs:domain :c-messageFlowAssociation .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PinnerParticipantRef
-:PinnerParticipantRef rdf:type owl:ObjectProperty ;
-                      rdfs:domain :CparticipantAssociation .
+###  https://krusinaldo9.github.io/sBPMN#p-innerParticipantRef
+:p-innerParticipantRef rdf:type owl:ObjectProperty ;
+                       rdfs:domain :c-participantAssociation .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PinputDataItem
-:PinputDataItem rdf:type owl:ObjectProperty ;
-                rdfs:domain :CmultiInstanceLoopCharacteristics ;
-                rdfs:range :CdataInput .
+###  https://krusinaldo9.github.io/sBPMN#p-inputDataItem
+:p-inputDataItem rdf:type owl:ObjectProperty ;
+                 rdfs:domain :c-multiInstanceLoopCharacteristics ;
+                 rdfs:range :c-dataInput .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PinputDataRef
-:PinputDataRef rdf:type owl:ObjectProperty ;
-               rdfs:domain :CinputOutputBinding .
+###  https://krusinaldo9.github.io/sBPMN#p-inputDataRef
+:p-inputDataRef rdf:type owl:ObjectProperty ;
+                rdfs:domain :c-inputOutputBinding .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PinputSet
-:PinputSet rdf:type owl:ObjectProperty ;
-           rdfs:domain :CinputOutputSpecification ,
-                       :CthrowEvent ;
-           rdfs:range :CinputSet .
+###  https://krusinaldo9.github.io/sBPMN#p-inputSet
+:p-inputSet rdf:type owl:ObjectProperty ;
+            rdfs:domain :c-inputOutputSpecification ,
+                        :c-throwEvent ;
+            rdfs:range :c-inputSet .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PinputSetRefs
-:PinputSetRefs rdf:type owl:ObjectProperty ;
-               rdfs:domain :CoutputSet .
+###  https://krusinaldo9.github.io/sBPMN#p-inputSetRefs
+:p-inputSetRefs rdf:type owl:ObjectProperty ;
+                rdfs:domain :c-outputSet .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PinterfaceRef
-:PinterfaceRef rdf:type owl:ObjectProperty ;
-               rdfs:domain :Cparticipant .
+###  https://krusinaldo9.github.io/sBPMN#p-interfaceRef
+:p-interfaceRef rdf:type owl:ObjectProperty ;
+                rdfs:domain :c-participant .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PioBinding
-:PioBinding rdf:type owl:ObjectProperty ;
-            rdfs:domain :CcallableElement ;
-            rdfs:range :CioBinding .
+###  https://krusinaldo9.github.io/sBPMN#p-ioBinding
+:p-ioBinding rdf:type owl:ObjectProperty ;
+             rdfs:domain :c-callableElement ;
+             rdfs:range :c-ioBinding .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PioSpecification
-:PioSpecification rdf:type owl:ObjectProperty ;
-                  rdfs:domain :Cactivity ,
-                              :CcallableElement ;
-                  rdfs:range :CioSpecification .
+###  https://krusinaldo9.github.io/sBPMN#p-ioSpecification
+:p-ioSpecification rdf:type owl:ObjectProperty ;
+                   rdfs:domain :c-activity ,
+                               :c-callableElement ;
+                   rdfs:range :c-ioSpecification .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PitemRef
-:PitemRef rdf:type owl:ObjectProperty ;
-          rdfs:domain :Cmessage .
+###  https://krusinaldo9.github.io/sBPMN#p-itemRef
+:p-itemRef rdf:type owl:ObjectProperty ;
+           rdfs:domain :c-message .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PitemSubjectRef
-:PitemSubjectRef rdf:type owl:ObjectProperty ;
-                 rdfs:domain :CdataInput ,
-                             :CdataObject ,
-                             :CdataObjectReference ,
-                             :CdataOutput ,
-                             :CdataStore ,
-                             :CdataStoreReference ,
-                             :Cproperty .
+###  https://krusinaldo9.github.io/sBPMN#p-itemSubjectRef
+:p-itemSubjectRef rdf:type owl:ObjectProperty ;
+                  rdfs:domain :c-dataInput ,
+                              :c-dataObject ,
+                              :c-dataObjectReference ,
+                              :c-dataOutput ,
+                              :c-dataStore ,
+                              :c-dataStoreReference ,
+                              :c-property .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Plane
-:Plane rdf:type owl:ObjectProperty ;
-       rdfs:domain :ClaneSet ;
-       rdfs:range :Clane .
+###  https://krusinaldo9.github.io/sBPMN#p-lane
+:p-lane rdf:type owl:ObjectProperty ;
+        rdfs:domain :c-laneSet ;
+        rdfs:range :c-lane .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PlaneSet
-:PlaneSet rdf:type owl:ObjectProperty ;
-          rdfs:domain :Cprocess ,
-                      :CsubProcess ;
-          rdfs:range :ClaneSet .
+###  https://krusinaldo9.github.io/sBPMN#p-laneSet
+:p-laneSet rdf:type owl:ObjectProperty ;
+           rdfs:domain :c-process ,
+                       :c-subProcess ;
+           rdfs:range :c-laneSet .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PloopCardinality
-:PloopCardinality rdf:type owl:ObjectProperty ;
-                  rdfs:domain :CmultiInstanceLoopCharacteristics ;
-                  rdfs:range :Cexpression .
+###  https://krusinaldo9.github.io/sBPMN#p-loopCardinality
+:p-loopCardinality rdf:type owl:ObjectProperty ;
+                   rdfs:domain :c-multiInstanceLoopCharacteristics ;
+                   rdfs:range :c-expression .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PloopCharacteristics
-:PloopCharacteristics rdf:type owl:ObjectProperty ;
-                      rdfs:domain :Cactivity ;
-                      rdfs:range :CloopCharacteristics .
+###  https://krusinaldo9.github.io/sBPMN#p-loopCharacteristics
+:p-loopCharacteristics rdf:type owl:ObjectProperty ;
+                       rdfs:domain :c-activity ;
+                       rdfs:range :c-loopCharacteristics .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PloopCondition
-:PloopCondition rdf:type owl:ObjectProperty ;
-                rdfs:domain :CstandardLoopCharacteristics ;
-                rdfs:range :Cexpression .
+###  https://krusinaldo9.github.io/sBPMN#p-loopCondition
+:p-loopCondition rdf:type owl:ObjectProperty ;
+                 rdfs:domain :c-standardLoopCharacteristics ;
+                 rdfs:range :c-expression .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PloopDataInputRef
-:PloopDataInputRef rdf:type owl:ObjectProperty ;
-                   rdfs:domain :CmultiInstanceLoopCharacteristics .
+###  https://krusinaldo9.github.io/sBPMN#p-loopDataInputRef
+:p-loopDataInputRef rdf:type owl:ObjectProperty ;
+                    rdfs:domain :c-multiInstanceLoopCharacteristics .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PloopDataOutputRef
-:PloopDataOutputRef rdf:type owl:ObjectProperty ;
-                    rdfs:domain :CmultiInstanceLoopCharacteristics .
+###  https://krusinaldo9.github.io/sBPMN#p-loopDataOutputRef
+:p-loopDataOutputRef rdf:type owl:ObjectProperty ;
+                     rdfs:domain :c-multiInstanceLoopCharacteristics .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PmessageFlow
-:PmessageFlow rdf:type owl:ObjectProperty ;
-              rdfs:domain :Ccollaboration ;
-              rdfs:range :CmessageFlow .
+###  https://krusinaldo9.github.io/sBPMN#p-messageFlow
+:p-messageFlow rdf:type owl:ObjectProperty ;
+               rdfs:domain :c-collaboration ;
+               rdfs:range :c-messageFlow .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PmessageFlowAssociation
-:PmessageFlowAssociation rdf:type owl:ObjectProperty ;
-                         rdfs:domain :Ccollaboration ;
-                         rdfs:range :CmessageFlowAssociation .
+###  https://krusinaldo9.github.io/sBPMN#p-messageFlowAssociation
+:p-messageFlowAssociation rdf:type owl:ObjectProperty ;
+                          rdfs:domain :c-collaboration ;
+                          rdfs:range :c-messageFlowAssociation .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PmessageFlowRef
-:PmessageFlowRef rdf:type owl:ObjectProperty ;
-                 rdfs:domain :CchoreographyTask ,
-                             :CconversationNode .
+###  https://krusinaldo9.github.io/sBPMN#p-messageFlowRef
+:p-messageFlowRef rdf:type owl:ObjectProperty ;
+                  rdfs:domain :c-choreographyTask ,
+                              :c-conversationNode .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PmessagePath
-:PmessagePath rdf:type owl:ObjectProperty ;
-              rdfs:domain :CcorrelationPropertyRetrievalExpression ;
-              rdfs:range :CformalExpression .
+###  https://krusinaldo9.github.io/sBPMN#p-messagePath
+:p-messagePath rdf:type owl:ObjectProperty ;
+               rdfs:domain :c-correlationPropertyRetrievalExpression ;
+               rdfs:range :c-formalExpression .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PmessageRef
-:PmessageRef rdf:type owl:ObjectProperty ;
-             rdfs:domain :CcorrelationPropertyRetrievalExpression ,
-                         :CmessageEventDefinition ,
-                         :CmessageFlow ,
-                         :CreceiveTask ,
-                         :CsendTask .
+###  https://krusinaldo9.github.io/sBPMN#p-messageRef
+:p-messageRef rdf:type owl:ObjectProperty ;
+              rdfs:domain :c-correlationPropertyRetrievalExpression ,
+                          :c-messageEventDefinition ,
+                          :c-messageFlow ,
+                          :c-receiveTask ,
+                          :c-sendTask .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Pmonitoring
-:Pmonitoring rdf:type owl:ObjectProperty ;
-             rdfs:domain :CflowElement ,
-                         :Cprocess ;
-             rdfs:range :Cmonitoring .
+###  https://krusinaldo9.github.io/sBPMN#p-monitoring
+:p-monitoring rdf:type owl:ObjectProperty ;
+              rdfs:domain :c-flowElement ,
+                          :c-process ;
+              rdfs:range :c-monitoring .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PnoneBehaviorEventRef
-:PnoneBehaviorEventRef rdf:type owl:ObjectProperty ;
-                       rdfs:domain :CmultiInstanceLoopCharacteristics .
+###  https://krusinaldo9.github.io/sBPMN#p-noneBehaviorEventRef
+:p-noneBehaviorEventRef rdf:type owl:ObjectProperty ;
+                        rdfs:domain :c-multiInstanceLoopCharacteristics .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PoneBehaviorEventRef
-:PoneBehaviorEventRef rdf:type owl:ObjectProperty ;
-                      rdfs:domain :CmultiInstanceLoopCharacteristics .
+###  https://krusinaldo9.github.io/sBPMN#p-oneBehaviorEventRef
+:p-oneBehaviorEventRef rdf:type owl:ObjectProperty ;
+                       rdfs:domain :c-multiInstanceLoopCharacteristics .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Poperation
-:Poperation rdf:type owl:ObjectProperty ;
-            rdfs:domain :Cinterface ;
-            rdfs:range :Coperation .
+###  https://krusinaldo9.github.io/sBPMN#p-operation
+:p-operation rdf:type owl:ObjectProperty ;
+             rdfs:domain :c-interface ;
+             rdfs:range :c-operation .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PoperationRef
-:PoperationRef rdf:type owl:ObjectProperty ;
-               rdfs:domain :CinputOutputBinding ,
-                           :CmessageEventDefinition ,
-                           :CreceiveTask ,
-                           :CsendTask ,
-                           :CserviceTask .
+###  https://krusinaldo9.github.io/sBPMN#p-operationRef
+:p-operationRef rdf:type owl:ObjectProperty ;
+                rdfs:domain :c-inputOutputBinding ,
+                            :c-messageEventDefinition ,
+                            :c-receiveTask ,
+                            :c-sendTask ,
+                            :c-serviceTask .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PoptionalInputRefs
-:PoptionalInputRefs rdf:type owl:ObjectProperty ;
-                    rdfs:domain :CinputSet .
+###  https://krusinaldo9.github.io/sBPMN#p-optionalInputRefs
+:p-optionalInputRefs rdf:type owl:ObjectProperty ;
+                     rdfs:domain :c-inputSet .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PoptionalOutputRefs
-:PoptionalOutputRefs rdf:type owl:ObjectProperty ;
-                     rdfs:domain :CoutputSet .
+###  https://krusinaldo9.github.io/sBPMN#p-optionalOutputRefs
+:p-optionalOutputRefs rdf:type owl:ObjectProperty ;
+                      rdfs:domain :c-outputSet .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PoutMessageRef
-:PoutMessageRef rdf:type owl:ObjectProperty ;
-                rdfs:domain :Coperation .
+###  https://krusinaldo9.github.io/sBPMN#p-outMessageRef
+:p-outMessageRef rdf:type owl:ObjectProperty ;
+                 rdfs:domain :c-operation .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PouterConversationNodeRef
-:PouterConversationNodeRef rdf:type owl:ObjectProperty ;
-                           rdfs:domain :CconversationAssociation .
+###  https://krusinaldo9.github.io/sBPMN#p-outerConversationNodeRef
+:p-outerConversationNodeRef rdf:type owl:ObjectProperty ;
+                            rdfs:domain :c-conversationAssociation .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PouterMessageFlowRef
-:PouterMessageFlowRef rdf:type owl:ObjectProperty ;
-                      rdfs:domain :CmessageFlowAssociation .
+###  https://krusinaldo9.github.io/sBPMN#p-outerMessageFlowRef
+:p-outerMessageFlowRef rdf:type owl:ObjectProperty ;
+                       rdfs:domain :c-messageFlowAssociation .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PouterParticipantRef
-:PouterParticipantRef rdf:type owl:ObjectProperty ;
-                      rdfs:domain :CparticipantAssociation .
+###  https://krusinaldo9.github.io/sBPMN#p-outerParticipantRef
+:p-outerParticipantRef rdf:type owl:ObjectProperty ;
+                       rdfs:domain :c-participantAssociation .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Poutgoing
-:Poutgoing rdf:type owl:ObjectProperty ;
-           rdfs:domain :CflowNode .
+###  https://krusinaldo9.github.io/sBPMN#p-outgoing
+:p-outgoing rdf:type owl:ObjectProperty ;
+            rdfs:domain :c-flowNode .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PoutputDataItem
-:PoutputDataItem rdf:type owl:ObjectProperty ;
-                 rdfs:domain :CmultiInstanceLoopCharacteristics ;
-                 rdfs:range :CdataOutput .
+###  https://krusinaldo9.github.io/sBPMN#p-outputDataItem
+:p-outputDataItem rdf:type owl:ObjectProperty ;
+                  rdfs:domain :c-multiInstanceLoopCharacteristics ;
+                  rdfs:range :c-dataOutput .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PoutputDataRef
-:PoutputDataRef rdf:type owl:ObjectProperty ;
-                rdfs:domain :CinputOutputBinding .
+###  https://krusinaldo9.github.io/sBPMN#p-outputDataRef
+:p-outputDataRef rdf:type owl:ObjectProperty ;
+                 rdfs:domain :c-inputOutputBinding .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PoutputSet
-:PoutputSet rdf:type owl:ObjectProperty ;
-            rdfs:domain :CcatchEvent ,
-                        :CinputOutputSpecification ;
-            rdfs:range :CoutputSet .
+###  https://krusinaldo9.github.io/sBPMN#p-outputSet
+:p-outputSet rdf:type owl:ObjectProperty ;
+             rdfs:domain :c-catchEvent ,
+                         :c-inputOutputSpecification ;
+             rdfs:range :c-outputSet .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PoutputSetRefs
-:PoutputSetRefs rdf:type owl:ObjectProperty ;
-                rdfs:domain :CinputSet .
+###  https://krusinaldo9.github.io/sBPMN#p-outputSetRefs
+:p-outputSetRefs rdf:type owl:ObjectProperty ;
+                 rdfs:domain :c-inputSet .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PparameterRef
-:PparameterRef rdf:type owl:ObjectProperty ;
-               rdfs:domain :CresourceParameterBinding .
+###  https://krusinaldo9.github.io/sBPMN#p-parameterRef
+:p-parameterRef rdf:type owl:ObjectProperty ;
+                rdfs:domain :c-resourceParameterBinding .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Pparticipant
-:Pparticipant rdf:type owl:ObjectProperty ;
-              rdfs:domain :Ccollaboration ;
-              rdfs:range :Cparticipant .
+###  https://krusinaldo9.github.io/sBPMN#p-participant
+:p-participant rdf:type owl:ObjectProperty ;
+               rdfs:domain :c-collaboration ;
+               rdfs:range :c-participant .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PparticipantAssociation
-:PparticipantAssociation rdf:type owl:ObjectProperty ;
-                         rdfs:domain :CcallChoreography ,
-                                     :CcallConversation ,
-                                     :Ccollaboration ;
-                         rdfs:range :CparticipantAssociation .
+###  https://krusinaldo9.github.io/sBPMN#p-participantAssociation
+:p-participantAssociation rdf:type owl:ObjectProperty ;
+                          rdfs:domain :c-callChoreography ,
+                                      :c-callConversation ,
+                                      :c-collaboration ;
+                          rdfs:range :c-participantAssociation .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PparticipantMultiplicity
-:PparticipantMultiplicity rdf:type owl:ObjectProperty ;
-                          rdfs:domain :Cparticipant ;
-                          rdfs:range :CparticipantMultiplicity .
+###  https://krusinaldo9.github.io/sBPMN#p-participantMultiplicity
+:p-participantMultiplicity rdf:type owl:ObjectProperty ;
+                           rdfs:domain :c-participant ;
+                           rdfs:range :c-participantMultiplicity .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PparticipantRef
-:PparticipantRef rdf:type owl:ObjectProperty ;
-                 rdfs:domain :CchoreographyActivity ,
-                             :CconversationNode ,
-                             :CpartnerEntity ,
-                             :CpartnerRole .
+###  https://krusinaldo9.github.io/sBPMN#p-participantRef
+:p-participantRef rdf:type owl:ObjectProperty ;
+                  rdfs:domain :c-choreographyActivity ,
+                              :c-conversationNode ,
+                              :c-partnerEntity ,
+                              :c-partnerRole .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PpartitionElement
-:PpartitionElement rdf:type owl:ObjectProperty ;
-                   rdfs:domain :Clane ;
-                   rdfs:range :CbaseElement .
+###  https://krusinaldo9.github.io/sBPMN#p-partitionElement
+:p-partitionElement rdf:type owl:ObjectProperty ;
+                    rdfs:domain :c-lane ;
+                    rdfs:range :c-baseElement .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PpartitionElementRef
-:PpartitionElementRef rdf:type owl:ObjectProperty ;
-                      rdfs:domain :Clane .
+###  https://krusinaldo9.github.io/sBPMN#p-partitionElementRef
+:p-partitionElementRef rdf:type owl:ObjectProperty ;
+                       rdfs:domain :c-lane .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PprocessRef
-:PprocessRef rdf:type owl:ObjectProperty ;
-             rdfs:domain :Cparticipant .
+###  https://krusinaldo9.github.io/sBPMN#p-processRef
+:p-processRef rdf:type owl:ObjectProperty ;
+              rdfs:domain :c-participant .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Pproperty
-:Pproperty rdf:type owl:ObjectProperty ;
-           rdfs:domain :Cactivity ,
-                       :Cevent ,
-                       :Cprocess ;
-           rdfs:range :Cproperty .
+###  https://krusinaldo9.github.io/sBPMN#p-property
+:p-property rdf:type owl:ObjectProperty ;
+            rdfs:domain :c-activity ,
+                        :c-event ,
+                        :c-process ;
+            rdfs:range :c-property .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Prendering
-:Prendering rdf:type owl:ObjectProperty ;
-            rdfs:domain :CglobalUserTask ,
-                        :CuserTask ;
-            rdfs:range :Crendering .
+###  https://krusinaldo9.github.io/sBPMN#p-rendering
+:p-rendering rdf:type owl:ObjectProperty ;
+             rdfs:domain :c-globalUserTask ,
+                         :c-userTask ;
+             rdfs:range :c-rendering .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PresourceParameter
-:PresourceParameter rdf:type owl:ObjectProperty ;
-                    rdfs:domain :Cresource ;
-                    rdfs:range :CresourceParameter .
+###  https://krusinaldo9.github.io/sBPMN#p-resourceParameter
+:p-resourceParameter rdf:type owl:ObjectProperty ;
+                     rdfs:domain :c-resource ;
+                     rdfs:range :c-resourceParameter .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PresourceParameterBinding
-:PresourceParameterBinding rdf:type owl:ObjectProperty ;
-                           rdfs:domain :CresourceRole ;
-                           rdfs:range :CresourceParameterBinding .
+###  https://krusinaldo9.github.io/sBPMN#p-resourceParameterBinding
+:p-resourceParameterBinding rdf:type owl:ObjectProperty ;
+                            rdfs:domain :c-resourceRole ;
+                            rdfs:range :c-resourceParameterBinding .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PresourceRef
-:PresourceRef rdf:type owl:ObjectProperty ;
-              rdfs:domain :CresourceRole .
+###  https://krusinaldo9.github.io/sBPMN#p-resourceRef
+:p-resourceRef rdf:type owl:ObjectProperty ;
+               rdfs:domain :c-resourceRole .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PresourceRole
-:PresourceRole rdf:type owl:ObjectProperty ;
-               rdfs:domain :Cactivity ,
-                           :CglobalTask ,
-                           :Cprocess ;
-               rdfs:range :CresourceRole .
+###  https://krusinaldo9.github.io/sBPMN#p-resourceRole
+:p-resourceRole rdf:type owl:ObjectProperty ;
+                rdfs:domain :c-activity ,
+                            :c-globalTask ,
+                            :c-process ;
+                rdfs:range :c-resourceRole .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Pscript
-:Pscript rdf:type owl:ObjectProperty ;
-         rdfs:domain :CglobalScriptTask ,
-                     :CscriptTask ;
-         rdfs:range :Cscript .
+###  https://krusinaldo9.github.io/sBPMN#p-script
+:p-script rdf:type owl:ObjectProperty ;
+          rdfs:domain :c-globalScriptTask ,
+                      :c-scriptTask ;
+          rdfs:range :c-script .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PsignalRef
-:PsignalRef rdf:type owl:ObjectProperty ;
-            rdfs:domain :CsignalEventDefinition .
+###  https://krusinaldo9.github.io/sBPMN#p-signalRef
+:p-signalRef rdf:type owl:ObjectProperty ;
+             rdfs:domain :c-signalEventDefinition .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Psource
-:Psource rdf:type owl:ObjectProperty ;
-         rdfs:domain :ClinkEventDefinition ,
-                     :Crelationship .
+###  https://krusinaldo9.github.io/sBPMN#p-source
+:p-source rdf:type owl:ObjectProperty ;
+          rdfs:domain :c-linkEventDefinition ,
+                      :c-relationship .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PsourceRef
-:PsourceRef rdf:type owl:ObjectProperty ;
-            rdfs:domain :Cassociation ,
-                        :CconversationLink ,
-                        :CdataAssociation ,
-                        :CmessageFlow ,
-                        :CsequenceFlow .
+###  https://krusinaldo9.github.io/sBPMN#p-sourceRef
+:p-sourceRef rdf:type owl:ObjectProperty ;
+             rdfs:domain :c-association ,
+                         :c-conversationLink ,
+                         :c-dataAssociation ,
+                         :c-messageFlow ,
+                         :c-sequenceFlow .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PstructureRef
-:PstructureRef rdf:type owl:ObjectProperty ;
-               rdfs:domain :Cerror ,
-                           :Cescalation ,
-                           :CitemDefinition ,
-                           :Csignal .
+###  https://krusinaldo9.github.io/sBPMN#p-structureRef
+:p-structureRef rdf:type owl:ObjectProperty ;
+                rdfs:domain :c-error ,
+                            :c-escalation ,
+                            :c-itemDefinition ,
+                            :c-signal .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PsupportedInterfaceRef
-:PsupportedInterfaceRef rdf:type owl:ObjectProperty ;
-                        rdfs:domain :CcallableElement .
+###  https://krusinaldo9.github.io/sBPMN#p-supportedInterfaceRef
+:p-supportedInterfaceRef rdf:type owl:ObjectProperty ;
+                         rdfs:domain :c-callableElement .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Psupports
-:Psupports rdf:type owl:ObjectProperty ;
-           rdfs:domain :Cprocess .
+###  https://krusinaldo9.github.io/sBPMN#p-supports
+:p-supports rdf:type owl:ObjectProperty ;
+            rdfs:domain :c-process .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Ptarget
-:Ptarget rdf:type owl:ObjectProperty ;
-         rdfs:domain :ClinkEventDefinition ,
-                     :Crelationship .
+###  https://krusinaldo9.github.io/sBPMN#p-target
+:p-target rdf:type owl:ObjectProperty ;
+          rdfs:domain :c-linkEventDefinition ,
+                      :c-relationship .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PtargetRef
-:PtargetRef rdf:type owl:ObjectProperty ;
-            rdfs:domain :Cassociation ,
-                        :CconversationLink ,
-                        :CdataAssociation ,
-                        :CmessageFlow ,
-                        :CsequenceFlow .
+###  https://krusinaldo9.github.io/sBPMN#p-targetRef
+:p-targetRef rdf:type owl:ObjectProperty ;
+             rdfs:domain :c-association ,
+                         :c-conversationLink ,
+                         :c-dataAssociation ,
+                         :c-messageFlow ,
+                         :c-sequenceFlow .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Ptext
-:Ptext rdf:type owl:ObjectProperty ;
-       rdfs:domain :CtextAnnotation ;
-       rdfs:range :Ctext .
+###  https://krusinaldo9.github.io/sBPMN#p-text
+:p-text rdf:type owl:ObjectProperty ;
+        rdfs:domain :c-textAnnotation ;
+        rdfs:range :c-text .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Pto
-:Pto rdf:type owl:ObjectProperty ;
-     rdfs:domain :Cassignment ;
-     rdfs:range :Cexpression .
+###  https://krusinaldo9.github.io/sBPMN#p-to
+:p-to rdf:type owl:ObjectProperty ;
+      rdfs:domain :c-assignment ;
+      rdfs:range :c-expression .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Ptransformation
-:Ptransformation rdf:type owl:ObjectProperty ;
-                 rdfs:domain :CdataAssociation ;
-                 rdfs:range :CformalExpression .
+###  https://krusinaldo9.github.io/sBPMN#p-transformation
+:p-transformation rdf:type owl:ObjectProperty ;
+                  rdfs:domain :c-dataAssociation ;
+                  rdfs:range :c-formalExpression .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Ptype
-:Ptype rdf:type owl:ObjectProperty ;
-       rdfs:domain :CcorrelationProperty ,
-                   :Crelationship ,
-                   :CresourceParameter .
+###  https://krusinaldo9.github.io/sBPMN#p-type
+:p-type rdf:type owl:ObjectProperty ;
+        rdfs:domain :c-correlationProperty ,
+                    :c-relationship ,
+                    :c-resourceParameter .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PwhileExecutingInputRefs
-:PwhileExecutingInputRefs rdf:type owl:ObjectProperty ;
-                          rdfs:domain :CinputSet .
+###  https://krusinaldo9.github.io/sBPMN#p-whileExecutingInputRefs
+:p-whileExecutingInputRefs rdf:type owl:ObjectProperty ;
+                           rdfs:domain :c-inputSet .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PwhileExecutingOutputRefs
-:PwhileExecutingOutputRefs rdf:type owl:ObjectProperty ;
-                           rdfs:domain :CoutputSet .
+###  https://krusinaldo9.github.io/sBPMN#p-whileExecutingOutputRefs
+:p-whileExecutingOutputRefs rdf:type owl:ObjectProperty ;
+                            rdfs:domain :c-outputSet .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  https://krusinaldo9.github.io/sBPMN#PassociationDirection
-:PassociationDirection rdf:type owl:DatatypeProperty ;
-                       rdfs:domain :Cassociation ;
-                       rdfs:range xsd:string .
+###  https://krusinaldo9.github.io/sBPMN#p-associationDirection
+:p-associationDirection rdf:type owl:DatatypeProperty ;
+                        rdfs:domain :c-association ;
+                        rdfs:range xsd:string .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Pbehavior
-:Pbehavior rdf:type owl:DatatypeProperty ;
-           rdfs:domain :CmultiInstanceLoopCharacteristics ;
-           rdfs:range xsd:string .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PcancelActivity
-:PcancelActivity rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :CboundaryEvent ;
-                 rdfs:range xsd:boolean .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PcancelRemainingInstances
-:PcancelRemainingInstances rdf:type owl:DatatypeProperty ;
-                           rdfs:domain :CadHocSubProcess ;
-                           rdfs:range xsd:boolean .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Pcapacity
-:Pcapacity rdf:type owl:DatatypeProperty ;
-           rdfs:domain :CdataStore ;
-           rdfs:range xsd:integer .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PcompletionQuantity
-:PcompletionQuantity rdf:type owl:DatatypeProperty ;
-                     rdfs:domain :Cactivity ;
-                     rdfs:range xsd:integer .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Pdirection
-:Pdirection rdf:type owl:DatatypeProperty ;
-            rdfs:domain :Crelationship ;
+###  https://krusinaldo9.github.io/sBPMN#p-behavior
+:p-behavior rdf:type owl:DatatypeProperty ;
+            rdfs:domain :c-multiInstanceLoopCharacteristics ;
             rdfs:range xsd:string .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PerrorCode
-:PerrorCode rdf:type owl:DatatypeProperty ;
-            rdfs:domain :Cerror ;
-            rdfs:range xsd:string .
+###  https://krusinaldo9.github.io/sBPMN#p-cancelActivity
+:p-cancelActivity rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :c-boundaryEvent ;
+                  rdfs:range xsd:boolean .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PescalationCode
-:PescalationCode rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :Cescalation ;
-                 rdfs:range xsd:string .
+###  https://krusinaldo9.github.io/sBPMN#p-cancelRemainingInstances
+:p-cancelRemainingInstances rdf:type owl:DatatypeProperty ;
+                            rdfs:domain :c-adHocSubProcess ;
+                            rdfs:range xsd:boolean .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PeventGatewayType
-:PeventGatewayType rdf:type owl:DatatypeProperty ;
-                   rdfs:domain :CeventBasedGateway ;
-                   rdfs:range xsd:string .
+###  https://krusinaldo9.github.io/sBPMN#p-capacity
+:p-capacity rdf:type owl:DatatypeProperty ;
+            rdfs:domain :c-dataStore ;
+            rdfs:range xsd:integer .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PgatewayDirection
-:PgatewayDirection rdf:type owl:DatatypeProperty ;
-                   rdfs:domain :Cgateway ;
-                   rdfs:range xsd:string .
+###  https://krusinaldo9.github.io/sBPMN#p-completionQuantity
+:p-completionQuantity rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :c-activity ;
+                      rdfs:range xsd:integer .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Pid
-:Pid rdf:type owl:DatatypeProperty ;
-     rdfs:domain :CbaseElement ,
-                 :CbaseElementWithMixedContent ,
-                 :Cdocumentation ;
-     rdfs:range xsd:ID .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Pimplementation
-:Pimplementation rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :CbusinessRuleTask ,
-                             :CglobalBusinessRuleTask ,
-                             :CglobalUserTask ,
-                             :CreceiveTask ,
-                             :CsendTask ,
-                             :CserviceTask ,
-                             :CuserTask ;
-                 rdfs:range xsd:anyURI ,
-                            xsd:token .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Pinstantiate
-:Pinstantiate rdf:type owl:DatatypeProperty ;
-              rdfs:domain :CeventBasedGateway ,
-                          :CreceiveTask ;
-              rdfs:range xsd:boolean .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PisClosed
-:PisClosed rdf:type owl:DatatypeProperty ;
-           rdfs:domain :Ccollaboration ,
-                       :Cprocess ;
-           rdfs:range xsd:boolean .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PisCollection
-:PisCollection rdf:type owl:DatatypeProperty ;
-               rdfs:domain :CdataInput ,
-                           :CdataObject ,
-                           :CdataOutput ,
-                           :CitemDefinition ;
-               rdfs:range xsd:boolean .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PisExecutable
-:PisExecutable rdf:type owl:DatatypeProperty ;
-               rdfs:domain :Cprocess ;
-               rdfs:range xsd:boolean .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PisForCompensation
-:PisForCompensation rdf:type owl:DatatypeProperty ;
-                    rdfs:domain :Cactivity ;
-                    rdfs:range xsd:boolean .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PisImmediate
-:PisImmediate rdf:type owl:DatatypeProperty ;
-              rdfs:domain :CsequenceFlow ;
-              rdfs:range xsd:boolean .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PisInterrupting
-:PisInterrupting rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :CstartEvent ;
-                 rdfs:range xsd:boolean .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PisRequired
-:PisRequired rdf:type owl:DatatypeProperty ;
-             rdfs:domain :CresourceParameter ;
-             rdfs:range xsd:boolean .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PisSequential
-:PisSequential rdf:type owl:DatatypeProperty ;
-               rdfs:domain :CmultiInstanceLoopCharacteristics ;
-               rdfs:range xsd:boolean .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PisUnlimited
-:PisUnlimited rdf:type owl:DatatypeProperty ;
-              rdfs:domain :CdataStore ;
-              rdfs:range xsd:boolean .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PitemKind
-:PitemKind rdf:type owl:DatatypeProperty ;
-           rdfs:domain :CitemDefinition ;
-           rdfs:range xsd:string .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Planguage
-:Planguage rdf:type owl:DatatypeProperty ;
-           rdfs:domain :CformalExpression ;
-           rdfs:range xsd:anyURI .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PloopMaximum
-:PloopMaximum rdf:type owl:DatatypeProperty ;
-              rdfs:domain :CstandardLoopCharacteristics ;
-              rdfs:range xsd:integer .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PloopType
-:PloopType rdf:type owl:DatatypeProperty ;
-           rdfs:domain :CchoreographyActivity ;
-           rdfs:range xsd:string .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Pmaximum
-:Pmaximum rdf:type owl:DatatypeProperty ;
-          rdfs:domain :CparticipantMultiplicity ;
-          rdfs:range xsd:int .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Pmethod
-:Pmethod rdf:type owl:DatatypeProperty ;
-         rdfs:domain :Ctransaction ;
-         rdfs:range xsd:anyURI ,
-                    xsd:token .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Pminimum
-:Pminimum rdf:type owl:DatatypeProperty ;
-          rdfs:domain :CparticipantMultiplicity ;
-          rdfs:range xsd:int .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PmustUnderstand
-:PmustUnderstand rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :Cextension ;
-                 rdfs:range xsd:boolean .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Pname
-:Pname rdf:type owl:DatatypeProperty ;
-       rdfs:domain :CcallableElement ,
-                   :Ccategory ,
-                   :Ccollaboration ,
-                   :CconversationLink ,
-                   :CconversationNode ,
-                   :CcorrelationKey ,
-                   :CcorrelationProperty ,
-                   :CdataInput ,
-                   :CdataOutput ,
-                   :CdataState ,
-                   :CdataStore ,
-                   :Cerror ,
-                   :Cescalation ,
-                   :CflowElement ,
-                   :CinputSet ,
-                   :Cinterface ,
-                   :Clane ,
-                   :ClaneSet ,
-                   :ClinkEventDefinition ,
-                   :Cmessage ,
-                   :CmessageFlow ,
-                   :Coperation ,
-                   :CoutputSet ,
-                   :Cparticipant ,
-                   :CpartnerEntity ,
-                   :CpartnerRole ,
-                   :Cproperty ,
-                   :Cresource ,
-                   :CresourceParameter ,
-                   :CresourceRole ,
-                   :Csignal ;
-       rdfs:range xsd:string .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Pordering
-:Pordering rdf:type owl:DatatypeProperty ;
-           rdfs:domain :CadHocSubProcess ;
-           rdfs:range xsd:string .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PparallelMultiple
-:PparallelMultiple rdf:type owl:DatatypeProperty ;
-                   rdfs:domain :CcatchEvent ;
-                   rdfs:range xsd:boolean .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PprocessType
-:PprocessType rdf:type owl:DatatypeProperty ;
-              rdfs:domain :Cprocess ;
-              rdfs:range xsd:string .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PscriptFormat
-:PscriptFormat rdf:type owl:DatatypeProperty ;
-               rdfs:domain :CscriptTask ;
-               rdfs:range xsd:string .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PscriptLanguage
-:PscriptLanguage rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :CglobalScriptTask ;
-                 rdfs:range xsd:anyURI .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PstartQuantity
-:PstartQuantity rdf:type owl:DatatypeProperty ;
-                rdfs:domain :Cactivity ;
-                rdfs:range xsd:integer .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PtestBefore
-:PtestBefore rdf:type owl:DatatypeProperty ;
-             rdfs:domain :CstandardLoopCharacteristics ;
-             rdfs:range xsd:boolean .
-
-
-###  https://krusinaldo9.github.io/sBPMN#PtextFormat
-:PtextFormat rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Cdocumentation ,
-                         :CtextAnnotation ;
+###  https://krusinaldo9.github.io/sBPMN#p-direction
+:p-direction rdf:type owl:DatatypeProperty ;
+             rdfs:domain :c-relationship ;
              rdfs:range xsd:string .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PtriggeredByEvent
-:PtriggeredByEvent rdf:type owl:DatatypeProperty ;
-                   rdfs:domain :CsubProcess ;
-                   rdfs:range xsd:boolean .
+###  https://krusinaldo9.github.io/sBPMN#p-errorCode
+:p-errorCode rdf:type owl:DatatypeProperty ;
+             rdfs:domain :c-error ;
+             rdfs:range xsd:string .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Ptype
-:Ptype rdf:type owl:DatatypeProperty ;
-       rdfs:range xsd:string .
+###  https://krusinaldo9.github.io/sBPMN#p-escalationCode
+:p-escalationCode rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :c-escalation ;
+                  rdfs:range xsd:string .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Pvalue
-:Pvalue rdf:type owl:DatatypeProperty ;
-        rdfs:domain :CcategoryValue ;
+###  https://krusinaldo9.github.io/sBPMN#p-eventGatewayType
+:p-eventGatewayType rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :c-eventBasedGateway ;
+                    rdfs:range xsd:string .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-gatewayDirection
+:p-gatewayDirection rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :c-gateway ;
+                    rdfs:range xsd:string .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-id
+:p-id rdf:type owl:DatatypeProperty ;
+      rdfs:domain :c-baseElement ,
+                  :c-baseElementWithMixedContent ,
+                  :c-documentation ;
+      rdfs:range xsd:ID .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-implementation
+:p-implementation rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :c-businessRuleTask ,
+                              :c-globalBusinessRuleTask ,
+                              :c-globalUserTask ,
+                              :c-receiveTask ,
+                              :c-sendTask ,
+                              :c-serviceTask ,
+                              :c-userTask ;
+                  rdfs:range xsd:anyURI ,
+                             xsd:token .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-instantiate
+:p-instantiate rdf:type owl:DatatypeProperty ;
+               rdfs:domain :c-eventBasedGateway ,
+                           :c-receiveTask ;
+               rdfs:range xsd:boolean .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-isClosed
+:p-isClosed rdf:type owl:DatatypeProperty ;
+            rdfs:domain :c-collaboration ,
+                        :c-process ;
+            rdfs:range xsd:boolean .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-isCollection
+:p-isCollection rdf:type owl:DatatypeProperty ;
+                rdfs:domain :c-dataInput ,
+                            :c-dataObject ,
+                            :c-dataOutput ,
+                            :c-itemDefinition ;
+                rdfs:range xsd:boolean .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-isExecutable
+:p-isExecutable rdf:type owl:DatatypeProperty ;
+                rdfs:domain :c-process ;
+                rdfs:range xsd:boolean .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-isForCompensation
+:p-isForCompensation rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :c-activity ;
+                     rdfs:range xsd:boolean .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-isImmediate
+:p-isImmediate rdf:type owl:DatatypeProperty ;
+               rdfs:domain :c-sequenceFlow ;
+               rdfs:range xsd:boolean .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-isInterrupting
+:p-isInterrupting rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :c-startEvent ;
+                  rdfs:range xsd:boolean .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-isRequired
+:p-isRequired rdf:type owl:DatatypeProperty ;
+              rdfs:domain :c-resourceParameter ;
+              rdfs:range xsd:boolean .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-isSequential
+:p-isSequential rdf:type owl:DatatypeProperty ;
+                rdfs:domain :c-multiInstanceLoopCharacteristics ;
+                rdfs:range xsd:boolean .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-isUnlimited
+:p-isUnlimited rdf:type owl:DatatypeProperty ;
+               rdfs:domain :c-dataStore ;
+               rdfs:range xsd:boolean .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-itemKind
+:p-itemKind rdf:type owl:DatatypeProperty ;
+            rdfs:domain :c-itemDefinition ;
+            rdfs:range xsd:string .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-language
+:p-language rdf:type owl:DatatypeProperty ;
+            rdfs:domain :c-formalExpression ;
+            rdfs:range xsd:anyURI .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-loopMaximum
+:p-loopMaximum rdf:type owl:DatatypeProperty ;
+               rdfs:domain :c-standardLoopCharacteristics ;
+               rdfs:range xsd:integer .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-loopType
+:p-loopType rdf:type owl:DatatypeProperty ;
+            rdfs:domain :c-choreographyActivity ;
+            rdfs:range xsd:string .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-maximum
+:p-maximum rdf:type owl:DatatypeProperty ;
+           rdfs:domain :c-participantMultiplicity ;
+           rdfs:range xsd:int .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-method
+:p-method rdf:type owl:DatatypeProperty ;
+          rdfs:domain :c-transaction ;
+          rdfs:range xsd:anyURI ,
+                     xsd:token .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-minimum
+:p-minimum rdf:type owl:DatatypeProperty ;
+           rdfs:domain :c-participantMultiplicity ;
+           rdfs:range xsd:int .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-mustUnderstand
+:p-mustUnderstand rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :c-extension ;
+                  rdfs:range xsd:boolean .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-name
+:p-name rdf:type owl:DatatypeProperty ;
+        rdfs:domain :c-callableElement ,
+                    :c-category ,
+                    :c-collaboration ,
+                    :c-conversationLink ,
+                    :c-conversationNode ,
+                    :c-correlationKey ,
+                    :c-correlationProperty ,
+                    :c-dataInput ,
+                    :c-dataOutput ,
+                    :c-dataState ,
+                    :c-dataStore ,
+                    :c-error ,
+                    :c-escalation ,
+                    :c-flowElement ,
+                    :c-inputSet ,
+                    :c-interface ,
+                    :c-lane ,
+                    :c-laneSet ,
+                    :c-linkEventDefinition ,
+                    :c-message ,
+                    :c-messageFlow ,
+                    :c-operation ,
+                    :c-outputSet ,
+                    :c-participant ,
+                    :c-partnerEntity ,
+                    :c-partnerRole ,
+                    :c-property ,
+                    :c-resource ,
+                    :c-resourceParameter ,
+                    :c-resourceRole ,
+                    :c-signal ;
         rdfs:range xsd:string .
 
 
-###  https://krusinaldo9.github.io/sBPMN#PwaitForCompletion
-:PwaitForCompletion rdf:type owl:DatatypeProperty ;
-                    rdfs:domain :CcompensateEventDefinition ;
+###  https://krusinaldo9.github.io/sBPMN#p-ordering
+:p-ordering rdf:type owl:DatatypeProperty ;
+            rdfs:domain :c-adHocSubProcess ;
+            rdfs:range xsd:string .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-parallelMultiple
+:p-parallelMultiple rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :c-catchEvent ;
                     rdfs:range xsd:boolean .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-processType
+:p-processType rdf:type owl:DatatypeProperty ;
+               rdfs:domain :c-process ;
+               rdfs:range xsd:string .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-scriptFormat
+:p-scriptFormat rdf:type owl:DatatypeProperty ;
+                rdfs:domain :c-scriptTask ;
+                rdfs:range xsd:string .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-scriptLanguage
+:p-scriptLanguage rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :c-globalScriptTask ;
+                  rdfs:range xsd:anyURI .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-startQuantity
+:p-startQuantity rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :c-activity ;
+                 rdfs:range xsd:integer .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-testBefore
+:p-testBefore rdf:type owl:DatatypeProperty ;
+              rdfs:domain :c-standardLoopCharacteristics ;
+              rdfs:range xsd:boolean .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-textFormat
+:p-textFormat rdf:type owl:DatatypeProperty ;
+              rdfs:domain :c-documentation ,
+                          :c-textAnnotation ;
+              rdfs:range xsd:string .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-triggeredByEvent
+:p-triggeredByEvent rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :c-subProcess ;
+                    rdfs:range xsd:boolean .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-type
+:p-type rdf:type owl:DatatypeProperty ;
+        rdfs:range xsd:string .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-value
+:p-value rdf:type owl:DatatypeProperty ;
+         rdfs:domain :c-categoryValue ;
+         rdfs:range xsd:string .
+
+
+###  https://krusinaldo9.github.io/sBPMN#p-waitForCompletion
+:p-waitForCompletion rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :c-compensateEventDefinition ;
+                     rdfs:range xsd:boolean .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  https://krusinaldo9.github.io/sBPMN#Cactivity
-:Cactivity rdf:type owl:Class ;
-           rdfs:subClassOf :CflowNode .
+###  https://krusinaldo9.github.io/sBPMN#c-activity
+:c-activity rdf:type owl:Class ;
+            rdfs:subClassOf :c-flowNode .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CadHocSubProcess
-:CadHocSubProcess rdf:type owl:Class ;
-                  rdfs:subClassOf :CsubProcess .
+###  https://krusinaldo9.github.io/sBPMN#c-adHocSubProcess
+:c-adHocSubProcess rdf:type owl:Class ;
+                   rdfs:subClassOf :c-subProcess .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CallBehaviorMultiInstanceLoopCharacteristics
-:CallBehaviorMultiInstanceLoopCharacteristics rdf:type owl:Class ;
-                                              owl:equivalentClass [ owl:intersectionOf ( :CmultiInstanceLoopCharacteristics
-                                                                                         [ rdf:type owl:Restriction ;
-                                                                                           owl:onProperty :Pbehavior ;
-                                                                                           owl:hasValue "All"
-                                                                                         ]
-                                                                                       ) ;
-                                                                    rdf:type owl:Class
-                                                                  ] ;
-                                              rdfs:subClassOf :CmultiInstanceLoopCharacteristics .
+###  https://krusinaldo9.github.io/sBPMN#c-allBehaviorMultiInstanceLoopCharacteristics
+:c-allBehaviorMultiInstanceLoopCharacteristics rdf:type owl:Class ;
+                                               owl:equivalentClass [ owl:intersectionOf ( :c-multiInstanceLoopCharacteristics
+                                                                                          [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty :p-behavior ;
+                                                                                            owl:hasValue "All"
+                                                                                          ]
+                                                                                        ) ;
+                                                                     rdf:type owl:Class
+                                                                   ] ;
+                                               rdfs:subClassOf :c-multiInstanceLoopCharacteristics .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Cartifact
-:Cartifact rdf:type owl:Class ;
-           rdfs:subClassOf :CbaseElement .
+###  https://krusinaldo9.github.io/sBPMN#c-artifact
+:c-artifact rdf:type owl:Class ;
+            rdfs:subClassOf :c-baseElement .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Cassignment
-:Cassignment rdf:type owl:Class ;
-             rdfs:subClassOf :CbaseElement .
+###  https://krusinaldo9.github.io/sBPMN#c-assignment
+:c-assignment rdf:type owl:Class ;
+              rdfs:subClassOf :c-baseElement .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Cassociation
-:Cassociation rdf:type owl:Class ;
-              rdfs:subClassOf :Cartifact .
+###  https://krusinaldo9.github.io/sBPMN#c-association
+:c-association rdf:type owl:Class ;
+               rdfs:subClassOf :c-artifact .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Cauditing
-:Cauditing rdf:type owl:Class ;
-           rdfs:subClassOf :CbaseElement .
+###  https://krusinaldo9.github.io/sBPMN#c-auditing
+:c-auditing rdf:type owl:Class ;
+            rdfs:subClassOf :c-baseElement .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CbackwardDirectionRelationship
-:CbackwardDirectionRelationship rdf:type owl:Class ;
-                                owl:equivalentClass [ owl:intersectionOf ( :Crelationship
-                                                                           [ rdf:type owl:Restriction ;
-                                                                             owl:onProperty :Pdirection ;
-                                                                             owl:hasValue "Backward"
-                                                                           ]
-                                                                         ) ;
-                                                      rdf:type owl:Class
-                                                    ] ;
-                                rdfs:subClassOf :Crelationship .
+###  https://krusinaldo9.github.io/sBPMN#c-backwardDirectionRelationship
+:c-backwardDirectionRelationship rdf:type owl:Class ;
+                                 owl:equivalentClass [ owl:intersectionOf ( :c-relationship
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty :p-direction ;
+                                                                              owl:hasValue "Backward"
+                                                                            ]
+                                                                          ) ;
+                                                       rdf:type owl:Class
+                                                     ] ;
+                                 rdfs:subClassOf :c-relationship .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CbaseElement
-:CbaseElement rdf:type owl:Class .
+###  https://krusinaldo9.github.io/sBPMN#c-baseElement
+:c-baseElement rdf:type owl:Class .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CbaseElementWithMixedContent
-:CbaseElementWithMixedContent rdf:type owl:Class .
+###  https://krusinaldo9.github.io/sBPMN#c-baseElementWithMixedContent
+:c-baseElementWithMixedContent rdf:type owl:Class .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CbidirectionalAssociation
-:CbidirectionalAssociation rdf:type owl:Class ;
-                           owl:equivalentClass [ owl:intersectionOf ( :Cassociation
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty :PassociationDirection ;
-                                                                        owl:hasValue "Both"
-                                                                      ]
-                                                                    ) ;
-                                                 rdf:type owl:Class
-                                               ] ;
-                           rdfs:subClassOf :Cassociation .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CbothDirectionRelationship
-:CbothDirectionRelationship rdf:type owl:Class ;
-                            owl:equivalentClass [ owl:intersectionOf ( :Crelationship
+###  https://krusinaldo9.github.io/sBPMN#c-bidirectionalAssociation
+:c-bidirectionalAssociation rdf:type owl:Class ;
+                            owl:equivalentClass [ owl:intersectionOf ( :c-association
                                                                        [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty :Pdirection ;
+                                                                         owl:onProperty :p-associationDirection ;
                                                                          owl:hasValue "Both"
                                                                        ]
                                                                      ) ;
                                                   rdf:type owl:Class
                                                 ] ;
-                            rdfs:subClassOf :Crelationship .
+                            rdfs:subClassOf :c-association .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CboundaryEvent
-:CboundaryEvent rdf:type owl:Class ;
-                rdfs:subClassOf :CcatchEvent .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CbusinessRuleTask
-:CbusinessRuleTask rdf:type owl:Class ;
-                   rdfs:subClassOf :Ctask .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CcallActivity
-:CcallActivity rdf:type owl:Class ;
-               rdfs:subClassOf :Cactivity .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CcallChoreography
-:CcallChoreography rdf:type owl:Class ;
-                   rdfs:subClassOf :CchoreographyActivity .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CcallConversation
-:CcallConversation rdf:type owl:Class ;
-                   rdfs:subClassOf :CconversationNode .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CcallableElement
-:CcallableElement rdf:type owl:Class ;
-                  rdfs:subClassOf :CrootElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CcancelEventDefinition
-:CcancelEventDefinition rdf:type owl:Class ;
-                        rdfs:subClassOf :CeventDefinition .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CcatchEvent
-:CcatchEvent rdf:type owl:Class ;
-             rdfs:subClassOf :Cevent .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Ccategory
-:Ccategory rdf:type owl:Class ;
-           rdfs:subClassOf :CrootElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CcategoryValue
-:CcategoryValue rdf:type owl:Class ;
-                rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Cchoreography
-:Cchoreography rdf:type owl:Class ;
-               rdfs:subClassOf :Ccollaboration .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CchoreographyActivity
-:CchoreographyActivity rdf:type owl:Class ;
-                       rdfs:subClassOf :CflowNode .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CchoreographyTask
-:CchoreographyTask rdf:type owl:Class ;
-                   rdfs:subClassOf :CchoreographyActivity .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Ccollaboration
-:Ccollaboration rdf:type owl:Class ;
-                rdfs:subClassOf :CrootElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CcompensateEventDefinition
-:CcompensateEventDefinition rdf:type owl:Class ;
-                            rdfs:subClassOf :CeventDefinition .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CcompensateTransaction
-:CcompensateTransaction rdf:type owl:Class ;
-                        owl:equivalentClass [ owl:intersectionOf ( :Ctransaction
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty :Pmethod ;
-                                                                     owl:hasValue "##Compensate"
-                                                                   ]
-                                                                 ) ;
-                                              rdf:type owl:Class
-                                            ] ;
-                        rdfs:subClassOf :Ctransaction .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CcomplexBehaviorDefinition
-:CcomplexBehaviorDefinition rdf:type owl:Class ;
-                            rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CcomplexBehaviorMultiInstanceLoopCharacteristics
-:CcomplexBehaviorMultiInstanceLoopCharacteristics rdf:type owl:Class ;
-                                                  owl:equivalentClass [ owl:intersectionOf ( :CmultiInstanceLoopCharacteristics
-                                                                                             [ rdf:type owl:Restriction ;
-                                                                                               owl:onProperty :Pbehavior ;
-                                                                                               owl:hasValue "Complex"
-                                                                                             ]
-                                                                                           ) ;
-                                                                        rdf:type owl:Class
-                                                                      ] ;
-                                                  rdfs:subClassOf :CmultiInstanceLoopCharacteristics .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CcomplexGateway
-:CcomplexGateway rdf:type owl:Class ;
-                 rdfs:subClassOf :Cgateway .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CconditionalEventDefinition
-:CconditionalEventDefinition rdf:type owl:Class ;
-                             rdfs:subClassOf :CeventDefinition .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CconvergingDirectionGateway
-:CconvergingDirectionGateway rdf:type owl:Class ;
-                             owl:equivalentClass [ owl:intersectionOf ( :Cgateway
+###  https://krusinaldo9.github.io/sBPMN#c-bothDirectionRelationship
+:c-bothDirectionRelationship rdf:type owl:Class ;
+                             owl:equivalentClass [ owl:intersectionOf ( :c-relationship
                                                                         [ rdf:type owl:Restriction ;
-                                                                          owl:onProperty :PgatewayDirection ;
-                                                                          owl:hasValue "Converging"
+                                                                          owl:onProperty :p-direction ;
+                                                                          owl:hasValue "Both"
                                                                         ]
                                                                       ) ;
                                                    rdf:type owl:Class
                                                  ] ;
-                             rdfs:subClassOf :Cgateway .
+                             rdfs:subClassOf :c-relationship .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Cconversation
-:Cconversation rdf:type owl:Class ;
-               rdfs:subClassOf :CconversationNode .
+###  https://krusinaldo9.github.io/sBPMN#c-boundaryEvent
+:c-boundaryEvent rdf:type owl:Class ;
+                 rdfs:subClassOf :c-catchEvent .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CconversationAssociation
-:CconversationAssociation rdf:type owl:Class ;
-                          rdfs:subClassOf :CbaseElement .
+###  https://krusinaldo9.github.io/sBPMN#c-businessRuleTask
+:c-businessRuleTask rdf:type owl:Class ;
+                    rdfs:subClassOf :c-task .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CconversationLink
-:CconversationLink rdf:type owl:Class ;
-                   rdfs:subClassOf :CbaseElement .
+###  https://krusinaldo9.github.io/sBPMN#c-callActivity
+:c-callActivity rdf:type owl:Class ;
+                rdfs:subClassOf :c-activity .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CconversationNode
-:CconversationNode rdf:type owl:Class ;
-                   rdfs:subClassOf :CbaseElement .
+###  https://krusinaldo9.github.io/sBPMN#c-callChoreography
+:c-callChoreography rdf:type owl:Class ;
+                    rdfs:subClassOf :c-choreographyActivity .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CcorrelationKey
-:CcorrelationKey rdf:type owl:Class ;
-                 rdfs:subClassOf :CbaseElement .
+###  https://krusinaldo9.github.io/sBPMN#c-callConversation
+:c-callConversation rdf:type owl:Class ;
+                    rdfs:subClassOf :c-conversationNode .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CcorrelationProperty
-:CcorrelationProperty rdf:type owl:Class ;
-                      rdfs:subClassOf :CrootElement .
+###  https://krusinaldo9.github.io/sBPMN#c-callableElement
+:c-callableElement rdf:type owl:Class ;
+                   rdfs:subClassOf :c-rootElement .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CcorrelationPropertyBinding
-:CcorrelationPropertyBinding rdf:type owl:Class ;
-                             rdfs:subClassOf :CbaseElement .
+###  https://krusinaldo9.github.io/sBPMN#c-cancelEventDefinition
+:c-cancelEventDefinition rdf:type owl:Class ;
+                         rdfs:subClassOf :c-eventDefinition .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CcorrelationPropertyRetrievalExpression
-:CcorrelationPropertyRetrievalExpression rdf:type owl:Class ;
-                                         rdfs:subClassOf :CbaseElement .
+###  https://krusinaldo9.github.io/sBPMN#c-catchEvent
+:c-catchEvent rdf:type owl:Class ;
+              rdfs:subClassOf :c-event .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CcorrelationSubscription
-:CcorrelationSubscription rdf:type owl:Class ;
-                          rdfs:subClassOf :CbaseElement .
+###  https://krusinaldo9.github.io/sBPMN#c-category
+:c-category rdf:type owl:Class ;
+            rdfs:subClassOf :c-rootElement .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CdataAssociation
-:CdataAssociation rdf:type owl:Class ;
-                  rdfs:subClassOf :CbaseElement .
+###  https://krusinaldo9.github.io/sBPMN#c-categoryValue
+:c-categoryValue rdf:type owl:Class ;
+                 rdfs:subClassOf :c-baseElement .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CdataInput
-:CdataInput rdf:type owl:Class ;
-            rdfs:subClassOf :CbaseElement .
+###  https://krusinaldo9.github.io/sBPMN#c-choreography
+:c-choreography rdf:type owl:Class ;
+                rdfs:subClassOf :c-collaboration .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CdataInputAssociation
-:CdataInputAssociation rdf:type owl:Class ;
-                       rdfs:subClassOf :CdataAssociation .
+###  https://krusinaldo9.github.io/sBPMN#c-choreographyActivity
+:c-choreographyActivity rdf:type owl:Class ;
+                        rdfs:subClassOf :c-flowNode .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CdataObject
-:CdataObject rdf:type owl:Class ;
-             rdfs:subClassOf :CflowElement .
+###  https://krusinaldo9.github.io/sBPMN#c-choreographyTask
+:c-choreographyTask rdf:type owl:Class ;
+                    rdfs:subClassOf :c-choreographyActivity .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CdataObjectReference
-:CdataObjectReference rdf:type owl:Class ;
-                      rdfs:subClassOf :CflowElement .
+###  https://krusinaldo9.github.io/sBPMN#c-collaboration
+:c-collaboration rdf:type owl:Class ;
+                 rdfs:subClassOf :c-rootElement .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CdataOutput
-:CdataOutput rdf:type owl:Class ;
-             rdfs:subClassOf :CbaseElement .
+###  https://krusinaldo9.github.io/sBPMN#c-compensateEventDefinition
+:c-compensateEventDefinition rdf:type owl:Class ;
+                             rdfs:subClassOf :c-eventDefinition .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CdataOutputAssociation
-:CdataOutputAssociation rdf:type owl:Class ;
-                        rdfs:subClassOf :CdataAssociation .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CdataState
-:CdataState rdf:type owl:Class ;
-            rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CdataStore
-:CdataStore rdf:type owl:Class ;
-            rdfs:subClassOf :CrootElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CdataStoreReference
-:CdataStoreReference rdf:type owl:Class ;
-                     rdfs:subClassOf :CflowElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CdivergingDirectionGateway
-:CdivergingDirectionGateway rdf:type owl:Class ;
-                            owl:equivalentClass [ owl:intersectionOf ( :Cgateway
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty :PgatewayDirection ;
-                                                                         owl:hasValue "Diverging"
-                                                                       ]
-                                                                     ) ;
-                                                  rdf:type owl:Class
-                                                ] ;
-                            rdfs:subClassOf :Cgateway .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Cdocumentation
-:Cdocumentation rdf:type owl:Class .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CendEvent
-:CendEvent rdf:type owl:Class ;
-           rdfs:subClassOf :CthrowEvent .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CendPoint
-:CendPoint rdf:type owl:Class ;
-           rdfs:subClassOf :CrootElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Cerror
-:Cerror rdf:type owl:Class ;
-        rdfs:subClassOf :CrootElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CerrorEventDefinition
-:CerrorEventDefinition rdf:type owl:Class ;
-                       rdfs:subClassOf :CeventDefinition .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Cescalation
-:Cescalation rdf:type owl:Class ;
-             rdfs:subClassOf :CrootElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CescalationEventDefinition
-:CescalationEventDefinition rdf:type owl:Class ;
-                            rdfs:subClassOf :CeventDefinition .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Cevent
-:Cevent rdf:type owl:Class ;
-        rdfs:subClassOf :CflowNode .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CeventBasedGateway
-:CeventBasedGateway rdf:type owl:Class ;
-                    rdfs:subClassOf :Cgateway .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CeventDefinition
-:CeventDefinition rdf:type owl:Class ;
-                  rdfs:subClassOf :CrootElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CexclusiveEventBasedGateway
-:CexclusiveEventBasedGateway rdf:type owl:Class ;
-                             owl:equivalentClass [ owl:intersectionOf ( :CeventBasedGateway
-                                                                        [ rdf:type owl:Restriction ;
-                                                                          owl:onProperty :PeventGatewayType ;
-                                                                          owl:hasValue "Exclusive"
-                                                                        ]
-                                                                      ) ;
-                                                   rdf:type owl:Class
-                                                 ] ;
-                             rdfs:subClassOf :CeventBasedGateway .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CexclusiveGateway
-:CexclusiveGateway rdf:type owl:Class ;
-                   rdfs:subClassOf :Cgateway .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Cexpression
-:Cexpression rdf:type owl:Class ;
-             rdfs:subClassOf :CbaseElementWithMixedContent .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Cextension
-:Cextension rdf:type owl:Class .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CextensionElements
-:CextensionElements rdf:type owl:Class .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CflowElement
-:CflowElement rdf:type owl:Class ;
-              rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CflowNode
-:CflowNode rdf:type owl:Class ;
-           rdfs:subClassOf :CflowElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CformalExpression
-:CformalExpression rdf:type owl:Class ;
-                   rdfs:subClassOf :Cexpression .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CforwardDirectionRelationship
-:CforwardDirectionRelationship rdf:type owl:Class ;
-                               owl:equivalentClass [ owl:intersectionOf ( :Crelationship
-                                                                          [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty :Pdirection ;
-                                                                            owl:hasValue "Forward"
-                                                                          ]
-                                                                        ) ;
-                                                     rdf:type owl:Class
-                                                   ] ;
-                               rdfs:subClassOf :Crelationship .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Cgateway
-:Cgateway rdf:type owl:Class ;
-          rdfs:subClassOf :CflowNode .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CglobalBusinessRuleTask
-:CglobalBusinessRuleTask rdf:type owl:Class ;
-                         rdfs:subClassOf :CglobalTask .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CglobalChoreographyTask
-:CglobalChoreographyTask rdf:type owl:Class ;
-                         rdfs:subClassOf :Cchoreography .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CglobalConversation
-:CglobalConversation rdf:type owl:Class ;
-                     rdfs:subClassOf :Ccollaboration .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CglobalManualTask
-:CglobalManualTask rdf:type owl:Class ;
-                   rdfs:subClassOf :CglobalTask .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CglobalScriptTask
-:CglobalScriptTask rdf:type owl:Class ;
-                   rdfs:subClassOf :CglobalTask .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CglobalTask
-:CglobalTask rdf:type owl:Class ;
-             rdfs:subClassOf :CcallableElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CglobalUserTask
-:CglobalUserTask rdf:type owl:Class ;
-                 rdfs:subClassOf :CglobalTask .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Cgroup
-:Cgroup rdf:type owl:Class ;
-        rdfs:subClassOf :Cartifact .
-
-
-###  https://krusinaldo9.github.io/sBPMN#ChumanPerformer
-:ChumanPerformer rdf:type owl:Class ;
-                 rdfs:subClassOf :Cperformer .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CimageTransaction
-:CimageTransaction rdf:type owl:Class ;
-                   owl:equivalentClass [ owl:intersectionOf ( :Ctransaction
-                                                              [ rdf:type owl:Restriction ;
-                                                                owl:onProperty :Pmethod ;
-                                                                owl:hasValue "##Image"
-                                                              ]
-                                                            ) ;
-                                         rdf:type owl:Class
-                                       ] ;
-                   rdfs:subClassOf :Ctransaction .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CimplicitThrowEvent
-:CimplicitThrowEvent rdf:type owl:Class ;
-                     rdfs:subClassOf :CthrowEvent .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CinclusiveGateway
-:CinclusiveGateway rdf:type owl:Class ;
-                   rdfs:subClassOf :Cgateway .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CinformationItemDefinition
-:CinformationItemDefinition rdf:type owl:Class ;
-                            owl:equivalentClass [ owl:intersectionOf ( :CitemDefinition
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty :PitemKind ;
-                                                                         owl:hasValue "Information"
-                                                                       ]
-                                                                     ) ;
-                                                  rdf:type owl:Class
-                                                ] ;
-                            rdfs:subClassOf :CitemDefinition .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CinputOutputBinding
-:CinputOutputBinding rdf:type owl:Class .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CinputOutputSpecification
-:CinputOutputSpecification rdf:type owl:Class .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CinputSet
-:CinputSet rdf:type owl:Class ;
-           rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Cinterface
-:Cinterface rdf:type owl:Class ;
-            rdfs:subClassOf :CrootElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CintermediateCatchEvent
-:CintermediateCatchEvent rdf:type owl:Class ;
-                         rdfs:subClassOf :CcatchEvent .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CintermediateThrowEvent
-:CintermediateThrowEvent rdf:type owl:Class ;
-                         rdfs:subClassOf :CthrowEvent .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CioBinding
-:CioBinding rdf:type owl:Class .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CioSpecification
-:CioSpecification rdf:type owl:Class .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CitemDefinition
-:CitemDefinition rdf:type owl:Class ;
-                 rdfs:subClassOf :CrootElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Clane
-:Clane rdf:type owl:Class ;
-       rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#ClaneSet
-:ClaneSet rdf:type owl:Class ;
-          rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#ClinkEventDefinition
-:ClinkEventDefinition rdf:type owl:Class ;
-                      rdfs:subClassOf :CeventDefinition .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CloopCharacteristics
-:CloopCharacteristics rdf:type owl:Class ;
-                      rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CmanualTask
-:CmanualTask rdf:type owl:Class ;
-             rdfs:subClassOf :Ctask .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Cmessage
-:Cmessage rdf:type owl:Class ;
-          rdfs:subClassOf :CrootElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CmessageEventDefinition
-:CmessageEventDefinition rdf:type owl:Class ;
-                         rdfs:subClassOf :CeventDefinition .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CmessageFlow
-:CmessageFlow rdf:type owl:Class ;
-              rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CmessageFlowAssociation
-:CmessageFlowAssociation rdf:type owl:Class ;
-                         rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CmixedDirectionGateway
-:CmixedDirectionGateway rdf:type owl:Class ;
-                        owl:equivalentClass [ owl:intersectionOf ( :Cgateway
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty :PgatewayDirection ;
-                                                                     owl:hasValue "Mixed"
-                                                                   ]
-                                                                 ) ;
-                                              rdf:type owl:Class
-                                            ] ;
-                        rdfs:subClassOf :Cgateway .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Cmonitoring
-:Cmonitoring rdf:type owl:Class ;
-             rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CmultiInstanceLoopCharacteristics
-:CmultiInstanceLoopCharacteristics rdf:type owl:Class ;
-                                   rdfs:subClassOf :CloopCharacteristics .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CmultiInstanceParallelLoopChoreographyActivity
-:CmultiInstanceParallelLoopChoreographyActivity rdf:type owl:Class ;
-                                                owl:equivalentClass [ owl:intersectionOf ( :CchoreographyActivity
-                                                                                           [ rdf:type owl:Restriction ;
-                                                                                             owl:onProperty :PloopType ;
-                                                                                             owl:hasValue "MultiInstanceParallel"
-                                                                                           ]
-                                                                                         ) ;
-                                                                      rdf:type owl:Class
-                                                                    ] ;
-                                                rdfs:subClassOf :CchoreographyActivity .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CmultiInstanceSequentialLoopChoreographyActivity
-:CmultiInstanceSequentialLoopChoreographyActivity rdf:type owl:Class ;
-                                                  owl:equivalentClass [ owl:intersectionOf ( :CchoreographyActivity
-                                                                                             [ rdf:type owl:Restriction ;
-                                                                                               owl:onProperty :PloopType ;
-                                                                                               owl:hasValue "MultiInstanceSequential"
-                                                                                             ]
-                                                                                           ) ;
-                                                                        rdf:type owl:Class
-                                                                      ] ;
-                                                  rdfs:subClassOf :CchoreographyActivity .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CnoneBehaviorMultiInstanceLoopCharacteristics
-:CnoneBehaviorMultiInstanceLoopCharacteristics rdf:type owl:Class ;
-                                               owl:equivalentClass [ owl:intersectionOf ( :CmultiInstanceLoopCharacteristics
-                                                                                          [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty :Pbehavior ;
-                                                                                            owl:hasValue "None"
-                                                                                          ]
-                                                                                        ) ;
-                                                                     rdf:type owl:Class
-                                                                   ] ;
-                                               rdfs:subClassOf :CmultiInstanceLoopCharacteristics .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CnoneDirectionRelationship
-:CnoneDirectionRelationship rdf:type owl:Class ;
-                            owl:equivalentClass [ owl:intersectionOf ( :Crelationship
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty :Pdirection ;
-                                                                         owl:hasValue "None"
-                                                                       ]
-                                                                     ) ;
-                                                  rdf:type owl:Class
-                                                ] ;
-                            rdfs:subClassOf :Crelationship .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CnoneLoopChoreographyActivity
-:CnoneLoopChoreographyActivity rdf:type owl:Class ;
-                               owl:equivalentClass [ owl:intersectionOf ( :CchoreographyActivity
-                                                                          [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty :PloopType ;
-                                                                            owl:hasValue "None"
-                                                                          ]
-                                                                        ) ;
-                                                     rdf:type owl:Class
-                                                   ] ;
-                               rdfs:subClassOf :CchoreographyActivity .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CnoneProcess
-:CnoneProcess rdf:type owl:Class ;
-              owl:equivalentClass [ owl:intersectionOf ( :Cprocess
-                                                         [ rdf:type owl:Restriction ;
-                                                           owl:onProperty :PprocessType ;
-                                                           owl:hasValue "None"
-                                                         ]
-                                                       ) ;
-                                    rdf:type owl:Class
-                                  ] ;
-              rdfs:subClassOf :Cprocess .
-
-
-###  https://krusinaldo9.github.io/sBPMN#ConeBehaviorMultiInstanceLoopCharacteristics
-:ConeBehaviorMultiInstanceLoopCharacteristics rdf:type owl:Class ;
-                                              owl:equivalentClass [ owl:intersectionOf ( :CmultiInstanceLoopCharacteristics
-                                                                                         [ rdf:type owl:Restriction ;
-                                                                                           owl:onProperty :Pbehavior ;
-                                                                                           owl:hasValue "One"
-                                                                                         ]
-                                                                                       ) ;
-                                                                    rdf:type owl:Class
-                                                                  ] ;
-                                              rdfs:subClassOf :CmultiInstanceLoopCharacteristics .
-
-
-###  https://krusinaldo9.github.io/sBPMN#ConeWayAssociation
-:ConeWayAssociation rdf:type owl:Class ;
-                    owl:equivalentClass [ owl:intersectionOf ( :Cassociation
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty :PassociationDirection ;
-                                                                 owl:hasValue "One"
-                                                               ]
-                                                             ) ;
-                                          rdf:type owl:Class
-                                        ] ;
-                    rdfs:subClassOf :Cassociation .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Coperation
-:Coperation rdf:type owl:Class ;
-            rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CoutputSet
-:CoutputSet rdf:type owl:Class ;
-            rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CparallelAdHocSubProcess
-:CparallelAdHocSubProcess rdf:type owl:Class ;
-                          owl:equivalentClass [ owl:intersectionOf ( :CadHocSubProcess
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty :Pordering ;
-                                                                       owl:hasValue "Parallel"
-                                                                     ]
-                                                                   ) ;
-                                                rdf:type owl:Class
-                                              ] ;
-                          rdfs:subClassOf :CadHocSubProcess .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CparallelEventBasedGateway
-:CparallelEventBasedGateway rdf:type owl:Class ;
-                            owl:equivalentClass [ owl:intersectionOf ( :CeventBasedGateway
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty :PeventGatewayType ;
-                                                                         owl:hasValue "Parallel"
-                                                                       ]
-                                                                     ) ;
-                                                  rdf:type owl:Class
-                                                ] ;
-                            rdfs:subClassOf :CeventBasedGateway .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CparallelGateway
-:CparallelGateway rdf:type owl:Class ;
-                  rdfs:subClassOf :Cgateway .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Cparticipant
-:Cparticipant rdf:type owl:Class ;
-              rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CparticipantAssociation
-:CparticipantAssociation rdf:type owl:Class ;
-                         rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CparticipantMultiplicity
-:CparticipantMultiplicity rdf:type owl:Class ;
-                          rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CpartnerEntity
-:CpartnerEntity rdf:type owl:Class ;
-                rdfs:subClassOf :CrootElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CpartnerRole
-:CpartnerRole rdf:type owl:Class ;
-              rdfs:subClassOf :CrootElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Cperformer
-:Cperformer rdf:type owl:Class ;
-            rdfs:subClassOf :CresourceRole .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CphysicalItemDefinition
-:CphysicalItemDefinition rdf:type owl:Class ;
-                         owl:equivalentClass [ owl:intersectionOf ( :CitemDefinition
+###  https://krusinaldo9.github.io/sBPMN#c-compensateTransaction
+:c-compensateTransaction rdf:type owl:Class ;
+                         owl:equivalentClass [ owl:intersectionOf ( :c-transaction
                                                                     [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty :PitemKind ;
-                                                                      owl:hasValue "Physical"
+                                                                      owl:onProperty :p-method ;
+                                                                      owl:hasValue "##Compensate"
                                                                     ]
                                                                   ) ;
                                                rdf:type owl:Class
                                              ] ;
-                         rdfs:subClassOf :CitemDefinition .
+                         rdfs:subClassOf :c-transaction .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CpotentialOwner
-:CpotentialOwner rdf:type owl:Class ;
-                 rdfs:subClassOf :ChumanPerformer .
+###  https://krusinaldo9.github.io/sBPMN#c-complexBehaviorDefinition
+:c-complexBehaviorDefinition rdf:type owl:Class ;
+                             rdfs:subClassOf :c-baseElement .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CprivateProcess
-:CprivateProcess rdf:type owl:Class ;
-                 owl:equivalentClass [ owl:intersectionOf ( :Cprocess
-                                                            [ rdf:type owl:Restriction ;
-                                                              owl:onProperty :PprocessType ;
-                                                              owl:hasValue "Private"
-                                                            ]
-                                                          ) ;
-                                       rdf:type owl:Class
-                                     ] ;
-                 rdfs:subClassOf :Cprocess .
+###  https://krusinaldo9.github.io/sBPMN#c-complexBehaviorMultiInstanceLoopCharacteristics
+:c-complexBehaviorMultiInstanceLoopCharacteristics rdf:type owl:Class ;
+                                                   owl:equivalentClass [ owl:intersectionOf ( :c-multiInstanceLoopCharacteristics
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty :p-behavior ;
+                                                                                                owl:hasValue "Complex"
+                                                                                              ]
+                                                                                            ) ;
+                                                                         rdf:type owl:Class
+                                                                       ] ;
+                                                   rdfs:subClassOf :c-multiInstanceLoopCharacteristics .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Cprocess
-:Cprocess rdf:type owl:Class ;
-          rdfs:subClassOf :CcallableElement .
+###  https://krusinaldo9.github.io/sBPMN#c-complexGateway
+:c-complexGateway rdf:type owl:Class ;
+                  rdfs:subClassOf :c-gateway .
 
 
-###  https://krusinaldo9.github.io/sBPMN#Cproperty
-:Cproperty rdf:type owl:Class ;
-           rdfs:subClassOf :CbaseElement .
+###  https://krusinaldo9.github.io/sBPMN#c-conditionalEventDefinition
+:c-conditionalEventDefinition rdf:type owl:Class ;
+                              rdfs:subClassOf :c-eventDefinition .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CpublicProcess
-:CpublicProcess rdf:type owl:Class ;
-                owl:equivalentClass [ owl:intersectionOf ( :Cprocess
-                                                           [ rdf:type owl:Restriction ;
-                                                             owl:onProperty :PprocessType ;
-                                                             owl:hasValue "Public"
-                                                           ]
-                                                         ) ;
-                                      rdf:type owl:Class
-                                    ] ;
-                rdfs:subClassOf :Cprocess .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CreceiveTask
-:CreceiveTask rdf:type owl:Class ;
-              rdfs:subClassOf :Ctask .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Crelationship
-:Crelationship rdf:type owl:Class ;
-               rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Crendering
-:Crendering rdf:type owl:Class ;
-            rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Cresource
-:Cresource rdf:type owl:Class ;
-           rdfs:subClassOf :CrootElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CresourceAssignmentExpression
-:CresourceAssignmentExpression rdf:type owl:Class ;
-                               rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CresourceParameter
-:CresourceParameter rdf:type owl:Class ;
-                    rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CresourceParameterBinding
-:CresourceParameterBinding rdf:type owl:Class ;
-                           rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CresourceRole
-:CresourceRole rdf:type owl:Class ;
-               rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CrootElement
-:CrootElement rdf:type owl:Class ;
-              rdfs:subClassOf :CbaseElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Cscript
-:Cscript rdf:type owl:Class .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CscriptTask
-:CscriptTask rdf:type owl:Class ;
-             rdfs:subClassOf :Ctask .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CsendTask
-:CsendTask rdf:type owl:Class ;
-           rdfs:subClassOf :Ctask .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CsequenceFlow
-:CsequenceFlow rdf:type owl:Class ;
-               rdfs:subClassOf :CflowElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CsequentialAdHocSubProcess
-:CsequentialAdHocSubProcess rdf:type owl:Class ;
-                            owl:equivalentClass [ owl:intersectionOf ( :CadHocSubProcess
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty :Pordering ;
-                                                                         owl:hasValue "Sequential"
-                                                                       ]
-                                                                     ) ;
-                                                  rdf:type owl:Class
-                                                ] ;
-                            rdfs:subClassOf :CadHocSubProcess .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CserviceTask
-:CserviceTask rdf:type owl:Class ;
-              rdfs:subClassOf :Ctask .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Csignal
-:Csignal rdf:type owl:Class ;
-         rdfs:subClassOf :CrootElement .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CsignalEventDefinition
-:CsignalEventDefinition rdf:type owl:Class ;
-                        rdfs:subClassOf :CeventDefinition .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CstandardLoopCharacteristics
-:CstandardLoopCharacteristics rdf:type owl:Class ;
-                              rdfs:subClassOf :CloopCharacteristics .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CstandardLoopChoreographyActivity
-:CstandardLoopChoreographyActivity rdf:type owl:Class ;
-                                   owl:equivalentClass [ owl:intersectionOf ( :CchoreographyActivity
-                                                                              [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty :PloopType ;
-                                                                                owl:hasValue "Standard"
-                                                                              ]
-                                                                            ) ;
-                                                         rdf:type owl:Class
-                                                       ] ;
-                                   rdfs:subClassOf :CchoreographyActivity .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CstartEvent
-:CstartEvent rdf:type owl:Class ;
-             rdfs:subClassOf :CcatchEvent .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CstoreTransaction
-:CstoreTransaction rdf:type owl:Class ;
-                   owl:equivalentClass [ owl:intersectionOf ( :Ctransaction
-                                                              [ rdf:type owl:Restriction ;
-                                                                owl:onProperty :Pmethod ;
-                                                                owl:hasValue "##Store"
-                                                              ]
-                                                            ) ;
-                                         rdf:type owl:Class
-                                       ] ;
-                   rdfs:subClassOf :Ctransaction .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CsubChoreography
-:CsubChoreography rdf:type owl:Class ;
-                  rdfs:subClassOf :CchoreographyActivity .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CsubConversation
-:CsubConversation rdf:type owl:Class ;
-                  rdfs:subClassOf :CconversationNode .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CsubProcess
-:CsubProcess rdf:type owl:Class ;
-             rdfs:subClassOf :Cactivity .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Ctask
-:Ctask rdf:type owl:Class ;
-       rdfs:subClassOf :Cactivity .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CterminateEventDefinition
-:CterminateEventDefinition rdf:type owl:Class ;
-                           rdfs:subClassOf :CeventDefinition .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Ctext
-:Ctext rdf:type owl:Class .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CtextAnnotation
-:CtextAnnotation rdf:type owl:Class ;
-                 rdfs:subClassOf :Cartifact .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CthrowEvent
-:CthrowEvent rdf:type owl:Class ;
-             rdfs:subClassOf :Cevent .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CtimerEventDefinition
-:CtimerEventDefinition rdf:type owl:Class ;
-                       rdfs:subClassOf :CeventDefinition .
-
-
-###  https://krusinaldo9.github.io/sBPMN#Ctransaction
-:Ctransaction rdf:type owl:Class ;
-              rdfs:subClassOf :CsubProcess .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CundirectedAssociation
-:CundirectedAssociation rdf:type owl:Class ;
-                        owl:equivalentClass [ owl:intersectionOf ( :Cassociation
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty :PassociationDirection ;
-                                                                     owl:hasValue "None"
-                                                                   ]
-                                                                 ) ;
-                                              rdf:type owl:Class
-                                            ] ;
-                        rdfs:subClassOf :Cassociation .
-
-
-###  https://krusinaldo9.github.io/sBPMN#CunspecifiedDirectionGateway
-:CunspecifiedDirectionGateway rdf:type owl:Class ;
-                              owl:equivalentClass [ owl:intersectionOf ( :Cgateway
+###  https://krusinaldo9.github.io/sBPMN#c-convergingDirectionGateway
+:c-convergingDirectionGateway rdf:type owl:Class ;
+                              owl:equivalentClass [ owl:intersectionOf ( :c-gateway
                                                                          [ rdf:type owl:Restriction ;
-                                                                           owl:onProperty :PgatewayDirection ;
-                                                                           owl:hasValue "Unspecified"
+                                                                           owl:onProperty :p-gatewayDirection ;
+                                                                           owl:hasValue "Converging"
                                                                          ]
                                                                        ) ;
                                                     rdf:type owl:Class
                                                   ] ;
-                              rdfs:subClassOf :Cgateway .
+                              rdfs:subClassOf :c-gateway .
 
 
-###  https://krusinaldo9.github.io/sBPMN#CuserTask
-:CuserTask rdf:type owl:Class ;
-           rdfs:subClassOf :Ctask .
+###  https://krusinaldo9.github.io/sBPMN#c-conversation
+:c-conversation rdf:type owl:Class ;
+                rdfs:subClassOf :c-conversationNode .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-conversationAssociation
+:c-conversationAssociation rdf:type owl:Class ;
+                           rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-conversationLink
+:c-conversationLink rdf:type owl:Class ;
+                    rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-conversationNode
+:c-conversationNode rdf:type owl:Class ;
+                    rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-correlationKey
+:c-correlationKey rdf:type owl:Class ;
+                  rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-correlationProperty
+:c-correlationProperty rdf:type owl:Class ;
+                       rdfs:subClassOf :c-rootElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-correlationPropertyBinding
+:c-correlationPropertyBinding rdf:type owl:Class ;
+                              rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-correlationPropertyRetrievalExpression
+:c-correlationPropertyRetrievalExpression rdf:type owl:Class ;
+                                          rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-correlationSubscription
+:c-correlationSubscription rdf:type owl:Class ;
+                           rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-dataAssociation
+:c-dataAssociation rdf:type owl:Class ;
+                   rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-dataInput
+:c-dataInput rdf:type owl:Class ;
+             rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-dataInputAssociation
+:c-dataInputAssociation rdf:type owl:Class ;
+                        rdfs:subClassOf :c-dataAssociation .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-dataObject
+:c-dataObject rdf:type owl:Class ;
+              rdfs:subClassOf :c-flowElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-dataObjectReference
+:c-dataObjectReference rdf:type owl:Class ;
+                       rdfs:subClassOf :c-flowElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-dataOutput
+:c-dataOutput rdf:type owl:Class ;
+              rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-dataOutputAssociation
+:c-dataOutputAssociation rdf:type owl:Class ;
+                         rdfs:subClassOf :c-dataAssociation .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-dataState
+:c-dataState rdf:type owl:Class ;
+             rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-dataStore
+:c-dataStore rdf:type owl:Class ;
+             rdfs:subClassOf :c-rootElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-dataStoreReference
+:c-dataStoreReference rdf:type owl:Class ;
+                      rdfs:subClassOf :c-flowElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-divergingDirectionGateway
+:c-divergingDirectionGateway rdf:type owl:Class ;
+                             owl:equivalentClass [ owl:intersectionOf ( :c-gateway
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :p-gatewayDirection ;
+                                                                          owl:hasValue "Diverging"
+                                                                        ]
+                                                                      ) ;
+                                                   rdf:type owl:Class
+                                                 ] ;
+                             rdfs:subClassOf :c-gateway .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-documentation
+:c-documentation rdf:type owl:Class .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-endEvent
+:c-endEvent rdf:type owl:Class ;
+            rdfs:subClassOf :c-throwEvent .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-endPoint
+:c-endPoint rdf:type owl:Class ;
+            rdfs:subClassOf :c-rootElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-error
+:c-error rdf:type owl:Class ;
+         rdfs:subClassOf :c-rootElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-errorEventDefinition
+:c-errorEventDefinition rdf:type owl:Class ;
+                        rdfs:subClassOf :c-eventDefinition .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-escalation
+:c-escalation rdf:type owl:Class ;
+              rdfs:subClassOf :c-rootElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-escalationEventDefinition
+:c-escalationEventDefinition rdf:type owl:Class ;
+                             rdfs:subClassOf :c-eventDefinition .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-event
+:c-event rdf:type owl:Class ;
+         rdfs:subClassOf :c-flowNode .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-eventBasedGateway
+:c-eventBasedGateway rdf:type owl:Class ;
+                     rdfs:subClassOf :c-gateway .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-eventDefinition
+:c-eventDefinition rdf:type owl:Class ;
+                   rdfs:subClassOf :c-rootElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-exclusiveEventBasedGateway
+:c-exclusiveEventBasedGateway rdf:type owl:Class ;
+                              owl:equivalentClass [ owl:intersectionOf ( :c-eventBasedGateway
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :p-eventGatewayType ;
+                                                                           owl:hasValue "Exclusive"
+                                                                         ]
+                                                                       ) ;
+                                                    rdf:type owl:Class
+                                                  ] ;
+                              rdfs:subClassOf :c-eventBasedGateway .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-exclusiveGateway
+:c-exclusiveGateway rdf:type owl:Class ;
+                    rdfs:subClassOf :c-gateway .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-expression
+:c-expression rdf:type owl:Class ;
+              rdfs:subClassOf :c-baseElementWithMixedContent .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-extension
+:c-extension rdf:type owl:Class .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-extensionElements
+:c-extensionElements rdf:type owl:Class .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-flowElement
+:c-flowElement rdf:type owl:Class ;
+               rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-flowNode
+:c-flowNode rdf:type owl:Class ;
+            rdfs:subClassOf :c-flowElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-formalExpression
+:c-formalExpression rdf:type owl:Class ;
+                    rdfs:subClassOf :c-expression .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-forwardDirectionRelationship
+:c-forwardDirectionRelationship rdf:type owl:Class ;
+                                owl:equivalentClass [ owl:intersectionOf ( :c-relationship
+                                                                           [ rdf:type owl:Restriction ;
+                                                                             owl:onProperty :p-direction ;
+                                                                             owl:hasValue "Forward"
+                                                                           ]
+                                                                         ) ;
+                                                      rdf:type owl:Class
+                                                    ] ;
+                                rdfs:subClassOf :c-relationship .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-gateway
+:c-gateway rdf:type owl:Class ;
+           rdfs:subClassOf :c-flowNode .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-globalBusinessRuleTask
+:c-globalBusinessRuleTask rdf:type owl:Class ;
+                          rdfs:subClassOf :c-globalTask .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-globalChoreographyTask
+:c-globalChoreographyTask rdf:type owl:Class ;
+                          rdfs:subClassOf :c-choreography .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-globalConversation
+:c-globalConversation rdf:type owl:Class ;
+                      rdfs:subClassOf :c-collaboration .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-globalManualTask
+:c-globalManualTask rdf:type owl:Class ;
+                    rdfs:subClassOf :c-globalTask .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-globalScriptTask
+:c-globalScriptTask rdf:type owl:Class ;
+                    rdfs:subClassOf :c-globalTask .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-globalTask
+:c-globalTask rdf:type owl:Class ;
+              rdfs:subClassOf :c-callableElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-globalUserTask
+:c-globalUserTask rdf:type owl:Class ;
+                  rdfs:subClassOf :c-globalTask .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-group
+:c-group rdf:type owl:Class ;
+         rdfs:subClassOf :c-artifact .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-humanPerformer
+:c-humanPerformer rdf:type owl:Class ;
+                  rdfs:subClassOf :c-performer .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-imageTransaction
+:c-imageTransaction rdf:type owl:Class ;
+                    owl:equivalentClass [ owl:intersectionOf ( :c-transaction
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :p-method ;
+                                                                 owl:hasValue "##Image"
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ] ;
+                    rdfs:subClassOf :c-transaction .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-implicitThrowEvent
+:c-implicitThrowEvent rdf:type owl:Class ;
+                      rdfs:subClassOf :c-throwEvent .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-inclusiveGateway
+:c-inclusiveGateway rdf:type owl:Class ;
+                    rdfs:subClassOf :c-gateway .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-informationItemDefinition
+:c-informationItemDefinition rdf:type owl:Class ;
+                             owl:equivalentClass [ owl:intersectionOf ( :c-itemDefinition
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :p-itemKind ;
+                                                                          owl:hasValue "Information"
+                                                                        ]
+                                                                      ) ;
+                                                   rdf:type owl:Class
+                                                 ] ;
+                             rdfs:subClassOf :c-itemDefinition .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-inputOutputBinding
+:c-inputOutputBinding rdf:type owl:Class .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-inputOutputSpecification
+:c-inputOutputSpecification rdf:type owl:Class .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-inputSet
+:c-inputSet rdf:type owl:Class ;
+            rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-interface
+:c-interface rdf:type owl:Class ;
+             rdfs:subClassOf :c-rootElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-intermediateCatchEvent
+:c-intermediateCatchEvent rdf:type owl:Class ;
+                          rdfs:subClassOf :c-catchEvent .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-intermediateThrowEvent
+:c-intermediateThrowEvent rdf:type owl:Class ;
+                          rdfs:subClassOf :c-throwEvent .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-ioBinding
+:c-ioBinding rdf:type owl:Class .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-ioSpecification
+:c-ioSpecification rdf:type owl:Class .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-itemDefinition
+:c-itemDefinition rdf:type owl:Class ;
+                  rdfs:subClassOf :c-rootElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-lane
+:c-lane rdf:type owl:Class ;
+        rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-laneSet
+:c-laneSet rdf:type owl:Class ;
+           rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-linkEventDefinition
+:c-linkEventDefinition rdf:type owl:Class ;
+                       rdfs:subClassOf :c-eventDefinition .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-loopCharacteristics
+:c-loopCharacteristics rdf:type owl:Class ;
+                       rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-manualTask
+:c-manualTask rdf:type owl:Class ;
+              rdfs:subClassOf :c-task .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-message
+:c-message rdf:type owl:Class ;
+           rdfs:subClassOf :c-rootElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-messageEventDefinition
+:c-messageEventDefinition rdf:type owl:Class ;
+                          rdfs:subClassOf :c-eventDefinition .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-messageFlow
+:c-messageFlow rdf:type owl:Class ;
+               rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-messageFlowAssociation
+:c-messageFlowAssociation rdf:type owl:Class ;
+                          rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-mixedDirectionGateway
+:c-mixedDirectionGateway rdf:type owl:Class ;
+                         owl:equivalentClass [ owl:intersectionOf ( :c-gateway
+                                                                    [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty :p-gatewayDirection ;
+                                                                      owl:hasValue "Mixed"
+                                                                    ]
+                                                                  ) ;
+                                               rdf:type owl:Class
+                                             ] ;
+                         rdfs:subClassOf :c-gateway .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-monitoring
+:c-monitoring rdf:type owl:Class ;
+              rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-multiInstanceLoopCharacteristics
+:c-multiInstanceLoopCharacteristics rdf:type owl:Class ;
+                                    rdfs:subClassOf :c-loopCharacteristics .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-multiInstanceParallelLoopChoreographyActivity
+:c-multiInstanceParallelLoopChoreographyActivity rdf:type owl:Class ;
+                                                 owl:equivalentClass [ owl:intersectionOf ( :c-choreographyActivity
+                                                                                            [ rdf:type owl:Restriction ;
+                                                                                              owl:onProperty :p-loopType ;
+                                                                                              owl:hasValue "MultiInstanceParallel"
+                                                                                            ]
+                                                                                          ) ;
+                                                                       rdf:type owl:Class
+                                                                     ] ;
+                                                 rdfs:subClassOf :c-choreographyActivity .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-multiInstanceSequentialLoopChoreographyActivity
+:c-multiInstanceSequentialLoopChoreographyActivity rdf:type owl:Class ;
+                                                   owl:equivalentClass [ owl:intersectionOf ( :c-choreographyActivity
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty :p-loopType ;
+                                                                                                owl:hasValue "MultiInstanceSequential"
+                                                                                              ]
+                                                                                            ) ;
+                                                                         rdf:type owl:Class
+                                                                       ] ;
+                                                   rdfs:subClassOf :c-choreographyActivity .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-noneBehaviorMultiInstanceLoopCharacteristics
+:c-noneBehaviorMultiInstanceLoopCharacteristics rdf:type owl:Class ;
+                                                owl:equivalentClass [ owl:intersectionOf ( :c-multiInstanceLoopCharacteristics
+                                                                                           [ rdf:type owl:Restriction ;
+                                                                                             owl:onProperty :p-behavior ;
+                                                                                             owl:hasValue "None"
+                                                                                           ]
+                                                                                         ) ;
+                                                                      rdf:type owl:Class
+                                                                    ] ;
+                                                rdfs:subClassOf :c-multiInstanceLoopCharacteristics .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-noneDirectionRelationship
+:c-noneDirectionRelationship rdf:type owl:Class ;
+                             owl:equivalentClass [ owl:intersectionOf ( :c-relationship
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :p-direction ;
+                                                                          owl:hasValue "None"
+                                                                        ]
+                                                                      ) ;
+                                                   rdf:type owl:Class
+                                                 ] ;
+                             rdfs:subClassOf :c-relationship .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-noneLoopChoreographyActivity
+:c-noneLoopChoreographyActivity rdf:type owl:Class ;
+                                owl:equivalentClass [ owl:intersectionOf ( :c-choreographyActivity
+                                                                           [ rdf:type owl:Restriction ;
+                                                                             owl:onProperty :p-loopType ;
+                                                                             owl:hasValue "None"
+                                                                           ]
+                                                                         ) ;
+                                                      rdf:type owl:Class
+                                                    ] ;
+                                rdfs:subClassOf :c-choreographyActivity .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-noneProcess
+:c-noneProcess rdf:type owl:Class ;
+               owl:equivalentClass [ owl:intersectionOf ( :c-process
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :p-processType ;
+                                                            owl:hasValue "None"
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] ;
+               rdfs:subClassOf :c-process .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-oneBehaviorMultiInstanceLoopCharacteristics
+:c-oneBehaviorMultiInstanceLoopCharacteristics rdf:type owl:Class ;
+                                               owl:equivalentClass [ owl:intersectionOf ( :c-multiInstanceLoopCharacteristics
+                                                                                          [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty :p-behavior ;
+                                                                                            owl:hasValue "One"
+                                                                                          ]
+                                                                                        ) ;
+                                                                     rdf:type owl:Class
+                                                                   ] ;
+                                               rdfs:subClassOf :c-multiInstanceLoopCharacteristics .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-oneWayAssociation
+:c-oneWayAssociation rdf:type owl:Class ;
+                     owl:equivalentClass [ owl:intersectionOf ( :c-association
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty :p-associationDirection ;
+                                                                  owl:hasValue "One"
+                                                                ]
+                                                              ) ;
+                                           rdf:type owl:Class
+                                         ] ;
+                     rdfs:subClassOf :c-association .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-operation
+:c-operation rdf:type owl:Class ;
+             rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-outputSet
+:c-outputSet rdf:type owl:Class ;
+             rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-parallelAdHocSubProcess
+:c-parallelAdHocSubProcess rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( :c-adHocSubProcess
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty :p-ordering ;
+                                                                        owl:hasValue "Parallel"
+                                                                      ]
+                                                                    ) ;
+                                                 rdf:type owl:Class
+                                               ] ;
+                           rdfs:subClassOf :c-adHocSubProcess .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-parallelEventBasedGateway
+:c-parallelEventBasedGateway rdf:type owl:Class ;
+                             owl:equivalentClass [ owl:intersectionOf ( :c-eventBasedGateway
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :p-eventGatewayType ;
+                                                                          owl:hasValue "Parallel"
+                                                                        ]
+                                                                      ) ;
+                                                   rdf:type owl:Class
+                                                 ] ;
+                             rdfs:subClassOf :c-eventBasedGateway .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-parallelGateway
+:c-parallelGateway rdf:type owl:Class ;
+                   rdfs:subClassOf :c-gateway .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-participant
+:c-participant rdf:type owl:Class ;
+               rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-participantAssociation
+:c-participantAssociation rdf:type owl:Class ;
+                          rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-participantMultiplicity
+:c-participantMultiplicity rdf:type owl:Class ;
+                           rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-partnerEntity
+:c-partnerEntity rdf:type owl:Class ;
+                 rdfs:subClassOf :c-rootElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-partnerRole
+:c-partnerRole rdf:type owl:Class ;
+               rdfs:subClassOf :c-rootElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-performer
+:c-performer rdf:type owl:Class ;
+             rdfs:subClassOf :c-resourceRole .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-physicalItemDefinition
+:c-physicalItemDefinition rdf:type owl:Class ;
+                          owl:equivalentClass [ owl:intersectionOf ( :c-itemDefinition
+                                                                     [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty :p-itemKind ;
+                                                                       owl:hasValue "Physical"
+                                                                     ]
+                                                                   ) ;
+                                                rdf:type owl:Class
+                                              ] ;
+                          rdfs:subClassOf :c-itemDefinition .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-potentialOwner
+:c-potentialOwner rdf:type owl:Class ;
+                  rdfs:subClassOf :c-humanPerformer .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-privateProcess
+:c-privateProcess rdf:type owl:Class ;
+                  owl:equivalentClass [ owl:intersectionOf ( :c-process
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :p-processType ;
+                                                               owl:hasValue "Private"
+                                                             ]
+                                                           ) ;
+                                        rdf:type owl:Class
+                                      ] ;
+                  rdfs:subClassOf :c-process .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-process
+:c-process rdf:type owl:Class ;
+           rdfs:subClassOf :c-callableElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-property
+:c-property rdf:type owl:Class ;
+            rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-publicProcess
+:c-publicProcess rdf:type owl:Class ;
+                 owl:equivalentClass [ owl:intersectionOf ( :c-process
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty :p-processType ;
+                                                              owl:hasValue "Public"
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ;
+                 rdfs:subClassOf :c-process .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-receiveTask
+:c-receiveTask rdf:type owl:Class ;
+               rdfs:subClassOf :c-task .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-relationship
+:c-relationship rdf:type owl:Class ;
+                rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-rendering
+:c-rendering rdf:type owl:Class ;
+             rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-resource
+:c-resource rdf:type owl:Class ;
+            rdfs:subClassOf :c-rootElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-resourceAssignmentExpression
+:c-resourceAssignmentExpression rdf:type owl:Class ;
+                                rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-resourceParameter
+:c-resourceParameter rdf:type owl:Class ;
+                     rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-resourceParameterBinding
+:c-resourceParameterBinding rdf:type owl:Class ;
+                            rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-resourceRole
+:c-resourceRole rdf:type owl:Class ;
+                rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-rootElement
+:c-rootElement rdf:type owl:Class ;
+               rdfs:subClassOf :c-baseElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-script
+:c-script rdf:type owl:Class .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-scriptTask
+:c-scriptTask rdf:type owl:Class ;
+              rdfs:subClassOf :c-task .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-sendTask
+:c-sendTask rdf:type owl:Class ;
+            rdfs:subClassOf :c-task .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-sequenceFlow
+:c-sequenceFlow rdf:type owl:Class ;
+                rdfs:subClassOf :c-flowElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-sequentialAdHocSubProcess
+:c-sequentialAdHocSubProcess rdf:type owl:Class ;
+                             owl:equivalentClass [ owl:intersectionOf ( :c-adHocSubProcess
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :p-ordering ;
+                                                                          owl:hasValue "Sequential"
+                                                                        ]
+                                                                      ) ;
+                                                   rdf:type owl:Class
+                                                 ] ;
+                             rdfs:subClassOf :c-adHocSubProcess .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-serviceTask
+:c-serviceTask rdf:type owl:Class ;
+               rdfs:subClassOf :c-task .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-signal
+:c-signal rdf:type owl:Class ;
+          rdfs:subClassOf :c-rootElement .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-signalEventDefinition
+:c-signalEventDefinition rdf:type owl:Class ;
+                         rdfs:subClassOf :c-eventDefinition .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-standardLoopCharacteristics
+:c-standardLoopCharacteristics rdf:type owl:Class ;
+                               rdfs:subClassOf :c-loopCharacteristics .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-standardLoopChoreographyActivity
+:c-standardLoopChoreographyActivity rdf:type owl:Class ;
+                                    owl:equivalentClass [ owl:intersectionOf ( :c-choreographyActivity
+                                                                               [ rdf:type owl:Restriction ;
+                                                                                 owl:onProperty :p-loopType ;
+                                                                                 owl:hasValue "Standard"
+                                                                               ]
+                                                                             ) ;
+                                                          rdf:type owl:Class
+                                                        ] ;
+                                    rdfs:subClassOf :c-choreographyActivity .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-startEvent
+:c-startEvent rdf:type owl:Class ;
+              rdfs:subClassOf :c-catchEvent .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-storeTransaction
+:c-storeTransaction rdf:type owl:Class ;
+                    owl:equivalentClass [ owl:intersectionOf ( :c-transaction
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :p-method ;
+                                                                 owl:hasValue "##Store"
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ] ;
+                    rdfs:subClassOf :c-transaction .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-subChoreography
+:c-subChoreography rdf:type owl:Class ;
+                   rdfs:subClassOf :c-choreographyActivity .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-subConversation
+:c-subConversation rdf:type owl:Class ;
+                   rdfs:subClassOf :c-conversationNode .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-subProcess
+:c-subProcess rdf:type owl:Class ;
+              rdfs:subClassOf :c-activity .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-task
+:c-task rdf:type owl:Class ;
+        rdfs:subClassOf :c-activity .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-terminateEventDefinition
+:c-terminateEventDefinition rdf:type owl:Class ;
+                            rdfs:subClassOf :c-eventDefinition .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-text
+:c-text rdf:type owl:Class .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-textAnnotation
+:c-textAnnotation rdf:type owl:Class ;
+                  rdfs:subClassOf :c-artifact .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-throwEvent
+:c-throwEvent rdf:type owl:Class ;
+              rdfs:subClassOf :c-event .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-timerEventDefinition
+:c-timerEventDefinition rdf:type owl:Class ;
+                        rdfs:subClassOf :c-eventDefinition .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-transaction
+:c-transaction rdf:type owl:Class ;
+               rdfs:subClassOf :c-subProcess .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-undirectedAssociation
+:c-undirectedAssociation rdf:type owl:Class ;
+                         owl:equivalentClass [ owl:intersectionOf ( :c-association
+                                                                    [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty :p-associationDirection ;
+                                                                      owl:hasValue "None"
+                                                                    ]
+                                                                  ) ;
+                                               rdf:type owl:Class
+                                             ] ;
+                         rdfs:subClassOf :c-association .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-unspecifiedDirectionGateway
+:c-unspecifiedDirectionGateway rdf:type owl:Class ;
+                               owl:equivalentClass [ owl:intersectionOf ( :c-gateway
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :p-gatewayDirection ;
+                                                                            owl:hasValue "Unspecified"
+                                                                          ]
+                                                                        ) ;
+                                                     rdf:type owl:Class
+                                                   ] ;
+                               rdfs:subClassOf :c-gateway .
+
+
+###  https://krusinaldo9.github.io/sBPMN#c-userTask
+:c-userTask rdf:type owl:Class ;
+            rdfs:subClassOf :c-task .
 
 
 ###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
