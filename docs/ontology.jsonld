@@ -609,7 +609,7 @@
   "@id" : "http://www.w3.org/2002/07/owl#versionInfo",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://krusinaldo9.github.io/sBPMN/",
+  "@id" : "https://krusinaldo9.github.io/sBPMN",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/creator" : [ {
     "@value" : "Franz Krause"
