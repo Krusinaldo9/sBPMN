@@ -6,6 +6,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:shacl="http://www.w3.org/ns/shacl#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://krusinaldo9.github.io/sBPMN/">
         <owl:versionIRI rdf:resource="https://krusinaldo9.github.io/sBPMN/1.0.0"/>
@@ -63,6 +64,55 @@
 
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#datatype -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#datatype"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#defaultValue -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#defaultValue"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#in -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#in"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#or -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#or"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#path -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#path"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#property -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#property"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#targetClass -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#targetClass"/>
     
 
 
@@ -1817,6 +1867,13 @@
     
 
 
+    <!-- https://krusinaldo9.github.io/sBPMN/properties#tItemKind -->
+
+
+    <owl:DatatypeProperty rdf:about="https://krusinaldo9.github.io/sBPMN/properties#tItemKind"/>
+    
+
+
     <!-- https://krusinaldo9.github.io/sBPMN/properties#testBefore -->
 
 
@@ -1886,6 +1943,20 @@
      -->
 
 
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#NodeShape -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/shacl#NodeShape"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#PropertyShape -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/shacl#PropertyShape"/>
     
 
 
@@ -2780,6 +2851,17 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://krusinaldo9.github.io/sBPMN/classes#itemDefinition"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#tItemKind"/>
+                        <owl:hasValue>Information</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#itemDefinition"/>
     </owl:Class>
     
@@ -3273,6 +3355,17 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://krusinaldo9.github.io/sBPMN/classes#itemDefinition"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#tItemKind"/>
+                        <owl:hasValue>Physical</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#itemDefinition"/>
     </owl:Class>
     
@@ -3699,6 +3792,432 @@
     <owl:Class rdf:about="https://krusinaldo9.github.io/sBPMN/classes#userTask">
         <rdfs:subClassOf rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#task"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/classes#adHocSubProcessShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/classes#adHocSubProcessShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:property rdf:nodeID="genid133"/>
+        <shacl:targetClass rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#adHocSubProcess"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid133">
+        <shacl:defaultValue>None</shacl:defaultValue>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#ordering"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/classes#associationShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/classes#associationShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:property rdf:nodeID="genid134"/>
+        <shacl:targetClass rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#association"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid134">
+        <shacl:defaultValue>None</shacl:defaultValue>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#associationDirection"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/classes#businessRuleTaskShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/classes#businessRuleTaskShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:property rdf:nodeID="genid135"/>
+        <shacl:targetClass rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#businessRuleTask"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid135">
+        <shacl:defaultValue>##unspecified</shacl:defaultValue>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#implementation"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/classes#choreographyActivityShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/classes#choreographyActivityShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:property rdf:nodeID="genid136"/>
+        <shacl:targetClass rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#choreographyActivity"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid136">
+        <shacl:defaultValue>None</shacl:defaultValue>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#loopType"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/classes#eventBasedGatewayShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/classes#eventBasedGatewayShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:property rdf:nodeID="genid137"/>
+        <shacl:targetClass rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#eventBasedGateway"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid137">
+        <shacl:defaultValue>None</shacl:defaultValue>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#eventGatewayType"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/classes#gatewayShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/classes#gatewayShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:property rdf:nodeID="genid138"/>
+        <shacl:targetClass rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#gateway"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid138">
+        <shacl:defaultValue>Unspecified</shacl:defaultValue>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#gatewayDirection"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/classes#globalBusinessRuleTaskShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/classes#globalBusinessRuleTaskShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:property rdf:nodeID="genid139"/>
+        <shacl:targetClass rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#globalBusinessRuleTask"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid139">
+        <shacl:defaultValue>##unspecified</shacl:defaultValue>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#implementation"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/classes#globalUserTaskShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/classes#globalUserTaskShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:property rdf:nodeID="genid140"/>
+        <shacl:targetClass rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#globalUserTask"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid140">
+        <shacl:defaultValue>##unspecified</shacl:defaultValue>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#implementation"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/classes#itemDefinitionShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/classes#itemDefinitionShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:property rdf:nodeID="genid141"/>
+        <shacl:targetClass rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#itemDefinition"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid141">
+        <shacl:defaultValue>Information</shacl:defaultValue>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#tItemKind"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/classes#multiInstanceLoopCharacteristicsShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/classes#multiInstanceLoopCharacteristicsShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:property rdf:nodeID="genid142"/>
+        <shacl:targetClass rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#multiInstanceLoopCharacteristics"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid142">
+        <shacl:defaultValue>All</shacl:defaultValue>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#behavior"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/classes#processShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/classes#processShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:property rdf:nodeID="genid143"/>
+        <shacl:targetClass rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#process"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid143">
+        <shacl:defaultValue>None</shacl:defaultValue>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#processType"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/classes#receiveTaskShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/classes#receiveTaskShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:property rdf:nodeID="genid144"/>
+        <shacl:targetClass rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#receiveTask"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid144">
+        <shacl:defaultValue>##WebService</shacl:defaultValue>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#implementation"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/classes#relationshipShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/classes#relationshipShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:property rdf:nodeID="genid145"/>
+        <shacl:targetClass rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#relationship"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid145">
+        <shacl:defaultValue>None</shacl:defaultValue>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#direction"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/classes#sendTaskShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/classes#sendTaskShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:property rdf:nodeID="genid146"/>
+        <shacl:targetClass rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#sendTask"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid146">
+        <shacl:defaultValue>##WebService</shacl:defaultValue>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#implementation"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/classes#serviceTaskShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/classes#serviceTaskShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:property rdf:nodeID="genid147"/>
+        <shacl:targetClass rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#serviceTask"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid147">
+        <shacl:defaultValue>##WebService</shacl:defaultValue>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#implementation"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/classes#transactionShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/classes#transactionShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:property rdf:nodeID="genid148"/>
+        <shacl:targetClass rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#transaction"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid148">
+        <shacl:defaultValue>##Compensate</shacl:defaultValue>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#method"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/classes#userTaskShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/classes#userTaskShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:property rdf:nodeID="genid149"/>
+        <shacl:targetClass rdf:resource="https://krusinaldo9.github.io/sBPMN/classes#userTask"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid149">
+        <shacl:defaultValue>##unspecified</shacl:defaultValue>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#implementation"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/properties#associationDirectionShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/properties#associationDirectionShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:in>
+            <rdf:Description/>
+        </shacl:in>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#associationDirection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/properties#behaviorShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/properties#behaviorShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:in>
+            <rdf:Description/>
+        </shacl:in>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#behavior"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/properties#directionShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/properties#directionShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:in>
+            <rdf:Description/>
+        </shacl:in>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#direction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/properties#eventGatewayTypeShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/properties#eventGatewayTypeShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:in>
+            <rdf:Description/>
+        </shacl:in>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#eventGatewayType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/properties#gatewayDirectionShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/properties#gatewayDirectionShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:in>
+            <rdf:Description/>
+        </shacl:in>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#gatewayDirection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/properties#implementationShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/properties#implementationShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:or>
+            <rdf:Description/>
+        </shacl:or>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#implementation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/properties#loopTypeShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/properties#loopTypeShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:in>
+            <rdf:Description/>
+        </shacl:in>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#loopType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/properties#methodShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/properties#methodShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:or>
+            <rdf:Description/>
+        </shacl:or>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#method"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/properties#orderingShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/properties#orderingShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:in>
+            <rdf:Description/>
+        </shacl:in>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#ordering"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/properties#processTypeShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/properties#processTypeShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:in>
+            <rdf:Description/>
+        </shacl:in>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#processType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://krusinaldo9.github.io/sBPMN/properties#tItemKindShape -->
+
+
+    <owl:NamedIndividual rdf:about="https://krusinaldo9.github.io/sBPMN/properties#tItemKindShape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:in>
+            <rdf:Description/>
+        </shacl:in>
+        <shacl:path rdf:resource="https://krusinaldo9.github.io/sBPMN/properties#tItemKind"/>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </rdf:Description>
+    <rdf:Description>
+        <shacl:in>
+            <rdf:Description/>
+        </shacl:in>
+    </rdf:Description>
+    <rdf:Description>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </rdf:Description>
+    <rdf:Description>
+        <shacl:in>
+            <rdf:Description/>
+        </shacl:in>
+    </rdf:Description>
 </rdf:RDF>
 
 
