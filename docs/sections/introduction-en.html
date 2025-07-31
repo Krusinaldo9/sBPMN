@@ -1,3 +1,10 @@
 <h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <span class="markdown">
-This is a place holder text for the introduction. The introduction should briefly describe the ontology, its motivation, state of the art and goals.</span>
+The sBPMN ontology provides a semantic foundation for representing both the structure and execution of business processes modeled using the Business Process Model and Notation (BPMN) standard. To bridge the gap between visual process models and machine-readable knowledge graphs, sBPMN is divided into two complementary modules: the conceptual ontology sbpmnc, and the process ontology sbpmnp.
+
+The sbpmnc module captures the conceptual schema of BPMN as a domain ontology. It formalizes core BPMN elements such as tasks, events, gateways, and their relationships, based on the official BPMN XML specification. By doing so, it ensures compatibility with existing BPMN tooling and enables ontology-based reasoning over the structure of process models.
+
+The sbpmnp module represents concrete process instances, including runtime information extracted from execution logs. It aligns individuals to the conceptual classes defined in sbpmnc, allowing the semantic integration of process models with observed executions. This makes it possible to trace execution traces, associate tasks with their runtime outcomes, and analyze process behavior within a knowledge graph.
+
+Together, sbpmnc and sbpmnp support a dynamic, queryable, and interoperable representation of BPMN models. The sBPMN ontology is designed to facilitate semantic enrichment, federated queries, and integration with external knowledge sources, paving the way for explainable and adaptive business process monitoring systems.
+</span>
